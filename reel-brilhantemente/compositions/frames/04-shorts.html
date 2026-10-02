@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>04 · a aba Shorts — a grade do canal vira uma parede e o contador soca 359 vídeos</title></head>
+<body>
+<template>
+  <link rel="stylesheet" href="assets/yt.css">
+  <style>
+    #root, #root * { box-sizing: border-box; }
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: var(--fonte-ui); -webkit-font-smoothing: antialiased; }
+    .f04-pagina { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+    /* abas reais do canal (Início · Vídeos · Shorts · Ao vivo · Playlists · Podcasts · Posts) */
+    .f04-tabs { position: absolute; left: 114px; top: 52px; display: flex; gap: 52px; font: 500 30px/1 var(--fonte-ui); color: var(--clr-txt2); }
+    .f04-tab { display: inline-block; padding-bottom: 22px; white-space: nowrap; }
+    .f04-tab.on { color: var(--clr-txt); }
+    .f04-linha { position: absolute; left: 0; top: 106px; width: 1920px; height: 2px; background: #E5E5E5; }
+    .f04-sub { position: absolute; left: 0; top: 100px; height: 5px; background: var(--clr-txt); border-radius: 3px; }
+    .f04-chips { position: absolute; left: 114px; top: 146px; display: flex; gap: 14px; }
+    .f04-chip { height: 56px; padding: 0 24px; border-radius: 12px; font-size: 25px; }
+    .f04-card { position: absolute; width: 540px; }
+    .f04-th { position: relative; width: 540px; height: 304px; border-radius: 16px; overflow: hidden; background: #F2F2F2; }
+    .f04-th img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+    .f04-tit { margin-top: 18px; }
+    /* Shorts: cards 9:16 com título e visualizações */
+    .f04-sh { position: absolute; width: 268px; }
+    .f04-sh-th { position: relative; width: 268px; height: 476px; border-radius: 16px; overflow: hidden; background: #F2F2F2; }
+    .f04-sh-th img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .f04-sh-tit { margin-top: 14px; font: 500 24px/1.28 var(--fonte-ui); color: var(--clr-txt); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .f04-sh-meta { margin-top: 4px; font: 400 21px/1.3 var(--fonte-ui); color: var(--clr-txt2); }
+    .f04-parede { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+    /* o contador: placa branca que soca sobre a parede */
+    .f04-cont { position: absolute; left: 50%; top: 50%; width: 760px; height: 300px; margin: -150px 0 0 -380px; border-radius: 36px;
+      background: #FFFFFF; box-shadow: 0 40px 120px rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; gap: 30px; opacity: 0; }
+    .f04-num { display: flex; font: 800 168px/1 var(--fonte-display); color: var(--clr-txt); letter-spacing: -.02em; }
+    .f04-col { display: block; height: 168px; overflow: hidden; }
+    .f04-strip { display: block; }
+    .f04-strip i { display: block; height: 168px; font-style: normal; }
+    .f04-lab { font: 500 72px/1 var(--fonte-display); color: var(--clr-txt2); margin-top: 40px; }
+  </style>
+  <div id="root" data-composition-id="f04-shorts" data-width="1920" data-height="1080">
+    <div class="f04-pagina" id="f04-pagina" data-layout-allow-overflow>
+      <div class="f04-parede" id="f04-parede" data-layout-allow-overflow>
+        <div class="f04-sh" style="left:-1022px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s06.jpg" alt=""></div><div class="f04-sh-tit">Caso Heloísa viraliza nas redes,psiquiatra comenta #comportamentohumano #casoheloisa</div><div class="f04-sh-meta">16 visualizações</div></div>
+        <div class="f04-sh" style="left:-738px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s07.jpg" alt=""></div><div class="f04-sh-tit">Por que o campeonato de formar aura preocupou uma psiquiatra #comportamentohumano #farmaraura</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-454px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s08.jpg" alt=""></div><div class="f04-sh-tit">Ela Caiu no Palco. O Que Fez Depois Impressionou Todo Mundo #comportamentohumano</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-170px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s09.jpg" alt=""></div><div class="f04-sh-tit">5 polêmicas do tdah</div><div class="f04-sh-meta">367 visualizações</div></div>
+        <div class="f04-sh" style="left:114px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s10.jpg" alt=""></div><div class="f04-sh-tit">Justin Bieber foi detonado no show da copa.Qual sua opinião? #comportamentohumano</div><div class="f04-sh-meta">11 visualizações</div></div>
+        <div class="f04-sh" style="left:398px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s11.jpg" alt=""></div><div class="f04-sh-tit">Justin Bieber foi detonado no show da copa.Qual sua opinião? #comportamentohumano</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:682px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s12.jpg" alt=""></div><div class="f04-sh-tit">A obsessão por viver melhor pode estar roubando sua paz. #comportamentohumano</div><div class="f04-sh-meta">244 visualizações</div></div>
+        <div class="f04-sh" style="left:966px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s13.jpg" alt=""></div><div class="f04-sh-tit">O que a Copa revelou sobre a identidade do Brasil?</div><div class="f04-sh-meta">806 visualizações</div></div>
+        <div class="f04-sh" style="left:1250px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s14.jpg" alt=""></div><div class="f04-sh-tit">Eles escalaram um arranha-céu. O mais assustador veio depois.</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:1534px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s15.jpg" alt=""></div><div class="f04-sh-tit">O caso do vidro no copo da professora esconde um problema muito maior</div><div class="f04-sh-meta">11 visualizações</div></div>
+        <div class="f04-sh" style="left:1818px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s16.jpg" alt=""></div><div class="f04-sh-tit">Qual o pior absurdo que você já ouviu?#saudemental</div><div class="f04-sh-meta">399 visualizações</div></div>
+        <div class="f04-sh" style="left:2102px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s17.jpg" alt=""></div><div class="f04-sh-tit">Sua conta pode ser banida por causa do seu filho?</div><div class="f04-sh-meta">11 visualizações</div></div>
+        <div class="f04-sh" style="left:2386px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s18.jpg" alt=""></div><div class="f04-sh-tit">A lição de Cabo Verde #copadomundo #caboverde</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:2670px;top:-932px"><div class="f04-sh-th"><img src="assets/shorts/s19.jpg" alt=""></div><div class="f04-sh-tit">Bebê de um ano engatinhando sozinha na madrugada #vilavelha #noticias #psicologia</div><div class="f04-sh-meta">18 visualizações</div></div>
+        <div class="f04-sh" style="left:-1022px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s20.jpg" alt=""></div><div class="f04-sh-tit">3x0 Brasil Escócia e uma lição</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-738px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s21.jpg" alt=""></div><div class="f04-sh-tit">Analise psíquica de o conto de Aia  #analisedeseries #contodeaia  #netflixseries</div><div class="f04-sh-meta">371 visualizações</div></div>
+        <div class="f04-sh" style="left:-454px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s22.jpg" alt=""></div><div class="f04-sh-tit">A Verdade Que Ninguém Percebeu Sobre o Endrick</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-170px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s23.jpg" alt=""></div><div class="f04-sh-tit">O alerta era falso. Mas a palavra “misantropia” revelou algo assustador.</div><div class="f04-sh-meta">58 visualizações</div></div>
+        <div class="f04-sh" style="left:114px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s24.jpg" alt=""></div><div class="f04-sh-tit">Falta de educação ou impulsividade?especialista comenta</div><div class="f04-sh-meta">13 visualizações</div></div>
+        <div class="f04-sh" style="left:398px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s25.jpg" alt=""></div><div class="f04-sh-tit">O maior problema do 1x1 Marrocos!</div><div class="f04-sh-meta">27 visualizações</div></div>
+        <div class="f04-sh" style="left:682px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s26.jpg" alt=""></div><div class="f04-sh-tit">Untitled</div><div class="f04-sh-meta">418 visualizações</div></div>
+        <div class="f04-sh" style="left:966px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s27.jpg" alt=""></div><div class="f04-sh-tit">Você precisa aprender a delegar! #shorts</div><div class="f04-sh-meta">74 visualizações</div></div>
+        <div class="f04-sh" style="left:1250px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s28.jpg" alt=""></div><div class="f04-sh-tit">A ciência respira por aparelhos</div><div class="f04-sh-meta">21 visualizações</div></div>
+        <div class="f04-sh" style="left:1534px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s29.jpg" alt=""></div><div class="f04-sh-tit">justiça por Orelha</div><div class="f04-sh-meta">12 visualizações</div></div>
+        <div class="f04-sh" style="left:1818px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s30.jpg" alt=""></div><div class="f04-sh-tit">como siar de uma crise de panico</div><div class="f04-sh-meta">173 visualizações</div></div>
+        <div class="f04-sh" style="left:2102px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s31.jpg" alt=""></div><div class="f04-sh-tit">Como surge a maldade em grupo?</div><div class="f04-sh-meta">201 visualizações</div></div>
+        <div class="f04-sh" style="left:2386px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s32.jpg" alt=""></div><div class="f04-sh-tit">o que está tirando o seu oxigênio?</div><div class="f04-sh-meta">195 visualizações</div></div>
+        <div class="f04-sh" style="left:2670px;top:-346px"><div class="f04-sh-th"><img src="assets/shorts/s33.jpg" alt=""></div><div class="f04-sh-tit">Qualndo o passado trava o seu presente</div><div class="f04-sh-meta">259 visualizações</div></div>
+        <div class="f04-sh" style="left:-1022px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s34.jpg" alt=""></div><div class="f04-sh-tit">criança ameaça Felca de morte. A que ponto chegamos?</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-738px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s35.jpg" alt=""></div><div class="f04-sh-tit">POR QUE O TRATAMENTO DO TDAH PRECISA SER PERSONALIZADO? (Entenda as Comorbidades)  #shorts</div><div class="f04-sh-meta">332 visualizações</div></div>
+        <div class="f04-sh" style="left:-454px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s36.jpg" alt=""></div><div class="f04-sh-tit">Henri Castelli, BBB e o espelho cruel de uma sociedade</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-170px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s37.jpg" alt=""></div><div class="f04-sh-tit">Disciplina e estratégia a chave para o sucesso! #shorts</div><div class="f04-sh-meta">231 visualizações</div></div>
+        <div class="f04-sh f04-vis" data-col="0" style="left:114px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s00.jpg" alt=""></div><div class="f04-sh-tit">A morte da esposa do pastor Netflix</div><div class="f04-sh-meta">676 visualizações</div></div>
+        <div class="f04-sh f04-vis" data-col="1" style="left:398px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s01.jpg" alt=""></div><div class="f04-sh-tit">O caso Mica Miller e o lado psicológico de A Morte da Esposa do Pastor</div><div class="f04-sh-meta">11 visualizações</div></div>
+        <div class="f04-sh f04-vis" data-col="2" style="left:682px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s02.jpg" alt=""></div><div class="f04-sh-tit">INTERPRETAR ELIZE MATSUNAGA mexeu com a mente da atriz</div><div class="f04-sh-meta">13 visualizações</div></div>
+        <div class="f04-sh f04-vis" data-col="3" style="left:966px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s03.jpg" alt=""></div><div class="f04-sh-tit">Ele Tinha Tudo… e Mesmo Assim Estava Deprimido | Cauã Reymond” #comportamentohumano</div><div class="f04-sh-meta">974 visualizações</div></div>
+        <div class="f04-sh f04-vis" data-col="4" style="left:1250px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s04.jpg" alt=""></div><div class="f04-sh-tit">O MAIOR ERRO ao tentar ajudar alguém. #comportamentohumano</div><div class="f04-sh-meta">909 visualizações</div></div>
+        <div class="f04-sh f04-vis" data-col="5" style="left:1534px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s05.jpg" alt=""></div><div class="f04-sh-tit">ELA QUER APAGAR O NOME DA MÃE #shorts # #comportamentohumano</div><div class="f04-sh-meta">17 visualizações</div></div>
+        <div class="f04-sh" style="left:1818px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s38.jpg" alt=""></div><div class="f04-sh-tit">Ela deixou ele pra trás na trilha.O que ele disse depois… é libertador.</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:2102px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s39.jpg" alt=""></div><div class="f04-sh-tit">Cuidado: Nem tudo é real!</div><div class="f04-sh-meta">24 visualizações</div></div>
+        <div class="f04-sh" style="left:2386px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s40.jpg" alt=""></div><div class="f04-sh-tit">Crie um cronograma e melhore sua vida! #shorts</div><div class="f04-sh-meta">91 visualizações</div></div>
+        <div class="f04-sh" style="left:2670px;top:240px"><div class="f04-sh-th"><img src="assets/shorts/s41.jpg" alt=""></div><div class="f04-sh-tit">Incêndio na Suíça: quando o celular fala mais alto que o instinto de proteção</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:-1022px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s42.jpg" alt=""></div><div class="f04-sh-tit">ENTENDA OS 5 MECANISMOS DE DEFESA QUE MOLDAM SEU COMPORTAMENTO  Dra. Jessica Martani #shorts</div><div class="f04-sh-meta">231 visualizações</div></div>
+        <div class="f04-sh" style="left:-738px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s43.jpg" alt=""></div><div class="f04-sh-tit">Como saber se é Timidez ou Ansiedade Social?</div><div class="f04-sh-meta">14 visualizações</div></div>
+        <div class="f04-sh" style="left:-454px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s44.jpg" alt=""></div><div class="f04-sh-tit">Quantas Tainara ainda terão que existir? Justiça</div><div class="f04-sh-meta">69 visualizações</div></div>
+        <div class="f04-sh" style="left:-170px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s45.jpg" alt=""></div><div class="f04-sh-tit">HOMENS COM EGO FRÁGIL O Perigo Invisível que Poucas Mulheres Percebem  Dra. Jéssica Martani #shorts</div><div class="f04-sh-meta">957 visualizações</div></div>
+        <div class="f04-sh" style="left:114px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s46.jpg" alt=""></div><div class="f04-sh-tit">4 Sinais de TDAH em Adultos que Você Pode Estar Ignorando</div><div class="f04-sh-meta">15 visualizações</div></div>
+        <div class="f04-sh" style="left:398px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s47.jpg" alt=""></div><div class="f04-sh-tit">VOCÊ ESTÁ ESTRAGANDO SEU CÉREBRO?  #shorts</div><div class="f04-sh-meta">304 visualizações</div></div>
+        <div class="f04-sh" style="left:682px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s48.jpg" alt=""></div><div class="f04-sh-tit">A Lente da Inteligência Por que ver o que os outros não veem pode ser um desafio existencial #shorts</div><div class="f04-sh-meta">504 visualizações</div></div>
+        <div class="f04-sh" style="left:966px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s49.jpg" alt=""></div><div class="f04-sh-tit">O TDAH EM ADULTOS É DIFERENTE DO QUE VOCÊ PENSA! #shorts</div><div class="f04-sh-meta">171 visualizações</div></div>
+        <div class="f04-sh" style="left:1250px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s50.jpg" alt=""></div><div class="f04-sh-tit">TDAH vida adulta: por que tantas mulheres só descobrem depois dos 30?</div><div class="f04-sh-meta">13 visualizações</div></div>
+        <div class="f04-sh" style="left:1534px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s51.jpg" alt=""></div><div class="f04-sh-tit">7 Ações Diárias que Estão Remodelando o Seu Cérebro (Para o Bem ou Para o Mal!) #shorts</div><div class="f04-sh-meta">337 visualizações</div></div>
+        <div class="f04-sh" style="left:1818px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s52.jpg" alt=""></div><div class="f04-sh-tit">Gente, um alerta sério! Desconfiem de soluções FÁCEIS para problemas DIFÍCEIS #shorts</div><div class="f04-sh-meta">120 visualizações</div></div>
+        <div class="f04-sh" style="left:2102px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s53.jpg" alt=""></div><div class="f04-sh-tit">5 Sinais Sutis de que Você Está em um Relacionamento com um Narcisista #shorts</div><div class="f04-sh-meta">912 visualizações</div></div>
+        <div class="f04-sh" style="left:2386px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s54.jpg" alt=""></div><div class="f04-sh-tit">MÉDICA EXPLICA Como a Falha na Comunicação Cerebral Causa Perda de Memória e Dificuldade de  #shorts</div><div class="f04-sh-meta">27 visualizações</div></div>
+        <div class="f04-sh" style="left:2670px;top:826px"><div class="f04-sh-th"><img src="assets/shorts/s55.jpg" alt=""></div><div class="f04-sh-tit">caso mais bizarro da IA</div><div class="f04-sh-meta">741 visualizações</div></div>
+        <div class="f04-sh" style="left:-1022px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s56.jpg" alt=""></div><div class="f04-sh-tit">O FIM DE RELACIONAMENTOS E A FRAGILIDADE DO CARÁTER O Caso Tainara #shorts</div><div class="f04-sh-meta">11 visualizações</div></div>
+        <div class="f04-sh" style="left:-738px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s57.jpg" alt=""></div><div class="f04-sh-tit">O Caso Chocante de Campinas O Reflexo da Desregulação Emocional na Sociedade #shorts</div><div class="f04-sh-meta">563 visualizações</div></div>
+        <div class="f04-sh" style="left:-454px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s58.jpg" alt=""></div><div class="f04-sh-tit">A jaula que realmente mata no Brasil</div><div class="f04-sh-meta">534 visualizações</div></div>
+        <div class="f04-sh" style="left:-170px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s59.jpg" alt=""></div><div class="f04-sh-tit">5 Dicas NATURAIS para Aumentar Sua Dopamina e Vencer a Procrastinação! #shorts</div><div class="f04-sh-meta">370 visualizações</div></div>
+        <div class="f04-sh" style="left:114px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s60.jpg" alt=""></div><div class="f04-sh-tit">Análise Profissional O caso do zoológico de João Pessoa e a urgência da Saúde Mental no Bras #shorts</div><div class="f04-sh-meta">587 visualizações</div></div>
+        <div class="f04-sh" style="left:398px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s61.jpg" alt=""></div><div class="f04-sh-tit">ESSE ANO FOI PESADO PARA VOCE?</div><div class="f04-sh-meta">431 visualizações</div></div>
+        <div class="f04-sh" style="left:682px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s62.jpg" alt=""></div><div class="f04-sh-tit">Qual sua opinião? Bolsonaro e os medicamentos</div><div class="f04-sh-meta">13 visualizações</div></div>
+        <div class="f04-sh" style="left:966px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s63.jpg" alt=""></div><div class="f04-sh-tit">Como a Falha na Comunicação Cerebral Causa Perda de Memória e Desorientação Espacial no TDAH #shorts</div><div class="f04-sh-meta">450 visualizações</div></div>
+        <div class="f04-sh" style="left:1250px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s64.jpg" alt=""></div><div class="f04-sh-tit">Uso de ômega 3 tomar ou não tomar? #saudemental</div><div class="f04-sh-meta">23 visualizações</div></div>
+        <div class="f04-sh" style="left:1534px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s65.jpg" alt=""></div><div class="f04-sh-tit">O TESTE QUE EXPÕE OS PSICOPATAS #shorts</div><div class="f04-sh-meta">321 visualizações</div></div>
+        <div class="f04-sh" style="left:1818px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s66.jpg" alt=""></div><div class="f04-sh-tit">Parem de se Enganar! 5 Desculpas para a Procrastinação que Têm Data de Validade VENCIDA! #shorts</div><div class="f04-sh-meta">103 visualizações</div></div>
+        <div class="f04-sh" style="left:2102px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s67.jpg" alt=""></div><div class="f04-sh-tit">Como descobrir um psicopata na família?assista completo link comentários</div><div class="f04-sh-meta">12 visualizações</div></div>
+        <div class="f04-sh" style="left:2386px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s68.jpg" alt=""></div><div class="f04-sh-tit">Descubra sinais de psicopatia no seu filho</div><div class="f04-sh-meta">1 visualização</div></div>
+        <div class="f04-sh" style="left:2670px;top:1412px"><div class="f04-sh-th"><img src="assets/shorts/s69.jpg" alt=""></div><div class="f04-sh-tit">Você está PROCRASTINANDO a SUA VIDA? O Perigo do Déficit Crônico de Dopamina #shorts</div><div class="f04-sh-meta">213 visualizações</div></div>
+      </div>
+      <div class="f04-videos" id="f04-videos">
+      <div class="f04-card" id="f04-r0" style="left:114px;top:240px" data-layout-allow-overflow>
+        <div class="f04-th" id="f04-r0-th"><img src="assets/thumbs/osSow13SS7E.jpg" alt=""><span class="yt-dur">4:48</span></div>
+        <div class="f04-txt"><div class="yt-titulo-card f04-tit">A VERDADE CHOCANTE sobre a Adultização Infantil no Brasil (Felca Expõe)</div>
+        <div class="yt-meta-card f04-meta">981 visualizações • há 1 ano</div></div>
+      </div>
+      <div class="f04-card" id="f04-r1" style="left:690px;top:240px" data-layout-allow-overflow>
+        <div class="f04-th" id="f04-r1-th"><img src="assets/thumbs/ioG0U1uYqsY.jpg" alt=""><span class="yt-dur">11:24</span></div>
+        <div class="f04-txt"><div class="yt-titulo-card f04-tit">Por Que Você Acorda Cansado? 5 Motivos Científicos e Como Acordar com Energia</div>
+        <div class="yt-meta-card f04-meta">966 visualizações • há 1 ano</div></div>
+      </div>
+      <div class="f04-card" id="f04-r2" style="left:1266px;top:240px" data-layout-allow-overflow>
+        <div class="f04-th" id="f04-r2-th"><img src="assets/thumbs/hdxNmbAmK-s.jpg" alt=""><span class="yt-dur">3:32</span></div>
+        <div class="f04-txt"><div class="yt-titulo-card f04-tit">O vídeo viral que quebrou rótulos e ativou gatilhos profundos sobre autenticidade #freirasbeatbox</div>
+        <div class="yt-meta-card f04-meta">775 visualizações • há 1 ano</div></div>
+      </div>
+      <div class="f04-card" id="f04-r3" style="left:114px;top:702px" data-layout-allow-overflow>
+        <div class="f04-th" id="f04-r3-th"><img src="assets/thumbs/SeUyZPtKryc.jpg" alt=""><span class="yt-dur">8:01</span></div>
+        <div class="f04-txt"><div class="yt-titulo-card f04-tit">Unknown Number Netflix: O Caso Perturbador de Kendra Licari Explicado</div>
+        <div class="yt-meta-card f04-meta">720 visualizações • há 1 ano</div></div>
+      </div>
+      <div class="f04-card" id="f04-r4" style="left:690px;top:702px" data-layout-allow-overflow>
+        <div class="f04-th" id="f04-r4-th"><img src="assets/thumbs/olVOKFS4LsM.jpg" alt=""><span class="yt-dur">19:32</span></div>
+        <div class="f04-txt"><div class="yt-titulo-card f04-tit">serie o jardineiro: Análise Psiquiátrica Frieza Emocional, Alexitimia e Trauma Precoce</div>
+        <div class="yt-meta-card f04-meta">712 visualizações • há 1 ano</div></div>
+      </div>
+      <div class="f04-card" id="f04-r5" style="left:1266px;top:702px" data-layout-allow-overflow>
+        <div class="f04-th" id="f04-r5-th"><img src="assets/thumbs/K5k1LsujK2c.jpg" alt=""><span class="yt-dur">4:12</span></div>
+        <div class="f04-txt"><div class="yt-titulo-card f04-tit">5 Lições Importantes que o Fim de uma Era nos Ensina Sobre Legado e Propósito</div>
+        <div class="yt-meta-card f04-meta">685 visualizações • há 1 ano</div></div>
+      </div>
+      </div>
+      <div class="f04-topo" id="f04-topo">
+        <div class="f04-linha"></div>
+        <div class="f04-tabs" id="f04-tabs"><span class="f04-tab" id="f04-tab0">Início</span><span class="f04-tab" id="f04-tab1">Vídeos</span><span class="f04-tab" id="f04-tab2">Shorts</span><span class="f04-tab" id="f04-tab3">Ao vivo</span><span class="f04-tab" id="f04-tab4">Playlists</span><span class="f04-tab" id="f04-tab5">Podcasts</span><span class="f04-tab" id="f04-tab6">Posts</span></div>
+        <div class="f04-sub" id="f04-sub"></div>
+        <div class="f04-chips">
+          <div class="yt-chip clr f04-chip">Mais recentes</div>
+          <div class="yt-chip clr sel f04-chip">Em alta</div>
+          <div class="yt-chip clr f04-chip">Mais antigos</div>
+        </div>
+      </div>
+    </div>
+    <div class="f04-cont" id="f04-cont">
+      <div class="f04-num" data-layout-allow-overflow data-layout-allow-occlusion>
+        <span class="f04-col"><span class="f04-strip" id="f04-d0"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span>
+        <span class="f04-col"><span class="f04-strip" id="f04-d1"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span>
+        <span class="f04-col"><span class="f04-strip" id="f04-d2"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span>
+      </div>
+      <div class="f04-lab">vídeos</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var FPS = 30, q = 1 / FPS, D = 4.0;   /* host: global 6,00 → 10,00 ; local = global − 6 */
+      var tl = gsap.timeline({ paused: true });
+      var S = 1920 / 540;
+
+      /* medidas das abas (a fonte já carregou: font-display block) */
+      var tabs = document.querySelectorAll("#f04-tabs .f04-tab");
+      var base = document.getElementById("f04-tabs").getBoundingClientRect();
+      function aba(k) { var r = tabs[k].getBoundingClientRect(); return { x: 114 + (r.left - base.left), w: r.width }; }
+      var a1 = aba(1), a2 = aba(2);
+      gsap.set("#f04-sub", { x: a1.x, width: a2.w, scaleX: a1.w / a2.w, transformOrigin: "0 50%" });
+      gsap.set("#f04-tab1", { color: "#0F0F0F" });
+
+      /* repouso: câmera colada no card 1 (a capa ocupa a tela, igual ao último quadro do f03) */
+      gsap.set("#f04-pagina", { x: -690 * S, y: -240 * S, scale: S });
+      gsap.set("#f04-r1-th", { clipPath: "inset(0px round 0px)", borderRadius: 0 });
+      gsap.set(".f04-vis", { y: 640 });
+      gsap.set(".f04-sh:not(.f04-vis)", { opacity: 0 });
+
+      /* T4 · a tela cheia vira card e a câmera recua para a aba Vídeos do canal (mundo claro) */
+      tl.to("#f04-pagina", { x: 0, y: 0, scale: 1, duration: 19 * q, ease: "power3.inOut" }, 0);
+      tl.to("#f04-r1-th", { clipPath: "inset(0px round 16px)", duration: 19 * q, ease: "power3.inOut" }, 0);
+      tl.to("#f04-pagina", { x: -8, y: -5, scale: 1.005, duration: 0.36, ease: "none" }, 0.64);
+
+      /* 7,00 · clique na aba Shorts: o sublinhado corre de Vídeos para Shorts */
+      tl.to("#f04-tab2", { scale: .94, duration: 2 * q, ease: "power2.out" }, 1.0);
+      tl.to("#f04-tab2", { scale: 1, duration: 5 * q, ease: "power2.out" }, 1.0 + 2 * q);
+      tl.set("#f04-tab1", { color: "#606060" }, 1.0);
+      tl.set("#f04-tab2", { color: "#0F0F0F" }, 1.0);
+      tl.to("#f04-sub", { x: a2.x, scaleX: 1, duration: 8 * q, ease: "power3.inOut" }, 1.0);
+
+      /* caça-níquel: as colunas de vídeo sobem e saem, os Shorts 9:16 sobem no lugar (1 q de defasagem por coluna) */
+      for (var i = 0; i < 3; i++) {
+        tl.to(["#f04-r" + i, "#f04-r" + (i + 3)], { y: -900, opacity: 0, filter: "blur(6px)", duration: 9 * q, ease: "power3.inOut" }, 1.0667 + i * 2 * q);
+      }
+      document.querySelectorAll(".f04-vis").forEach(function (e) {
+        var c = +e.getAttribute("data-col");
+        tl.to(e, { y: 0, duration: 9 * q, ease: "power3.inOut" }, 1.0667 + c * q);
+      });
+
+      /* 8,00 · a parede: a câmera recua (antecipação curta → rajada → assentamento longo) e o contador soca */
+      tl.set(".f04-sh:not(.f04-vis)", { opacity: 1 }, 1.9);
+      tl.to("#f04-topo", { opacity: 0, duration: 4 * q, ease: "power1.in" }, 1.86);
+      tl.to("#f04-pagina", { x: 960 - 960 * 0.5 + 0, y: 540 - 518 * 0.5, scale: .5, duration: 14 * q, ease: "expo.out" }, 1.9333);
+      tl.fromTo("#f04-cont", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 11 * q, ease: "expo.out" }, 2.0);
+      var alvo = [3, 5, 9], H = 168;
+      alvo.forEach(function (d, k) {
+        tl.fromTo("#f04-d" + k, { y: 0 }, { y: -(20 + d) * H, duration: 0.6 + k * 0.1, ease: "power3.out" }, 2.15);
+      });
+      /* segura com deriva mínima */
+      tl.to("#f04-pagina", { scale: .512, x: "-=12", y: "-=6", duration: 1.0, ease: "none" }, 2.75);
+
+      /* T6 · chicote para a esquerda, corte duro em 10,00 */
+      tl.to(["#f04-pagina", "#f04-cont"], { x: "-=2700", filter: "blur(22px)", duration: 7 * q, ease: "power4.in" }, 3.7667);
+
+      tl.to({}, { duration: D }, 0);
+      window.__timelines["f04-shorts"] = tl;
+    })();
+  </script>
+</template>
+</body></html>
