@@ -14,3 +14,5 @@ _pesquisa-fotos/raw/
 reel-rich-diviney/work/bipe/
 reel-rich-diviney/snapshots/
 reel-rich-diviney/assets/chunks/*.wav
+reel-rich-diviney/compositions/_chunk-*.html
+reel-rich-diviney/render-chunk-*.html
