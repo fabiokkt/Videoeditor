@@ -27,8 +27,8 @@ WEND={int(k):v[-1][2] for k,v in json.load(open('work/region-words-cut.json')).i
 # (regions_cut.json vem de scripts/mkcut.py). TAKES DESCARTADOS (mantido SEMPRE o ULTIMO take valido):
 #   c02 "Rick." + c03 "Rich escolhia quem entrava na elite da..." -> c04 · c06 "E esse e o protocolo ... de apaixonar" -> c07
 #   c08 "primeiro" + c09 "Se voce..." -> c10 · c13 "E so isso que voce..." -> c14 · c19 "Na entrevista, me conta." -> c20
-#   c25 "ele tinha uma marinheira" -> c26 · c31 "Ele conta que um moleque..." -> c32 · c39 "Se voce se ia..." -> c40
-# c40+c41 = "Se voce se apaixona por curriculo, me segue, porque voce e demais" (pausa dramatica, um take so)
+#   c25 "ele tinha uma marinheira" -> c26 · c31 "Ele conta que um moleque..." -> c32 · c37 "Coragem." (falso inicio) -> c38 · c40 "Se voce se ia..." -> c41
+# c41+c42 = "Se voce se apaixona por curriculo, me segue, porque voce e demais" (pausa dramatica, um take so)
 TAKES=[
  ("GANCHO",0,0),
  ("PROTOCOLO-POLEMICO",1,1),
@@ -58,9 +58,9 @@ TAKES=[
  ("VIRADA-NAO-SEI-NADAR",34,34),
  ("VIRADA-INSTRUTOR",35,35),
  ("CLIMAX-NADAR",36,36),
- ("CLIMAX-CORAGEM",37,37),
- ("FECHO-NADAR",38,38),
- ("CTA-ME-SEGUE",40,41),
+ ("CLIMAX-CORAGEM",38,38),
+ ("FECHO-NADAR",39,39),
+ ("CTA-ME-SEGUE",41,42),
 ]
 AP=[(lab,R[a]['s'],R[b]['e']) for lab,a,b in TAKES]
 res=[];tot=0

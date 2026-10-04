@@ -1,0 +1,342 @@
+{
+ "_nota": "Reel Rich Diviney — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/rich-diviney-2560-sdr.mp4",
+ "voiceSrc": "assets/rich-diviney-voz.m4a",
+ "segments": [
+  {
+   "in": 0.32,
+   "out": 5.95,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.62
+  },
+  {
+   "in": 5.73,
+   "out": 12.55,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 12.22
+  },
+  {
+   "in": 17.47,
+   "out": 21.51,
+   "label": "RICH-ELITE",
+   "chunk": 2,
+   "aout": 21.18
+  },
+  {
+   "in": 21.25,
+   "out": 26.31,
+   "label": "METADE-REPROVAVA",
+   "chunk": 3,
+   "aout": 25.98
+  },
+  {
+   "in": 30.97,
+   "out": 35.21,
+   "label": "PROTOCOLO-CURRICULO",
+   "chunk": 4,
+   "aout": 34.88
+  },
+  {
+   "in": 37.31,
+   "out": 43.21,
+   "label": "P1-PRIMEIRO",
+   "chunk": 5,
+   "aout": 42.88
+  },
+  {
+   "in": 42.89,
+   "out": 45.65,
+   "label": "P1-PLANILHA",
+   "chunk": 6,
+   "aout": 45.32
+  },
+  {
+   "in": 45.49,
+   "out": 50.81,
+   "label": "P1-PACIENCIA",
+   "chunk": 7,
+   "aout": 50.48
+  },
+  {
+   "in": 52.41,
+   "out": 54.99,
+   "label": "P1-MEU-QUERIDO",
+   "chunk": 8,
+   "aout": 54.66
+  },
+  {
+   "in": 54.83,
+   "out": 55.91,
+   "label": "P2-SEGUNDO",
+   "chunk": 9,
+   "aout": 55.58
+  },
+  {
+   "in": 55.59,
+   "out": 57.57,
+   "label": "P2-PIOR-DIA",
+   "chunk": 10,
+   "aout": 57.24
+  },
+  {
+   "in": 57.29,
+   "out": 59.95,
+   "label": "P2-QUEM-E",
+   "chunk": 11,
+   "aout": 59.62
+  },
+  {
+   "in": 59.65,
+   "out": 61.21,
+   "label": "P2-BIPE",
+   "chunk": 12,
+   "aout": 60.88
+  },
+  {
+   "in": 62.91,
+   "out": 67.63,
+   "label": "P2-ENTREVISTA",
+   "chunk": 13,
+   "aout": 67.3
+  },
+  {
+   "in": 67.49,
+   "out": 69.05,
+   "label": "P2-O-QUE-FEZ",
+   "chunk": 14,
+   "aout": 68.72
+  },
+  {
+   "in": 68.91,
+   "out": 71.65,
+   "label": "P2-MELHOR-DIA",
+   "chunk": 15,
+   "aout": 71.32
+  },
+  {
+   "in": 71.35,
+   "out": 76.287,
+   "label": "P2-VER-O-PIOR-P3",
+   "chunk": 16,
+   "aout": 75.957
+  },
+  {
+   "in": 75.957,
+   "out": 77.65,
+   "label": "P3-CADEIRA",
+   "chunk": 17,
+   "aout": 77.32
+  },
+  {
+   "in": 79.27,
+   "out": 84.03,
+   "label": "P3-MARINHEIRA",
+   "chunk": 18,
+   "aout": 83.7
+  },
+  {
+   "in": 83.85,
+   "out": 87.35,
+   "label": "P3-DECOLOU",
+   "chunk": 19,
+   "aout": 87.02
+  },
+  {
+   "in": 87.07,
+   "out": 90.35,
+   "label": "P3-GAFANHOTO",
+   "chunk": 20,
+   "aout": 90.02
+  },
+  {
+   "in": 90.11,
+   "out": 91.89,
+   "label": "P3-CADEIRA-ERRADA",
+   "chunk": 21,
+   "aout": 91.56
+  },
+  {
+   "in": 91.71,
+   "out": 93.97,
+   "label": "VIRADA-PISCINA",
+   "chunk": 22,
+   "aout": 93.64
+  },
+  {
+   "in": 97.59,
+   "out": 102.63,
+   "label": "VIRADA-MOLEQUE",
+   "chunk": 23,
+   "aout": 102.3
+  },
+  {
+   "in": 102.37,
+   "out": 107.01,
+   "label": "VIRADA-AFUNDOU",
+   "chunk": 24,
+   "aout": 106.68
+  },
+  {
+   "in": 106.85,
+   "out": 110.17,
+   "label": "VIRADA-NAO-SEI-NADAR",
+   "chunk": 25,
+   "aout": 109.84
+  },
+  {
+   "in": 109.87,
+   "out": 111.77,
+   "label": "VIRADA-INSTRUTOR",
+   "chunk": 26,
+   "aout": 111.44
+  },
+  {
+   "in": 112.35,
+   "out": 115.53,
+   "label": "CLIMAX-NADAR",
+   "chunk": 27,
+   "aout": 115.2
+  },
+  {
+   "in": 116.05,
+   "out": 122.35,
+   "label": "CLIMAX-CORAGEM",
+   "chunk": 28,
+   "aout": 122.02
+  },
+  {
+   "in": 123.11,
+   "out": 125.35,
+   "label": "FECHO-NADAR",
+   "chunk": 29,
+   "aout": 125.02
+  },
+  {
+   "in": 126.93,
+   "out": 131.59,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 30,
+   "aout": 131.59
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 21,
+   "name": "PASSO 3 -> VIRADA (a piscina)"
+  },
+  {
+   "afterSegment": 26,
+   "name": "VIRADA -> CLIMAX (coragem ninguem ensina)"
+  },
+  {
+   "afterSegment": 29,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.99564
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 21,
+   "toSeg": 23,
+   "span": [
+    0.17865,
+    0.99986
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "pode ser o que nao sabe fazer o trabalho",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "PODE SER O QUE",
+    "NÃO SABE FAZER",
+    "O TRABALHO."
+   ],
+   "hold": 0.9
+  },
+  {
+   "phrase": "curriculo so mostra o que da pra ensinar",
+   "seg": 7,
+   "lines": [
+    "CURRÍCULO",
+    "SÓ MOSTRA O QUE",
+    "DÁ PRA ENSINAR."
+   ],
+   "hold": 0.7
+  },
+  {
+   "phrase": "voce precisa ver o pior",
+   "seg": 16,
+   "lines": [
+    "VOCÊ PRECISA",
+    "VER O PIOR."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "ta na cadeira errada",
+   "seg": 21,
+   "lines": [
+    "TÁ NA CADEIRA",
+    "ERRADA."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "voce reprova esse moleque",
+   "seg": 28,
+   "lines": [
+    "VOCÊ REPROVA",
+    "ESSE MOLEQUE?"
+   ],
+   "hold": 0.7
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 345,
+ "ctaSeg": 30,
+ "_splitShiftY": "400 e so o valor inicial: MEDIR pelos olhos (docs/05, secao Split-screen). Nunca copiar de outro reel.",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

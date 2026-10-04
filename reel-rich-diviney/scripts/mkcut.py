@@ -15,13 +15,14 @@ SPLIT={
  17:([77.35],{1}),                # "troca de cadeira." | DROP "ele tinha uma marinheira" (refeito em r18)
  18:([83.89,87.10],set()),        # "Ele tinha uma marinheira ... do setor." | "Ele so mudou ela de funcao e ela decolou." | "As vezes a pessoa nao e ruim, pequeno gafanhoto."
  23:([106.70],set()),             # "Pulou, afundou e atravessou a piscina andando no fundo." | "Subiu sem ar. Desculpa, eu nao sei nadar."
+ 25:([114.32],{1}),               # "Nadar, a gente ensina." | DROP "Coragem." (falso inicio: ~1 s de pausa e recomeca em r26 — apontado pelo Fabio na v2)
 }
 # TAKES DESCARTADOS (mantido SEMPRE o ULTIMO take valido) — reel RICH DIVINEY:
 #  r00 fim "Rick." + r01 "Rich escolhia quem entrava na elite da..." (falsos inicios) -> r02
 #  r02 fim "E esse e o protocolo para voce parar de apaixonar..." -> r03 · r03 fim "primeiro" + r04 "Se voce..." -> r05
 #  r07 "E so isso que voce..." -> r08 · r13 "Na entrevista, me conta." -> r14 · r17 fim "ele tinha uma marinheira" -> r18
 #  r21 "Ele conta que um moleque apareceu no treinamento dos SEALs" -> r22 · r28 "Se voce se ia..." -> r29
-#  r25 "Nadar, a gente ensina. Coragem." + r26 "Coragem de aparecer ali..." = repeticao enfatica, NAO e retake (fica)
+#  r25 fim "Coragem." (falso inicio, ~1 s de pausa) -> r26 "Coragem de aparecer ali..." (apontado pelo Fabio na v2)
 #  r27 "Nadar a gente ensina." depois de "meu amigo?" = callback do roteiro (fica)
 DROP={1,4,7,13,21,28}
 out=[];ww={}
