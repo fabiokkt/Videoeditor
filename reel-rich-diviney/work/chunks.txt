@@ -25,7 +25,7 @@ ch23 VIRADA-MOLEQUE       Ele conta que o moleque apareceu no treinamento do CIU
 ch24 VIRADA-AFUNDOU       Pulou, afundou e atravessou a piscina andando no fundo.
 ch25 VIRADA-NAO-SEI-NADAR Subiu sem ar. Desculpa, eu não sei nadar.
 ch26 VIRADA-INSTRUTOR     E o instrutor, tudo bem?
-ch27 CLIMAX-NADAR         Nadar, a gente ensina. Coragem.
+ch27 CLIMAX-NADAR         Nadar, a gente ensina.
 ch28 CLIMAX-CORAGEM       Coragem de aparecer ali, ninguém ensina. Você reprova esse moleque no currículo, meu amigo?
 ch29 FECHO-NADAR          Nadar a gente ensina.
 ch30 CTA-ME-SEGUE         Se você se apaixona por currículo, me segue. Porque você é demais!

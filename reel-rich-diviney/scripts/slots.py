@@ -1,4 +1,4 @@
-"""POR VIDEO — reel RICH DIVINEY. Mapa das janelas de cobertura em tempo ABSOLUTO de timeline (rate 1.1, timeline 92,944 s).
+"""POR VIDEO — reel RICH DIVINEY. Mapa das janelas de cobertura em tempo ABSOLUTO de timeline (rate 1.1, timeline 92,108 s; v2: sem o falso inicio "Coragem.").
 Converte cada janela [t0, t1] em fromSeg/toSeg/span (contrato do build-edit.mjs) e grava assets/broll-slots.json.
 Kit v3: todo slot e da camada de motion (MG={"*"}); os splits continuam no plano (arrastam o apresentador).
 Layout desenhado a mao sobre gaze/pose-windows.json (gaze_pose.py 2.0) — janelas NITIDAS cobertas: 20,8-21,9 · 30,5-30,9 ·
@@ -25,8 +25,8 @@ S=[
  ("s10","full", 54.24, 61.15,"Ele tinha uma marinheira que não rendia… e ela decolou.","marinheira trabalhando → convés de voo (decolagem)","—"),
  ("s11","split",65.15, 71.19,"E a virada foi uma piscina. Ele conta que o moleque apareceu… pro teste de natação.","piscina de treinamento dos SEALs","—"),
  ("s12","full", 71.19, 76.00,"Pulou, afundou e atravessou a piscina andando no fundo. Subiu sem ar.","teste de natação / debaixo d'água","nítidas 74,3–74,8 · 75,6–75,8 s"),
- ("s13","full", 79.25, 84.40,"Nadar, a gente ensina. Coragem de aparecer ali, ninguém ensina.","CLÍMAX: ficha do candidato (natação ✗ ensina · coragem ✓ ninguém ensina)","—"),
- ("s14","full", 87.27, 89.01,"Nadar a gente ensina.","volta à piscina da capa","nítida 87,6–87,8 s"),
+ ("s13","full", 79.25, 83.57,"Nadar, a gente ensina. Coragem de aparecer ali, ninguém ensina.","CLÍMAX: ficha do candidato (natação ✗ ensina · coragem ✓ ninguém ensina)","—"),
+ ("s14","full", 86.44, 88.18,"Nadar a gente ensina.","volta à piscina da capa","nítida 86,8–87,0 s"),
 ]
 NOMES={k[0]:k[0] for k in S}
 def seg_of(x, end=False):

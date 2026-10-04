@@ -34,9 +34,10 @@ c32 (r22)   97.83- 102.21      Ele conta que o moleque apareceu no treinamento d
 c33 (r23)  102.60- 106.70      Pulou, afundou e atravessou a piscina andando no fundo.
 c34 (r23)  106.70- 109.72      Subiu sem ar. Desculpa, eu não sei nadar.
 c35 (r24)  110.07- 111.44      E o instrutor, tudo bem?
-c36 (r25)  112.56- 115.11      Nadar, a gente ensina. Coragem.
-c37 (r26)  116.16- 121.91      Coragem de aparecer ali, ninguém ensina. Você reprova esse moleque no currículo, meu amigo?
-c38 (r27)  123.29- 125.01      Nadar a gente ensina.
-c39 (r28)  125.49- 126.30 DROP Se você se ia...
-c40 (r29)  127.09- 129.54      Se você se apaixona por currículo, me segue.
-c41 (r30)  129.89- 131.52      Porque você é demais!
+c36 (r25)  112.56- 114.32      Nadar, a gente ensina.
+c37 (r25)  114.32- 115.11 DROP Coragem.
+c38 (r26)  116.16- 121.91      Coragem de aparecer ali, ninguém ensina. Você reprova esse moleque no currículo, meu amigo?
+c39 (r27)  123.29- 125.01      Nadar a gente ensina.
+c40 (r28)  125.49- 126.30 DROP Se você se ia...
+c41 (r29)  127.09- 129.54      Se você se apaixona por currículo, me segue.
+c42 (r30)  129.89- 131.52      Porque você é demais!

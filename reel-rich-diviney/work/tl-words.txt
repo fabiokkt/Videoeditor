@@ -8,7 +8,7 @@
  7 P1-PACIENCIA          29.52- 34.05 (4.54)  Paciência@29.42 não@30.22 dá.@30.57 Ele@31.00 diz@31.01 que@31.20 currículo@31.40 só@31.99 mostra@32.12 o@32.56 que@32.58 dá@32.77 pra@32.96 ensinar.@33.16
  8 P1-MEU-QUERIDO        34.05- 36.10 (2.05)  E@33.94 é@33.98 só@34.17 isso@34.19 que@34.41 você@34.58 lê,@34.82 meu@35.05 querido.@35.22
  9 P2-SEGUNDO            36.10- 36.78 (0.68)  Segundo,@35.98
-10 P2-PIOR-DIA           36.78- 38.28 (1.50)  Pergunta@36.68 pelo@37.08 pior@37.35 dia.@37.66
+10 P2-PIOR-DIA           36.78- 38.28 (1.50)  pergunta@36.68 pelo@37.08 pior@37.35 dia.@37.66
 11 P2-QUEM-E             38.28- 40.40 (2.12)  Ele@38.16 diz@38.20 que@38.37 a@38.61 pessoa@38.64 só@39.06 mostra@39.19 quem@39.61 é@39.74
 12 P2-BIPE               40.40- 41.52 (1.12)  quando@40.28 dá@40.39 M****.@40.65
 13 P2-ENTREVISTA         41.52- 45.51 (3.99)  Na@41.40 entrevista,@41.65 me@42.35 conta@42.43 o@42.71 dia@42.76 que@42.98 tudo@43.16 deu@43.33 errado@43.49 no@43.85 seu@43.99 último@44.19 emprego.@44.60
@@ -25,8 +25,8 @@
 24 VIRADA-AFUNDOU        71.19- 75.11 (3.92)  Pulou,@71.09 afundou@71.72 e@72.27 atravessou@72.53 a@72.99 piscina@73.06 andando@73.53 no@73.99 fundo.@74.12
 25 VIRADA-NAO-SEI-NADAR  75.11- 77.83 (2.72)  Subiu@74.95 sem@75.22 ar.@75.28 Desculpa,@75.90 eu@76.34 não@76.67 sei@76.69 nadar.@76.87
 26 VIRADA-INSTRUTOR      77.83- 79.25 (1.43)  E@77.71 o@77.78 instrutor,@77.98 tudo@78.72 bem?@78.78
-27 CLIMAX-NADAR          79.25- 81.84 (2.59)  Nadar,@79.14 a@79.50 gente@79.71 ensina.@80.03 Coragem.@81.02
-28 CLIMAX-CORAGEM        81.84- 87.27 (5.43)  Coragem@81.71 de@82.19 aparecer@82.33 ali,@82.88 ninguém@83.34 ensina.@83.75 Você@84.58 reprova@84.58 esse@84.97 moleque@85.05 no@85.46 currículo,@85.62 meu@86.20 amigo?@86.48
-29 FECHO-NADAR           87.27- 89.01 (1.74)  Nadar@87.14 a@87.39 gente@87.62 ensina.@87.99
-30 CTA-ME-SEGUE          89.01- 92.94 (3.94)  Se@88.85 você@89.13 se@89.22 apaixona@89.34 por@89.82 currículo,@90.00 me@90.66 segue,@90.82 porque@91.57 você@91.85 é@92.23 demais.@92.46
-TOTAL 92.944
+27 CLIMAX-NADAR          79.25- 81.01 (1.75)  Nadar,@79.14 a@79.42 gente@79.59 ensina.@79.84
+28 CLIMAX-CORAGEM        81.01- 86.44 (5.43)  Coragem@80.87 de@81.35 aparecer@81.49 ali,@82.04 ninguém@82.51 ensina.@82.92 Você@83.75 reprova@83.75 esse@84.13 moleque@84.21 no@84.62 currículo,@84.79 meu@85.36 amigo?@85.65
+29 FECHO-NADAR           86.44- 88.17 (1.74)  Nadar@86.30 a@86.55 gente@86.78 ensina.@87.15
+30 CTA-ME-SEGUE          88.17- 92.11 (3.94)  Se@88.02 você@88.29 se@88.39 apaixona@88.51 por@88.98 currículo,@89.17 me@89.83 segue,@89.99 porque@90.73 você@91.02 é@91.39 demais.@91.62
+TOTAL 92.108

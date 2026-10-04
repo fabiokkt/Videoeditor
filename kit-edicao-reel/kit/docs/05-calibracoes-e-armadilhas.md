@@ -476,3 +476,12 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
 - Adaptadores que o container Linux precisou (sem mexer no motor): `md5`→`md5sum`, `sed -i ''`, `/opt/homebrew/bin/ffmpeg`,
   fontes em `/System/Library/Fonts`, `/System/Volumes/Data` (checagem de disco do `render-par.sh`), `BAKE_X264=1`,
   `libegl1`/`libgles2` para o mediapipe, whisper.cpp compilado. Render: 12 partes, 2 em paralelo, 23 min em 4 núcleos.
+
+## 26. Falso início de uma palavra só + olhar depois de mexer no corte (reel Rich Diviney, 2026-10-04)
+
+- **Palavra solta no fim de uma região seguida de ~1 s de pausa e da mesma palavra abrindo a frase seguinte é falso início, não
+  ênfase** ("Coragem." … "Coragem de aparecer ali, ninguém ensina"). Ênfase de verdade vem colada (< ~0,3 s). Sai inteiro.
+- **`gaze_pose.py` reaproveita `gaze/pose-raw.json`**: depois de mudar o corte, rodar `gaze_pose.py 2.0 --remeasure`, senão as janelas
+  continuam na timeline antiga.
+- Mudou o tempo depois de um ponto: os tempos absolutos da camada (gerador) e do `slots.py` que caem depois do corte se deslocam pelo
+  mesmo valor do segmento (aqui −0,83 s); conferir as palavras em `work/tl-words.txt` e apagar **todas** as partes antes do render.

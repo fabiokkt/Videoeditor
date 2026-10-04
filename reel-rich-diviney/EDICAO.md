@@ -12,7 +12,7 @@ Editado numa sessão do Claude Code **na nuvem** (Linux, 4 núcleos, sem GPU), c
 Render: 13 partes de 429 quadros, 2 em paralelo, 23,4 min (container de 4 núcleos). QC: 5577 quadros = timeline · pico −0,7 dB ·
 0 trechos pretos · bipe no MP4 98,6% em 1 kHz · sync-check 27/30, lag mediano 10 ms · MD5 do bruto igual.
 Cópia leve: `entrega/Rich-Diviney-reel-envio.mp4` (crf 23, 58 MB) · quadros-chave do MP4: `entrega/folha-mp4.jpg`.
-Duração **92,944 s** · 31 takes · 1 bipe · 95 legendas · 5 callouts · 3 seções com light-leak · 11 SFX fixos + 68 SFX da camada ·
+Duração **92,108 s** (v3) · 31 takes · 1 bipe · 95 legendas · 5 callouts · 3 seções com light-leak · 11 SFX fixos + 68 SFX da camada ·
 14 slots (2 splits + 12 cenas de tela cheia na camada de motion).
 
 > A camada sai de `work/mg/gen.py` (`python3 work/mg/gen.py`), depois `zsh scripts/montar.sh`. Nunca editar `compositions/mg.html` à mão.
@@ -48,8 +48,8 @@ Apresentador em tela cheia no bipe (40,40–42,30).
 
 ## Olhar
 `gaze_pose.py 2.0`: 16 janelas / 4,2 s; folhas `gaze/me/g00–g02` (28 janelas). Nítidas (todas cobertas por tela cheia):
-20,8–21,9 · 30,5–30,9 · 74,3–74,8 · 75,6–75,8 · 87,6–87,8. Sutis expostas: 63,3–63,5 e 89,0–89,8 (começo do CTA).
-**Leitura exposta: ~0,9 s.**
+20,8–21,9 · 30,5–30,9 · 74,3–74,8 · 75,6–75,8 · 87,6–87,8. v3 (remedido com `--remeasure`): nítida 86,7–87,0 coberta pela volta da capa. Sutis expostas: 63,3–63,5 · 88,2–88,5 · 91,2–91,4.
+**Leitura exposta: ~0,7 s.**
 
 ## Split
 `splitShiftY` **345** (olhos y≈1031 no aroll em 561 amostras das janelas de split → 1377−1032). Splits: capa 0–10,97 · virada 65,15–71,19.

@@ -1,5 +1,5 @@
 {
- "total": 92.944,
+ "total": 92.108,
  "slots": [
   {
    "id": "s01",
@@ -212,12 +212,12 @@
    "fromSeg": 26,
    "toSeg": 28,
    "span": [
-    0.15066,
-    0.69592
+    0.16529,
+    0.66709
    ],
    "t0": 79.25,
-   "t1": 84.4,
-   "dur": 5.15,
+   "t1": 83.57,
+   "dur": 4.32,
    "fala": "Nadar, a gente ensina. Coragem de aparecer ali, ninguém ensina.",
    "tema": "CLÍMAX: ficha do candidato (natação ✗ ensina · coragem ✓ ninguém ensina)",
    "cobre": "—"
@@ -226,18 +226,18 @@
    "id": "s14",
    "file": "assets/broll/s14.mp4",
    "mode": "full",
-   "fromSeg": 28,
+   "fromSeg": 29,
    "toSeg": 30,
    "span": [
-    0.48878,
-    0.64555
+    0.00071,
+    0.30748
    ],
-   "t0": 87.27,
-   "t1": 89.01,
+   "t0": 86.44,
+   "t1": 88.18,
    "dur": 1.74,
    "fala": "Nadar a gente ensina.",
    "tema": "volta à piscina da capa",
-   "cobre": "nítida 87,6–87,8 s"
+   "cobre": "nítida 86,8–87,0 s"
   }
  ]
 }

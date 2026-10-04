@@ -25,7 +25,7 @@ ch23: extremos (w1/r2)   corr.max   91ms  'Ele conta que o moleque apareceu no t
 ch24: extremos (w1/r3)   corr.max   24ms  'Pulou, afundou e atravessou a piscina andando no fun'
 ch25: grupos 2           corr.max  189ms  'Subiu sem ar. Desculpa, eu não sei nadar.'
 ch26: extremos (w1/r2)   corr.max  297ms  'E o instrutor, tudo bem?'
-ch27: extremos (w1/r2)   corr.max   90ms  'Nadar, a gente ensina. Coragem.'
+ch27: grupos 1           corr.max  167ms  'Nadar, a gente ensina.'
 ch28: grupos 2           corr.max  367ms  'Coragem de aparecer ali, ninguém ensina. Você reprov'
 ch29: grupos 1           corr.max  246ms  'Nadar a gente ensina.'
 ch30: extremos (w2/r3)   corr.max  296ms  'Se você se apaixona por currículo, me segue. Porque '

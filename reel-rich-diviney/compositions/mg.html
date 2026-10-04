@@ -226,7 +226,7 @@
           <div class="full" id="L-lim"><img id="L-limimg" src="assets/mg/piscina-limite-1.jpg" style="object-position:50% 40%" /></div>
         </div>
 
-        <!-- M · CLÍMAX (79,25–84,40): a ficha do candidato -->
+        <!-- M · CLÍMAX (79,25–83,57): a ficha do candidato -->
         <div class="scene" id="M"><div class="world dark"><div class="band" id="M-band"></div></div>
           <div class="board b-dark" id="M-board" style="top:300px">
             <div class="hd"><span>FICHA DO CANDIDATO</span><i>SELEÇÃO</i></div>
@@ -238,7 +238,7 @@
           <div class="ring" id="M-ring2" style="left:540px;top:900px;border-color:#1FB45A"></div>
         </div>
 
-        <!-- N · NADAR A GENTE ENSINA (87,27–89,01): volta à onda da capa -->
+        <!-- N · NADAR A GENTE ENSINA (86,44–88,18): volta à onda da capa -->
         <div class="scene" id="N"><div class="world dark"></div>
           <div class="full" id="N-capa"><img id="N-capaimg" src="assets/mg/capa-rich.jpg" style="object-position:59% 30%" /></div>
         </div>
@@ -471,18 +471,18 @@
           sceneOut("#L", 76.0);
 
           // ===== M · CLÍMAX: A FICHA =====
-          sceneIn("#M", 79.25); drift("#M-band", 79.25, 84.4);
+          sceneIn("#M", 79.25); drift("#M-band", 79.25, 83.57);
           stagger(["#M-r1", "#M-r2"], 79.3, 2, 4);
           swap("#M-p1a", "#M-p1b", 80.03);
-          swap("#M-p2a", "#M-p2b", 83.34);
-          slam("#M-st", 83.75, -6);
-          rings("#M-ring1", "#M-ring2", 83.75);
-          sceneOut("#M", 84.4);
+          swap("#M-p2a", "#M-p2b", 82.51);
+          slam("#M-st", 82.92, -6);
+          rings("#M-ring1", "#M-ring2", 82.92);
+          sceneOut("#M", 83.57);
 
           // ===== N · NADAR A GENTE ENSINA: volta à capa =====
-          sceneIn("#N", 87.27);
-          kenburns("#N-capaimg", 87.27, 89.01, 1.0, 1.12);
-          sceneOut("#N", 89.01);
+          sceneIn("#N", 86.44);
+          kenburns("#N-capaimg", 86.44, 88.18, 1.0, 1.12);
+          sceneOut("#N", 88.18);
 
 
           window.__timelines["mg"] = tl;

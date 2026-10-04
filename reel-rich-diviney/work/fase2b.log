@@ -1,0 +1,24 @@
+bipes [(60.255, 60.745)] gravados em assets/rich-diviney-voz.m4a e work/full.wav
+
+rate 1.1 · lead 0.33s de source · respiro alvo 0.245s de timeline
+  pausa curta P2-VER-O-PIOR-P3 | P3-CADEIRA: fala a fala 0.26s -> emenda em 75.957 (respiro 0.236s)
+source 111.22s -> /1.1 menos 30 leads = 96.11s
+31 segments
+31 chunks
+  ch17: 1 correcao(oes) -> troca de cadeira.
+  ch23: 4 correcao(oes) -> Ele conta que o moleque apareceu no treinamento dos SEALs pro teste de natação.
+  ch30: 4 correcao(oes) -> Se você se apaixona por currículo, me segue, porque você é demais.
+OK: 31 segs, 92.108s, 2 cenas de broll (2 tomadas), 11 sfx, 94 legendas, 5 callouts, 5 leaks, J-cut 9f/3f.
+  voz-mix.m4a  31 takes
+  bed.m4a  trilha + 11 SFX
+  aroll.mp4  5526 quadros (timeline 5526) · 31 takes
+  leaks.mp4  5526 quadros (timeline 5526) · 5 leaks
+emendas 30 · buracos 0 · crossfade sobre fala: nenhum
+lead de FALA (quadros): mediana 4.9 · min 4.9 · max 5.1 -> [4.9, 5.1]
+respiro entre falas: mediana 0.245s · min 0.236 · max 0.245
+3043 amostras na timeline (3043 com rosto)
+20 janelas, 6.4s (mediana side -0.050 down 0.328)
+16 janelas, 4.2s (K=2.0)
+recorte do rosto: 766x552 em (313,1087) de 1440x2560
+30 janelas -> gaze/me/g00..g02.jpg
+FASE 2 OK -> work/chunks.txt (indices p/ captions_fix_table.py) · work/tl-words.txt (tempos) · gaze/me/*.jpg (olhar)

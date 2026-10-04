@@ -1,5 +1,5 @@
 {
- "total": 92.944,
+ "total": 92.108,
  "fps": 30,
  "rate": 1.1,
  "voiceSrc": "assets/rich-diviney-voz.m4a",
@@ -250,15 +250,15 @@
   {
    "label": "CLIMAX-NADAR",
    "start": 78.954,
-   "dur": 2.691,
+   "dur": 1.855,
    "in": 112.35,
-   "out": 115.31,
+   "out": 114.39,
    "first": false,
    "xfade": 0.1
   },
   {
    "label": "CLIMAX-CORAGEM",
-   "start": 81.545,
+   "start": 80.709,
    "dur": 5.527,
    "in": 116.05,
    "out": 122.13,
@@ -267,7 +267,7 @@
   },
   {
    "label": "FECHO-NADAR",
-   "start": 86.972,
+   "start": 86.136,
    "dur": 1.836,
    "in": 123.11,
    "out": 125.13,
@@ -276,7 +276,7 @@
   },
   {
    "label": "CTA-ME-SEGUE",
-   "start": 88.708,
+   "start": 87.872,
    "dur": 4.236,
    "in": 126.93,
    "out": 131.59,
@@ -357,7 +357,7 @@
   },
   {
    "file": "assets/sfx/swoosh.mp3",
-   "start": 88.675,
+   "start": 87.839,
    "dur": 0.98,
    "vol": 0.18,
    "nome": "FECHO -> CTA"
@@ -368,7 +368,7 @@
   "vol": 0.079,
   "loop": null,
   "fadeLow": 0.045,
-  "lowAt": 83.944,
+  "lowAt": 83.108,
   "endFade": 0.7
  }
 }
