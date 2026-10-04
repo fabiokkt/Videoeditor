@@ -103,3 +103,8 @@ piscina-limite-2.jpg
   autor/fonte: U.S. Navy photo by Mass Communication Specialist 2nd Class D — U.S. Navy / DoD via Wikimedia Commons
   licença: Public domain (obra do governo federal dos EUA)
   página: https://commons.wikimedia.org/wiki/File:US_Navy_080708-N-2959L-073_Basic_Crewman_Training_(BCT)_students_prepare_to_begin_swim_training_at_Naval_Amphibious_Base,_Coronado._The_students_are_in_their_first_week_of_BCT,_the_first_phase_of_special_warfare_combatant-craf.jpg
+
+capa-rich.jpg
+  GERADA A PEDIDO (padrão de capa, docs/05 §25): instrutor dos SEALs em silhueta na beira da piscina de treino, à noite, contraluz vermelha.
+  autor/fonte: Codex (gpt-5.6-sol), conta ChatGPT do Fabio, 2026-10-04
+  licença: imagem gerada por IA para este reel

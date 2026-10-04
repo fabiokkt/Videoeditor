@@ -3,7 +3,7 @@
 As 3 respostas (showreel-interface):
   chip   = "PASSO N" (pilula com o ponto da cor do passo) — o protocolo de selecao em 3 passos
   prova  = fotos reais da Marinha dos EUA (BUD/S, operadores, marinheiras, piscina do teste) + retrato do Rich
-  frase que o final inverte = a capa (bote furando a onda: "o melhor candidato pode ser o que nao sabe fazer o trabalho")
+  frase que o final inverte = a capa (o instrutor na beira da piscina: "o melhor candidato pode ser o que nao sabe fazer o trabalho")
            volta em "Nadar a gente ensina" — o moleque que nao sabia nadar.
 uso: python3 work/mg/gen.py"""
 T = open('work/mg/template.html').read()
@@ -68,9 +68,10 @@ ppl = ''.join(f'<span id="C-p{k}"></span>' for k in range(10))
 xs = ''.join(f'<b id="C-x{k}" style="left:{(k % 5) * 175}px;top:{(k // 5) * 175}px">✕</b>' for k in (1, 3, 4, 6, 8))
 
 HTML = f'''
-        <!-- A · SPLIT DA CAPA (0–10,97), faixa de cima SÓ COM FOTOS (nada do Rich antes do nome): onda → arrebentação → sino -->
+        <!-- A · SPLIT DA CAPA (0–10,97), nada do Rich antes do nome: CAPA GERADA A PEDIDO (Codex gpt-5.6-sol: instrutor SEAL em silhueta na
+             beira da piscina de treino, contraluz vermelha — padrão docs/05 §25) → arrebentação → sino -->
         <div class="scene" id="A" style="height:845px">
-          <div class="full" id="A-capa"><img id="A-capaimg" src="assets/mg/budS-onda-capa.jpg" style="object-position:50% 40%" /></div>
+          <div class="full" id="A-capa"><img id="A-capaimg" src="assets/mg/capa-rich.jpg" style="object-position:58% 0%" /></div>
           <div class="full" id="A-bote"><img id="A-boteimg" src="assets/mg/budS-botes-1.jpg" style="object-position:45% 50%" /></div>
           <div class="full" id="A-sino"><img id="A-sinoimg" src="assets/mg/seal-sino.jpg" style="object-position:30% 50%" /></div>
         </div>
@@ -174,7 +175,7 @@ HTML = f'''
 
         <!-- N · NADAR A GENTE ENSINA (87,27–89,01): volta à onda da capa -->
         <div class="scene" id="N"><div class="world dark"></div>
-          <div class="full" id="N-capa"><img id="N-capaimg" src="assets/mg/budS-onda-capa.jpg" style="object-position:50% 40%" /></div>
+          <div class="full" id="N-capa"><img id="N-capaimg" src="assets/mg/capa-rich.jpg" style="object-position:59% 30%" /></div>
         </div>
 '''
 

@@ -485,7 +485,7 @@
           sceneOut("#N", 89.01);
 
 
-          window.__timelines["mg"] = tl;
+          var __sc = gsap.timeline({ paused: true }); __sc.add(tl.tweenFromTo(0, 2.3833, { ease: "none" }), 0); window.__timelines["mg"] = __sc;
         })();
       </script>
     </template>
