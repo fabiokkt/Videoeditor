@@ -1,42 +1,56 @@
 # Padrão de edição — reels falados (talking head + B-roll)
 
-Medido no vídeo de referência (reel "capitão da Marinha / submarino", 1:30, 9:16) em 04/10/2026.
-Aplicar em todo vídeo bruto gravado no mesmo formato (Fabio falando para a câmera, fundo de tijolo com flores).
+Medido quadro a quadro no vídeo de referência (reel "capitão da Marinha / submarino", 1:30, 9:16,
+link iCloud `07f1AD6emvO3QFiTR0mzjMACQ`). Medidas em pixels de um quadro 1080×1920.
+Aplicar em todo bruto gravado no mesmo formato (Fabio falando para a câmera, fundo de tijolo com flores).
 
 ## Estrutura do roteiro (o bruto já vem assim)
 1. **Gancho** (0–5 s): "Esse cara é um dos ___ mais ___ e mais ___ de ___."
 2. **Promessa**: "Ele criou um protocolo polêmico para provar que ___."
-3. **História curta** do personagem (2–3 frases).
+3. **História curta** do personagem.
 4. **"E esse é o protocolo para você parar de ___."**
-5. **Primeiro / Segundo / Terceiro**: cada regra + "ele diz que…" + aplicação ("meu querido", "pequeno gafanhoto").
-6. **A virada**: a cena decisiva da história.
-7. **Pergunta ao espectador + CTA**: "Se você ___, me segue, porque você é demais."
+5. **Primeiro / Segundo / Terceiro** + "ele diz que…" + aplicação ("meu querido", "pequeno gafanhoto").
+6. **A virada**.
+7. **Pergunta + CTA**: "Se você ___, me segue, porque você é demais."
 
 ## Corte
-- Escolher sempre a **última tomada** quando a frase é repetida (retake), a não ser que ela esteja pior.
-- Cortar todo silêncio > 0,30 s (deixar ~0,09 s de respiro de cada lado). Ritmo final ≈ 1:30 para ~2:20 de bruto.
-- Microfades de 12–15 ms em cada emenda de áudio (sem clique).
+- Retake: fica a **última tomada**. Silêncio > 0,30 s sai (0,09 s de respiro). Microfades de 12–15 ms.
+- **Palavrão**: o som é cortado no meio da palavra (fica "po…"), entra o som curto de censura da referência
+  e a legenda mostra `po---`.
 
-## Visual (1080×1920, 30 fps)
-| Momento | Tratamento |
+## Gancho (0 até o fim da primeira frase)
+- **Tela dividida**: imagem em cima (0–840 px), apresentador embaixo (840–1920) em **close (zoom 1,25)**,
+  olhos em y≈1357.
+- Imagem do topo em **duotone vermelho-escuro** (preto profundo, altas-luzes vermelhas). Na metade do gancho
+  ela troca por outra imagem do assunto, com **light leak**.
+- **Caixa**: x 33→1047, y 594→1097, cantos de 12 px, **borda branca 5 px**, sombra escura por baixo,
+  **degradê vertical #FB672A → #F1390D**. Fica parada na tela do 1º quadro até o fim da frase.
+- **Texto**: **Oswald Bold**, CAIXA ALTA, 5 linhas centralizadas, branco, **contorno preto 4,5**, sombra 3.
+  Tamanho: a linha mais longa (~19 letras) ocupa ~890 px (libass 156). Centros das linhas: y 664 / 757 / 850 / 943 / 1036.
+- Sem legenda pequena durante o gancho.
+
+## Resto do vídeo
+| Elemento | Especificação |
 |---|---|
-| Gancho | **Tela dividida**: imagem do personagem em cima (0–880 px), apresentador embaixo. **Caixa laranja** (#E4471C, contorno branco fino) com o texto do gancho em **CAIXA ALTA, fonte condensada (Anton)**, branco com contorno preto. Sem legenda pequena. |
-| Promessa / dados | Tela dividida com imagem do assunto em cima; legenda pequena na linha da divisão. |
-| História / "ele diz que…" | **B-roll em tela cheia** com movimento lento (zoom 1,00↔1,10, alternando entrada e saída). |
-| Aplicação para o espectador | **Talking head** com **punch-in** alternado a cada corte (1,00 → 1,15–1,20 → 1,30–1,38 na frase de impacto). |
-| Cada "Primeiro/Segundo/Terceiro", frase-tese, número forte | **Frase de impacto**: CAIXA ALTA, Montserrat Black ~90 px, branca com sombra; no peito (talking head) ou no centro (B-roll). Entra com pop rápido (80 %→100 % em 90 ms). A legenda pequena some enquanto ela está na tela. |
-| Viradas de bloco | **Flash laranja** (#FF6A1A, 0,45 s, some em fade) no primeiro quadro do novo bloco. |
+| **Legenda pequena** | Montserrat SemiBold, minúsculas normais, branca com sombra suave; ~378 px de largura para "A pessoa chega" (libass 74). 1–3 palavras, quebra na pontuação. y=845 em B-roll e tela dividida, y=1458 no talking head. |
+| **Frase de impacto** | Montserrat ExtraBold, CAIXA ALTA, branca com contorno cinza-escuro e sombra; ~811 px para 15 letras (libass 127). **Digitada letra a letra (~28 letras/s)** em sincronia com a fala; y=1190. A legenda pequena some enquanto ela está na tela. Usa as mesmas palavras faladas. |
+| **Talking head** | Punch-in alternado **1,30 ↔ 1,50** a cada corte (1,60 numa frase curta de impacto); olhos a 43 % da altura. |
+| **B-roll** | Tela cheia com zoom lento 1,00↔1,08. Foto muito larga: **faixa nítida de 1190 px** no centro + a mesma foto desfocada atrás. |
+| **Light leak** | Laranja/amarelo descendo do topo (~0,3 s antes do corte) e um bloco laranja-avermelhado à esquerda que some ~0,2 s depois. Em quase toda entrada de B-roll. |
+| Ritmo | Troca de plano a cada 2–5 s. |
 
-- Troca de plano a cada **2–5 s**; nunca mais de ~6 s no mesmo enquadramento.
-- **Legenda pequena** o tempo todo: Montserrat SemiBold 44 px, branca, contorno fino e sombra suave, 1–3 palavras por vez, quebrando na pontuação. Posição: y≈1440 (talking head/B-roll) ou na linha da divisão (tela dividida).
-- B-roll: primeiro fotos reais do personagem e do lugar (Wikimedia, domínio público); depois banco de imagens (Unsplash) para os trechos sobre a empresa e o espectador. Créditos em `broll/CREDITOS.txt`.
+## Som
+- **Trilha da referência** (separada da voz com demucs/htdemucs): impacto grave de 0,5–3,4 s no gancho,
+  silêncio até ~4,4 s, depois a cama de música até o CTA; a **subida (clímax)** vai na virada da história.
+- A música fica **~20 dB abaixo da voz** (mesma proporção da referência).
+- **Whoosh** da referência em cada light leak (pico no corte), exceto no do gancho.
+- Mix final normalizada em −14 LUFS (pico −1,5 dBTP), AAC 192 kbps.
 
-## Áudio
-- Só a voz, normalizada em −14 LUFS (pico −1,5 dBTP), AAC 192 kbps.
-
-## Como rodar (exemplo: `reel-stockdale/edicao/`)
-1. `ic.py <id-do-link-icloud> bruto.mov`: baixa o vídeo de um link `share.icloud.com/photos/<id>`.
-2. `tr.py bruto.wav`: transcrição com tempo por palavra (faster-whisper, modelo small, pt).
-3. `edl.py`: tomadas a manter + remoção de silêncios → `segs.json` → corte do A-roll.
-4. `build.py`: planos (`SHOTS`), frases de impacto (`EMPH`), gancho (`HOOK`) → `shots/*.mp4` + `subs.ass`.
-5. Montagem final: concat dos planos + `ass=subs.ass:fontsdir=fonts` + loudnorm.
+## Como rodar (ver `reel-stockdale/edicao/`)
+1. `ic.py <id-do-link-icloud> bruto.mov`: baixa vídeo de `share.icloud.com/photos/<id>` (bruto e referência).
+2. `tr.py bruto.wav`: transcrição palavra a palavra (faster-whisper small, pt).
+3. `edl.py`: tomadas + remoção de silêncio → `segs.json` → corte do A-roll.
+4. `python3 -m demucs --two-stems=vocals -n htdemucs referencia.wav`: separa a trilha da referência.
+5. `mix2.py`: remapeia a trilha, whooshes, censura e proporção voz/música → `mix2.wav`.
+6. `build2.py`: planos (`SHOTS`), leaks (`LEAKS`), frases (`EMPH`), gancho (`HOOK_LINES`) → `shots2/`;
+   `build2.py final` → caixa do gancho + leaks + legendas + mix → vídeo final.

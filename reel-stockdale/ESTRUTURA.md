@@ -2,7 +2,11 @@
 
 **Bruto:** vídeo do iPad (1440×2560, 60 fps, 2:19), link iCloud `092Y0PdhgC7ZX35N_Ot9p8zFQ`.
 **Referência de padrão:** link iCloud `07f1AD6emvO3QFiTR0mzjMACQ` (reel do capitão de submarino). Ver `../PADRAO-EDICAO.md`.
-**Entrega:** `entrega/reel-stockdale-protocolo.mp4` (1080×1920, 30 fps, H.264 + AAC, 93 s).
+**Entrega:** `entrega/reel-stockdale-protocolo.mp4` (v2: 1080×1920, 30 fps, H.264 + AAC, 93 s).
+
+**v2 (04/10/2026):** gancho refeito idêntico à referência (Oswald Bold, caixa degradê, topo vermelho-escuro, close),
+textos nos tamanhos medidos, frases de impacto digitadas, light leaks + whoosh nos cortes, trilha da referência
+remapeada (impacto no gancho, clímax na virada), censura em "po---".
 
 ## Retakes removidos
 - "para provar que na crise do dono…" → ficou a 2ª tomada ("…o dono otimista é o primeiro a quebrar").

@@ -1,0 +1,248 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,MontSemi,74,&H00FFFFFF,&H00FFFFFF,&H70000000,&H90000000,0,0,0,0,100,100,0,0,1,1.5,2,5,30,30,0,1
+Style: Emph,MontXBold,127,&H00FFFFFF,&H00FFFFFF,&H00505050,&H90000000,0,0,0,0,100,100,0,0,1,3,4,5,30,30,0,1
+Style: Hook,OswBold,156,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,4.5,3,5,30,30,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.92,0:00:05.46,Sub,,0,0,0,,{\pos(540,845)}E ele criou
+Dialogue: 0,0:00:05.46,0:00:06.84,Sub,,0,0,0,,{\pos(540,845)}um protocolo polêmico
+Dialogue: 0,0:00:06.84,0:00:07.70,Sub,,0,0,0,,{\pos(540,845)}para provar que
+Dialogue: 0,0:00:07.70,0:00:08.16,Sub,,0,0,0,,{\pos(540,845)}na crise o
+Dialogue: 0,0:00:11.02,0:00:11.90,Sub,,0,0,0,,{\pos(540,845)}Jim foi derrubado
+Dialogue: 0,0:00:11.90,0:00:13.18,Sub,,0,0,0,,{\pos(540,845)}no Vietnã,
+Dialogue: 0,0:00:13.18,0:00:14.28,Sub,,0,0,0,,{\pos(540,845)}ainda no paraquedas
+Dialogue: 0,0:00:14.28,0:00:15.06,Sub,,0,0,0,,{\pos(540,845)}pensou.
+Dialogue: 0,0:00:15.06,0:00:16.02,Sub,,0,0,0,,{\pos(540,845)}São 5 anos
+Dialogue: 0,0:00:16.02,0:00:16.82,Sub,,0,0,0,,{\pos(540,845)}preso,
+Dialogue: 0,0:00:16.82,0:00:17.42,Sub,,0,0,0,,{\pos(540,845)}no mínimo.
+Dialogue: 0,0:00:17.42,0:00:17.96,Sub,,0,0,0,,{\pos(540,845)}Errou,
+Dialogue: 0,0:00:19.46,0:00:20.08,Sub,,0,0,0,,{\pos(540,1458)}E esse é
+Dialogue: 0,0:00:20.08,0:00:20.68,Sub,,0,0,0,,{\pos(540,1458)}o protocolo para
+Dialogue: 0,0:00:20.68,0:00:21.44,Sub,,0,0,0,,{\pos(540,1458)}você parar de
+Dialogue: 0,0:00:21.44,0:00:22.06,Sub,,0,0,0,,{\pos(540,1458)}prometer para o
+Dialogue: 0,0:00:22.06,0:00:22.70,Sub,,0,0,0,,{\pos(540,1458)}seu time,
+Dialogue: 0,0:00:22.70,0:00:23.28,Sub,,0,0,0,,{\pos(540,1458)}que mês que
+Dialogue: 0,0:00:23.28,0:00:23.94,Sub,,0,0,0,,{\pos(540,1458)}vem melhora.
+Dialogue: 0,0:00:23.94,0:00:24.64,Sub,,0,0,0,,{\pos(540,1458)}Primeiro,
+Dialogue: 0,0:00:25.82,0:00:26.76,Sub,,0,0,0,,{\pos(540,845)}Ele aprendeu com
+Dialogue: 0,0:00:26.76,0:00:27.98,Sub,,0,0,0,,{\pos(540,845)}o filósofo grego,
+Dialogue: 0,0:00:27.98,0:00:28.74,Sub,,0,0,0,,{\pos(540,845)}que você só
+Dialogue: 0,0:00:28.74,0:00:29.36,Sub,,0,0,0,,{\pos(540,845)}manda no que
+Dialogue: 0,0:00:29.36,0:00:30.46,Sub,,0,0,0,,{\pos(540,845)}você pensa e
+Dialogue: 0,0:00:30.46,0:00:30.96,Sub,,0,0,0,,{\pos(540,845)}no que você
+Dialogue: 0,0:00:30.96,0:00:31.56,Sub,,0,0,0,,{\pos(540,845)}faz.
+Dialogue: 0,0:00:31.56,0:00:32.40,Sub,,0,0,0,,{\pos(540,845)}Juros e governo
+Dialogue: 0,0:00:32.40,0:00:33.38,Sub,,0,0,0,,{\pos(540,845)}não dependem de
+Dialogue: 0,0:00:33.38,0:00:33.94,Sub,,0,0,0,,{\pos(540,845)}você.
+Dialogue: 0,0:00:33.94,0:00:35.10,Sub,,0,0,0,,{\pos(540,1458)}Preço e cobrança?
+Dialogue: 0,0:00:35.10,0:00:35.84,Sub,,0,0,0,,{\pos(540,1458)}Dependem.
+Dialogue: 0,0:00:35.84,0:00:36.42,Sub,,0,0,0,,{\pos(540,845)}E você passa
+Dialogue: 0,0:00:36.42,0:00:37.88,Sub,,0,0,0,,{\pos(540,845)}a reunião inteira,
+Dialogue: 0,0:00:37.88,0:00:38.94,Sub,,0,0,0,,{\pos(540,845)}xingando a po---
+Dialogue: 0,0:00:38.94,0:00:39.66,Sub,,0,0,0,,{\pos(540,845)}dos juros,
+Dialogue: 0,0:00:39.66,0:00:40.40,Sub,,0,0,0,,{\pos(540,845)}meu querido.
+Dialogue: 0,0:00:40.40,0:00:41.26,Sub,,0,0,0,,{\pos(540,1458)}Segundo,
+Dialogue: 0,0:00:42.96,0:00:43.42,Sub,,0,0,0,,{\pos(540,845)}Ele diz que
+Dialogue: 0,0:00:43.42,0:00:44.38,Sub,,0,0,0,,{\pos(540,845)}tudo começa por
+Dialogue: 0,0:00:44.38,0:00:45.22,Sub,,0,0,0,,{\pos(540,845)}encarar a realidade
+Dialogue: 0,0:00:45.22,0:00:46.54,Sub,,0,0,0,,{\pos(540,845)}mais brutal,
+Dialogue: 0,0:00:46.54,0:00:47.50,Sub,,0,0,0,,{\pos(540,845)}seja ela qual
+Dialogue: 0,0:00:47.50,0:00:47.94,Sub,,0,0,0,,{\pos(540,845)}for.
+Dialogue: 0,0:00:47.94,0:00:48.58,Sub,,0,0,0,,{\pos(540,845)}Faz quanto tempo
+Dialogue: 0,0:00:48.58,0:00:49.22,Sub,,0,0,0,,{\pos(540,845)}que você não
+Dialogue: 0,0:00:49.22,0:00:49.98,Sub,,0,0,0,,{\pos(540,845)}abre o extrato
+Dialogue: 0,0:00:49.98,0:00:50.72,Sub,,0,0,0,,{\pos(540,845)}com calma?
+Dialogue: 0,0:00:50.72,0:00:51.56,Sub,,0,0,0,,{\pos(540,1458)}Não é falta
+Dialogue: 0,0:00:51.56,0:00:52.28,Sub,,0,0,0,,{\pos(540,1458)}de tempo,
+Dialogue: 0,0:00:52.28,0:00:53.42,Sub,,0,0,0,,{\pos(540,1458)}pequeno gafanhoto.
+Dialogue: 0,0:00:53.90,0:00:54.82,Sub,,0,0,0,,{\pos(540,1458)}E terceiro,
+Dialogue: 0,0:00:56.58,0:00:57.12,Sub,,0,0,0,,{\pos(540,845)}Ele diz que
+Dialogue: 0,0:00:57.12,0:00:58.04,Sub,,0,0,0,,{\pos(540,845)}nunca duvidou que
+Dialogue: 0,0:00:58.04,0:00:58.74,Sub,,0,0,0,,{\pos(540,845)}ia sair de
+Dialogue: 0,0:00:58.74,0:00:59.68,Sub,,0,0,0,,{\pos(540,845)}lá e sair
+Dialogue: 0,0:00:59.68,0:01:01.04,Sub,,0,0,0,,{\pos(540,845)}mais forte.
+Dialogue: 0,0:01:01.04,0:01:01.48,Sub,,0,0,0,,{\pos(540,845)}Seu time pode
+Dialogue: 0,0:01:01.48,0:01:02.18,Sub,,0,0,0,,{\pos(540,845)}ouvir que a
+Dialogue: 0,0:01:02.18,0:01:03.46,Sub,,0,0,0,,{\pos(540,845)}coisa tá feia,
+Dialogue: 0,0:01:03.46,0:01:03.80,Sub,,0,0,0,,{\pos(540,845)}o que ele
+Dialogue: 0,0:01:03.80,0:01:04.74,Sub,,0,0,0,,{\pos(540,845)}não pode é
+Dialogue: 0,0:01:04.74,0:01:06.14,Sub,,0,0,0,,{\pos(540,845)}ver você desistindo.
+Dialogue: 0,0:01:06.14,0:01:06.70,Sub,,0,0,0,,{\pos(540,845)}E a virada
+Dialogue: 0,0:01:06.70,0:01:07.78,Sub,,0,0,0,,{\pos(540,845)}foi o Natal.
+Dialogue: 0,0:01:07.78,0:01:08.62,Sub,,0,0,0,,{\pos(540,845)}Perguntaram quem
+Dialogue: 0,0:01:08.62,0:01:09.74,Sub,,0,0,0,,{\pos(540,845)}não aguentou.
+Dialogue: 0,0:01:09.74,0:01:10.76,Sub,,0,0,0,,{\pos(540,845)}Ele respondeu,
+Dialogue: 0,0:01:12.20,0:01:13.18,Sub,,0,0,0,,{\pos(540,845)}Os que diziam
+Dialogue: 0,0:01:13.18,0:01:14.14,Sub,,0,0,0,,{\pos(540,845)}no Natal a
+Dialogue: 0,0:01:14.14,0:01:14.74,Sub,,0,0,0,,{\pos(540,845)}gente sai.
+Dialogue: 0,0:01:14.74,0:01:16.06,Sub,,0,0,0,,{\pos(540,845)}O Natal chegava
+Dialogue: 0,0:01:16.06,0:01:17.06,Sub,,0,0,0,,{\pos(540,845)}e passava.
+Dialogue: 0,0:01:17.06,0:01:17.54,Sub,,0,0,0,,{\pos(540,845)}Aí,
+Dialogue: 0,0:01:17.54,0:01:18.44,Sub,,0,0,0,,{\pos(540,845)}na Páscoa,
+Dialogue: 0,0:01:18.44,0:01:19.36,Sub,,0,0,0,,{\pos(540,845)}a gente sai.
+Dialogue: 0,0:01:19.36,0:01:20.98,Sub,,0,0,0,,{\pos(540,845)}A Páscoa passava.
+Dialogue: 0,0:01:20.98,0:01:21.80,Sub,,0,0,0,,{\pos(540,845)}E eles morriam
+Dialogue: 0,0:01:21.80,0:01:22.80,Sub,,0,0,0,,{\pos(540,845)}de coração partido.
+Dialogue: 0,0:01:22.80,0:01:24.16,Sub,,0,0,0,,{\pos(540,1458)}Você prometeu para
+Dialogue: 0,0:01:24.16,0:01:24.54,Sub,,0,0,0,,{\pos(540,1458)}o seu time
+Dialogue: 0,0:01:24.54,0:01:25.24,Sub,,0,0,0,,{\pos(540,1458)}que mês que
+Dialogue: 0,0:01:25.24,0:01:25.94,Sub,,0,0,0,,{\pos(540,1458)}vem melhora,
+Dialogue: 0,0:01:25.94,0:01:26.68,Sub,,0,0,0,,{\pos(540,1458)}meu amigo?
+Dialogue: 0,0:01:28.84,0:01:29.58,Sub,,0,0,0,,{\pos(540,1458)}Se você promete
+Dialogue: 0,0:01:29.58,0:01:30.06,Sub,,0,0,0,,{\pos(540,1458)}que mês que
+Dialogue: 0,0:01:30.06,0:01:31.00,Sub,,0,0,0,,{\pos(540,1458)}vem melhora,
+Dialogue: 0,0:01:31.00,0:01:31.66,Sub,,0,0,0,,{\pos(540,1458)}me segue.
+Dialogue: 0,0:01:31.66,0:01:32.78,Sub,,0,0,0,,{\pos(540,1458)}Porque você é
+Dialogue: 0,0:01:32.78,0:01:33.22,Sub,,0,0,0,,{\pos(540,1458)}demais.
+Dialogue: 1,0:00:08.16,0:00:08.20,Emph,,0,0,0,,{\pos(540,1190)}O{\alpha&HFF&} DONO OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.20,0:00:08.23,Emph,,0,0,0,,{\pos(540,1190)}O D{\alpha&HFF&}ONO OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.23,0:00:08.27,Emph,,0,0,0,,{\pos(540,1190)}O DO{\alpha&HFF&}NO OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.27,0:00:08.30,Emph,,0,0,0,,{\pos(540,1190)}O DON{\alpha&HFF&}O OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.30,0:00:08.34,Emph,,0,0,0,,{\pos(540,1190)}O DONO{\alpha&HFF&} OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.34,0:00:08.37,Emph,,0,0,0,,{\pos(540,1190)}O DONO O{\alpha&HFF&}TIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.37,0:00:08.41,Emph,,0,0,0,,{\pos(540,1190)}O DONO OT{\alpha&HFF&}IMISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.41,0:00:08.45,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTI{\alpha&HFF&}MISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.45,0:00:08.48,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIM{\alpha&HFF&}ISTA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.48,0:00:08.52,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMI{\alpha&HFF&}STA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.52,0:00:08.55,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMIS{\alpha&HFF&}TA\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.55,0:00:08.59,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMIST{\alpha&HFF&}A\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.59,0:00:08.62,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA{\alpha&HFF&}\NÉ O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.62,0:00:08.66,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ{\alpha&HFF&} O PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.66,0:00:08.70,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O{\alpha&HFF&} PRIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.70,0:00:08.73,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O P{\alpha&HFF&}RIMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.73,0:00:08.77,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PR{\alpha&HFF&}IMEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.77,0:00:08.80,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRI{\alpha&HFF&}MEIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.80,0:00:08.84,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIM{\alpha&HFF&}EIRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.84,0:00:08.87,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIME{\alpha&HFF&}IRO\NA QUEBRAR.
+Dialogue: 1,0:00:08.87,0:00:08.91,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEI{\alpha&HFF&}RO\NA QUEBRAR.
+Dialogue: 1,0:00:08.91,0:00:08.95,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIR{\alpha&HFF&}O\NA QUEBRAR.
+Dialogue: 1,0:00:08.95,0:00:08.98,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO{\alpha&HFF&}\NA QUEBRAR.
+Dialogue: 1,0:00:08.98,0:00:09.02,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA{\alpha&HFF&} QUEBRAR.
+Dialogue: 1,0:00:09.02,0:00:09.05,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA Q{\alpha&HFF&}UEBRAR.
+Dialogue: 1,0:00:09.05,0:00:09.09,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QU{\alpha&HFF&}EBRAR.
+Dialogue: 1,0:00:09.09,0:00:09.12,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QUE{\alpha&HFF&}BRAR.
+Dialogue: 1,0:00:09.12,0:00:09.16,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QUEB{\alpha&HFF&}RAR.
+Dialogue: 1,0:00:09.16,0:00:09.20,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QUEBR{\alpha&HFF&}AR.
+Dialogue: 1,0:00:09.20,0:00:09.23,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QUEBRA{\alpha&HFF&}R.
+Dialogue: 1,0:00:09.23,0:00:09.27,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR{\alpha&HFF&}.
+Dialogue: 1,0:00:09.27,0:00:11.00,Emph,,0,0,0,,{\pos(540,1190)}O DONO OTIMISTA\NÉ O PRIMEIRO\NA QUEBRAR.{\alpha&HFF&}
+Dialogue: 1,0:00:17.96,0:00:18.00,Emph,,0,0,0,,{\pos(540,1190)}F{\alpha&HFF&}ORAM 7\NE MEIO.
+Dialogue: 1,0:00:18.00,0:00:18.03,Emph,,0,0,0,,{\pos(540,1190)}FO{\alpha&HFF&}RAM 7\NE MEIO.
+Dialogue: 1,0:00:18.03,0:00:18.07,Emph,,0,0,0,,{\pos(540,1190)}FOR{\alpha&HFF&}AM 7\NE MEIO.
+Dialogue: 1,0:00:18.07,0:00:18.10,Emph,,0,0,0,,{\pos(540,1190)}FORA{\alpha&HFF&}M 7\NE MEIO.
+Dialogue: 1,0:00:18.10,0:00:18.14,Emph,,0,0,0,,{\pos(540,1190)}FORAM{\alpha&HFF&} 7\NE MEIO.
+Dialogue: 1,0:00:18.14,0:00:18.17,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7{\alpha&HFF&}\NE MEIO.
+Dialogue: 1,0:00:18.17,0:00:18.21,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7\NE{\alpha&HFF&} MEIO.
+Dialogue: 1,0:00:18.21,0:00:18.25,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7\NE M{\alpha&HFF&}EIO.
+Dialogue: 1,0:00:18.25,0:00:18.28,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7\NE ME{\alpha&HFF&}IO.
+Dialogue: 1,0:00:18.28,0:00:18.32,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7\NE MEI{\alpha&HFF&}O.
+Dialogue: 1,0:00:18.32,0:00:18.35,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7\NE MEIO{\alpha&HFF&}.
+Dialogue: 1,0:00:18.35,0:00:19.40,Emph,,0,0,0,,{\pos(540,1190)}FORAM 7\NE MEIO.{\alpha&HFF&}
+Dialogue: 1,0:00:24.64,0:00:24.68,Emph,,0,0,0,,{\pos(540,1190)}S{\alpha&HFF&}EPARA O\NQUE É SEU.
+Dialogue: 1,0:00:24.68,0:00:24.71,Emph,,0,0,0,,{\pos(540,1190)}SE{\alpha&HFF&}PARA O\NQUE É SEU.
+Dialogue: 1,0:00:24.71,0:00:24.75,Emph,,0,0,0,,{\pos(540,1190)}SEP{\alpha&HFF&}ARA O\NQUE É SEU.
+Dialogue: 1,0:00:24.75,0:00:24.78,Emph,,0,0,0,,{\pos(540,1190)}SEPA{\alpha&HFF&}RA O\NQUE É SEU.
+Dialogue: 1,0:00:24.78,0:00:24.82,Emph,,0,0,0,,{\pos(540,1190)}SEPAR{\alpha&HFF&}A O\NQUE É SEU.
+Dialogue: 1,0:00:24.82,0:00:24.85,Emph,,0,0,0,,{\pos(540,1190)}SEPARA{\alpha&HFF&} O\NQUE É SEU.
+Dialogue: 1,0:00:24.85,0:00:24.89,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O{\alpha&HFF&}\NQUE É SEU.
+Dialogue: 1,0:00:24.89,0:00:24.93,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQ{\alpha&HFF&}UE É SEU.
+Dialogue: 1,0:00:24.93,0:00:24.96,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQU{\alpha&HFF&}E É SEU.
+Dialogue: 1,0:00:24.96,0:00:25.00,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQUE{\alpha&HFF&} É SEU.
+Dialogue: 1,0:00:25.00,0:00:25.03,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQUE É{\alpha&HFF&} SEU.
+Dialogue: 1,0:00:25.03,0:00:25.07,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQUE É S{\alpha&HFF&}EU.
+Dialogue: 1,0:00:25.07,0:00:25.10,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQUE É SE{\alpha&HFF&}U.
+Dialogue: 1,0:00:25.10,0:00:25.14,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQUE É SEU{\alpha&HFF&}.
+Dialogue: 1,0:00:25.14,0:00:25.80,Emph,,0,0,0,,{\pos(540,1190)}SEPARA O\NQUE É SEU.{\alpha&HFF&}
+Dialogue: 1,0:00:41.26,0:00:41.30,Emph,,0,0,0,,{\pos(540,1190)}E{\alpha&HFF&}NCARA O FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.30,0:00:41.33,Emph,,0,0,0,,{\pos(540,1190)}EN{\alpha&HFF&}CARA O FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.33,0:00:41.37,Emph,,0,0,0,,{\pos(540,1190)}ENC{\alpha&HFF&}ARA O FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.37,0:00:41.40,Emph,,0,0,0,,{\pos(540,1190)}ENCA{\alpha&HFF&}RA O FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.40,0:00:41.44,Emph,,0,0,0,,{\pos(540,1190)}ENCAR{\alpha&HFF&}A O FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.44,0:00:41.47,Emph,,0,0,0,,{\pos(540,1190)}ENCARA{\alpha&HFF&} O FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.47,0:00:41.51,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O{\alpha&HFF&} FATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.51,0:00:41.55,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O F{\alpha&HFF&}ATO\NMAIS FEIO.
+Dialogue: 1,0:00:41.55,0:00:41.58,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FA{\alpha&HFF&}TO\NMAIS FEIO.
+Dialogue: 1,0:00:41.58,0:00:41.62,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FAT{\alpha&HFF&}O\NMAIS FEIO.
+Dialogue: 1,0:00:41.62,0:00:41.65,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO{\alpha&HFF&}\NMAIS FEIO.
+Dialogue: 1,0:00:41.65,0:00:41.69,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NM{\alpha&HFF&}AIS FEIO.
+Dialogue: 1,0:00:41.69,0:00:41.72,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMA{\alpha&HFF&}IS FEIO.
+Dialogue: 1,0:00:41.72,0:00:41.76,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAI{\alpha&HFF&}S FEIO.
+Dialogue: 1,0:00:41.76,0:00:41.80,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAIS{\alpha&HFF&} FEIO.
+Dialogue: 1,0:00:41.80,0:00:41.83,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAIS F{\alpha&HFF&}EIO.
+Dialogue: 1,0:00:41.83,0:00:41.87,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAIS FE{\alpha&HFF&}IO.
+Dialogue: 1,0:00:41.87,0:00:41.90,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAIS FEI{\alpha&HFF&}O.
+Dialogue: 1,0:00:41.90,0:00:41.94,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAIS FEIO{\alpha&HFF&}.
+Dialogue: 1,0:00:41.94,0:00:42.92,Emph,,0,0,0,,{\pos(540,1190)}ENCARA O FATO\NMAIS FEIO.{\alpha&HFF&}
+Dialogue: 1,0:00:53.42,0:00:53.46,Emph,,0,0,0,,{\pos(540,1190)}É{\alpha&HFF&} MEDO.
+Dialogue: 1,0:00:53.46,0:00:53.49,Emph,,0,0,0,,{\pos(540,1190)}É M{\alpha&HFF&}EDO.
+Dialogue: 1,0:00:53.49,0:00:53.53,Emph,,0,0,0,,{\pos(540,1190)}É ME{\alpha&HFF&}DO.
+Dialogue: 1,0:00:53.53,0:00:53.56,Emph,,0,0,0,,{\pos(540,1190)}É MED{\alpha&HFF&}O.
+Dialogue: 1,0:00:53.56,0:00:53.60,Emph,,0,0,0,,{\pos(540,1190)}É MEDO{\alpha&HFF&}.
+Dialogue: 1,0:00:53.60,0:00:53.88,Emph,,0,0,0,,{\pos(540,1190)}É MEDO.{\alpha&HFF&}
+Dialogue: 1,0:00:54.82,0:00:54.86,Emph,,0,0,0,,{\pos(540,1190)}N{\alpha&HFF&}UNCA PERDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:54.86,0:00:54.89,Emph,,0,0,0,,{\pos(540,1190)}NU{\alpha&HFF&}NCA PERDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:54.89,0:00:54.93,Emph,,0,0,0,,{\pos(540,1190)}NUN{\alpha&HFF&}CA PERDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:54.93,0:00:54.96,Emph,,0,0,0,,{\pos(540,1190)}NUNC{\alpha&HFF&}A PERDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:54.96,0:00:55.00,Emph,,0,0,0,,{\pos(540,1190)}NUNCA{\alpha&HFF&} PERDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:55.00,0:00:55.03,Emph,,0,0,0,,{\pos(540,1190)}NUNCA P{\alpha&HFF&}ERDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:55.03,0:00:55.07,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PE{\alpha&HFF&}RDE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:55.07,0:00:55.11,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PER{\alpha&HFF&}DE\NA FÉ NO FINAL.
+Dialogue: 1,0:00:55.11,0:00:55.14,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERD{\alpha&HFF&}E\NA FÉ NO FINAL.
+Dialogue: 1,0:00:55.14,0:00:55.18,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE{\alpha&HFF&}\NA FÉ NO FINAL.
+Dialogue: 1,0:00:55.18,0:00:55.21,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA{\alpha&HFF&} FÉ NO FINAL.
+Dialogue: 1,0:00:55.21,0:00:55.25,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA F{\alpha&HFF&}É NO FINAL.
+Dialogue: 1,0:00:55.25,0:00:55.28,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ{\alpha&HFF&} NO FINAL.
+Dialogue: 1,0:00:55.28,0:00:55.32,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ N{\alpha&HFF&}O FINAL.
+Dialogue: 1,0:00:55.32,0:00:55.36,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO{\alpha&HFF&} FINAL.
+Dialogue: 1,0:00:55.36,0:00:55.39,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO F{\alpha&HFF&}INAL.
+Dialogue: 1,0:00:55.39,0:00:55.43,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO FI{\alpha&HFF&}NAL.
+Dialogue: 1,0:00:55.43,0:00:55.46,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO FIN{\alpha&HFF&}AL.
+Dialogue: 1,0:00:55.46,0:00:55.50,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO FINA{\alpha&HFF&}L.
+Dialogue: 1,0:00:55.50,0:00:55.53,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO FINAL{\alpha&HFF&}.
+Dialogue: 1,0:00:55.53,0:00:56.55,Emph,,0,0,0,,{\pos(540,1190)}NUNCA PERDE\NA FÉ NO FINAL.{\alpha&HFF&}
+Dialogue: 1,0:01:10.76,0:01:10.80,Emph,,0,0,0,,{\pos(540,1190)}O{\alpha&HFF&}S OTIMISTAS.
+Dialogue: 1,0:01:10.80,0:01:10.83,Emph,,0,0,0,,{\pos(540,1190)}OS{\alpha&HFF&} OTIMISTAS.
+Dialogue: 1,0:01:10.83,0:01:10.87,Emph,,0,0,0,,{\pos(540,1190)}OS O{\alpha&HFF&}TIMISTAS.
+Dialogue: 1,0:01:10.87,0:01:10.90,Emph,,0,0,0,,{\pos(540,1190)}OS OT{\alpha&HFF&}IMISTAS.
+Dialogue: 1,0:01:10.90,0:01:10.94,Emph,,0,0,0,,{\pos(540,1190)}OS OTI{\alpha&HFF&}MISTAS.
+Dialogue: 1,0:01:10.94,0:01:10.97,Emph,,0,0,0,,{\pos(540,1190)}OS OTIM{\alpha&HFF&}ISTAS.
+Dialogue: 1,0:01:10.97,0:01:11.01,Emph,,0,0,0,,{\pos(540,1190)}OS OTIMI{\alpha&HFF&}STAS.
+Dialogue: 1,0:01:11.01,0:01:11.05,Emph,,0,0,0,,{\pos(540,1190)}OS OTIMIS{\alpha&HFF&}TAS.
+Dialogue: 1,0:01:11.05,0:01:11.08,Emph,,0,0,0,,{\pos(540,1190)}OS OTIMIST{\alpha&HFF&}AS.
+Dialogue: 1,0:01:11.08,0:01:11.12,Emph,,0,0,0,,{\pos(540,1190)}OS OTIMISTA{\alpha&HFF&}S.
+Dialogue: 1,0:01:11.12,0:01:11.15,Emph,,0,0,0,,{\pos(540,1190)}OS OTIMISTAS{\alpha&HFF&}.
+Dialogue: 1,0:01:11.15,0:01:12.15,Emph,,0,0,0,,{\pos(540,1190)}OS OTIMISTAS.{\alpha&HFF&}
+Dialogue: 1,0:01:26.68,0:01:26.72,Emph,,0,0,0,,{\pos(540,1190)}M{\alpha&HFF&}ÊS QUE VEM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.72,0:01:26.75,Emph,,0,0,0,,{\pos(540,1190)}MÊ{\alpha&HFF&}S QUE VEM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.75,0:01:26.79,Emph,,0,0,0,,{\pos(540,1190)}MÊS{\alpha&HFF&} QUE VEM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.79,0:01:26.82,Emph,,0,0,0,,{\pos(540,1190)}MÊS Q{\alpha&HFF&}UE VEM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.82,0:01:26.86,Emph,,0,0,0,,{\pos(540,1190)}MÊS QU{\alpha&HFF&}E VEM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.86,0:01:26.89,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE{\alpha&HFF&} VEM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.89,0:01:26.93,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE V{\alpha&HFF&}EM\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.93,0:01:26.97,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VE{\alpha&HFF&}M\NÉ O SEU NATAL.
+Dialogue: 1,0:01:26.97,0:01:27.00,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM{\alpha&HFF&}\NÉ O SEU NATAL.
+Dialogue: 1,0:01:27.00,0:01:27.04,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ{\alpha&HFF&} O SEU NATAL.
+Dialogue: 1,0:01:27.04,0:01:27.07,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O{\alpha&HFF&} SEU NATAL.
+Dialogue: 1,0:01:27.07,0:01:27.11,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O S{\alpha&HFF&}EU NATAL.
+Dialogue: 1,0:01:27.11,0:01:27.14,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SE{\alpha&HFF&}U NATAL.
+Dialogue: 1,0:01:27.14,0:01:27.18,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU{\alpha&HFF&} NATAL.
+Dialogue: 1,0:01:27.18,0:01:27.22,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU N{\alpha&HFF&}ATAL.
+Dialogue: 1,0:01:27.22,0:01:27.25,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU NA{\alpha&HFF&}TAL.
+Dialogue: 1,0:01:27.25,0:01:27.29,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU NAT{\alpha&HFF&}AL.
+Dialogue: 1,0:01:27.29,0:01:27.32,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU NATA{\alpha&HFF&}L.
+Dialogue: 1,0:01:27.32,0:01:27.36,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU NATAL{\alpha&HFF&}.
+Dialogue: 1,0:01:27.36,0:01:28.80,Emph,,0,0,0,,{\pos(540,1190)}MÊS QUE VEM\NÉ O SEU NATAL.{\alpha&HFF&}
+Dialogue: 2,0:00:00.00,0:00:04.85,Hook,,0,0,0,,{\pos(540,664)}ESSE CARA É UM DOS
+Dialogue: 2,0:00:00.00,0:00:04.85,Hook,,0,0,0,,{\pos(540,757)}MILITARES MAIS
+Dialogue: 2,0:00:00.00,0:00:04.85,Hook,,0,0,0,,{\pos(540,850)}TORTURADOS E MAIS
+Dialogue: 2,0:00:00.00,0:00:04.85,Hook,,0,0,0,,{\pos(540,943)}ESTUDADOS DOS
+Dialogue: 2,0:00:00.00,0:00:04.85,Hook,,0,0,0,,{\pos(540,1036)}ESTADOS UNIDOS.
