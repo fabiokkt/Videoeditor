@@ -4,7 +4,10 @@ description: Edita um vídeo bruto de talking-head no formato de reel viral do u
 ---
 
 
-> **Neste repositório (sessão na nuvem):** o kit está em `kit-edicao-reel/kit/` (docs, `modelo-projeto/`, `exemplos/`, `skill/`), remontado a partir de `kit-edicao-reel/0..5-*.md`. Comece por `kit-edicao-reel/1-MANUAL-DO-FORMATO.md`. Os binários de `assets-fixos/` (trilha, SFX, light-leak, fontes, `face_landmarker.task`) não vêm nos .md: precisam ser enviados à parte.
+> **Neste repositório (sessão na nuvem):** o kit está em `kit-edicao-reel/kit/` (docs, `modelo-projeto/`, `exemplos/`, `skill/`), remontado a partir de `kit-edicao-reel/0..5-*.md`. Comece por `kit-edicao-reel/1-MANUAL-DO-FORMATO.md`. Os binários de `assets-fixos/` (trilha, SFX, light-leak, fontes, `face_landmarker.task`) não vêm nos .md: já estão em `kit-edicao-reel/kit/assets-fixos/`. O ambiente
+> (ferramentas, venv, whisper, HyperFrames, Codex, adaptadores do macOS) sai do script `kit-edicao-reel/ambiente-nuvem.sh`,
+> colado no "Script de configuração" do ambiente; se a sessão começar sem ele, rodar `bash kit-edicao-reel/ambiente-nuvem.sh`.
+> Imagem a pedido (capa): `codex login --device-auth` (o Fabio digita o código) e `codex logout` no fim.
 
 # Edição de reel viral — porta de entrada do kit
 
