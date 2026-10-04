@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
+# reel-rich-diviney: arquivos pesados gerados (mezanino, áudio de trabalho, renders)
+reel-rich-diviney/assets/*.mp4
+reel-rich-diviney/assets/*.m4a
+reel-rich-diviney/work/*.wav
+reel-rich-diviney/work/*.m4a
+reel-rich-diviney/work/reg/
+reel-rich-diviney/renders/
+reel-rich-diviney/node_modules/
+_pesquisa-fotos/raw/

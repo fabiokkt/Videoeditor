@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1440, height=2560">
+    <title>Reel Rich Diviney</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1440px;
+        height: 2560px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1440px;
+        height: 2560px;
+        overflow: hidden;
+        background: #000;
+      }
+      /* Palco na geometria calibrada (1080x1920) escalado para a saida 2K.
+         Assim fonte, caixa do gancho, splitShiftY e recortes continuam com os
+         mesmos numeros validados — muda so a resolucao de rasterizacao. */
+      #stage {
+        position: absolute;
+        top: 0; left: 0;
+        width: 1080px;
+        height: 1920px;
+        transform: scale(1.3333333333);
+        transform-origin: 0 0;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-weight: 600;
+        src: url("assets/fonts/Montserrat-600.woff2") format("woff2"), url("assets/fonts/Montserrat-600-ext.woff2") format("woff2");
+      }
+      /* Gancho (capa): fonte condensada pesada, estilo da referência do reel Natura */
+      @font-face {
+        font-family: "Oswald";
+        font-weight: 700;
+        src: url("assets/fonts/Oswald-700.woff2") format("woff2"), url("assets/fonts/Oswald-700-ext.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-weight: 800;
+        src: url("assets/fonts/Montserrat-800.woff2") format("woff2"), url("assets/fonts/Montserrat-800-ext.woff2") format("woff2");
+      }
+      /* Corte com zoom: wrapper interno que muda de escala nos cortes (sem duplicar <video>) */
+      #presenter-zoom {
+        position: absolute;
+        inset: 0;
+      }
+      /* Apresentador em wrapper não-temporizado (desce durante os splits) */
+      #presenter-wrap {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+      }
+      #presenter-zoom > video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      /* B-roll tela cheia (cutaway) — wrapper não-temporizado anima o Ken Burns */
+      .broll-full-wrap {
+        position: absolute;
+        inset: 0;
+        z-index: 20;
+        overflow: hidden;
+      }
+      .broll-full-wrap > video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      /* bakedBroll: faixa unica com todas as cenas de tela cheia; comeca escondida e o gerador
+         liga/desliga por tl.set nas janelas de cada cena */
+      #bfw-all {
+        visibility: hidden;
+        opacity: 0;
+      }
+      /* B-roll do split: 44% de cima (tela de baixo maior); wrapper desliza na transição */
+      .broll-split-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 44%;
+        z-index: 20;
+        overflow: hidden;
+      }
+      .broll-split-wrap > video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      /* Light-leak por cima de tudo, blend screen (flash quente) */
+      video.leak {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        mix-blend-mode: screen;
+        opacity: 0.85;
+        z-index: 40;
+      }
+      /* Legenda padrão: Montserrat 600, branca sem contorno, centro a 44% */
+      .cap {
+        position: absolute;
+        left: 50%;
+        top: 44%;
+        transform: translate(-50%, -50%);
+        z-index: 60;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 47px;
+        line-height: 1.2;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        text-shadow:
+          0 0 7px rgba(0, 0, 0, 0.9),
+          0 0 20px rgba(0, 0, 0, 0.75),
+          0 3px 16px rgba(0, 0, 0, 0.65);
+      }
+      /* LEGADO (formato antigo, antes do reel O Boticário): caixa amarela nas legendas do gancho.
+         Só usada se o plano tiver "hookSeg": null + "yellowCapSegs". */
+      .cap.cap-yellow {
+        color: #000;
+        background: #ffdd00;
+        padding: 8px 26px;
+        border-radius: 14px;
+        text-shadow: none;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+      }
+      /* Gancho (hookSeg): a frase INTEIRA desde o frame 0 — serve de capa do reel.
+         Caixa laranja vivo com brilho; letras brancas com contorno escuro e sombra dura. */
+      .cap.cap-hook {
+        top: 44%;
+        width: 1016px;
+        white-space: normal;
+        text-shadow: none;
+      }
+      .cap-hook .hook-box {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        padding: 14px 14px 20px;
+        border-radius: 22px;
+        background: linear-gradient(180deg, #ff6a2b 0%, #ff4a1c 55%, #f23a0e 100%);
+        border: 6px solid #ffffff;
+        box-shadow:
+          0 0 0 4px rgba(0, 0, 0, 0.55),
+          0 0 44px 10px rgba(255, 74, 28, 0.85),
+          0 12px 34px rgba(0, 0, 0, 0.5);
+      }
+      /* Caixa alta, grande, condensada: letras brancas com contorno escuro e sombra dura */
+      .cap-hook .hook-text {
+        position: relative;
+        z-index: 2;
+        display: block;
+        font-family: "Oswald", "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 1.03;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #ffffff;
+        paint-order: stroke fill;
+        -webkit-text-stroke: 12px #141414;
+        text-shadow:
+          0 7px 0 #141414,
+          0 10px 18px rgba(0, 0, 0, 0.5);
+      }
+      .cap-hook .hook-shine {
+        position: absolute;
+        top: -20%;
+        left: 0;
+        width: 38%;
+        height: 140%;
+        z-index: 1;
+        transform: translateX(-160%) skewX(-18deg);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.55) 50%, rgba(255, 255, 255, 0) 100%);
+      }
+      /* Apresentador sozinho em tela cheia: legenda desce pra não cobrir o rosto */
+      .cap.cap-low {
+        top: 76%;
+      }
+      /* Legenda de impacto: maior, caixa alta, centro a 30% */
+      .cap-big {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        z-index: 62;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 76px;
+        line-height: 1.14;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        paint-order: stroke fill;
+        -webkit-text-stroke: 10px #000;
+        text-shadow: 0 4px 18px rgba(0, 0, 0, 0.6);
+      }
+      .cap-big .inner {
+        display: inline-block;
+      }
+      /* Caracteres do efeito de digitação começam invisíveis */
+      .cap-big .tc {
+        opacity: 0;
+        visibility: hidden;
+      }
+      /* ---- Toggle de camadas (pacote conformável para NLE) ----
+         Aplicado via classe no <html> nos arquivos pass-*.html gerados pelo
+         build-edit.mjs. O index.html fica sempre com tudo visível.
+           layers-clean → picture (apresentador + B-roll), sem grafismo
+           layers-gfx   → só legendas e callouts, fundo transparente
+           layers-leaks → só light-leaks, fundo transparente (blend screen no NLE) */
+      html.layers-clean .cap,
+      html.layers-clean .cap-big,
+      html.layers-clean video.leak {
+        display: none !important;
+      }
+      html.layers-gfx #presenter-wrap,
+      html.layers-gfx .broll-full-wrap,
+      html.layers-gfx .broll-split-wrap,
+      html.layers-gfx video.leak {
+        display: none !important;
+      }
+      html.layers-leaks #presenter-wrap,
+      html.layers-leaks .broll-full-wrap,
+      html.layers-leaks .broll-split-wrap,
+      html.layers-leaks .cap,
+      html.layers-leaks .cap-big {
+        display: none !important;
+      }
+      html.layers-gfx video.leak,
+      html.layers-leaks video.leak {
+        mix-blend-mode: normal;
+      }
+      html.layers-gfx,
+      html.layers-gfx body,
+      html.layers-gfx #root,
+      html.layers-leaks,
+      html.layers-leaks body,
+      html.layers-leaks #root {
+        background: transparent !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="1440" data-height="2560">
+    <div id="stage">
+    <!-- EDIT:BEGIN (gerado por scripts/build-edit.mjs — não editar à mão) -->
+    <!-- EDIT:END -->
+    </div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      // EDIT-TWEENS:BEGIN (gerado — crossfades, splits, callouts, trilha)
+      // EDIT-TWEENS:END
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

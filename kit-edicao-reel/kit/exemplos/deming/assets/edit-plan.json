@@ -1,0 +1,325 @@
+{
+ "_nota": "Reel Deming — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/deming-2560-sdr.mp4",
+ "voiceSrc": "assets/deming-voz.m4a",
+ "segments": [
+  {
+   "in": 0.4,
+   "out": 6.89,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 6.56
+  },
+  {
+   "in": 6.83,
+   "out": 13.29,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 12.96
+  },
+  {
+   "in": 23.01,
+   "out": 27.83,
+   "label": "DEMING-AULA",
+   "chunk": 2,
+   "aout": 27.5
+  },
+  {
+   "in": 27.53,
+   "out": 29.75,
+   "label": "MEDALHA",
+   "chunk": 3,
+   "aout": 29.42
+  },
+  {
+   "in": 29.43,
+   "out": 34.61,
+   "label": "PREMIO",
+   "chunk": 4,
+   "aout": 34.28
+  },
+  {
+   "in": 34.73,
+   "out": 41.67,
+   "label": "ESSE-PROTOCOLO",
+   "chunk": 5,
+   "aout": 41.34
+  },
+  {
+   "in": 41.61,
+   "out": 44.69,
+   "label": "P1-TROCA-CULPADO",
+   "chunk": 6,
+   "aout": 44.36
+  },
+  {
+   "in": 44.41,
+   "out": 49.21,
+   "label": "P1-TRES-VENDEDORES",
+   "chunk": 7,
+   "aout": 48.88
+  },
+  {
+   "in": 49.07,
+   "out": 52.11,
+   "label": "P1-NAO-E-VENDEDOR",
+   "chunk": 8,
+   "aout": 51.78
+  },
+  {
+   "in": 51.85,
+   "out": 58.35,
+   "label": "P1-NOVENTA-E-QUATRO",
+   "chunk": 9,
+   "aout": 58.02
+  },
+  {
+   "in": 62.33,
+   "out": 65.71,
+   "label": "P1-MEU-QUERIDO",
+   "chunk": 10,
+   "aout": 65.38
+  },
+  {
+   "in": 65.63,
+   "out": 68.23,
+   "label": "P2-RANKING",
+   "chunk": 11,
+   "aout": 67.9
+  },
+  {
+   "in": 68.01,
+   "out": 72.69,
+   "label": "P2-UM-CONTRA-OUTRO",
+   "chunk": 12,
+   "aout": 72.36
+  },
+  {
+   "in": 72.39,
+   "out": 77.39,
+   "label": "P2-ESCONDE-CLIENTE",
+   "chunk": 13,
+   "aout": 77.06
+  },
+  {
+   "in": 79.73,
+   "out": 82.11,
+   "label": "P2-RANKING-ENSINOU",
+   "chunk": 14,
+   "aout": 81.78
+  },
+  {
+   "in": 82.11,
+   "out": 85.53,
+   "label": "P3-CARTAZ",
+   "chunk": 15,
+   "aout": 85.2
+  },
+  {
+   "in": 85.25,
+   "out": 89.39,
+   "label": "P3-FAZ-CERTO",
+   "chunk": 16,
+   "aout": 89.06
+  },
+  {
+   "in": 89.15,
+   "out": 94.47,
+   "label": "P3-COBRA",
+   "chunk": 17,
+   "aout": 94.14
+  },
+  {
+   "in": 97.61,
+   "out": 101.57,
+   "label": "P3-GAFANHOTO",
+   "chunk": 18,
+   "aout": 101.24
+  },
+  {
+   "in": 101.37,
+   "out": 104.51,
+   "label": "VIRADA-CAIXA",
+   "chunk": 19,
+   "aout": 104.18
+  },
+  {
+   "in": 104.19,
+   "out": 106.83,
+   "label": "VIRADA-FABRICA",
+   "chunk": 20,
+   "aout": 106.5
+  },
+  {
+   "in": 106.77,
+   "out": 110.21,
+   "label": "BOLA-PA",
+   "chunk": 21,
+   "aout": 109.88
+  },
+  {
+   "in": 110.27,
+   "out": 112.61,
+   "label": "BOLA-VERMELHA",
+   "chunk": 22,
+   "aout": 112.28
+  },
+  {
+   "in": 112.39,
+   "out": 118.27,
+   "label": "BOLA-CHEFE",
+   "chunk": 23,
+   "aout": 117.94
+  },
+  {
+   "in": 118.19,
+   "out": 120.99,
+   "label": "BOLA-DEMITIA",
+   "chunk": 24,
+   "aout": 120.66
+  },
+  {
+   "in": 120.77,
+   "out": 123.37,
+   "label": "BOLA-NAO-DIMINUIA",
+   "chunk": 25,
+   "aout": 123.04
+  },
+  {
+   "in": 123.25,
+   "out": 126.67,
+   "label": "CLIMAX-UMA-EM-CINCO",
+   "chunk": 26,
+   "aout": 126.34
+  },
+  {
+   "in": 126.61,
+   "out": 128.99,
+   "label": "CLIMAX-SO-ERRA",
+   "chunk": 27,
+   "aout": 128.66
+  },
+  {
+   "in": 128.71,
+   "out": 130.35,
+   "label": "CLIMAX-OLHA-A-CAIXA",
+   "chunk": 28,
+   "aout": 130.02
+  },
+  {
+   "in": 130.27,
+   "out": 136.59,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 29,
+   "aout": 136.59
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 18,
+   "name": "PASSO 3 -> VIRADA (a caixa de bolinhas)"
+  },
+  {
+   "afterSegment": 25,
+   "name": "VIRADA -> CLIMAX (uma em cada cinco)"
+  },
+  {
+   "afterSegment": 28,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.99102
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 19,
+   "toSeg": 20,
+   "span": [
+    0.00043,
+    0.99936
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "nao resolve nada",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "NÃO RESOLVE",
+    "NADA."
+   ],
+   "hold": 0.9,
+   "top": 6
+  },
+  {
+   "phrase": "foi voce meu querido",
+   "seg": 10,
+   "lines": [
+    "FOI",
+    "VOCÊ."
+   ],
+   "hold": 0.7
+  },
+  {
+   "phrase": "foi o ranking que ensinou",
+   "seg": 14,
+   "lines": [
+    "FOI O RANKING",
+    "QUE ENSINOU."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "so erra meu amigo",
+   "seg": 27,
+   "lines": [
+    "SÓ",
+    "ERRA?"
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 520,
+ "ctaSeg": 29,
+ "_splitShiftY": "400 e so o valor inicial: MEDIR pelos olhos (docs/05, secao Split-screen). Nunca copiar de outro reel.",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}
