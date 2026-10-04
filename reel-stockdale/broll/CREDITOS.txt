@@ -1,0 +1,16 @@
+cand/stock_4.jpg | File:US Navy 050706-N-0000X-001 Vice Admiral James B. Stockdale.jpg | Public domain | 1335 x 1807
+cand/stock_5.jpg | File:US Navy 050706-N-0000X-004 Vice Admiral James Bond Stockdale.jpg | Public domain | 2636 x 3368
+cand/hoalo_0.jpg | File:Hoa Lo Prison (Maison Centrale), Hanoi (6923115824).jpg | CC BY 2.0 | 3216 x 1809
+cand/hoalo_1.jpg | File:Hanoi Prison 1.tif | Public domain | 957 x 793
+cand/hoalo_2.jpg | File:HanoiHilton.jpg | Public domain | 2280 x 1808
+cand/hoalo_4.jpg | File:Hanoi Hilton Bed, Hoa Lo Prison, Hanoi (6923098932).jpg | CC BY 2.0 | 3095 x 1741
+cand/a4_1.jpg | File:Douglas A-4E Skyhawks of VMA-311 in flight during a mission over Vietnam on 11 March 1971 (26380515).jpg | Public domain | 1819 x 1450
+cand/a4_3.jpg | File:A-4 Skyhawk, VMA-211, circa 1968.jpg | CC BY 2.0 | 2967 x 2451
+cand/strel_2.jpg | File:428-GX-K-123559 (26666110985).jpg | Public domain | 1620 x 2456
+cand/xmas_0.jpg | File:Kirk Ella 'Golden Mile' Christmas Lights 2023, West Ella Christmas Tree and Archway.jpg | CC BY-SA 4.0 | 4176 x 2784
+cand/xmas_1.jpg | File:White Christmas Tree Lights at Night.jpg | CC0 | 3456 x 4608
+cand/xmas_5.jpg | File:Glowing Christmas Tree Lights in the Winter Night.jpg | CC BY 2.0 | 4592 x 2576
+cand/easter_5.jpg | File:Bg-easter-eggs.jpg | CC BY-SA 3.0 | 2048 x 2048
+cand/epic_1.jpg | File:Epictetus from L. Annaei Senecae philosophi Opera, 1605, title page detail.png | Public domain | 750 x 1000
+
+us_* = Unsplash (licença Unsplash), id da foto no nome do arquivo.
