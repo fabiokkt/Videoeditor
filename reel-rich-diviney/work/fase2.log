@@ -1,0 +1,21 @@
+bipes [(60.255, 60.745)] gravados em assets/rich-diviney-voz.m4a e work/full.wav
+
+rate 1.1 · lead 0.33s de source · respiro alvo 0.245s de timeline
+  pausa curta P2-VER-O-PIOR-P3 | P3-CADEIRA: fala a fala 0.26s -> emenda em 75.957 (respiro 0.236s)
+source 112.14s -> /1.1 menos 30 leads = 96.95s
+31 segments
+31 chunks
+OK: 31 segs, 92.944s, 0 cenas de broll (0 tomadas), 4 sfx, 107 legendas, 0 callouts, 0 leaks, J-cut 9f/3f.
+  voz-mix.m4a  31 takes
+  bed.m4a  trilha + 4 SFX
+  aroll.mp4  5577 quadros (timeline 5577) · 31 takes
+  leaks.mp4  5577 quadros (timeline 5577) · 0 leaks
+emendas 30 · buracos 0 · crossfade sobre fala: nenhum
+lead de FALA (quadros): mediana 4.9 · min 4.9 · max 5.1 -> [4.9, 5.1]
+respiro entre falas: mediana 0.245s · min 0.236 · max 0.245
+3070 amostras na timeline (3070 com rosto)
+20 janelas, 6.4s (mediana side -0.050 down 0.328)
+16 janelas, 4.2s (K=2.0)
+recorte do rosto: 756x544 em (313,1083) de 1440x2560
+28 janelas -> gaze/me/g00..g02.jpg
+FASE 2 OK -> work/chunks.txt (indices p/ captions_fix_table.py) · work/tl-words.txt (tempos) · gaze/me/*.jpg (olhar)

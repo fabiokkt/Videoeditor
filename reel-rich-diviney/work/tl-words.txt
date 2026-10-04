@@ -1,0 +1,32 @@
+ 0 GANCHO                 0.00-  5.12 (5.12)  Esse@0.26 cara@0.30 é@0.62 um@0.69 dos@0.84 militares@1.08 mais@1.78 carrascos@2.10 e@2.86 mais@3.01 copiados@3.19 dos@3.71 Estados@3.90 Unidos.@4.37
+ 1 PROTOCOLO-POLEMICO     5.12- 11.02 (5.90)  E@4.98 ele@4.98 criou@4.98 um@5.26 protocolo@5.40 polêmico@6.06 pra@6.69 provar@6.90 que@7.26 o@7.43 melhor@7.49 candidato@7.84 pode@8.40 ser@8.68 o@8.89 que@8.95 não@9.22 sabe@9.40 fazer@9.62 o@9.92 trabalho.@10.12
+ 2 RICH-ELITE            11.02- 14.39 (3.37)  Rich@10.90 escolhia@10.92 quem@11.54 entrava@11.80 na@12.33 elite@12.47 da@12.84 elite@12.99 dos@13.36 SEALs.@13.59
+ 3 METADE-REPROVAVA      14.39- 18.69 (4.30)  Só os@14.26 melhores@14.58 SEALs@15.11 se@15.45 candidatavam@15.61 e@16.64 metade@16.89 reprovava.@17.34
+ 4 PROTOCOLO-CURRICULO   18.69- 22.25 (3.55)  E@18.55 esse@18.80 é@18.81 o@18.86 protocolo@18.91 pra@19.37 você@19.58 parar@19.80 de@20.02 se@20.13 apaixonar@20.23 por@20.75 currículo.@20.98
+ 5 P1-PRIMEIRO           22.25- 27.31 (5.06)  Primeiro,@22.15 separa@22.88 o@23.05 que@23.12 dá@23.35 pra@23.55 ensinar.@23.83 Pra@24.36 cada@24.88 coisa@25.10 que@25.56 a@25.76 vaga@25.83 pede@26.11 e@26.36 pergunta:@26.41
+ 6 P1-PLANILHA           27.31- 29.52 (2.21)  Dá@27.14 pra@27.14 ensinar?@27.39 Planilha,@27.86 dá.@28.70
+ 7 P1-PACIENCIA          29.52- 34.05 (4.54)  Paciência@29.42 não@30.22 dá.@30.57 Ele@31.00 diz@31.01 que@31.20 currículo@31.40 só@31.99 mostra@32.12 o@32.56 que@32.58 dá@32.77 pra@32.96 ensinar.@33.16
+ 8 P1-MEU-QUERIDO        34.05- 36.10 (2.05)  E@33.94 é@33.98 só@34.17 isso@34.19 que@34.41 você@34.58 lê,@34.82 meu@35.05 querido.@35.22
+ 9 P2-SEGUNDO            36.10- 36.78 (0.68)  Segundo,@35.98
+10 P2-PIOR-DIA           36.78- 38.28 (1.50)  Pergunta@36.68 pelo@37.08 pior@37.35 dia.@37.66
+11 P2-QUEM-E             38.28- 40.40 (2.12)  Ele@38.16 diz@38.20 que@38.37 a@38.61 pessoa@38.64 só@39.06 mostra@39.19 quem@39.61 é@39.74
+12 P2-BIPE               40.40- 41.52 (1.12)  quando@40.28 dá@40.39 M****.@40.65
+13 P2-ENTREVISTA         41.52- 45.51 (3.99)  Na@41.40 entrevista,@41.65 me@42.35 conta@42.43 o@42.71 dia@42.76 que@42.98 tudo@43.16 deu@43.33 errado@43.49 no@43.85 seu@43.99 último@44.19 emprego.@44.60
+14 P2-O-QUE-FEZ          45.51- 46.63 (1.12)  O@45.35 que@45.53 você@45.59 fez?@45.86
+15 P2-MELHOR-DIA         46.63- 48.82 (2.19)  Currículo@46.51 mostra@47.14 o@47.54 melhor@47.62 dia.@48.12
+16 P2-VER-O-PIOR-P3      48.82- 53.01 (4.19)  Você@48.72 precisa@48.77 ver@49.29 o@49.60 pior.@49.61 E@50.16 terceiro,@50.40 antes@51.30 de@51.57 mandar@52.06 embora,@52.19
+17 P3-CADEIRA            53.01- 54.24 (1.24)  troca@52.89 de@53.01 cadeira.@53.14
+18 P3-MARINHEIRA         54.24- 58.27 (4.03)  Ele@54.15 tinha@54.48 uma@54.59 marinheira@54.76 que@55.33 não@55.61 rendia@55.82 e@56.32 derrubava@56.52 o@56.99 clima@57.05 do@57.39 setor.@57.52
+19 P3-DECOLOU            58.27- 61.15 (2.88)  Ele@58.14 só@58.14 mudou@58.14 ela@58.55 de@58.83 função@59.01 e@59.65 ela@59.84 decolou.@59.92
+20 P3-GAFANHOTO          61.15- 63.84 (2.68)  Às@60.80 vezes@60.80 a@60.87 pessoa@61.20 não@61.38 é@61.55 ruim,@61.62 pequeno@62.03 gafanhoto.@62.56
+21 P3-CADEIRA-ERRADA     63.84- 65.15 (1.32)  Tá@63.74 na@63.91 cadeira@63.96 errada.@64.38
+22 VIRADA-PISCINA        65.15- 66.91 (1.76)  E@65.04 a@65.20 virada@65.25 foi@65.81 uma@65.89 piscina.@66.08
+23 VIRADA-MOLEQUE        66.91- 71.19 (4.28)  Ele@66.81 conta@66.91 que@67.10 o@67.28 moleque@67.32 apareceu@67.73 no@68.23 treinamento@68.31 dos@68.94 SEALs@69.07 pro@69.36 teste@69.74 de@70.12 natação.@70.28
+24 VIRADA-AFUNDOU        71.19- 75.11 (3.92)  Pulou,@71.09 afundou@71.72 e@72.27 atravessou@72.53 a@72.99 piscina@73.06 andando@73.53 no@73.99 fundo.@74.12
+25 VIRADA-NAO-SEI-NADAR  75.11- 77.83 (2.72)  Subiu@74.95 sem@75.22 ar.@75.28 Desculpa,@75.90 eu@76.34 não@76.67 sei@76.69 nadar.@76.87
+26 VIRADA-INSTRUTOR      77.83- 79.25 (1.43)  E@77.71 o@77.78 instrutor,@77.98 tudo@78.72 bem?@78.78
+27 CLIMAX-NADAR          79.25- 81.84 (2.59)  Nadar,@79.14 a@79.50 gente@79.71 ensina.@80.03 Coragem.@81.02
+28 CLIMAX-CORAGEM        81.84- 87.27 (5.43)  Coragem@81.71 de@82.19 aparecer@82.33 ali,@82.88 ninguém@83.34 ensina.@83.75 Você@84.58 reprova@84.58 esse@84.97 moleque@85.05 no@85.46 currículo,@85.62 meu@86.20 amigo?@86.48
+29 FECHO-NADAR           87.27- 89.01 (1.74)  Nadar@87.14 a@87.39 gente@87.62 ensina.@87.99
+30 CTA-ME-SEGUE          89.01- 92.94 (3.94)  Se@88.85 você@89.13 se@89.22 apaixona@89.34 por@89.82 currículo,@90.00 me@90.66 segue,@90.82 porque@91.57 você@91.85 é@92.23 demais.@92.46
+TOTAL 92.944

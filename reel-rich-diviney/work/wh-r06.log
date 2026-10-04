@@ -1,0 +1,69 @@
+whisper_init_from_file_with_params_no_state: loading model from '/root/.cache/whisper/ggml-large-v3-turbo.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 1
+whisper_init_with_params_no_state: backends   = 1
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:          AMX total size =  1468.01 MB
+whisper_model_load:          CPU total size =   155.91 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: CPU (type: 0)
+whisper_backend_init_gpu: no GPU found
+whisper_init_state: kv self size  =   10.49 MB
+whisper_init_state: kv cross size =   31.46 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   36.15 MB
+whisper_init_state: compute buffer (encode) =   55.35 MB
+whisper_init_state: compute buffer (cross)  =    9.27 MB
+whisper_init_state: compute buffer (decode) =   99.12 MB
+read_audio_data: reading audio data from 'work/reg/r06.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | AMX_INT8 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'work/reg/r06.wav' (83600 samples, 5.2 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.300]  
+[00:00:00.300 --> 00:00:01.230]   paciência
+[00:00:01.230 --> 00:00:01.640]   não
+[00:00:01.640 --> 00:00:02.150]   dá
+[00:00:02.150 --> 00:00:02.160]   ele
+[00:00:02.160 --> 00:00:02.380]   diz
+[00:00:02.380 --> 00:00:02.610]   que
+[00:00:02.610 --> 00:00:03.300]   currículo
+[00:00:03.300 --> 00:00:03.450]   só
+[00:00:03.450 --> 00:00:03.970]   mostra
+[00:00:03.970 --> 00:00:03.990]   o
+[00:00:03.990 --> 00:00:04.210]   que
+[00:00:04.210 --> 00:00:04.430]   dá
+[00:00:04.430 --> 00:00:04.660]   para
+[00:00:04.660 --> 00:00:05.220]   ensinar
+output_json: saving output to 'work/reg/r06.json'
+
+whisper_print_timings:     load time =  1129.47 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    10.68 ms
+whisper_print_timings:   sample time =   143.69 ms /   109 runs (     1.32 ms per run)
+whisper_print_timings:   encode time =  8893.46 ms /     1 runs (  8893.46 ms per run)
+whisper_print_timings:   decode time =    67.32 ms /     5 runs (    13.46 ms per run)
+whisper_print_timings:   batchd time =  1145.63 ms /   102 runs (    11.23 ms per run)
+whisper_print_timings:   prompt time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:    total time = 11695.12 ms

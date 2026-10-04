@@ -1,0 +1,27 @@
+{
+ "total": 92.944,
+ "dur": 0.7,
+ "file": "assets/transicao-light-leak.mp4",
+ "leaks": [
+  {
+   "start": 10.637,
+   "nome": "sai "
+  },
+  {
+   "start": 64.817,
+   "nome": "entra "
+  },
+  {
+   "start": 70.857,
+   "nome": "sai "
+  },
+  {
+   "start": 78.921,
+   "nome": "VIRADA -> CLIMAX (coragem ninguem ensina)"
+  },
+  {
+   "start": 88.675,
+   "nome": "FECHO -> CTA"
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+ "total": 92.944,
+ "fps": 30,
+ "rate": 1.1,
+ "voiceSrc": "assets/rich-diviney-voz.m4a",
+ "voice": [
+  {
+   "label": "GANCHO",
+   "start": 0,
+   "dur": 4.918,
+   "in": 0.32,
+   "out": 5.73,
+   "first": true,
+   "xfade": 0.1
+  },
+  {
+   "label": "PROTOCOLO-POLEMICO",
+   "start": 4.818,
+   "dur": 6,
+   "in": 5.73,
+   "out": 12.33,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "RICH-ELITE",
+   "start": 10.718,
+   "dur": 3.473,
+   "in": 17.47,
+   "out": 21.29,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "METADE-REPROVAVA",
+   "start": 14.091,
+   "dur": 4.4,
+   "in": 21.25,
+   "out": 26.09,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "PROTOCOLO-CURRICULO",
+   "start": 18.391,
+   "dur": 3.655,
+   "in": 30.97,
+   "out": 34.991,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P1-PRIMEIRO",
+   "start": 21.946,
+   "dur": 5.164,
+   "in": 37.31,
+   "out": 42.99,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P1-PLANILHA",
+   "start": 27.01,
+   "dur": 2.309,
+   "in": 42.89,
+   "out": 45.43,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P1-PACIENCIA",
+   "start": 29.219,
+   "dur": 4.636,
+   "in": 45.49,
+   "out": 50.59,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P1-MEU-QUERIDO",
+   "start": 33.755,
+   "dur": 2.145,
+   "in": 52.41,
+   "out": 54.769,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-SEGUNDO",
+   "start": 35.8,
+   "dur": 0.782,
+   "in": 54.83,
+   "out": 55.69,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-PIOR-DIA",
+   "start": 36.482,
+   "dur": 1.6,
+   "in": 55.59,
+   "out": 57.35,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-QUEM-E",
+   "start": 37.982,
+   "dur": 2.218,
+   "in": 57.29,
+   "out": 59.73,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-BIPE",
+   "start": 40.1,
+   "dur": 1.218,
+   "in": 59.65,
+   "out": 60.99,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-ENTREVISTA",
+   "start": 41.218,
+   "dur": 4.091,
+   "in": 62.91,
+   "out": 67.41,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-O-QUE-FEZ",
+   "start": 45.209,
+   "dur": 1.218,
+   "in": 67.49,
+   "out": 68.83,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-MELHOR-DIA",
+   "start": 46.327,
+   "dur": 2.291,
+   "in": 68.91,
+   "out": 71.43,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P2-VER-O-PIOR-P3",
+   "start": 48.518,
+   "dur": 4.288,
+   "in": 71.35,
+   "out": 76.067,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P3-CADEIRA",
+   "start": 52.706,
+   "dur": 1.339,
+   "in": 75.957,
+   "out": 77.43,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P3-MARINHEIRA",
+   "start": 53.945,
+   "dur": 4.127,
+   "in": 79.27,
+   "out": 83.81,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P3-DECOLOU",
+   "start": 57.972,
+   "dur": 2.982,
+   "in": 83.85,
+   "out": 87.13,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P3-GAFANHOTO",
+   "start": 60.854,
+   "dur": 2.782,
+   "in": 87.07,
+   "out": 90.13,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "P3-CADEIRA-ERRADA",
+   "start": 63.536,
+   "dur": 1.418,
+   "in": 90.11,
+   "out": 91.67,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "VIRADA-PISCINA",
+   "start": 64.854,
+   "dur": 1.855,
+   "in": 91.71,
+   "out": 93.75,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "VIRADA-MOLEQUE",
+   "start": 66.609,
+   "dur": 4.382,
+   "in": 97.59,
+   "out": 102.41,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "VIRADA-AFUNDOU",
+   "start": 70.891,
+   "dur": 4.018,
+   "in": 102.37,
+   "out": 106.79,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "VIRADA-NAO-SEI-NADAR",
+   "start": 74.809,
+   "dur": 2.818,
+   "in": 106.85,
+   "out": 109.95,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "VIRADA-INSTRUTOR",
+   "start": 77.527,
+   "dur": 1.527,
+   "in": 109.87,
+   "out": 111.55,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "CLIMAX-NADAR",
+   "start": 78.954,
+   "dur": 2.691,
+   "in": 112.35,
+   "out": 115.31,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "CLIMAX-CORAGEM",
+   "start": 81.545,
+   "dur": 5.527,
+   "in": 116.05,
+   "out": 122.13,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "FECHO-NADAR",
+   "start": 86.972,
+   "dur": 1.836,
+   "in": 123.11,
+   "out": 125.13,
+   "first": false,
+   "xfade": 0.1
+  },
+  {
+   "label": "CTA-ME-SEGUE",
+   "start": 88.708,
+   "dur": 4.236,
+   "in": 126.93,
+   "out": 131.59,
+   "first": false,
+   "xfade": 0.1
+  }
+ ],
+ "sfx": [
+  {
+   "file": "assets/sfx/intro-cinematic-opening.mp3",
+   "start": 0,
+   "dur": 3.2,
+   "vol": 0.25,
+   "nome": "intro opening"
+  },
+  {
+   "file": "assets/sfx/intro-when-emphasizing-riser.mp3",
+   "start": 0,
+   "dur": 3.2,
+   "vol": 0.22,
+   "nome": "intro riser"
+  },
+  {
+   "file": "assets/sfx/boom-cinematic.mp3",
+   "start": 4.8,
+   "dur": 4,
+   "vol": 0.12,
+   "nome": "boom"
+  },
+  {
+   "file": "assets/sfx/drum-fill.m4a",
+   "start": 8.403,
+   "dur": 1.43,
+   "vol": 0.3,
+   "nome": "drum-fill do callout de digitação"
+  },
+  {
+   "file": "assets/sfx/whoosh.mp3",
+   "start": 10.637,
+   "dur": 1.2,
+   "vol": 0.18,
+   "nome": "sai "
+  },
+  {
+   "file": "assets/sfx/swoosh.mp3",
+   "start": 64.817,
+   "dur": 0.98,
+   "vol": 0.18,
+   "nome": "entra "
+  },
+  {
+   "file": "assets/sfx/whoosh-transition.mp3",
+   "start": 70.857,
+   "dur": 2.1,
+   "vol": 0.18,
+   "nome": "sai "
+  },
+  {
+   "file": "assets/sfx/riser.mp3",
+   "start": 76.254,
+   "dur": 3,
+   "vol": 0.2,
+   "nome": "riser do clímax"
+  },
+  {
+   "file": "assets/sfx/whoosh.mp3",
+   "start": 78.921,
+   "dur": 1.2,
+   "vol": 0.18,
+   "nome": "VIRADA -> CLIMAX (coragem ninguem ensina)"
+  },
+  {
+   "file": "assets/sfx/impact-hit.mp3",
+   "start": 79.254,
+   "dur": 2.5,
+   "vol": 0.3,
+   "nome": "impact do clímax"
+  },
+  {
+   "file": "assets/sfx/swoosh.mp3",
+   "start": 88.675,
+   "dur": 0.98,
+   "vol": 0.18,
+   "nome": "FECHO -> CTA"
+  }
+ ],
+ "trilha": {
+  "file": "assets/trilha-epic-cinematic-corporate.mp3",
+  "vol": 0.079,
+  "loop": null,
+  "fadeLow": 0.045,
+  "lowAt": 83.944,
+  "endFade": 0.7
+ }
+}

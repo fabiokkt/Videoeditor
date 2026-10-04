@@ -225,9 +225,92 @@
    "aout": 131.59
   }
  ],
- "sections": [],
- "broll": [],
- "impacts": [],
+ "sections": [
+  {
+   "afterSegment": 21,
+   "name": "PASSO 3 -> VIRADA (a piscina)"
+  },
+  {
+   "afterSegment": 26,
+   "name": "VIRADA -> CLIMAX (coragem ninguem ensina)"
+  },
+  {
+   "afterSegment": 29,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.99564
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 21,
+   "toSeg": 23,
+   "span": [
+    0.17865,
+    0.99986
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "pode ser o que nao sabe fazer o trabalho",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "PODE SER O QUE",
+    "NÃO SABE FAZER",
+    "O TRABALHO."
+   ],
+   "hold": 0.9
+  },
+  {
+   "phrase": "curriculo so mostra o que da pra ensinar",
+   "seg": 7,
+   "lines": [
+    "CURRÍCULO",
+    "SÓ MOSTRA O QUE",
+    "DÁ PRA ENSINAR."
+   ],
+   "hold": 0.7
+  },
+  {
+   "phrase": "voce precisa ver o pior",
+   "seg": 16,
+   "lines": [
+    "VOCÊ PRECISA",
+    "VER O PIOR."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "ta na cadeira errada",
+   "seg": 21,
+   "lines": [
+    "TÁ NA CADEIRA",
+    "ERRADA."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "voce reprova esse moleque",
+   "seg": 28,
+   "lines": [
+    "VOCÊ REPROVA",
+    "ESSE MOLEQUE?"
+   ],
+   "hold": 0.7
+  }
+ ],
  "presenterZoom": {
   "scales": [
    1.06,
@@ -246,8 +329,8 @@
  "bakedLeaks": true,
  "hookSeg": 0,
  "capLowSegs": [],
- "splitShiftY": 400,
- "ctaSeg": 0,
+ "splitShiftY": 345,
+ "ctaSeg": 30,
  "_splitShiftY": "400 e so o valor inicial: MEDIR pelos olhos (docs/05, secao Split-screen). Nunca copiar de outro reel.",
  "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
  "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",

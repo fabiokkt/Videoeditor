@@ -1,12 +1,9 @@
-"""POR VIDEO — reel KAZUO INAMORI. Mapa dos slots de B-roll em tempo ABSOLUTO de timeline (rate 1.1, timeline 98,275 s).
-Converte cada janela [t0, t1] em fromSeg/toSeg/span (contrato do build-edit.mjs) e grava
-assets/broll-slots.json. Com --placeholders, gera cartoes rotulados em assets/broll/_ph/ e
-escreve o plan.broll apontando para eles (so para ver a estrutura no preview).
-Com --real, escreve o plan.broll apontando para assets/broll/<arquivo final>.
-Layout desenhado a mao sobre as janelas de gaze/pose-windows.json (scripts/gaze_pose.py, olhar compensado pela pose da cabeca):
-capa em split 0-1,65; cutaway 1,65-5,05 (olhada 1,72-2,24 do gancho); split 5,05-11,25 (pre-revelacao); revelacao em 11,25
-("Kazuo" em 11,18 s); split 2 (a virada) 67,30-71,89 com a transicao de arrastar; climax 82,28 s ("E o lucro que o funcionario
-tirou rastejando no chao"); apresentador no bipe (61,40-67,30) e no fim do CTA (96,15-fim)."""
+"""POR VIDEO — reel RICH DIVINEY. Mapa das janelas de cobertura em tempo ABSOLUTO de timeline (rate 1.1, timeline 92,944 s).
+Converte cada janela [t0, t1] em fromSeg/toSeg/span (contrato do build-edit.mjs) e grava assets/broll-slots.json.
+Kit v3: todo slot e da camada de motion (MG={"*"}); os splits continuam no plano (arrastam o apresentador).
+Layout desenhado a mao sobre gaze/pose-windows.json (gaze_pose.py 2.0) — janelas NITIDAS cobertas: 20,8-21,9 · 30,5-30,9 ·
+74,3-74,8 · 75,6-75,8 · 87,6-87,8. Capa em split 0-10,97 (pre-revelacao so com fotos); revelacao em 10,97 ("Rich" em 10,90 s);
+split 2 (a virada) 65,15-71,19; climax 79,25 ("Nadar, a gente ensina. Coragem..."); apresentador no bipe (40,40-42,30) e no CTA."""
 import json, sys, os, subprocess
 P=json.load(open('assets/edit-plan.json')); R=P['rate']; F=1/30
 segs=[];t=0
@@ -16,38 +13,22 @@ for i,s in enumerate(P['segments']):
 TOTAL=t
 # (id, modo, t0, t1, fala, tema, cobre)
 S=[
- # --- SLOT 1: INTRO EM SPLIT (PRE-REVELACAO: nada de Inamori, Kyocera, KDDI ou JAL antes de "Kazuo", 11,18 s) ---
- ("s01","split", 0.00,  1.65,"Esse cara é um dos monges…","CAPA (ideia do Fabio): pista de aeroporto à noite, monge de costas diante de um avião sem logotipo, luz vermelha no alto","— (quadro 0 = capa)"),
- ("s02","full",  1.65,  5.05,"…mais temidos e mais lucrativos do planeta Terra.","PRÉ-REVELAÇÃO: monge zen japonês de costas / templo (sem rosto identificável)","olhada 1,72–2,24 s"),
- ("s03","split", 5.05,  8.00,"E ele criou um protocolo polêmico pra provar","PRÉ-REVELAÇÃO: sala de reunião com a mão batendo na mesa e planilhas voando (capa B, ideia do Fabio)","—"),
- ("s04","split", 8.00, 11.25,"que seu funcionário não pensa como dono porque você esconde o número.","PRÉ-REVELAÇÃO: dono escondendo a planilha / número fechado (callout de digitação)","—"),
- # --- SLOT 2: CUTAWAYS DO CORPO ---
- ("s05","full", 11.25, 13.60,"Kazuo fundou duas gigantes,","REVELAÇÃO: Kazuo Inamori + Kyocera","—"),
- ("s06","full", 13.60, 16.25,"virou um monge budista e, com setenta e oito anos,","Inamori de monge (1997)","—"),
- ("s07","full", 16.25, 19.60,"assumiu uma companhia aérea falida. Sem salário.","Inamori na Japan Airlines, 2010","olhadas 16,30–16,67 · 17,18–17,61 s"),
- ("s08","full", 22.40, 26.42,"…liga pro dinheiro da sua empresa. Primeiro, quebra a empresa em pedacinhos.","Gestão Ameba: equipes pequenas no chão de fábrica da Kyocera","olhadas 22,59–22,92 · 24,69–24,98 s"),
- ("s09","full", 31.00, 34.00,"Ele diz que quem vê o próprio resultado briga pelo lucro.","funcionários da Kyocera / equipe reunida","—"),
- ("s10","full", 34.00, 36.75,"Pela empresa inteira, ninguém briga.","a empresa inteira: sede/fábrica vista de fora","olhada 34,60–35,05 s"),
- ("s11","full", 40.30, 43.60,"Simples, igual conta de casa. Ele diz que tocar empresa","caderno de contas de casa (kakeibo)","olhada 41,58–41,86 s"),
- ("s12","full", 43.60, 47.30,"sem olhar número é pilotar avião sem olhar o painel.","cockpit: painel de instrumentos do avião","olhada 45,18–45,37 s"),
- ("s13","full", 47.30, 51.06,"Na sua, só você vê o número. E olhe lá, pequeno gafanhoto.","“pequeno gafanhoto”: série Kung Fu (Mestre Po)","olhada 48,65–49,11 s"),
- ("s14","full", 55.54, 58.82,"porque quem tem orçamento acha que o certo é gastar tudo.","orçamento aprovado / gastar tudo","—"),
- ("s15","full", 58.82, 61.40,"Sobrou verba em dezembro e o time torrou","verba torrada no fim do ano","—"),
- # --- SLOT 3: SEGUNDO SPLIT (A VIRADA) ---
- ("s16","split",67.30, 69.16,"E a virada foi uma reunião","reunião de diretoria da JAL com Inamori","—"),
- ("s17","split",69.16, 71.89,"com o diretor que ia gastar um bilhão de ienes.","maços de notas de 10.000 ienes","—"),
- ("s18","full", 74.94, 78.28,"O diretor: “Mas senhor, já está aprovado no orçamento.”","diretores da JAL","—"),
- # --- SLOT 4: CLIMAX EMOCIONAL ---
- ("s19","full", 82.28, 85.69,"“É o lucro que o funcionário tirou rastejando no chão.”","CLÍMAX: equipe de solo / manutenção da JAL — riser + impact","olhada 85,33–85,48 s"),
- ("s20","full", 85.69, 89.20,"No primeiro ano, a empresa falida bateu recorde de lucro.","JAL decolando / relistagem na bolsa em 2012","olhada 88,90–89,09 s"),
- ("s21","full", 93.45, 96.15,"Se você é o único que liga pro dinheiro da sua empresa,","dono sozinho olhando as contas","olhadas 94,71–95,04 · 95,65–96,11 s"),
+ ("s01","split", 0.00, 10.97,"Esse cara é um dos militares mais carrascos… não sabe fazer o trabalho.","CAPA + PRÉ-REVELAÇÃO: treino de SEALs (sem o Rich)","— (quadro 0 = capa)"),
+ ("s02","full", 10.97, 14.39,"Rich escolhia quem entrava na elite da elite dos SEALs.","REVELAÇÃO: retrato do Rich Diviney + nome","—"),
+ ("s03","full", 14.39, 18.69,"Só os melhores SEALs se candidatavam e metade reprovava.","SEALs em formação → 10 candidatos, 5 reprovados","sutil 16,1–16,3 s"),
+ ("s04","full", 20.60, 25.30,"…parar de se apaixonar por currículo. Primeiro, separa o que dá pra ensinar.","currículo com coração → chip PASSO 1","nítida 20,8–21,9 s"),
+ ("s05","full", 27.30, 30.95,"Dá pra ensinar? Planilha, dá. Paciência, não dá.","lista da vaga: planilha ✓ ensina · paciência ✗","nítida 30,5–30,9 s"),
+ ("s06","full", 36.05, 38.90,"Segundo, pergunta pelo pior dia.","chip PASSO 2","—"),
+ ("s07","full", 38.90, 40.40,"Ele diz que a pessoa só mostra quem é","treino extremo (exaustão, lama, frio)","—"),
+ ("s08","full", 42.30, 45.90,"Na entrevista, me conta o dia que tudo deu errado… O que você fez?","cartão da pergunta de entrevista","—"),
+ ("s09","full", 50.10, 54.24,"E terceiro, antes de mandar embora, troca de cadeira.","chip PASSO 3","—"),
+ ("s10","full", 54.24, 61.15,"Ele tinha uma marinheira que não rendia… e ela decolou.","marinheira trabalhando → convés de voo (decolagem)","—"),
+ ("s11","split",65.15, 71.19,"E a virada foi uma piscina. Ele conta que o moleque apareceu… pro teste de natação.","piscina de treinamento dos SEALs","—"),
+ ("s12","full", 71.19, 76.00,"Pulou, afundou e atravessou a piscina andando no fundo. Subiu sem ar.","teste de natação / debaixo d'água","nítidas 74,3–74,8 · 75,6–75,8 s"),
+ ("s13","full", 79.25, 84.40,"Nadar, a gente ensina. Coragem de aparecer ali, ninguém ensina.","CLÍMAX: ficha do candidato (natação ✗ ensina · coragem ✓ ninguém ensina)","—"),
+ ("s14","full", 87.27, 89.01,"Nadar a gente ensina.","volta à piscina da capa","nítida 87,6–87,8 s"),
 ]
-NOMES={"s01":"s01-split-capa-monge-pista","s02":"s02-monge-temido","s03":"s03-split-protocolo-polemico","s04":"s04-split-esconde-numero",
- "s05":"s05-kazuo-revelacao","s06":"s06-virou-monge","s07":"s07-jal-sem-salario","s08":"s08-quebra-em-pedacinhos",
- "s09":"s09-briga-pelo-lucro","s10":"s10-empresa-inteira","s11":"s11-conta-de-casa","s12":"s12-painel-do-aviao",
- "s13":"s13-pequeno-gafanhoto","s14":"s14-orcamento-gastar-tudo","s15":"s15-verba-de-dezembro","s16":"s16-split-reuniao",
- "s17":"s17-split-bilhao-de-ienes","s18":"s18-aprovado-no-orcamento","s19":"s19-climax-rastejando","s20":"s20-recorde-de-lucro",
- "s21":"s21-unico-que-liga"}
+NOMES={k[0]:k[0] for k in S}
 def seg_of(x, end=False):
     for i,(a,b) in enumerate(segs):
         if (a<=x<b) if not end else (a<x<=b+1e-6): return i

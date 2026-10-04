@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        /* Camada de motion graphics (skill showreel-interface) — kit v3.
+           Geometria 1080x1920 (dentro do #stage do host). Transparente fora das cenas.
+           Faixa das legendas (76% = y~1460) fica livre: o conteúdo mora entre y 140 e 1340. */
+        #mg { position: absolute; inset: 0; overflow: hidden; pointer-events: none; font-family: "Montserrat", sans-serif; }
+        #mg .scene { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; visibility: hidden; opacity: 0; overflow: hidden; }
+        #mg .world { position: absolute; inset: 0; }
+        #mg .dark { background: radial-gradient(130% 80% at 50% 28%, #1B2130 0%, #0C0F15 68%); }
+        /* mundo claro com "chao" escuro abaixo de 64%: a legenda branca (76%) precisa de fundo escuro (reel Deming) */
+        #mg .light { background: linear-gradient(180deg, rgba(17,20,26,0) 0%, rgba(17,20,26,0) 64%, #11141A 73%), radial-gradient(130% 80% at 50% 28%, #FFFFFF 0%, #E8E6E1 78%); }
+        #mg .band { position: absolute; left: -400px; top: 520px; width: 1900px; height: 520px; border-radius: 260px; transform: rotate(-14deg); }
+        #mg .dark .band { background: rgba(255,255,255,.035); }
+        #mg .light .band { background: rgba(0,0,0,.03); }
+        #mg .card { position: absolute; border-radius: 44px; overflow: hidden; box-shadow: 0 34px 90px rgba(0,0,0,.45), 0 6px 18px rgba(0,0,0,.25); background: #222; }
+        #mg .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        #mg .full { position: absolute; inset: 0; overflow: hidden; }
+        #mg .full img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        /* chip de capítulo (status do BPR) */
+        #mg .chip { position: absolute; left: 270px; width: 540px; height: 104px; border-radius: 999px; background: #11141A; color: #fff;
+                    display: flex; align-items: center; justify-content: center; gap: 24px; box-shadow: 0 18px 44px rgba(0,0,0,.28); }
+        #mg .light .chip, #mg .chip.on-light { background: #11141A; }
+        #mg .chip .dot { width: 34px; height: 34px; border-radius: 50%; flex: none; }
+        #mg .chip .win { height: 104px; overflow: hidden; }
+        #mg .chip .roll span { display: block; height: 104px; line-height: 104px; font-weight: 800; font-size: 44px; letter-spacing: .06em; }
+        #mg .chip .plus { position: absolute; left: 50%; top: 50%; width: 104px; height: 104px; margin: -52px 0 0 -52px; border-radius: 50%;
+                          background: #11141A; color: #fff; font-weight: 600; font-size: 78px; line-height: 98px; text-align: center; }
+        /* etiqueta de nome */
+        #mg .name { position: absolute; left: 90px; width: 900px; padding: 26px 40px; border-radius: 34px; background: rgba(255,255,255,.96);
+                    color: #11141A; box-shadow: 0 20px 50px rgba(0,0,0,.3); }
+        #mg .name b { display: block; font-weight: 800; font-size: 58px; letter-spacing: .01em; }
+        #mg .name i { display: block; font-style: normal; font-weight: 600; font-size: 30px; letter-spacing: .08em; color: #5A606B; margin-top: 6px; }
+        #mg .tag { white-space: nowrap; position: absolute; padding: 18px 34px; border-radius: 999px; font-weight: 800; font-size: 38px; letter-spacing: .06em; color: #fff; }
+        /* carimbo */
+        #mg .stamp { position: absolute; padding: 8px 40px; border: 12px solid #E5322D; border-radius: 26px; color: #E5322D; background: rgba(255,255,255,.9);
+                     font-weight: 800; font-size: 112px; letter-spacing: .04em; }
+        /* título palavra a palavra */
+        #mg .title { position: absolute; left: 0; width: 1080px; text-align: center; font-weight: 800; font-size: 112px; line-height: 1.04; color: #11141A; }
+        #mg .title span { display: inline-block; }
+        #mg .sel { position: relative; display: inline-block; padding: 6px 30px 14px; border: 6px solid #F2B705; background: rgba(242,183,5,.16); }
+        #mg .sel .h { position: absolute; width: 26px; height: 26px; background: #fff; border: 4px solid #F2B705; border-radius: 5px; }
+        #mg .sel .tl { left: -17px; top: -17px; } #mg .sel .tr { right: -17px; top: -17px; } #mg .sel .bl { left: -17px; bottom: -17px; } #mg .sel .br { right: -17px; bottom: -17px; }
+        /* toast */
+        #mg .toast { position: absolute; left: 90px; width: 900px; padding: 30px 36px; border-radius: 38px; background: #fff; color: #11141A;
+                     box-shadow: 0 26px 70px rgba(0,0,0,.35); display: flex; gap: 28px; align-items: center; }
+        #mg .toast .ic { width: 92px; height: 92px; border-radius: 26px; background: #F2B705; color: #11141A; font-weight: 800; font-size: 64px; line-height: 92px; text-align: center; flex: none; }
+        #mg .toast b { display: block; font-weight: 800; font-size: 34px; letter-spacing: .06em; color: #5A606B; }
+        #mg .toast p { margin: 6px 0 0; font-weight: 600; font-size: 46px; }
+        /* semáforo */
+        #mg .tlight { position: absolute; left: 400px; width: 280px; height: 760px; border-radius: 64px; background: #050608; border: 6px solid #2A303C;
+                      box-shadow: 0 40px 90px rgba(0,0,0,.6); }
+        #mg .tlight .lamp { position: absolute; left: 40px; width: 188px; height: 188px; border-radius: 50%; background: #1C2029; }
+        #mg .tlight .glow { position: absolute; inset: 0; border-radius: 50%; opacity: 0; }
+        #mg .week { position: absolute; left: 60px; width: 960px; display: flex; justify-content: space-between; }
+        #mg .week span { width: 120px; height: 120px; border-radius: 30px; background: #1C2029; color: #8C93A1; font-weight: 800; font-size: 46px; line-height: 120px; text-align: center; }
+        /* quadro de status (BPR) */
+        #mg .board { position: absolute; left: 60px; width: 960px; border-radius: 44px; padding: 40px 44px 30px; box-shadow: 0 34px 90px rgba(0,0,0,.28); }
+        #mg .board.b-light { background: #fff; }
+        #mg .board.b-dark { background: #151A23; border: 2px solid #252C39; }
+        #mg .board .hd { display: flex; justify-content: space-between; font-weight: 800; font-size: 34px; letter-spacing: .08em; margin-bottom: 18px; }
+        #mg .b-light .hd { color: #11141A; } #mg .b-dark .hd { color: #E9ECF2; }
+        #mg .board .hd i { font-style: normal; font-weight: 600; color: #8C93A1; }
+        #mg .row { position: relative; height: 112px; display: flex; align-items: center; justify-content: space-between; border-top: 2px solid rgba(128,136,150,.18); }
+        #mg .row .g { display: flex; gap: 14px; }
+        #mg .row .g i { display: block; height: 22px; border-radius: 11px; }
+        #mg .b-light .row .g i { background: #D9DCE2; } #mg .b-dark .row .g i { background: #303746; }
+        #mg .pill { position: relative; width: 330px; height: 74px; border-radius: 999px; }
+        #mg .pill span { position: absolute; inset: 0; border-radius: 999px; color: #fff; font-weight: 800; font-size: 30px; letter-spacing: .05em;
+                         display: flex; align-items: center; justify-content: center; gap: 14px; }
+        #mg .pill span::before { content: ""; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,.9); }
+        #mg .p0 { background: #C9CCD2; } #mg .b-dark .p0 { background: #343B49; }
+        #mg .pg { background: #1FB45A; } #mg .py { background: #F2B705; color: #11141A !important; } #mg .pr { background: #E5322D; }
+        #mg .bars { position: absolute; left: 60px; width: 960px; height: 300px; display: flex; align-items: flex-end; gap: 22px; padding: 0 30px; }
+        #mg .bars i { flex: 1; border-radius: 18px 18px 6px 6px; transform-origin: 50% 100%; }
+        #mg .rainbow { position: absolute; left: 60px; width: 960px; height: 14px; border-radius: 7px;
+                       background: linear-gradient(90deg, #E5322D, #F28C05, #F2B705, #1FB45A, #1E8BE5, #7B3FE4); }
+        /* balões */
+        #mg .bubble { position: absolute; padding: 22px 38px; border-radius: 40px; background: #fff; color: #11141A; font-weight: 800; font-size: 58px;
+                      box-shadow: 0 18px 44px rgba(0,0,0,.3); }
+        #mg .bubble.me { background: #1FB45A; color: #fff; }
+        #mg .strike { position: absolute; height: 14px; border-radius: 7px; background: #E5322D; transform-origin: 0 50%; }
+        #mg .ring { position: absolute; width: 300px; height: 300px; margin: -150px 0 0 -150px; border-radius: 50%; border: 10px solid #fff; opacity: 0; }
+        /* split: prejuízo */
+        #mg .panel { position: absolute; left: 0; top: 0; width: 1080px; height: 845px; background: radial-gradient(120% 90% at 50% 20%, #2A1416 0%, #0E0B0D 70%); overflow: hidden; }
+        #mg .lbl { position: absolute; left: 0; width: 1080px; text-align: center; font-weight: 800; font-size: 36px; letter-spacing: .1em; color: #F3B4B0; }
+        #mg .money { position: absolute; left: 0; width: 1080px; display: flex; justify-content: center; align-items: center; gap: 10px; color: #FF4A3D; font-weight: 800; }
+        #mg .money .cur { font-size: 96px; margin-right: 16px; }
+        #mg .money .col { height: 210px; overflow: hidden; }
+        #mg .money .col div span { display: block; height: 210px; line-height: 210px; font-size: 220px; text-align: center; width: 140px; }
+        #mg .money .suf { font-size: 96px; margin-left: 18px; }
+        #mg .dots { position: absolute; display: flex; gap: 18px; padding: 30px 40px; border-radius: 40px; background: #fff; box-shadow: 0 18px 44px rgba(0,0,0,.3); }
+        #mg .dots i { width: 26px; height: 26px; border-radius: 50%; background: #8C93A1; display: block; }
+            </style>
+
+      <div id="mg" data-composition-id="mg" data-width="1080" data-height="1920">
+        <!-- CENAS (por video). Uma .scene por janela de motion (tela cheia) e uma .scene com style="height:845px" por
+             split. Modelo de todas as pecas (card, nome, chip, carimbo, toast, semaforo, quadro de status, baloes,
+             contador, barras, aneis, arco-iris): ~/Claude/KIT-EDICAO-REEL/exemplos/alan-mulally/mg.html -->
+      </div>
+
+      <script>
+        (function () {
+          // ================= BIBLIOTECA (kit v3) — nao mexer; as CENAS vao no fim =================
+          // Todo componente que tem som chama cue(): scripts/mg_cues.mjs le esta lista sem navegador e o
+          // scripts/mg_sfx.py sintetiza e mistura no bed. Ganhos calibrados no reel Alan Mulally (voz >= 6 dB acima).
+          var tl = gsap.timeline({ paused: true });
+          var q = 1 / 30;
+          window.__mgCues = [];
+          function Q(t) { return Math.round(t * 30) / 30; }
+          function cue(t, som, g, args) { window.__mgCues.push({ t: Math.round(t * 1000) / 1000, som: som, ganho: g, args: args || {} }); }
+          function hide(sel) { gsap.set(sel, { autoAlpha: 0 }); }
+          // cena de tela cheia: cresce de card -> cheia; sai encolhendo para card + chicote p/ cima (revela o apresentador)
+          function sceneIn(id, t) {
+            tl.set(id, { autoAlpha: 1 }, Q(t));
+            tl.fromTo(id, { clipPath: "inset(14% 9% 14% 9% round 72px)", scale: 0.92 },
+              { clipPath: "inset(0% 0% 0% 0% round 0px)", scale: 1, duration: 13 * q, ease: "expo.out" }, Q(t));
+            cue(t, "whoosh", -17);
+          }
+          function sceneOut(id, t) {
+            tl.to(id, { clipPath: "inset(9% 7% 9% 7% round 72px)", scale: 0.9, duration: 8 * q, ease: "power3.in" }, Q(t) - 12 * q);
+            tl.to(id, { y: -2300, duration: 4 * q, ease: "power4.in" }, Q(t) - 4 * q);
+            tl.set(id, { autoAlpha: 0 }, Q(t));
+            cue(t - 0.2, "swish", -18);
+          }
+          // faixa de cima do split (44% = 845 px), sincronizada com o arrasto do apresentador (0,55 s power3.inOut)
+          function splitIn(id, t, imediato) {
+            tl.set(id, { autoAlpha: 1 }, Q(t));
+            if (!imediato) { tl.fromTo(id, { y: -845 }, { y: 0, immediateRender: false, duration: 0.55, ease: "power3.inOut" }, Q(t)); cue(t + 0.3, "whoosh", -18); }
+          }
+          function splitOut(id, t) { tl.to(id, { y: -845, duration: 0.55, ease: "power3.inOut" }, Q(t - 0.55)); tl.set(id, { autoAlpha: 0 }, Q(t)); }
+          // corte dentro do split / da cena: o novo entra pelo lado (chicote), o velho sai no mesmo vetor
+          function whip(saem, entra, t, dir) {
+            var d = dir === "dir" ? -1 : 1;
+            if (saem) tl.to(saem, { x: -1400 * d, filter: "blur(18px)", duration: 5 * q, ease: "power4.in" }, Q(t) - 5 * q);
+            tl.fromTo(entra, { x: 1300 * d, autoAlpha: 1, filter: "blur(18px)" }, { x: 0, autoAlpha: 1, filter: "blur(0px)", immediateRender: false, duration: 13 * q, ease: "expo.out" }, Q(t) - q);
+            cue(t - 0.05, "whoosh", -14);
+          }
+          // troca vertical: o velho cai, o novo entra de cima (ou o contrario com dir "sobe")
+          function drop(saem, entra, t, dir) {
+            var d = dir === "sobe" ? -1 : 1;
+            if (saem) tl.to(saem, { y: 1900 * d, duration: 5 * q, ease: "power4.in" }, Q(t) - 5 * q);
+            tl.fromTo(entra, { y: -1500 * d, autoAlpha: 1 }, { y: 0, autoAlpha: 1, immediateRender: false, duration: 13 * q, ease: "expo.out" }, Q(t) - q);
+            cue(t - 0.05, "whoosh", -15);
+          }
+          // zoom-through de um card/foto para o proximo (T1 curto)
+          function zoomIn(id, t) { tl.fromTo(id, { scale: 0.55, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, immediateRender: false, duration: 13 * q, ease: "expo.out" }, Q(t) - q); cue(t - 0.05, "whoosh", -14); }
+          function drift(id, t0, t1) { tl.fromTo(id, { x: -60 }, { x: 60, duration: t1 - t0, ease: "none" }, t0); }
+          function kenburns(id, t0, t1, z0, z1) { tl.fromTo(id, { scale: z0 || 1.1 }, { scale: z1 || 1, duration: t1 - t0, ease: "power2.out" }, t0); }
+          // entradas pequenas
+          function pop(id, t, from, som) {
+            tl.fromTo(id, from || { scale: 0.6, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, x: 0, y: 0, duration: 9 * q, ease: "back.out(2.2)" }, Q(t));
+            if (som !== false) cue(t + 0.02, som || "pop", -20);
+          }
+          function flip(id, t) { pop(id, t, { scale: 0.5, autoAlpha: 0 }, "clique"); }            // pilula de status muda de cor
+          function rise(id, t) { tl.fromTo(id, { y: 70, autoAlpha: 0, filter: "blur(10px)" }, { y: 0, autoAlpha: 1, filter: "blur(0px)", duration: 9 * q, ease: "expo.out" }, Q(t)); }
+          function words(ids, ts) { ids.forEach(function (id, k) { rise(id, ts[k]); cue(ts[k], "tique", -24); }); }   // titulo palavra a palavra
+          function slam(id, t, rot) {                                                              // carimbo
+            tl.fromTo(id, { scale: 2.4, autoAlpha: 0, rotation: rot }, { scale: 1, autoAlpha: 1, rotation: rot, duration: 4 * q, ease: "power4.in" }, Q(t) - 4 * q);
+            tl.fromTo(id, { scale: 1 }, { scale: 1.04, duration: 3 * q, ease: "power2.out", yoyo: true, repeat: 1 }, Q(t));
+            cue(t, "impacto", -18, { dur: 0.9 }); cue(t, "clique", -18);
+          }
+          // chip de capitulo (T2): "+" aparece em tAp, abre em pilula e o rolo trava no capitulo em t
+          function chip(base, t, tAp) {
+            var R = (540 - 104) / 2, t0 = tAp != null ? tAp : t - 14 * q;
+            tl.set("#" + base + "-chip", { clipPath: "inset(0px " + R + "px 0px " + R + "px round 999px)" }, 0);
+            tl.fromTo("#" + base + "-chip", { scale: 0.4, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: 7 * q, ease: "back.out(2)" }, Q(t0));
+            tl.to("#" + base + "-chip", { clipPath: "inset(0px 0px 0px 0px round 999px)", duration: 8 * q, ease: "power3.out" }, Q(t) - 6 * q);
+            tl.to("#" + base + "-plus", { rotation: 45, autoAlpha: 0, duration: 6 * q, ease: "power2.in" }, Q(t) - 6 * q);
+            tl.fromTo("#" + base + "-roll", { y: 0, filter: "blur(6px)" }, { y: -208, filter: "blur(0px)", duration: 14 * q, ease: "power4.out" }, Q(t) - 6 * q);
+            cue(t0 + 0.02, "pop", -21); cue(t, "cacaniquel", -20);
+          }
+          function smear(id, t) {                                                                  // chip vira risco -> corte (T7)
+            tl.to(id, { scaleX: 1.3, duration: q, ease: "power2.in" }, Q(t) - 5 * q);
+            tl.to(id, { scaleX: 9, scaleY: 0.5, filter: "blur(14px)", autoAlpha: 0, duration: 4 * q, ease: "power4.in" }, Q(t) - 4 * q);
+          }
+          function stagger(sel, t, n, passo) {                                                    // linhas/barras entrando
+            tl.to(sel, { autoAlpha: 1, x: 0, duration: 9 * q, ease: "expo.out", stagger: (passo || 2) * q }, Q(t));
+            for (var k = 0; k < n; k++) cue(t + k * (passo || 2) * q, "tique", -27);
+          }
+          function bars(sel, t, n) { tl.to(sel, { scaleY: 1, duration: 10 * q, ease: "expo.out", stagger: 2 * q }, Q(t)); for (var k = 0; k < n; k++) cue(t + k * 2 * q, "pop", -24, { f0: 700 + 120 * k }); }
+          function digits(id, t, casas, dur) {                                                    // rolo de digitos (caca-niquel, seek-safe)
+            tl.fromTo(id, { y: 0, filter: "blur(4px)" }, { y: -casas * 210, filter: "blur(0px)", duration: dur || 26 * q, ease: "power4.out" }, Q(t));
+          }
+          function rings(a, b, t) {                                                               // palma / impacto
+            tl.fromTo(a, { scale: 0.2, opacity: 0.9 }, { scale: 3.2, opacity: 0, immediateRender: false, duration: 14 * q, ease: "expo.out" }, Q(t));
+            tl.fromTo(b, { scale: 0.2, opacity: 0.7 }, { scale: 2.4, opacity: 0, immediateRender: false, duration: 14 * q, ease: "expo.out" }, Q(t) + 3 * q);
+            cue(t, "impacto", -19, { dur: 0.6 }); cue(t, "swish", -20);
+          }
+          // ================= CENAS (por video) — tempos absolutos de `python3 scripts/tl.py --words` =================
+
+          // (vazio = camada transparente)
+
+          window.__timelines["mg"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

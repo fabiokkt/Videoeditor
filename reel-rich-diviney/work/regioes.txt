@@ -1,0 +1,33 @@
+r00 [  0.60 ->  12.88]  Esse cara é um dos militares mais carrascos e mais copiados dos Estados Unidos. E ele criou um protocolo polêmico para provar que o melhor candidato pode ser o que não sabe fazer o trabalho. Rick.
+r01 [ 13.83 ->  17.01]  Rich escolhia quem entrava na elite da...
+r02 [ 17.68 ->  30.47]  Rich escolhia quem entrava na elite da elite dos CEOs, só os melhores CEOs se candidatavam e metade reprovava. E esse é o protocolo para você parar de apaixonar por currículo.
+r03 [ 31.15 ->  35.72]  e esse é o protocolo para você parar de se apaixonar por currículo primeiro
+r04 [ 36.19 ->  36.75]  Se você...
+r05 [ 37.55 ->  45.22]  Primeiro, separa o que dá para ensinar para cada coisa que a vaga pede e pergunta. Dá para ensinar? Planilha, dá.
+r06 [ 45.72 ->  50.34]  paciência não dá ele diz que currículo só mostra o que dá para ensinar
+r07 [ 50.87 ->  51.99]  E só isso que você...
+r08 [ 52.62 ->  54.53]  E é só isso que você lê, meu querido.
+r09 [ 55.04 ->  55.44]  Segundo,
+r10 [ 55.83 ->  57.15]  Pergunta pelo pior dia.
+r11 [ 57.50 ->  59.50]  Ele diz que a pessoa só mostra quem é
+r12 [ 59.86 ->  60.72]  quando dá merda.
+r13 [ 61.10 ->  62.53]  Na entrevista, me conta.
+r14 [ 63.12 ->  68.59]  Na entrevista, me conta o dia que tudo deu errado no seu último emprego. O que você fez?
+r15 [ 69.11 ->  71.19]  Currículo mostra o melhor dia.
+r16 [ 71.58 ->  75.82]  Você precisa ver o pior. E terceiro, antes de mandar embora,
+r17 [ 76.17 ->  78.86]  troca de cadeira, ele tinha uma marinheira
+r18 [ 79.40 ->  89.89]  Ele tinha uma marinheira que não rendia e derrubava o clima do setor. Ele só mudou ela de função e ela decolou. Às vezes a pessoa não é ruim, pequeno gafanhoto.
+r19 [ 90.34 ->  91.43]  Tá na cadeira errada.
+r20 [ 91.93 ->  93.51]  E a virada foi uma piscina.
+r21 [ 93.93 ->  96.58]  Ele conta que um moleque apareceu no treinamento do SEALS
+r22 [ 97.83 -> 102.21]  Ele conta que o moleque apareceu no treinamento do CIUS para o teste de natação.
+r23 [102.60 -> 109.72]  Pulou, afundou e atravessou a piscina andando no fundo. Subiu sem ar. Desculpa, eu não sei nadar.
+r24 [110.07 -> 111.44]  E o instrutor, tudo bem?
+r25 [112.56 -> 115.11]  Nadar, a gente ensina. Coragem.
+r26 [116.16 -> 121.91]  Coragem de aparecer ali, ninguém ensina. Você reprova esse moleque no currículo, meu amigo?
+r27 [123.29 -> 125.01]  Nadar a gente ensina.
+r28 [125.49 -> 126.30]  Se você se ia...
+r29 [127.09 -> 129.54]  Se você se apaixona por currículo, me segue.
+r30 [129.89 -> 131.52]  Porque você é demais!
+
+31 regioes transcritas

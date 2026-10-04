@@ -1,0 +1,32 @@
+ch00 GANCHO               Esse cara é um dos militares mais carrascos e mais copiados dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que o melhor candidato pode ser o que não sabe fazer o trabalho.
+ch02 RICH-ELITE           Rich escolhia quem entrava na elite da elite dos CEOs, só
+ch03 METADE-REPROVAVA     os melhores CEOs se candidatavam e metade reprovava.
+ch04 PROTOCOLO-CURRICULO  e esse é o protocolo para você parar de se apaixonar por currículo
+ch05 P1-PRIMEIRO          Primeiro, separa o que dá para ensinar para cada coisa que a vaga pede e pergunta.
+ch06 P1-PLANILHA          Dá para ensinar? Planilha, dá.
+ch07 P1-PACIENCIA         paciência não dá ele diz que currículo só mostra o que dá para ensinar
+ch08 P1-MEU-QUERIDO       E é só isso que você lê, meu querido.
+ch09 P2-SEGUNDO           Segundo,
+ch10 P2-PIOR-DIA          Pergunta pelo pior dia.
+ch11 P2-QUEM-E            Ele diz que a pessoa só mostra quem é
+ch12 P2-BIPE              quando dá merda.
+ch13 P2-ENTREVISTA        Na entrevista, me conta o dia que tudo deu errado no seu último emprego.
+ch14 P2-O-QUE-FEZ         O que você fez?
+ch15 P2-MELHOR-DIA        Currículo mostra o melhor dia.
+ch16 P2-VER-O-PIOR-P3     Você precisa ver o pior. E terceiro, antes de mandar embora,
+ch17 P3-CADEIRA           troca de cadeira,
+ch18 P3-MARINHEIRA        Ele tinha uma marinheira que não rendia e derrubava o clima do setor.
+ch19 P3-DECOLOU           Ele só mudou ela de função e ela decolou.
+ch20 P3-GAFANHOTO         Às vezes a pessoa não é ruim, pequeno gafanhoto.
+ch21 P3-CADEIRA-ERRADA    Tá na cadeira errada.
+ch22 VIRADA-PISCINA       E a virada foi uma piscina.
+ch23 VIRADA-MOLEQUE       Ele conta que o moleque apareceu no treinamento do CIUS para o teste de natação.
+ch24 VIRADA-AFUNDOU       Pulou, afundou e atravessou a piscina andando no fundo.
+ch25 VIRADA-NAO-SEI-NADAR Subiu sem ar. Desculpa, eu não sei nadar.
+ch26 VIRADA-INSTRUTOR     E o instrutor, tudo bem?
+ch27 CLIMAX-NADAR         Nadar, a gente ensina. Coragem.
+ch28 CLIMAX-CORAGEM       Coragem de aparecer ali, ninguém ensina. Você reprova esse moleque no currículo, meu amigo?
+ch29 FECHO-NADAR          Nadar a gente ensina.
+ch30 CTA-ME-SEGUE         Se você se apaixona por currículo, me segue. Porque você é demais!
+31 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

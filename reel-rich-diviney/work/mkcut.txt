@@ -1,0 +1,42 @@
+c00 (r00)    0.60-   5.76      Esse cara é um dos militares mais carrascos e mais copiados dos Estados Unidos.
+c01 (r00)    5.76-  12.35      E ele criou um protocolo polêmico para provar que o melhor candidato pode ser o que não sabe fazer o trabalho.
+c02 (r00)   12.35-  12.88 DROP Rick.
+c03 (r01)   13.83-  17.01 DROP Rich escolhia quem entrava na elite da...
+c04 (r02)   17.68-  21.25      Rich escolhia quem entrava na elite da elite dos CEOs, só
+c05 (r02)   21.25-  26.02      os melhores CEOs se candidatavam e metade reprovava.
+c06 (r02)   26.02-  30.47 DROP E esse é o protocolo para você parar de apaixonar por currículo.
+c07 (r03)   31.15-  35.05      e esse é o protocolo para você parar de se apaixonar por currículo
+c08 (r03)   35.05-  35.72 DROP primeiro
+c09 (r04)   36.19-  36.75 DROP Se você...
+c10 (r05)   37.55-  42.92      Primeiro, separa o que dá para ensinar para cada coisa que a vaga pede e pergunta.
+c11 (r05)   42.92-  45.22      Dá para ensinar? Planilha, dá.
+c12 (r06)   45.72-  50.34      paciência não dá ele diz que currículo só mostra o que dá para ensinar
+c13 (r07)   50.87-  51.99 DROP E só isso que você...
+c14 (r08)   52.62-  54.53      E é só isso que você lê, meu querido.
+c15 (r09)   55.04-  55.44      Segundo,
+c16 (r10)   55.83-  57.15      Pergunta pelo pior dia.
+c17 (r11)   57.50-  59.50      Ele diz que a pessoa só mostra quem é
+c18 (r12)   59.86-  60.72      quando dá merda.
+c19 (r13)   61.10-  62.53 DROP Na entrevista, me conta.
+c20 (r14)   63.12-  67.32      Na entrevista, me conta o dia que tudo deu errado no seu último emprego.
+c21 (r14)   67.32-  68.59      O que você fez?
+c22 (r15)   69.11-  71.19      Currículo mostra o melhor dia.
+c23 (r16)   71.58-  75.82      Você precisa ver o pior. E terceiro, antes de mandar embora,
+c24 (r17)   76.17-  77.35      troca de cadeira,
+c25 (r17)   77.35-  78.86 DROP ele tinha uma marinheira
+c26 (r18)   79.40-  83.89      Ele tinha uma marinheira que não rendia e derrubava o clima do setor.
+c27 (r18)   83.89-  87.10      Ele só mudou ela de função e ela decolou.
+c28 (r18)   87.10-  89.89      Às vezes a pessoa não é ruim, pequeno gafanhoto.
+c29 (r19)   90.34-  91.43      Tá na cadeira errada.
+c30 (r20)   91.93-  93.51      E a virada foi uma piscina.
+c31 (r21)   93.93-  96.58 DROP Ele conta que um moleque apareceu no treinamento do SEALS
+c32 (r22)   97.83- 102.21      Ele conta que o moleque apareceu no treinamento do CIUS para o teste de natação.
+c33 (r23)  102.60- 106.70      Pulou, afundou e atravessou a piscina andando no fundo.
+c34 (r23)  106.70- 109.72      Subiu sem ar. Desculpa, eu não sei nadar.
+c35 (r24)  110.07- 111.44      E o instrutor, tudo bem?
+c36 (r25)  112.56- 115.11      Nadar, a gente ensina. Coragem.
+c37 (r26)  116.16- 121.91      Coragem de aparecer ali, ninguém ensina. Você reprova esse moleque no currículo, meu amigo?
+c38 (r27)  123.29- 125.01      Nadar a gente ensina.
+c39 (r28)  125.49- 126.30 DROP Se você se ia...
+c40 (r29)  127.09- 129.54      Se você se apaixona por currículo, me segue.
+c41 (r30)  129.89- 131.52      Porque você é demais!

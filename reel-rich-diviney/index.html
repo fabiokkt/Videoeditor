@@ -267,9 +267,125 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="1440" data-height="2560">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="92.944" data-width="1440" data-height="2560">
     <div id="stage">
     <!-- EDIT:BEGIN (gerado por scripts/build-edit.mjs — não editar à mão) -->
+    <!-- Duração total: 92.944s (2788 frames @30fps) · rate 1.1x -->
+    <div id="presenter-wrap"><div id="presenter-zoom">
+      <video id="aroll" class="clip" src="assets/aroll.mp4" data-start="0" data-duration="92.944" data-media-start="0" data-track-index="0" muted playsinline preload="auto"></video> <!-- corte do apresentador (31 takes + L-cuts + 1.1x) gerado por scripts/bake.py -->
+    </div></div>
+    <!-- Voz independente com J-cut (lead 9f) + crossfade 3f -->
+    <audio id="voz-mix" src="assets/voz-mix.m4a" data-start="0" data-duration="92.944" data-media-start="0" data-track-index="10"></audio> <!-- voz com J-cut 9f/3f (gerada por scripts/mixaudio.py) -->
+    <!-- B-rolls -->
+    <div class="broll-split-wrap" id="bsw0"></div> <!-- split desenhado pela camada de motion -->
+    <div class="broll-split-wrap" id="bsw1"></div> <!-- split desenhado pela camada de motion -->
+    <!-- Motion graphics (sub-composição compositions/mg.html, skill showreel-interface): por cima do apresentador e do B-roll, abaixo dos light-leaks e das legendas -->
+    <div id="mg-host" data-composition-id="mg" data-composition-src="compositions/mg.html" data-start="0" data-duration="92.944" data-track-index="8" data-width="1080" data-height="1920" style="position:absolute;left:0;top:0;width:1080px;height:1920px;z-index:30"></div>
+    <!-- Legendas -->
+    <div id="cap0" class="clip cap cap-hook" data-start="0" data-duration="4.818" data-track-index="5"><span id="hook-box" class="hook-box"><span class="hook-shine" id="hook-shine"></span><span class="hook-text">Esse cara é um dos militares mais carrascos e mais copiados dos Estados Unidos.</span></span></div>
+    <div id="cap1" class="clip cap" data-start="4.982" data-duration="0.274" data-track-index="7">E ele criou</div>
+    <div id="cap2" class="clip cap" data-start="5.256" data-duration="1.437" data-track-index="7">um protocolo polêmico</div>
+    <div id="cap3" class="clip cap" data-start="6.693" data-duration="0.74" data-track-index="7">pra provar que</div>
+    <div id="cap4" class="clip cap" data-start="7.433" data-duration="0.97" data-track-index="7">o melhor candidato</div>
+    <div id="cap5" class="clip cap cap-low" data-start="10.9" data-duration="0.903" data-track-index="5">Rich escolhia quem</div>
+    <div id="cap6" class="clip cap cap-low" data-start="11.803" data-duration="1.037" data-track-index="5">entrava na elite</div>
+    <div id="cap7" class="clip cap cap-low" data-start="12.84" data-duration="0.752" data-track-index="5">da elite dos</div>
+    <div id="cap8" class="clip cap cap-low" data-start="13.592" data-duration="0.499" data-track-index="5">SEALs.</div>
+    <div id="cap9" class="clip cap cap-low" data-start="14.255" data-duration="1.191" data-track-index="7">Só os melhores SEALs</div>
+    <div id="cap10" class="clip cap cap-low" data-start="15.446" data-duration="1.449" data-track-index="7">se candidatavam e</div>
+    <div id="cap11" class="clip cap cap-low" data-start="16.895" data-duration="1.496" data-track-index="7">metade reprovava.</div>
+    <div id="cap12" class="clip cap cap-low" data-start="18.555" data-duration="0.307" data-track-index="5">E esse é</div>
+    <div id="cap13" class="clip cap cap-low" data-start="18.862" data-duration="0.715" data-track-index="5">o protocolo pra</div>
+    <div id="cap14" class="clip cap cap-low" data-start="19.577" data-duration="0.556" data-track-index="5">você parar de</div>
+    <div id="cap15" class="clip cap cap-low" data-start="20.133" data-duration="0.847" data-track-index="5">se apaixonar por</div>
+    <div id="cap16" class="clip cap cap-low" data-start="20.98" data-duration="0.966" data-track-index="5">currículo.</div>
+    <div id="cap17" class="clip cap cap-low" data-start="22.146" data-duration="0.738" data-track-index="7">Primeiro,</div>
+    <div id="cap18" class="clip cap cap-low" data-start="22.884" data-duration="0.462" data-track-index="7">separa o que</div>
+    <div id="cap19" class="clip cap cap-low" data-start="23.346" data-duration="1.015" data-track-index="7">dá pra ensinar.</div>
+    <div id="cap20" class="clip cap cap-low" data-start="24.361" data-duration="1.2" data-track-index="7">Pra cada coisa</div>
+    <div id="cap21" class="clip cap cap-low" data-start="25.561" data-duration="0.554" data-track-index="7">que a vaga</div>
+    <div id="cap22" class="clip cap cap-low" data-start="26.115" data-duration="0.895" data-track-index="7">pede e pergunta:</div>
+    <div id="cap23" class="clip cap cap-low" data-start="27.137" data-duration="0.726" data-track-index="5">Dá pra ensinar?</div>
+    <div id="cap24" class="clip cap cap-low" data-start="27.863" data-duration="0.833" data-track-index="5">Planilha,</div>
+    <div id="cap25" class="clip cap cap-low" data-start="28.696" data-duration="0.523" data-track-index="5">dá.</div>
+    <div id="cap26" class="clip cap cap-low" data-start="29.419" data-duration="1.586" data-track-index="7">Paciência não dá.</div>
+    <div id="cap27" class="clip cap cap-low" data-start="31.005" data-duration="0.395" data-track-index="7">Ele diz que</div>
+    <div id="cap28" class="clip cap cap-low" data-start="33.937" data-duration="0.254" data-track-index="5">E é só</div>
+    <div id="cap29" class="clip cap cap-low" data-start="34.191" data-duration="0.628" data-track-index="5">isso que você</div>
+    <div id="cap30" class="clip cap cap-low" data-start="34.819" data-duration="0.23" data-track-index="5">lê,</div>
+    <div id="cap31" class="clip cap cap-low" data-start="35.049" data-duration="0.751" data-track-index="5">meu querido.</div>
+    <div id="cap32" class="clip cap cap-low" data-start="35.982" data-duration="0.5" data-track-index="7">Segundo,</div>
+    <div id="cap33" class="clip cap cap-low" data-start="36.682" data-duration="0.973" data-track-index="5">pergunta pelo pior</div>
+    <div id="cap34" class="clip cap cap-low" data-start="37.655" data-duration="0.327" data-track-index="5">dia.</div>
+    <div id="cap35" class="clip cap cap-low" data-start="38.164" data-duration="0.447" data-track-index="7">Ele diz que</div>
+    <div id="cap36" class="clip cap cap-low" data-start="38.611" data-duration="0.581" data-track-index="7">a pessoa só</div>
+    <div id="cap37" class="clip cap cap-low" data-start="39.192" data-duration="0.908" data-track-index="7">mostra quem é</div>
+    <div id="cap38" class="clip cap cap-low" data-start="40.282" data-duration="0.936" data-track-index="5">quando dá M****.</div>
+    <div id="cap39" class="clip cap cap-low" data-start="41.4" data-duration="0.946" data-track-index="7">Na entrevista,</div>
+    <div id="cap40" class="clip cap cap-low" data-start="42.346" data-duration="0.417" data-track-index="7">me conta o</div>
+    <div id="cap41" class="clip cap cap-low" data-start="42.763" data-duration="0.562" data-track-index="7">dia que tudo</div>
+    <div id="cap42" class="clip cap cap-low" data-start="43.325" data-duration="0.667" data-track-index="7">deu errado no</div>
+    <div id="cap43" class="clip cap cap-low" data-start="43.992" data-duration="1.217" data-track-index="7">seu último emprego.</div>
+    <div id="cap44" class="clip cap cap-low" data-start="45.354" data-duration="0.51" data-track-index="5">O que você</div>
+    <div id="cap45" class="clip cap cap-low" data-start="45.864" data-duration="0.463" data-track-index="5">fez?</div>
+    <div id="cap46" class="clip cap cap-low" data-start="46.509" data-duration="1.108" data-track-index="7">Currículo mostra o</div>
+    <div id="cap47" class="clip cap cap-low" data-start="47.617" data-duration="0.901" data-track-index="7">melhor dia.</div>
+    <div id="cap48" class="clip cap cap-low" data-start="50.156" data-duration="1.141" data-track-index="5">E terceiro,</div>
+    <div id="cap49" class="clip cap cap-low" data-start="51.297" data-duration="0.894" data-track-index="5">antes de mandar</div>
+    <div id="cap50" class="clip cap cap-low" data-start="52.191" data-duration="0.515" data-track-index="5">embora,</div>
+    <div id="cap51" class="clip cap cap-low" data-start="52.888" data-duration="1.057" data-track-index="7">troca de cadeira.</div>
+    <div id="cap52" class="clip cap cap-low" data-start="54.145" data-duration="0.61" data-track-index="5">Ele tinha uma</div>
+    <div id="cap53" class="clip cap cap-low" data-start="54.755" data-duration="1.062" data-track-index="5">marinheira que não</div>
+    <div id="cap54" class="clip cap cap-low" data-start="55.817" data-duration="1.178" data-track-index="5">rendia e derrubava</div>
+    <div id="cap55" class="clip cap cap-low" data-start="56.995" data-duration="0.526" data-track-index="5">o clima do</div>
+    <div id="cap56" class="clip cap cap-low" data-start="57.521" data-duration="0.451" data-track-index="5">setor.</div>
+    <div id="cap57" class="clip cap cap-low" data-start="58.136" data-duration="0.418" data-track-index="7">Ele só mudou</div>
+    <div id="cap58" class="clip cap cap-low" data-start="58.554" data-duration="1.091" data-track-index="7">ela de função</div>
+    <div id="cap59" class="clip cap cap-low" data-start="59.645" data-duration="1.209" data-track-index="7">e ela decolou.</div>
+    <div id="cap60" class="clip cap cap-low" data-start="60.854" data-duration="0.529" data-track-index="5">vezes a pessoa</div>
+    <div id="cap61" class="clip cap cap-low" data-start="61.383" data-duration="0.645" data-track-index="5">não é ruim,</div>
+    <div id="cap62" class="clip cap cap-low" data-start="62.028" data-duration="1.508" data-track-index="5">pequeno gafanhoto.</div>
+    <div id="cap63" class="clip cap" data-start="65.036" data-duration="0.77" data-track-index="5">E a virada</div>
+    <div id="cap64" class="clip cap" data-start="65.806" data-duration="0.803" data-track-index="5">foi uma piscina.</div>
+    <div id="cap65" class="clip cap" data-start="66.809" data-duration="0.469" data-track-index="7">Ele conta que</div>
+    <div id="cap66" class="clip cap" data-start="67.278" data-duration="0.948" data-track-index="7">o moleque apareceu</div>
+    <div id="cap67" class="clip cap" data-start="68.226" data-duration="0.84" data-track-index="7">no treinamento dos</div>
+    <div id="cap68" class="clip cap" data-start="69.066" data-duration="1.057" data-track-index="7">SEALs pro teste</div>
+    <div id="cap69" class="clip cap" data-start="70.123" data-duration="0.768" data-track-index="7">de natação.</div>
+    <div id="cap70" class="clip cap" data-start="71.091" data-duration="0.634" data-track-index="5">Pulou,</div>
+    <div id="cap71" class="clip cap cap-low" data-start="71.725" data-duration="1.267" data-track-index="5">afundou e atravessou</div>
+    <div id="cap72" class="clip cap cap-low" data-start="72.992" data-duration="1.001" data-track-index="5">a piscina andando</div>
+    <div id="cap73" class="clip cap cap-low" data-start="73.993" data-duration="0.816" data-track-index="5">no fundo.</div>
+    <div id="cap74" class="clip cap cap-low" data-start="74.954" data-duration="0.946" data-track-index="7">Subiu sem ar.</div>
+    <div id="cap75" class="clip cap cap-low" data-start="75.9" data-duration="0.436" data-track-index="7">Desculpa,</div>
+    <div id="cap76" class="clip cap cap-low" data-start="76.336" data-duration="0.538" data-track-index="7">eu não sei</div>
+    <div id="cap77" class="clip cap cap-low" data-start="76.874" data-duration="0.653" data-track-index="7">nadar.</div>
+    <div id="cap78" class="clip cap cap-low" data-start="77.709" data-duration="1.012" data-track-index="5">E o instrutor,</div>
+    <div id="cap79" class="clip cap cap-low" data-start="78.721" data-duration="0.233" data-track-index="5">tudo bem?</div>
+    <div id="cap80" class="clip cap cap-low" data-start="79.136" data-duration="0.359" data-track-index="7">Nadar,</div>
+    <div id="cap81" class="clip cap cap-low" data-start="79.495" data-duration="1.523" data-track-index="7">a gente ensina.</div>
+    <div id="cap82" class="clip cap cap-low" data-start="81.018" data-duration="0.527" data-track-index="7">Coragem.</div>
+    <div id="cap83" class="clip cap cap-low" data-start="81.709" data-duration="1.171" data-track-index="5">Coragem de aparecer</div>
+    <div id="cap84" class="clip cap cap-low" data-start="82.88" data-duration="0.465" data-track-index="5">ali,</div>
+    <div id="cap85" class="clip cap cap-low" data-start="83.345" data-duration="1.236" data-track-index="5">ninguém ensina.</div>
+    <div id="cap86" class="clip cap cap-low" data-start="85.461" data-duration="0.739" data-track-index="5">no currículo,</div>
+    <div id="cap87" class="clip cap cap-low" data-start="86.2" data-duration="0.772" data-track-index="5">meu amigo?</div>
+    <div id="cap88" class="clip cap cap-low" data-start="87.136" data-duration="0.851" data-track-index="7">Nadar a gente</div>
+    <div id="cap89" class="clip cap cap-low" data-start="87.987" data-duration="0.721" data-track-index="7">ensina.</div>
+    <div id="cap90" class="clip cap cap-low" data-start="88.853" data-duration="0.492" data-track-index="5">Se você se</div>
+    <div id="cap91" class="clip cap cap-low" data-start="89.345" data-duration="1.318" data-track-index="5">apaixona por currículo,</div>
+    <div id="cap92" class="clip cap cap-low" data-start="90.663" data-duration="0.908" data-track-index="5">me segue,</div>
+    <div id="cap93" class="clip cap cap-low" data-start="91.571" data-duration="0.887" data-track-index="5">porque você é</div>
+    <div id="cap94" class="clip cap cap-low" data-start="92.458" data-duration="0.486" data-track-index="5">demais.</div>
+    <div id="big0" class="clip cap-big" data-start="8.403" data-duration="2.315" data-track-index="6"><span class="inner"><span class="tc" id="tc0">P</span><span class="tc" id="tc1">O</span><span class="tc" id="tc2">D</span><span class="tc" id="tc3">E</span><span class="tc" id="tc4">&nbsp;</span><span class="tc" id="tc5">S</span><span class="tc" id="tc6">E</span><span class="tc" id="tc7">R</span><span class="tc" id="tc8">&nbsp;</span><span class="tc" id="tc9">O</span><span class="tc" id="tc10">&nbsp;</span><span class="tc" id="tc11">Q</span><span class="tc" id="tc12">U</span><span class="tc" id="tc13">E</span><br/><span class="tc" id="tc14">N</span><span class="tc" id="tc15">Ã</span><span class="tc" id="tc16">O</span><span class="tc" id="tc17">&nbsp;</span><span class="tc" id="tc18">S</span><span class="tc" id="tc19">A</span><span class="tc" id="tc20">B</span><span class="tc" id="tc21">E</span><span class="tc" id="tc22">&nbsp;</span><span class="tc" id="tc23">F</span><span class="tc" id="tc24">A</span><span class="tc" id="tc25">Z</span><span class="tc" id="tc26">E</span><span class="tc" id="tc27">R</span><br/><span class="tc" id="tc28">O</span><span class="tc" id="tc29">&nbsp;</span><span class="tc" id="tc30">T</span><span class="tc" id="tc31">R</span><span class="tc" id="tc32">A</span><span class="tc" id="tc33">B</span><span class="tc" id="tc34">A</span><span class="tc" id="tc35">L</span><span class="tc" id="tc36">H</span><span class="tc" id="tc37">O</span><span class="tc" id="tc38">.</span></span></div>
+    <div id="big1" class="clip cap-big" data-start="31.4" data-duration="2.355" data-track-index="6"><span class="inner">CURRÍCULO<br/>SÓ MOSTRA O QUE<br/>DÁ PRA ENSINAR.</span></div>
+    <div id="big2" class="clip cap-big" data-start="48.718" data-duration="2.038" data-track-index="6"><span class="inner">VOCÊ PRECISA<br/>VER O PIOR.</span></div>
+    <div id="big3" class="clip cap-big" data-start="63.736" data-duration="1.118" data-track-index="6"><span class="inner">TÁ NA CADEIRA<br/>ERRADA.</span></div>
+    <div id="big4" class="clip cap-big" data-start="84.581" data-duration="1.58" data-track-index="6"><span class="inner">VOCÊ REPROVA<br/>ESSE MOLEQUE?</span></div>
+    <!-- Transições light-leak -->
+    <video id="leaks" class="clip leak" src="assets/leaks.mp4" data-start="0" data-duration="92.944" data-media-start="0" data-track-index="4" muted playsinline preload="auto"></video> <!-- 5 light-leaks (gerada por scripts/bake.py leaks) -->
+    <!-- Trilha + SFX (faixa pronta) -->
+    <audio id="bed" src="assets/bed.m4a" data-start="0" data-duration="92.944" data-media-start="0" data-track-index="17"></audio> <!-- trilha + 11 SFX (gerada por scripts/mixaudio.py) -->
     <!-- EDIT:END -->
     </div>
     </div>
@@ -278,6 +394,49 @@
       window.__timelines = window.__timelines || {};
       const tl = gsap.timeline({ paused: true });
       // EDIT-TWEENS:BEGIN (gerado — crossfades, splits, callouts, trilha)
+      tl.set("#presenter-zoom", { transformOrigin: "50% 53%" }, 0);
+      tl.set("#presenter-zoom", { scale: 1.06 }, 0);
+      tl.set("#presenter-wrap", { transformOrigin: "50% 38%" }, 0);
+      tl.set("#presenter-wrap", { y: 345 }, 0);
+      tl.to("#presenter-wrap", { y: 0, duration: 0.55, ease: "power3.inOut" }, 10.42);
+      tl.to("#bsw0", { yPercent: -100, duration: 0.55, ease: "power3.inOut" }, 10.42);
+      tl.fromTo("#presenter-wrap", { y: 0 }, { y: 345, duration: 0.55, ease: "power3.inOut" }, 65.15);
+      tl.fromTo("#bsw1", { yPercent: -100 }, { yPercent: 0, duration: 0.55, ease: "power3.inOut" }, 65.15);
+      tl.to("#presenter-wrap", { y: 0, duration: 0.55, ease: "power3.inOut" }, 70.64);
+      tl.to("#bsw1", { yPercent: -100, duration: 0.55, ease: "power3.inOut" }, 70.64);
+      tl.fromTo("#presenter-wrap", { scale: 1 }, { scale: 1.05, duration: 3.936, ease: "none" }, 89.008);
+      tl.fromTo("#hook-box", { scale: 1 }, { scale: 1.018, duration: 1.205, ease: "sine.inOut", repeat: 3, yoyo: true }, 0);
+      tl.fromTo("#hook-shine", { xPercent: -160 }, { xPercent: 260, duration: 0.9, ease: "power2.inOut" }, 0.5);
+      tl.fromTo("#hook-shine", { xPercent: -160 }, { xPercent: 260, duration: 0.9, ease: "power2.inOut", immediateRender: false }, 3.218);
+      for (let i = 0; i < 39; i++) tl.set("#tc" + i, { autoAlpha: 1 }, 8.403 + 0.035 * i);
+      tl.fromTo("#big0 .inner", { scale: 1 }, { scale: 1.06, duration: 0.14, ease: "power2.out" }, 9.753);
+      tl.to("#big0 .inner", { scale: 1, duration: 0.21, ease: "power2.inOut" }, 9.903);
+      tl.to("#big0 .inner", { autoAlpha: 0, scale: 1.1, duration: 0.2, ease: "power2.in" }, 10.518);
+      tl.set("#big0 .inner", { autoAlpha: 0 }, 10.718);
+      tl.fromTo("#big1 .inner", { scale: 0.5, rotation: -5, y: 44, autoAlpha: 0 }, { scale: 1, rotation: 0, y: 0, autoAlpha: 1, duration: 0.42, ease: "back.out(2.4)" }, 31.4);
+      tl.to("#big1 .inner", { scale: 1.07, duration: 1.695, ease: "power1.inOut" }, 31.83);
+      tl.to("#big1 .inner", { autoAlpha: 0, scale: 1.14, duration: 0.22, ease: "power2.in" }, 33.535);
+      tl.set("#big1 .inner", { autoAlpha: 0 }, 33.755);
+      tl.to("#presenter-wrap", { scale: 1.07, duration: 0.18, ease: "power3.out" }, 31.4);
+      tl.to("#presenter-wrap", { scale: 1, duration: 0.45, ease: "power2.inOut" }, 31.6);
+      tl.fromTo("#big2 .inner", { scale: 0.5, rotation: -5, y: 44, autoAlpha: 0 }, { scale: 1, rotation: 0, y: 0, autoAlpha: 1, duration: 0.42, ease: "back.out(2.4)" }, 48.718);
+      tl.to("#big2 .inner", { scale: 1.07, duration: 1.378, ease: "power1.inOut" }, 49.148);
+      tl.to("#big2 .inner", { autoAlpha: 0, scale: 1.14, duration: 0.22, ease: "power2.in" }, 50.536);
+      tl.set("#big2 .inner", { autoAlpha: 0 }, 50.756);
+      tl.to("#presenter-wrap", { scale: 1.07, duration: 0.18, ease: "power3.out" }, 48.718);
+      tl.to("#presenter-wrap", { scale: 1, duration: 0.45, ease: "power2.inOut" }, 48.918);
+      tl.fromTo("#big3 .inner", { scale: 0.5, rotation: -5, y: 44, autoAlpha: 0 }, { scale: 1, rotation: 0, y: 0, autoAlpha: 1, duration: 0.42, ease: "back.out(2.4)" }, 63.736);
+      tl.to("#big3 .inner", { scale: 1.07, duration: 0.458, ease: "power1.inOut" }, 64.166);
+      tl.to("#big3 .inner", { autoAlpha: 0, scale: 1.14, duration: 0.22, ease: "power2.in" }, 64.634);
+      tl.set("#big3 .inner", { autoAlpha: 0 }, 64.854);
+      tl.to("#presenter-wrap", { scale: 1.07, duration: 0.18, ease: "power3.out" }, 63.736);
+      tl.to("#presenter-wrap", { scale: 1, duration: 0.45, ease: "power2.inOut" }, 63.936);
+      tl.fromTo("#big4 .inner", { scale: 0.5, rotation: -5, y: 44, autoAlpha: 0 }, { scale: 1, rotation: 0, y: 0, autoAlpha: 1, duration: 0.42, ease: "back.out(2.4)" }, 84.581);
+      tl.to("#big4 .inner", { scale: 1.07, duration: 0.92, ease: "power1.inOut" }, 85.011);
+      tl.to("#big4 .inner", { autoAlpha: 0, scale: 1.14, duration: 0.22, ease: "power2.in" }, 85.941);
+      tl.set("#big4 .inner", { autoAlpha: 0 }, 86.161);
+      tl.to("#presenter-wrap", { scale: 1.07, duration: 0.18, ease: "power3.out" }, 84.581);
+      tl.to("#presenter-wrap", { scale: 1, duration: 0.45, ease: "power2.inOut" }, 84.781);
       // EDIT-TWEENS:END
       window.__timelines["main"] = tl;
     </script>

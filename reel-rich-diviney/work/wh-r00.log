@@ -1,0 +1,91 @@
+whisper_init_from_file_with_params_no_state: loading model from '/root/.cache/whisper/ggml-large-v3-turbo.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 1
+whisper_init_with_params_no_state: backends   = 1
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:          AMX total size =  1468.01 MB
+whisper_model_load:          CPU total size =   155.91 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: CPU (type: 0)
+whisper_backend_init_gpu: no GPU found
+whisper_init_state: kv self size  =   10.49 MB
+whisper_init_state: kv cross size =   31.46 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   36.15 MB
+whisper_init_state: compute buffer (encode) =   55.35 MB
+whisper_init_state: compute buffer (cross)  =    9.27 MB
+whisper_init_state: compute buffer (decode) =   99.12 MB
+read_audio_data: reading audio data from 'work/reg/r00.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | AMX_INT8 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'work/reg/r00.wav' (206096 samples, 12.9 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.290]  
+[00:00:00.290 --> 00:00:00.340]   Esse
+[00:00:00.340 --> 00:00:00.680]   cara
+[00:00:00.680 --> 00:00:00.760]   é
+[00:00:00.760 --> 00:00:00.920]   um
+[00:00:00.920 --> 00:00:01.180]   dos
+[00:00:01.180 --> 00:00:01.930]   militares
+[00:00:01.930 --> 00:00:02.270]   mais
+[00:00:02.270 --> 00:00:03.080]   carrascos
+[00:00:03.080 --> 00:00:03.240]   e
+[00:00:03.240 --> 00:00:03.430]   mais
+[00:00:03.430 --> 00:00:03.990]   copiados
+[00:00:03.990 --> 00:00:04.200]   dos
+[00:00:04.200 --> 00:00:04.700]   Estados
+[00:00:04.700 --> 00:00:05.180]   Unidos.
+[00:00:05.600 --> 00:00:05.600]   E
+[00:00:05.600 --> 00:00:05.600]   ele
+[00:00:05.600 --> 00:00:05.900]   criou
+[00:00:05.900 --> 00:00:06.060]   um
+[00:00:06.060 --> 00:00:06.780]   protocolo
+[00:00:06.780 --> 00:00:07.470]   polêmico
+[00:00:07.470 --> 00:00:07.700]   para
+[00:00:07.700 --> 00:00:08.090]   provar
+[00:00:08.090 --> 00:00:08.280]   que
+[00:00:08.280 --> 00:00:08.340]   o
+[00:00:08.340 --> 00:00:08.730]   melhor
+[00:00:08.730 --> 00:00:09.340]   candidato
+[00:00:09.340 --> 00:00:09.640]   pode
+[00:00:09.640 --> 00:00:09.870]   ser
+[00:00:09.870 --> 00:00:09.940]   o
+[00:00:09.940 --> 00:00:10.230]   que
+[00:00:10.230 --> 00:00:10.430]   não
+[00:00:10.430 --> 00:00:10.670]   sabe
+[00:00:10.670 --> 00:00:11.000]   fazer
+[00:00:11.000 --> 00:00:11.220]   o
+[00:00:11.220 --> 00:00:11.780]   trabalho.
+[00:00:12.280 --> 00:00:12.560]   Rick.
+output_json: saving output to 'work/reg/r00.json'
+
+whisper_print_timings:     load time =  6563.10 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    41.51 ms
+whisper_print_timings:   sample time =   283.12 ms /   290 runs (     0.98 ms per run)
+whisper_print_timings:   encode time =  8685.51 ms /     1 runs (  8685.51 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:   batchd time =  2695.04 ms /   288 runs (     9.36 ms per run)
+whisper_print_timings:   prompt time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:    total time = 18763.60 ms
