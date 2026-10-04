@@ -44,7 +44,10 @@ dentro do split da capa). **Leitura exposta: ~0,5 s** (a sutil do gancho).
 
 ## Marca só depois do nome
 "Jim" em 10,67 s → revelação em 10,74. Snapshot: 10,70 sem o Stockdale (apresentador + leak), 10,77 com o retrato.
-Capa = Hanoi Hilton visto do alto (sem o Stockdale), depois cela e muro de Hoa Lò.
+Capa = **gerada a pedido** no Codex (`gpt-5.6-sol`, conta ChatGPT do Fabio por login de dispositivo; logout no fim): piloto de costas
+na cela de Hoa Lò, luz vermelha pela grade, assunto na metade de cima (`assets/mg/capa-stockdale.jpg`). Depois cela e muro de Hoa Lò.
+v1 da capa (foto aérea do Hanoi Hilton) reprovada: as capas que viralizaram (Jocko, Dan Martell, David Marquet) são pessoa-tema
+em silhueta/de costas numa cena dramática. Re-render só da parte 0 (3,6 min).
 
 ## Camada de motion (work/mg/gen.py)
 Chip = "PASSO N" (pílula verde/amarela/vermelha). Prova = fotos de arquivo como card/tela cheia. Frase que o final inverte:
@@ -65,3 +68,5 @@ fontes do macOS em `/System/Library/Fonts` → DejaVu, `/System/Volumes/Data` (c
 ## Lições para o kit
 - `mg_sfx.py` → `sfx.py` da skill importa **scipy**: falta na lista de dependências do docs/10 e do `instalar.sh`.
 - Conferir a seção "Runtime" do `check`: `gsap is not defined` = o navegador não carregou o CDN e a camada não anima.
+- Capa: pessoa-tema de costas/silhueta numa cena dramática do assunto (padrão Jocko, Dan Martell, David Marquet). Prédio/foto aérea não serve.
+- Sessão na nuvem: o Codex loga pela conta ChatGPT com `codex login --device-auth` (o usuário ativa "device code sign-in" nas configurações de segurança do ChatGPT). Fazer `codex logout` no fim.

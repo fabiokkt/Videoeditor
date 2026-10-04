@@ -50,10 +50,10 @@ EVS = ['NATAL', '·', '·', '·', 'PÁSCOA', '·', '·']
 def roll(items): return ''.join(f'<span>{x}</span>' for x in items)
 
 HTML = f'''
-        <!-- A · SPLIT DA CAPA (0–10,74), faixa de cima SÓ COM FOTOS e nada do Stockdale antes de "Jim":
-             Hanoi Hilton do alto (NARA) → cama da cela de Hoa Lò → muro de Hoa Lò -->
+        <!-- A · SPLIT DA CAPA (0–10,74), nada do Stockdale antes de "Jim": CAPA GERADA A PEDIDO (Codex gpt-5.6-sol: piloto de costas na
+             cela de Hoa Lò, luz vermelha) → cama da cela de Hoa Lò → muro de Hoa Lò -->
         <div class="scene" id="A" style="height:845px">
-          <div class="full bw" id="A-capa"><img id="A-capaimg" src="assets/mg/hanoi-hilton-aerea.jpg" style="object-position:30% 35%" /></div>
+          <div class="full" id="A-capa"><img id="A-capaimg" src="assets/mg/capa-stockdale.jpg" style="object-position:42% 20%" /></div>
           <div class="full" id="A-cela"><img id="A-celaimg" class="dim" src="assets/mg/hoalo-cama.jpg" style="object-position:50% 55%" /></div>
           <div class="full" id="A-muro"><img id="A-muroimg" class="dim" src="assets/mg/hoalo-muro.jpg" style="object-position:60% 50%" /></div>
         </div>
