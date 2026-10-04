@@ -1,0 +1,31 @@
+ch00 GANCHO               Esse cara é um dos americanos mais ignorados nos Estados Unidos e mais idolatrados no Japão.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico pra provar que demitir funcionário que erra não resolve nada.
+ch02 DEMING-AULA          Deming foi dar aulas para as fábricas do Japão depois da guerra,
+ch03 MEDALHA              ganhou medalha do imperador e
+ch04 PREMIO               até hoje as empresas japonesas disputam um prêmio com o nome dele.
+ch05 ESSE-PROTOCOLO       E esse é o protocolo para você parar de trocar de funcionário e continuar com o mesmo problema.
+ch06 P1-TROCA-CULPADO     Primeiro... "TROCA O CULPADO"
+ch07 P1-TRES-VENDEDORES   Já trocou 3 vendedores e a venda continua não saindo?
+ch08 P1-NAO-E-VENDEDOR    O problema não é o vendedor, porra!
+ch09 P1-NOVENTA-E-QUATRO  Ele diz que, cada 100 problemas, 94 são do jeito que a empresa funciona.
+ch10 P1-MEU-QUERIDO       E quem montou esse jeito foi você, meu querido.
+ch11 P2-RANKING           Segundo, acaba com o ranking.
+ch12 P2-UM-CONTRA-OUTRO   Ele diz que ranking de funcionário bota um contra o outro.
+ch13 P2-ESCONDE-CLIENTE   Se o melhor vendedor esconde o cliente do colega pra ficar no topo da lista,
+ch14 P2-RANKING-ENSINOU   Foi o ranking quem ensinou.
+ch15 P3-CARTAZ            E terceiro, arranca o cartaz da parede.
+ch16 P3-FAZ-CERTO         Aquele "Aqui a gente faz certo da primeira vez"
+ch17 P3-COBRA             Ele diz que cartaz cobra do funcionário um problema que é da empresa.
+ch18 P3-GAFANHOTO         Seu time ri do cartaz no almoço pequeno gafanhoto.
+ch19 VIRADA-CAIXA         E a virada foi uma caixa de bolinhas.
+ch20 VIRADA-FABRICA       Ele montava uma fábrica de mentira.
+ch21 BOLA-PA              Seis voluntários tiravam bolinha com uma pá
+ch22 BOLA-VERMELHA        vermelho era o defeito
+ch23 BOLA-CHEFE           Ele fazia o chefe, elogiava quem tirava pouca e xingava quem tirava muita.
+ch24 BOLA-DEMITIA         depois demitia os piores.
+ch25 BOLA-NAO-DIMINUIA    e a vermelha não diminuía
+ch26 CLIMAX-UMA-EM-CINCO  Uma em cada cinco bolinhas era vermelha.
+ch27 CLIMAX-SO-ERRA       Seu funcionário só erra, meu amigo.
+ch28 CLIMAX-OLHA-A-CAIXA  Olha a caixa
+ch29 CTA-ME-SEGUE         Se você troca de funcionário e o problema continua Me segue. Porque você é demais!
+30 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

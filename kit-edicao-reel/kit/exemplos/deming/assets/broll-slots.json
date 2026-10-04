@@ -1,0 +1,192 @@
+{
+ "total": 101.31,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.99102
+   ],
+   "t0": 0.0,
+   "t1": 11.37,
+   "dur": 11.37,
+   "fala": "Esse cara é um dos americanos mais ignorados… E ele criou um protocolo polêmico… não resolve nada.",
+   "tema": "CAPA (Codex, a pedido): aula na fábrica japonesa em 1950, professor de costas → crachás trocados + DEMITIDO (pré-revelação)",
+   "cobre": "— (quadro 0 = capa)"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 1,
+   "toSeg": 4,
+   "span": [
+    0.3466,
+    0.99987
+   ],
+   "t0": 11.37,
+   "t1": 21.68,
+   "dur": 10.31,
+   "fala": "Deming foi dar aulas pras fábricas do Japão… medalha do imperador… prêmio com o nome dele.",
+   "tema": "REVELAÇÃO: retrato (Wikipedia) → aula em Tóquio 1950 (JUSE) → medalha do imperador (JUSE + Commons) → Prêmio Deming (JUSE)",
+   "cobre": "olhadas 11,58 · 14,04"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 5,
+   "toSeg": 8,
+   "span": [
+    0.24061,
+    0.83647
+   ],
+   "t0": 25.3,
+   "t1": 34.26,
+   "dur": 8.96,
+   "fala": "…continuar com o mesmo problema. Primeiro, troca o culpado. Já trocou três vendedores…",
+   "tema": "loop de crachás · chip PASSO 1 · três vendedores e a venda parada",
+   "cobre": "olhadas 30,46–30,70 · 33,38–33,59"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 9,
+   "toSeg": 10,
+   "span": [
+    0.00012,
+    0.66941
+   ],
+   "t0": 36.72,
+   "t1": 42.33,
+   "dur": 5.61,
+   "fala": "De cada cem problemas, noventa e quatro são do jeito que a empresa funciona.",
+   "tema": "grade de 100 pontos, 94 do sistema",
+   "cobre": "—"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 10,
+   "toSeg": 14,
+   "span": [
+    0.18603,
+    0.87524
+   ],
+   "t0": 45.1,
+   "t1": 55.37,
+   "dur": 10.27,
+   "fala": "Segundo, acaba com o ranking… um contra o outro… esconde o cliente do colega",
+   "tema": "chip PASSO 2 · ranking de vendedores",
+   "cobre": "olhada 45,20"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 15,
+   "toSeg": 17,
+   "span": [
+    9e-05,
+    0.70969
+   ],
+   "t0": 57.23,
+   "t1": 64.9,
+   "dur": 7.67,
+   "fala": "E terceiro, arranca o cartaz da parede. Aquele “Aqui a gente faz certo da primeira vez.”",
+   "tema": "chip PASSO 3 · cartaz motivacional arrancado",
+   "cobre": "—"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "full",
+   "fromSeg": 18,
+   "toSeg": 19,
+   "span": [
+    0.00034,
+    0.56396
+   ],
+   "t0": 68.04,
+   "t1": 71.34,
+   "dur": 3.3,
+   "fala": "Seu time ri do cartaz no almoço, pequeno gafanhoto.",
+   "tema": "balões kkkk + Mestre Po (Kung Fu)",
+   "cobre": "olhadas 68,97–70,46"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "split",
+   "fromSeg": 19,
+   "toSeg": 20,
+   "span": [
+    0.00043,
+    0.99936
+   ],
+   "t0": 71.34,
+   "t1": 75.99,
+   "dur": 4.65,
+   "fala": "E a virada foi uma caixa de bolinhas. Ele montava uma fábrica de mentira.",
+   "tema": "a caixa de contas: brancas e vermelhas",
+   "cobre": "—"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 20,
+   "toSeg": 25,
+   "span": [
+    0.13018,
+    0.87205
+   ],
+   "t0": 75.99,
+   "t1": 87.94,
+   "dur": 11.95,
+   "fala": "Seis voluntários tiravam bolinha com uma pá… elogiava… xingava… demitia os piores… não diminuía.",
+   "tema": "a pá de 50 furos · placar dos 6 · elogio/bronca · DEMITIDO · gráfico parado",
+   "cobre": "olhadas 76,5 · 78,98 · 84,02–84,55 · 86,40"
+  },
+  {
+   "id": "s10",
+   "file": "assets/broll/s10.mp4",
+   "mode": "full",
+   "fromSeg": 25,
+   "toSeg": 26,
+   "span": [
+    0.42335,
+    1.0
+   ],
+   "t0": 90.0,
+   "t1": 92.81,
+   "dur": 2.81,
+   "fala": "Uma em cada cinco bolinhas era vermelha.",
+   "tema": "CLÍMAX: 5 bolinhas, 1 vermelha — 20% (riser + impact)",
+   "cobre": "—"
+  },
+  {
+   "id": "s11",
+   "file": "assets/broll/s11.mp4",
+   "mode": "full",
+   "fromSeg": 27,
+   "toSeg": 28,
+   "span": [
+    0.60884,
+    0.99836
+   ],
+   "t0": 94.67,
+   "t1": 95.86,
+   "dur": 1.19,
+   "fala": "Olha a caixa.",
+   "tema": "volta à caixa (callback da virada)",
+   "cobre": "olhada 95,17–95,41"
+  }
+ ]
+}
