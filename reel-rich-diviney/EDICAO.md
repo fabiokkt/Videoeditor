@@ -9,7 +9,7 @@ saída final **1440x2560 @ 60 fps**. Velocidade **1,1x**.
 Kit v3 (fluxo rápido, docs/14) + camada de motion (showreel-interface), na dosagem do Deming v2.
 Editado numa sessão do Claude Code **na nuvem** (Linux, 4 núcleos, sem GPU), com o kit da branch `claude/reel-stockdale-protocolo`.
 **Estado (2026-10-04): RENDERIZADO** (`renders/Rich-Diviney-reel-final.mp4`, 244 MB, fora do git), comando único sem parada.
-Render: 13 partes de 429 quadros, 2 em paralelo, 23,4 min (container de 4 núcleos). QC: 5577 quadros = timeline · pico −0,7 dB ·
+v3: 13 partes de 426 quadros (o container reiniciou no meio: 8 partes aproveitadas, retomado). QC: 5527 quadros = timeline · pico −0,7 dB ·
 0 trechos pretos · bipe no MP4 98,6% em 1 kHz · sync-check 27/30, lag mediano 10 ms · MD5 do bruto igual.
 Cópia leve: `entrega/Rich-Diviney-reel-envio.mp4` (crf 23, 58 MB) · quadros-chave do MP4: `entrega/folha-mp4.jpg`.
 Duração **92,108 s** (v3) · 31 takes · 1 bipe · 95 legendas · 5 callouts · 3 seções com light-leak · 11 SFX fixos + 68 SFX da camada ·
