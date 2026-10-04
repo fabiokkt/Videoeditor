@@ -3,7 +3,9 @@
 Kit v3 (fluxo rápido, docs/14) + camada de motion (showreel-interface), na dosagem do Deming v2.
 Palco 1440x2560 (geometria 1080x1920 por `#stage`), timeline 30 fps, saída **1440x2560 @ 60 fps**, **1,1x**.
 Editado numa sessão do Claude Code **na nuvem** (Linux, 4 núcleos, sem GPU), com o kit remontado a partir dos .md enviados.
-**Estado (2026-10-04): RENDERIZANDO** (`renders/James-Stockdale-reel-final.mp4`), comando único sem parada.
+**Estado (2026-10-04): RENDERIZADO** (`renders/James-Stockdale-reel-final.mp4`, 239 MB), comando único sem parada.
+Render: 12 partes de 456 quadros, 2 em paralelo, 23 min (container de 4 núcleos). QC: 5466 quadros = timeline · pico −0,6 dB · 0 trechos pretos ·
+bipe no MP4 98,7% em 1 kHz · sync-check 27/27, lag mediano 10 ms · MD5 do bruto igual. Cópia leve: `renders/James-Stockdale-reel-envio.mp4` (crf 23, 48 MB).
 Duração **91,091 s** · 29 takes · 1 bipe · 99 legendas · 4 callouts · 4 light-leaks (fim do split, virada, clímax, CTA) ·
 10 SFX fixos + 56 SFX da camada · 14 slots (2 splits + 12 cenas de tela cheia na camada de motion).
 
