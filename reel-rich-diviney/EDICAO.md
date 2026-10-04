@@ -55,7 +55,10 @@ Apresentador em tela cheia no bipe (40,40–42,30).
 `splitShiftY` **345** (olhos y≈1031 no aroll em 561 amostras das janelas de split → 1377−1032). Splits: capa 0–10,97 · virada 65,15–71,19.
 
 ## Marca só depois do nome
-"Rich" em 10,90 s → revelação em 10,97. Antes: só fotos de treino BUD/S sem o Rich (onda, arrebentação, sino).
+"Rich" em 10,90 s → revelação em 10,97. Capa = **gerada a pedido** no Codex (`gpt-5.6-sol`, conta ChatGPT do Fabio por login de dispositivo; logout no fim): instrutor SEAL em
+silhueta na beira da piscina de treino, contraluz vermelha (`assets/mg/capa-rich.jpg`, padrão docs/05 §25). Depois arrebentação e sino.
+v1 da capa (foto de arquivo do bote na onda) trocada: não seguia o §25. A mesma capa volta no fecho "Nadar a gente ensina".
+Re-render só das partes 0 e 12 (5,7 min).
 
 ## Camada de motion (work/mg/gen.py)
 Chip = "PASSO N" (verde/amarelo/vermelho). Prova = fotos da Marinha dos EUA como card/tela cheia + retrato do Rich.
