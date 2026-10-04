@@ -458,3 +458,21 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
   1 em cada 5), o mecanismo do clímax (a caixa, a pá, o placar), o objeto que a fala nomeia e não existe em foto (o cartaz com a
   frase exata). Regra prática: **≤ ~40% do tempo de cobertura em UI animada**; o resto é foto ou apresentador.
 - Gráfico que só repete a fala ("não diminuía") → apresentador em tela cheia (respira o ritmo).
+
+## 25. Capa que viraliza + edição numa sessão na nuvem (reel James Stockdale, 2026-10-04)
+
+- **Capa = a pessoa-tema de costas ou em silhueta, numa cena dramática do assunto**, com luz e cor fortes: o padrão das capas
+  que viralizaram (Jocko: SEAL em silhueta na visão noturna · Dan Martell: empresário de costas numa cela · David Marquet:
+  capitão em silhueta no periscópio, luz vermelha). Prédio, foto aérea ou objeto não serve: a 1ª capa do Stockdale (Hanoi
+  Hilton visto do alto) foi reprovada ("precisa ser mais parecida com o vídeo do Jocko, Dan e David… isso influenciou na
+  viralização"). Quando a cena não existe em foto real, **gerar** (Codex) e marcar "gerada a pedido".
+- **Sessão do Claude Code na nuvem** (container Linux, sem o Mac): o Codex entra pela conta ChatGPT do Fabio com
+  `codex login --device-auth` → ele abre `https://auth.openai.com/codex/device` e digita o código. Pré-requisito: ativar
+  **"device code sign-in"** em ChatGPT → Settings → Security and login. Sem custo extra (plano do ChatGPT). `codex logout` no fim.
+  Gerador público gratuito (pollinations) foi testado e reprovado: 886x665, marca d'água, ignora o prompt.
+- **`sfx.py` da skill showreel-interface importa `scipy`** (o `mg_sfx.py` falha sem ele): incluir no venv.
+- **Conferir a seção "Runtime" do `check`**: `gsap is not defined` = o Chrome não carregou o GSAP do CDN e a camada de motion
+  não anima (no container foi o certificado do proxy fora do NSS do Chrome).
+- Adaptadores que o container Linux precisou (sem mexer no motor): `md5`→`md5sum`, `sed -i ''`, `/opt/homebrew/bin/ffmpeg`,
+  fontes em `/System/Library/Fonts`, `/System/Volumes/Data` (checagem de disco do `render-par.sh`), `BAKE_X264=1`,
+  `libegl1`/`libgles2` para o mediapipe, whisper.cpp compilado. Render: 12 partes, 2 em paralelo, 23 min em 4 núcleos.
