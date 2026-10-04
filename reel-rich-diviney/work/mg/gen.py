@@ -25,7 +25,7 @@ CSS = r'''
         #mg .ppl10 span { width: 150px; height: 150px; border-radius: 50%; background: #2A303C; position: relative; overflow: hidden; display: block; }
         #mg .ppl10 span::before { content: ""; position: absolute; left: 48px; top: 26px; width: 54px; height: 54px; border-radius: 50%; background: #8C93A1; }
         #mg .ppl10 span::after { content: ""; position: absolute; left: 25px; top: 90px; width: 100px; height: 80px; border-radius: 50px 50px 0 0; background: #8C93A1; }
-        #mg .ppl10 b { position: absolute; width: 150px; height: 150px; border-radius: 50%; border: 10px solid #E5322D; box-sizing: border-box;
+        #mg .xs b { position: absolute; width: 150px; height: 150px; border-radius: 50%; border: 10px solid #E5322D; box-sizing: border-box;
                        color: #E5322D; font-size: 110px; line-height: 128px; text-align: center; font-weight: 800; background: rgba(20,8,10,.55); }
         #mg .big { position: absolute; left: 0; width: 1080px; text-align: center; font-weight: 800; color: #fff; line-height: 1; }
         #mg .lrow { position: relative; height: 150px; display: flex; align-items: center; justify-content: space-between; border-top: 2px solid rgba(128,136,150,.18); }
@@ -89,7 +89,7 @@ HTML = f'''
           <div class="tag" id="C-mel" style="left:200px;top:1120px;background:#11141A;font-size:46px">SÓ OS MELHORES</div>
           <div class="big" id="C-tt" style="top:260px;font-size:84px;letter-spacing:.02em">CANDIDATOS</div>
           <div class="ppl10" id="C-ppl" style="top:420px">{ppl}</div>
-          <div id="C-xs" style="position:absolute;left:115px;top:420px;width:850px;height:330px">{xs}</div>
+          <div class="xs" id="C-xs" style="position:absolute;left:115px;top:420px;width:850px;height:330px">{xs}</div>
           <div class="tag" id="C-met" style="left:255px;top:880px;background:#E5322D;font-size:50px">METADE REPROVAVA</div>
         </div>
 

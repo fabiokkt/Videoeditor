@@ -1,2 +1,18 @@
 plan.broll -> arquivos finais
 OK: 31 segs, 92.944s, 2 cenas de broll (2 tomadas), 11 sfx, 95 legendas, 5 callouts, 5 leaks, J-cut 9f/3f.
+  broll-full: nenhuma cena de tela cheia em video (camada de motion) — pulado
+  leaks.mp4  5577 quadros (timeline 5577) · 5 leaks
+  bed.m4a  trilha + 11 SFX
+68 cues da camada de motion -> work/mg-cues-auto.json {"whoosh":19,"pop":12,"swish":12,"tique":9,"clique":10,"cacaniquel":3,"ding":1,"impacto":2}
+Traceback (most recent call last):
+  File "/home/user/Videoeditor/reel-rich-diviney/scripts/mg_sfx.py", line 10, in <module>
+    import sfx as K
+ModuleNotFoundError: No module named 'sfx'
+  0 error(s), 5 warning(s), 0 info(s)
+  2 error(s), 0 warning(s), 0 info(s)
+snapshots/qc/contact-sheet-1.jpg
+snapshots/qc/contact-sheet-2.jpg
+snapshots/qc/contact-sheet-3.jpg
+snapshots/qc/contact-sheet-4.jpg
+snapshots/qc/contact-sheet-5.jpg
+MONTAR OK
