@@ -1,15 +1,16 @@
-"""POR VIDEO — reel KAZUO INAMORI. Bipe de censura gravado na voz, na palavra INTEIRA
-(roteiro: "Sobrou verba em dezembro e o time torrou em qualquer merda... piiii? Voce ensinou, meu amiguinho.").
-Entrada: work/kazuo-inamori-voz-limpa.m4a (audio do bruto) -> assets/kazuo-inamori-voz.m4a (voz do projeto)
+"""POR VIDEO — reel RICH DIVINEY. Bipe de censura gravado na voz, na palavra INTEIRA
+("Ele diz que a pessoa so mostra quem e quando da merda.").
+Entrada: work/<slug>-voz-limpa.m4a (audio do bruto) -> assets/<slug>-voz.m4a (voz do projeto)
 e work/full.wav (mono, o que o cuts.py le). Transcricao continua usando work/full-clean.wav (sem bipe).
-Mapa (envelope 10 ms + bandas de espectro 30 ms, source): "em" nasal 75,15-75,41 · oclusao /k/ 75,43-75,47 · "qual" 75,48-75,70 ·
-oclusao /k/ 75,71-75,73 · "quer" 75,74-75,90 · nasal /m/ 75,91-76,08 (energia < 400 Hz, -25 dB) · "er" 76,09-76,23 · tap /r/ 76,24-76,26 ·
-oclusao /d/ 76,27-76,34 · "a" 76,35-76,47 · decaimento ate 76,50.
-Varredura da transcricao INTEIRA (40 regioes, inclusive as descartadas): so este palavrao."""
+Mapa (envelope 10 ms + bandas de espectro 30 ms, source): "quan" 59,88-59,96 · nasal /n/ 59,97-60,02 · "do" 60,03-60,09 ·
+oclusao /d/ 60,10-60,14 · "da" 60,15-60,25 · nasal /m/ 60,26-60,34 (energia < 400 Hz > 90%) · "er" 60,35-60,49 ·
+oclusao /d/ 60,50-60,51 · "a" 60,52-60,68 · decaimento ate 60,74.
+Whisper em recortes cumulativos (de 57,45): ate 60,25 "...quando da" · ate 60,36 "...quando da medo" · ate 60,75 "...quando da merda".
+Varredura da transcricao INTEIRA (31 regioes, inclusive as descartadas): so este palavrao."""
 import numpy as np, subprocess, wave, json, os
 VOZ=json.load(open('assets/edit-plan.json'))['voiceSrc']                      # assets/<slug>-voz.m4a (voz do projeto, COM bipe)
 LIMPA='work/'+os.path.basename(VOZ).replace('.m4a','-limpa.m4a')             # work/<slug>-voz-limpa.m4a (audio do bruto, SEM bipe)
-JANELAS=[]  # POR VIDEO: [(ini, fim)] em s do source, palavra INTEIRA. Ex. (reel Kazuo): [(75.905,76.505)]. Vazio = sem bipe (fase2.sh pula)
+JANELAS=[(60.255,60.745)]  # POR VIDEO: [(ini, fim)] em s do source, palavra INTEIRA. Ex. (reel Kazuo): [(75.905,76.505)]. Vazio = sem bipe (fase2.sh pula)
 GAIN=10**(-18/20)*1.75    # bipe ~1 dB acima da frase (Dan Martell: -17,2 contra -18,4)
 subprocess.run(['ffmpeg','-v','error','-y','-i',LIMPA,'-ar','48000','-ac','2','-c:a','pcm_s16le','work/voz-limpa48.wav'],check=True)
 w=wave.open('work/voz-limpa48.wav'); sr=w.getframerate(); ch=w.getnchannels()

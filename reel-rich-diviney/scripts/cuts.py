@@ -23,53 +23,44 @@ R={r['i']:r for r in json.load(open('work/regions_cut.json'))}
 # o piso de -45 dB sozinho entra no decaimento da respiracao e deixa ~1 s de ar morto
 # (medido no IKEA: CAMADAS +0,57 s, PROVA +0,86 s).
 WEND={int(k):v[-1][2] for k,v in json.load(open('work/region-words-cut.json')).items()}
-# POR VIDEO: (label, 1a regiao, ultima regiao) em work/regions_cut.json — reel KAZUO INAMORI
+# POR VIDEO: (label, 1a regiao, ultima regiao) em work/regions_cut.json — reel RICH DIVINEY
 # (regions_cut.json vem de scripts/mkcut.py). TAKES DESCARTADOS (mantido SEMPRE o ULTIMO take valido):
-#   c12 (r09 "Pela empresa inteira.") -> c13 · c27+c28+c29 (r22-r24 "E se voce quiser o protocolo completo / Comenta Monge. / Que eu te mando.") -> c30
-#   c42 (r34 parte 2 "Seu time gasta...") e c43 (r35 "Se o time gasta como se o dinheiro...") -> c44
-# c46+c47+c48 = "Se voce e o unico... me segue, porque voce... e demais" (pausa dramatica, NAO e repeticao: um take so)
+#   c02 "Rick." + c03 "Rich escolhia quem entrava na elite da..." -> c04 · c06 "E esse e o protocolo ... de apaixonar" -> c07
+#   c08 "primeiro" + c09 "Se voce..." -> c10 · c13 "E so isso que voce..." -> c14 · c19 "Na entrevista, me conta." -> c20
+#   c25 "ele tinha uma marinheira" -> c26 · c31 "Ele conta que um moleque..." -> c32 · c39 "Se voce se ia..." -> c40
+# c40+c41 = "Se voce se apaixona por curriculo, me segue, porque voce e demais" (pausa dramatica, um take so)
 TAKES=[
  ("GANCHO",0,0),
  ("PROTOCOLO-POLEMICO",1,1),
- ("ESCONDE-NUMERO",2,2),
- ("KAZUO-GIGANTES",3,3),
- ("MONGE-AEREA",4,4),
- ("SEM-SALARIO",5,5),
- ("PROTOCOLO-DINHEIRO",6,6),
- ("P1-PRIMEIRO",7,7),
- ("P1-PEDACINHOS",8,8),
- ("P1-EMPRESINHA",9,9),
- ("P1-LIDER-DONO",10,10),
- ("P1-BRIGA-LUCRO",11,11),
- ("P1-NINGUEM-BRIGA",13,13),
- ("P2-SEGUNDO",14,14),
- ("P2-MOSTRA-NUMERO",15,15),
- ("P2-TODO-DIA",16,16),
- ("P2-CONTA-DE-CASA",17,17),
- ("P2-PAINEL",18,18),
- ("P2-SO-VOCE-VE",19,19),
- ("P2-GAFANHOTO",20,20),
- ("P3-TERCEIRO",21,21),
- ("P3-ORCAMENTO",22,22),
- ("P3-PLANO",23,23),
- ("P3-GASTAR-TUDO",24,24),
- ("P3-TORROU-BIPE",25,25),
- ("P3-AMIGUINHO",26,26),
- ("CTA-COMENTA-MONGE",30,30),
- ("VIRADA-REUNIAO",31,31),
- ("VIRADA-BILHAO",32,32),
- ("VIRADA-CORTOU",33,33),
- ("VIRADA-CENTAVO",34,34),
- ("VIRADA-O-DIRETOR",35,35),
- ("VIRADA-APROVADO",36,36),
- ("VIRADA-EXPLODIU",37,37),
- ("CLIMAX-DE-QUEM",38,38),
- ("CLIMAX-NAO",39,39),
- ("CLIMAX-RASTEJANDO",40,40),
- ("FECHO-RECORDE",41,41),
- ("FECHO-TIME-GASTA",44,44),
- ("FECHO-NUM-ESCONDIDO",45,45),
- ("CTA-ME-SEGUE",46,48),
+ ("RICH-ELITE",4,4),
+ ("METADE-REPROVAVA",5,5),
+ ("PROTOCOLO-CURRICULO",7,7),
+ ("P1-PRIMEIRO",10,10),
+ ("P1-PLANILHA",11,11),
+ ("P1-PACIENCIA",12,12),
+ ("P1-MEU-QUERIDO",14,14),
+ ("P2-SEGUNDO",15,15),
+ ("P2-PIOR-DIA",16,16),
+ ("P2-QUEM-E",17,17),
+ ("P2-BIPE",18,18),
+ ("P2-ENTREVISTA",20,20),
+ ("P2-O-QUE-FEZ",21,21),
+ ("P2-MELHOR-DIA",22,22),
+ ("P2-VER-O-PIOR-P3",23,23),
+ ("P3-CADEIRA",24,24),
+ ("P3-MARINHEIRA",26,26),
+ ("P3-DECOLOU",27,27),
+ ("P3-GAFANHOTO",28,28),
+ ("P3-CADEIRA-ERRADA",29,29),
+ ("VIRADA-PISCINA",30,30),
+ ("VIRADA-MOLEQUE",32,32),
+ ("VIRADA-AFUNDOU",33,33),
+ ("VIRADA-NAO-SEI-NADAR",34,34),
+ ("VIRADA-INSTRUTOR",35,35),
+ ("CLIMAX-NADAR",36,36),
+ ("CLIMAX-CORAGEM",37,37),
+ ("FECHO-NADAR",38,38),
+ ("CTA-ME-SEGUE",40,41),
 ]
 AP=[(lab,R[a]['s'],R[b]['e']) for lab,a,b in TAKES]
 res=[];tot=0
@@ -85,7 +76,7 @@ for k,(lab,s0,s1) in enumerate(AP):
     j=on
     while j>lo and db[j-1]>=NOISE: j-=1
     onset=w2t(j); IN=round(max(0,onset-HEAD_PAD),3)
-    # POR VIDEO: head fixo onde a deteccao nao serve (reel KAZUO INAMORI: nenhum)
+    # POR VIDEO: head fixo onde a deteccao nao serve (reel RICH DIVINEY: nenhum)
     # (nenhum ate agora)
     FORCE_IN={}
     if lab in FORCE_IN: onset=round(FORCE_IN[lab]+HEAD_PAD,3); IN=FORCE_IN[lab]

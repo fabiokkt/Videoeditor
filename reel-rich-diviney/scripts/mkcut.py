@@ -1,4 +1,4 @@
-"""POR VIDEO — reel KAZUO INAMORI. Subdivide as regioes de fala nos vales de silencio reais
+"""POR VIDEO — reel RICH DIVINEY. Subdivide as regioes de fala nos vales de silencio reais
 (scripts/valleys.py) e remove os takes repetidos -> work/regions_cut.json + work/region-words-cut.json.
 Cada entrada: i (novo id), s, e (source), parent (regiao original), drop (True = descartada).
 Regioes descartadas continuam na lista: o cuts.py usa os vizinhos para achar o silencio real."""
@@ -7,20 +7,23 @@ R={r['i']:r for r in json.load(open('work/regions.json'))}
 W={int(k):v for k,v in json.load(open('work/region-words.json')).items()}
 # (regiao, [pontos de divisao no MEIO do vale], {indices das partes descartadas})
 SPLIT={
- 1:([8.25],set()),                # "E ele criou um protocolo polemico" | "pra provar que seu funcionario nao pensa como dono porque voce esconde o numero."
- 2:([15.495,21.095],set()),       # "Kazuo fundou duas gigantes," | "virou monge budista e com 78 anos assumiu uma companhia aerea falida," | "sem salario."
- 16:([60.955],set()),             # "Na sua, so voce ve o numero." | "E olhe la, pequeno gafanhoto."
- 17:([64.115],set()),             # "E terceiro," | "proibe a palavra orcamento."
- 26:([92.715,95.73],set()),       # "E a virada foi uma reuniao." | "Um diretor ia gastar um bilhao de ienes." | "Ele cortou:"
- 34:([116.10],{1}),               # "No primeiro ano, a empresa falida bateu recorde de lucro." | DROP "Seu time gasta..." (falso inicio, refeito em r36)
- 37:([126.645],set()),            # "Numero escondido." | "Se voce e o unico que liga pro dinheiro da sua empresa, me segue,"
+ 0:([5.76,12.35],{2}),            # "Esse cara ... Estados Unidos." (GANCHO) | "E ele criou um protocolo polemico ... fazer o trabalho." | DROP "Rick." (falso inicio, refeito em r02)
+ 2:([21.25,26.02],{2}),           # "Rich escolhia quem entrava na elite da elite dos SEALs," | "so os melhores SEALs se candidatavam e metade reprovava." | DROP "E esse e o protocolo ... de apaixonar" (refeito em r03, com o "se")
+ 3:([35.05],{1}),                 # "E esse e o protocolo para voce parar de se apaixonar por curriculo." | DROP "primeiro" (falso inicio, refeito em r05)
+ 5:([42.92],set()),               # "Primeiro, separa o que da para ensinar ... e pergunta." | "Da para ensinar? Planilha, da."
+ 14:([67.32],set()),              # "Na entrevista, me conta o dia ... ultimo emprego." | "O que voce fez?"
+ 17:([77.35],{1}),                # "troca de cadeira." | DROP "ele tinha uma marinheira" (refeito em r18)
+ 18:([83.89,87.10],set()),        # "Ele tinha uma marinheira ... do setor." | "Ele so mudou ela de funcao e ela decolou." | "As vezes a pessoa nao e ruim, pequeno gafanhoto."
+ 23:([106.70],set()),             # "Pulou, afundou e atravessou a piscina andando no fundo." | "Subiu sem ar. Desculpa, eu nao sei nadar."
 }
-# TAKES DESCARTADOS (mantido SEMPRE o ULTIMO take valido) — reel KAZUO INAMORI:
-#  r09 "Pela empresa inteira." (falso inicio) -> refeito em r10 "Pela empresa inteira, ninguem briga."
-#  r22+r23+r24 "E se voce quiser o protocolo completo / Comenta Monge. / Que eu te mando." -> refeito em r25
-#     "Comenta MONGE, que eu te mando o protocolo completo." (a frase do roteiro)
-#  r34 parte 2 "Seu time gasta..." (falso inicio) e r35 "Se o time gasta como se o dinheiro..." (falso inicio) -> refeito em r36
-DROP={9,22,23,24,35}
+# TAKES DESCARTADOS (mantido SEMPRE o ULTIMO take valido) — reel RICH DIVINEY:
+#  r00 fim "Rick." + r01 "Rich escolhia quem entrava na elite da..." (falsos inicios) -> r02
+#  r02 fim "E esse e o protocolo para voce parar de apaixonar..." -> r03 · r03 fim "primeiro" + r04 "Se voce..." -> r05
+#  r07 "E so isso que voce..." -> r08 · r13 "Na entrevista, me conta." -> r14 · r17 fim "ele tinha uma marinheira" -> r18
+#  r21 "Ele conta que um moleque apareceu no treinamento dos SEALs" -> r22 · r28 "Se voce se ia..." -> r29
+#  r25 "Nadar, a gente ensina. Coragem." + r26 "Coragem de aparecer ali..." = repeticao enfatica, NAO e retake (fica)
+#  r27 "Nadar a gente ensina." depois de "meu amigo?" = callback do roteiro (fica)
+DROP={1,4,7,13,21,28}
 out=[];ww={}
 for k in sorted(R):
     r=R[k]; pts,dr=SPLIT.get(k,([],set()))
