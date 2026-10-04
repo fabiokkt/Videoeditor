@@ -338,5 +338,9 @@
   "src": "compositions/mg.html",
   "id": "mg"
  },
- "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA).",
+ "leakSkip": [
+  65.15
+ ],
+ "_leakSkip": "sem light-leak na entrada do split da virada (65,15 s): piscava sobre a parede clara antes do arrasto (pedido do Fabio, v3)"
 }

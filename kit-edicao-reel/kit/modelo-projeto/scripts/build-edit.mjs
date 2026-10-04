@@ -385,6 +385,9 @@ groups.forEach(g => {
 const trans = [];
 pontos.sort((x, y) => x.t - y.t).forEach(p => {
   if (p.t < 0.5 || p.t > TOTAL - 0.4) return;
+  // plan.leakSkip: instantes (s de timeline) sem light-leak — ex.: entrada de split da camada de motion sobre a parede
+  // clara do apresentador: o leak chega antes do arrasto e lê como "tela piscando" (reel Rich Diviney)
+  if ((plan.leakSkip || []).some(s => Math.abs(p.t - s) < 0.3)) return;
   const last = trans[trans.length - 1];
   if (last && p.t - last.t < LEAK_MIN_GAP) return;
   trans.push(p);

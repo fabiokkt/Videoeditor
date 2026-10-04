@@ -485,3 +485,6 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
   continuam na timeline antiga.
 - Mudou o tempo depois de um ponto: os tempos absolutos da camada (gerador) e do `slots.py` que caem depois do corte se deslocam pelo
   mesmo valor do segmento (aqui −0,83 s); conferir as palavras em `work/tl-words.txt` e apagar **todas** as partes antes do render.
+- **Light-leak na entrada de um split da camada de motion lê como "tela piscando"**: o leak começa 10 quadros antes do arrasto, em cima
+  da parede clara do apresentador, e clareia o rosto antes de a faixa de cima chegar (luminância 149 → 176). O próprio arrasto já é a
+  transição. Novo campo `leakSkip` (instantes de timeline) no plano → `build-edit.mjs` pula o leak ali (reel Rich Diviney, virada).

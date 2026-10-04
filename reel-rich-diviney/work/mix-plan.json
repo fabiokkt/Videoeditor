@@ -322,15 +322,8 @@
   },
   {
    "file": "assets/sfx/swoosh.mp3",
-   "start": 64.817,
-   "dur": 0.98,
-   "vol": 0.18,
-   "nome": "entra "
-  },
-  {
-   "file": "assets/sfx/whoosh-transition.mp3",
    "start": 70.857,
-   "dur": 2.1,
+   "dur": 0.98,
    "vol": 0.18,
    "nome": "sai "
   },
@@ -342,9 +335,9 @@
    "nome": "riser do clímax"
   },
   {
-   "file": "assets/sfx/whoosh.mp3",
+   "file": "assets/sfx/whoosh-transition.mp3",
    "start": 78.921,
-   "dur": 1.2,
+   "dur": 2.1,
    "vol": 0.18,
    "nome": "VIRADA -> CLIMAX (coragem ninguem ensina)"
   },
@@ -356,9 +349,9 @@
    "nome": "impact do clímax"
   },
   {
-   "file": "assets/sfx/swoosh.mp3",
+   "file": "assets/sfx/whoosh.mp3",
    "start": 87.839,
-   "dur": 0.98,
+   "dur": 1.2,
    "vol": 0.18,
    "nome": "FECHO -> CTA"
   }

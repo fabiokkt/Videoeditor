@@ -79,4 +79,5 @@ copiada para `~/.claude/skills/` (o `mg_sfx.py` importa o `sfx.py` dela).
 
 ## Lições para o kit
 - `montar.sh`: `mg_sfx.py | head -1` dá BrokenPipe no print final (a mistura já foi gravada) → trocado por `tail -1` neste projeto.
+- v3: sem light-leak na entrada do split da virada (`leakSkip` [65,15]): piscava sobre a parede clara. Re-render só da parte 9.
 - Os splits saem pela camada, mas o `ritmo.py` não conta os eventos dela (acusa "SEM EVENTO" em trechos cobertos pela camada).
