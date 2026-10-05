@@ -497,3 +497,22 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
   usuário a partir do master (260–285 MB): cópia para o chat em x264 dois passes ~2 Mbps (< 30 MB) e versão final HEVC
   (`libx265` dois passes, `-tag:v hvc1`, AAC 256k, `+faststart`) a 8 Mbps — **acima de ~95 s, baixar o vídeo para caber em
   < 100 MB** (96,7 s → 7,5 Mbps).
+
+## 27. Nuvem sem tropeço + roteiro que não foi gravado (reel Hyman Rickover, 2026-10-05)
+
+- **`codex exec` em tarefa de fundo precisa de `< /dev/null`.** Sem isso ele fica para sempre em "Reading additional input from stdin…"
+  (a capa só saiu depois de matar por PID e rodar de novo). Comando: `codex exec -m gpt-5.6-sol --skip-git-repo-check --sandbox workspace-write "$(cat prompt.txt)" < /dev/null`.
+- **Commons no container: o arquivo ORIGINAL (upload.wikimedia.org) dá HTTP 429**, a miniatura padrão não. `work/pesq/wmthumb.py <slug> <largura> <idx…>`
+  pede pela API a miniatura na largura dada (1920; 1280 para original menor) com retry, e grava a licença como o `wmpick.py`.
+- **`mezanino.sh` rodado direto** (fora do `fase1.sh`) não tem o venv no PATH (a conferência de cor falha por falta de numpy) e, se o setup ainda não
+  terminou, nem o `md5`. Rodar pelo `fase1.sh`, ou exportar `PATH=$HOME/Claude/.venv-reel/bin:$PATH` antes.
+- **Trecho do roteiro que não foi gravado: vale o áudio.** O CTA do meio ("Comenta ALMIRANTE…") não existe no bruto (7,5 s de silêncio a −50 dB no lugar):
+  sem callout da palavra-chave; avisar no resumo de entrega.
+- **Palavra curta no começo de região some no passe por região** ("Primeiro," fundido com "Toda"): onde o roteiro tem uma palavra que a transcrição não tem,
+  conferir com whisper em recorte e corrigir texto (FIX) **e tempo** (FIXT) — sem o FIXT a legenda "toda tarefa" entrava 0,5 s adiantada.
+- **Bandeira drapeada (bunting) num recorte 9:16 pode parecer outra bandeira** (no lançamento do Nautilus, a faixa diagonal com estrelas lia como bandeira
+  confederada). Conferir no snapshot toda foto com bandeira/insígnia recortada; trocar a foto em vez de arriscar.
+- **`ritmo.py` agora conta os `cue()` da camada de motion** (`work/mg-cues-auto.json`): antes acusava 25 s "sem evento" sobre cenas inteiras de motion.
+- Capa gerada reaproveitada no corpo como callback: a cadeira vazia em "a virada foi uma entrevista" e o velho de costas em "virou a cadeira" — a cena da capa
+  vira a cena da virada, sem foto de banco.
+- Container de 4 núcleos: 12 partes de 456 quadros, 2 em paralelo, ~4 min por par.

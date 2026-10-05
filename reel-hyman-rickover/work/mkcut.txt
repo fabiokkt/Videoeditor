@@ -1,0 +1,31 @@
+c00 (r00)    0.79-   6.30      Esse cara é um dos militares mais insuportáveis e mais respeitados dos Estados Unidos.
+c01 (r00)    6.30-  13.60      E ele criou um protocolo polêmico para provar que seu time entrega mais ou menos porque você aceita mais ou menos.
+c02 (r00)   13.60-  16.18 DROP Iman serrava a cadeira do candidato Iman.
+c03 (r01)   17.21-  21.08      Iman cerrava a cadeira para o candidato escorregar na entrevista
+c04 (r01)   21.08-  25.27      e só saiu da Marinha porque foi demitido aos 82 anos.
+c05 (r02)   25.65-  29.83      E esse é o protocolo para você parar de aceitar trabalho mais ou menos.
+c06 (r03)   30.18-  33.00      Toda tarefa tem um nome, não é?
+c07 (r04)   33.38-  37.01      O comercial, não é o pessoal, é o João.
+c08 (r04)   37.01-  41.93      Ele diz que se deu errado e ninguém sabe de quem era, ele nunca foi de ninguém.
+c09 (r05)   42.34-  44.67      Tarefa do pessoal é tarefa de ninguém.
+c10 (r06)   45.28-  45.94      Segundo,
+c11 (r07)   46.29-  51.72      Cuida do detalhe, ele diz que o chefe que não liga para o detalhe, o time também não liga.
+c12 (r08)   53.17-  58.30      Ele passava 99% do tempo no que os outros chamam de besteira.
+c13 (r09)   60.22-  64.67      O erro que você deixa passar hoje vira o padrão amanhã pequeno gafanhoto
+c14 (r10)   66.41-  67.23      E terceiro.
+c15 (r11)   67.65-  68.85      Para de torcer.
+c16 (r11)   68.85-  73.60      Ele diz que todo chefe torce para dar certo, mesmo vendo que vai dar errado.
+c17 (r11)   73.60-  76.44      Aquele vendedor que não vende nada há seis meses?
+c18 (r12)   76.89-  80.78      Você não tá dando chance, meu amiguinho. Você tá torcendo, porra!
+c19 (r13)   88.24-  90.23      E a virada foi uma entrevista,
+c20 (r13)   90.23-  94.85      um oficial jovem contou todo orgulhoso que foi um dos melhores da turma.
+c21 (r13)   94.85-  97.22      Iman perguntou, você deu o seu melhor?
+c22 (r14)   97.62- 100.15      O cara engoliu seco, nem sempre.
+c23 (r14)  100.15- 103.18      Ele olhou um tempão e perguntou, por que não?
+c24 (r14)  103.18- 104.62      E virou a cadeira.
+c25 (r14)  104.62- 108.00      Esse oficial virou o presidente dos Estados Unidos.
+c26 (r14)  108.00- 111.08 DROP Seu time deu o melhor essa semana, meu amiguinho.
+c27 (r15)  111.60- 114.11      Seu time deu melhor essa semana, meu amigo?
+c28 (r16)  114.54- 116.20      E você? Por que não?
+c29 (r16)  116.20- 117.35 DROP Se você...
+c30 (r17)  118.34- 123.28      Se você ainda aceita trabalho mais ou menos, me segue, porque você é demais!

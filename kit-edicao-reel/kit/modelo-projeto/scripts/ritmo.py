@@ -1,6 +1,8 @@
 """Ritmo visual: nenhum trecho pode passar de MAX s sem algo mudar na tela.
 Conta como evento: entrada/saída de B-roll, corte do apresentador com troca de zoom,
-callout, light-leak e transição de split. Lê o index.html gerado."""
+callout, light-leak e transição de split. Lê o index.html gerado.
+Kit v3: cada cue() da camada de motion (work/mg-cues-auto.json, gerado pelo montar.sh) também conta — sem isso
+o ritmo.py só via o index.html e acusava 25 s "sem evento" sobre cenas inteiras de motion (reel Hyman Rickover)."""
 import re, sys, json, os
 MAX=float(sys.argv[1]) if len(sys.argv)>1 else 4.0
 h=open('index.html').read()
@@ -27,6 +29,8 @@ if os.path.exists('work/broll-groups.json'):
             t+=sh['dur']; ev.append((round(t,2),'tomada '+sh['file'].split('/')[-1][:18]))
 for tag in re.findall(r'<div[^>]*class="clip cap-big"[^>]*>',h): ev.append((float(attr(tag,'data-start')),'callout'))
 for x in json.load(open('work/leaks.json'))['leaks']: ev.append((x['start'],'leak'))
+if os.path.exists('work/mg-cues-auto.json'):
+    for c in json.load(open('work/mg-cues-auto.json')): ev.append((c['t'],'mg '+c['som']))
 ev=sorted(set((round(t,2),n) for t,n in ev if t<=T)); ev.append((T,'fim'))
 gaps=[(a[0],b[0],b[0]-a[0],a[1]) for a,b in zip(ev,ev[1:]) if b[0]-a[0]>MAX]
 print(f"duração {T:.2f}s · {len(ev)} eventos · maior intervalo {max(b[0]-a[0] for a,b in zip(ev,ev[1:])):.2f}s")

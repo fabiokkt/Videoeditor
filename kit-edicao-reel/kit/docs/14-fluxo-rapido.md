@@ -55,7 +55,7 @@ O modelo já traz o CSS de todos os componentes e a **biblioteca** (não mexer):
 
 ## Imagens: dosagem e capa
 - **Abertura só com fotos, motion no meio** (docs/05 §24). Fotos de arquivo: NARA/LOC/Commons (`work/pesq/`), licença registrada.
-- Capa a pedido no Codex: `codex exec -m gpt-5.6-sol --skip-git-repo-check --sandbox workspace-write "<cena>"` (~70 s, 1536×1024).
+- Capa a pedido no Codex: `codex exec -m gpt-5.6-sol --skip-git-repo-check --sandbox workspace-write "<cena>" < /dev/null` (~70 s, 1536×1024).
   Assunto na metade de cima (a caixa do gancho cobre 35–56%); pessoa-tema **de costas** se o nome ainda não foi dito.
 
 ## Refazer depois de um ajuste

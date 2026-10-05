@@ -1,0 +1,29 @@
+ch00 GANCHO               Esse cara é um dos militares mais insuportáveis e mais respeitados dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que seu time entrega mais ou menos porque você aceita mais ou menos.
+ch02 SERRAVA-CADEIRA      Iman cerrava a cadeira para o candidato escorregar na entrevista
+ch03 DEMITIDO-82          e só saiu da Marinha porque foi demitido aos 82 anos.
+ch04 PROTOCOLO-ACEITAR    E esse é o protocolo para você parar de aceitar trabalho mais ou menos.
+ch05 P1-NOME              Toda tarefa tem um nome, não é?
+ch06 P1-JOAO              O comercial, não é o pessoal, é o João.
+ch07 P1-NINGUEM           Ele diz que se deu errado e ninguém sabe de quem era, ele nunca foi de ninguém.
+ch08 P1-PESSOAL           Tarefa do pessoal é tarefa de ninguém.
+ch09 P2-SEGUNDO           Segundo,
+ch10 P2-DETALHE           Cuida do detalhe, ele diz que o chefe que não liga para o detalhe, o time também não liga.
+ch11 P2-99                Ele passava 99% do tempo no que os outros chamam de besteira.
+ch12 P2-PADRAO            O erro que você deixa passar hoje vira o padrão amanhã pequeno gafanhoto
+ch13 P3-TERCEIRO          E terceiro.
+ch14 P3-TORCER            Para de torcer.
+ch15 P3-TODO-CHEFE        Ele diz que todo chefe torce para dar certo, mesmo vendo que vai dar errado.
+ch16 P3-VENDEDOR          Aquele vendedor que não vende nada há seis meses?
+ch17 P3-PORRA-BIPE        Você não tá dando chance, meu amiguinho. Você tá torcendo, porra!
+ch18 VIRADA-ENTREVISTA    E a virada foi uma entrevista,
+ch19 VIRADA-OFICIAL       um oficial jovem contou todo orgulhoso que foi um dos melhores da turma.
+ch20 VIRADA-MELHOR        Iman perguntou, você deu o seu melhor?
+ch21 VIRADA-NEM-SEMPRE    O cara engoliu seco, nem sempre.
+ch22 VIRADA-POR-QUE-NAO   Ele olhou um tempão e perguntou, por que não?
+ch23 VIRADA-CADEIRA       E virou a cadeira.
+ch24 CLIMAX-PRESIDENTE    Esse oficial virou o presidente dos Estados Unidos.
+ch25 FECHO-SEU-TIME       Seu time deu melhor essa semana, meu amigo?
+ch26 FECHO-E-VOCE         E você? Por que não?
+ch27 CTA-ME-SEGUE         Se você ainda aceita trabalho mais ou menos, me segue, porque você é demais!
+28 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)
