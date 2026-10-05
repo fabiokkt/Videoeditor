@@ -1,0 +1,8 @@
+Generate one photorealistic cinematic image, landscape 3:2 (1536x1024), and save it as capa.png in the current directory.
+
+Scene: a naval pier at night. A huge grey US Navy destroyer fills the background in near-silhouette, its hull number NOT visible (no numbers, no letters anywhere). Warm yellow sodium pier lamps cut through light fog. A navy captain in a white dress uniform and white cap walks DOWN the gangway (brow) toward the pier, seen FROM BEHIND, his back to the camera, with a woman and a small child beside him, also seen from behind. High above on the ship's deck, a long row of sailors in dark silhouette raise their arms, cheering and celebrating his departure.
+
+Composition: all the important subject matter in the UPPER HALF of the frame (the officer on the gangway around 30-45% from the top, the cheering silhouettes on the deck near the top); the lower 40% is dark wet pier with reflections and little detail.
+Look: dramatic, high contrast, deep black and navy blue with the warm yellow of the pier lights; film still, shallow haze, rim light on the white uniform.
+
+Strictly forbidden: any face seen from the front, any text, letters, numbers, logos, insignia text, watermarks, captions.

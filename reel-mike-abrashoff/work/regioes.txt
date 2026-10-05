@@ -1,0 +1,43 @@
+r00 [  1.02 ->   8.35]  Esse cara é um dos capitães mais rebeldes e mais premiados da marinha americana e ele criou um protocolo polêmico
+r01 [  8.70 ->  14.58]  para provar que o seu funcionário não vai embora por salário, vai embora por sua causa.
+r02 [ 14.93 ->  17.59]  Mike pegou um dos piores navios da Marinha.
+r03 [ 18.06 ->  22.04]  Sete meses depois, era o mais preparado para a Guerra do Pacífico.
+r04 [ 22.61 ->  23.83]  com o mesmo atributo
+r05 [ 24.84 ->  26.27]  com a mesma tripulação.
+r06 [ 26.66 ->  30.66]  e o protocolo para você parar de dizer que ninguém mais quer trabalhar.
+r07 [ 31.57 ->  36.37]  E esse é o protocolo para você parar de dizer que ninguém mais quer parar de trabalhar.
+r08 [ 36.84 ->  39.14]  Primeiro, olha na cara de quem fala.
+r09 [ 39.66 ->  42.33]  Ele achava que marinheiro ia embora por salário.
+r10 [ 42.87 ->  45.90]  Foi ver a pesquisa. Salário era o quinto motivo.
+r11 [ 46.38 ->  49.05]  O primeiro não era ser tratado com respeito.
+r12 [ 49.44 ->  52.83]  E você responde funcionário olhando a porra do celular, meu querido?
+r13 [ 53.68 ->  54.17]  Segundo,
+r14 [ 54.59 ->  56.30]  Pergunta o que você mudaria.
+r15 [ 56.97 ->  57.28]  Pergu...
+r16 [ 57.97 ->  59.18]  Segundo, pergunta:
+r17 [ 59.55 ->  60.61]  O que você mudaria?
+r18 [ 60.99 ->  63.39]  Perguntou para os 310 pessoas.
+r19 [ 64.34 ->  67.62]  Perguntou para os 310 marinheiros um por um.
+r20 [ 68.30 ->  71.20]  Um respondeu, capitão, já pintou sua casa?
+r21 [ 71.59 ->  72.49]  É chato, né?
+r22 [ 72.90 ->  77.67]  A gente pinta nesse navio a cada dois meses por causa de parafuso enferrujado.
+r23 [ 78.26 ->  79.55]  trocaram o parafuso.
+r24 [ 80.10 ->  81.63]  A marinha inteira copiou!
+r25 [ 82.05 ->  82.65]  E terceiro,
+r26 [ 83.11 ->  84.21]  Pede pra ficar.
+r27 [ 84.72 ->  87.97]  Meses antes do contrato acabar, ele chamava o marinheiro
+r28 [ 88.37 ->  89.93]  o que eu faço para você ficar
+r29 [ 91.10 ->  96.83]  Você só pergunta isso quando o cara já pediu demissão. Aí, não é conversa, pequeno gafanhoto.
+r30 [ 98.42 ->  99.52]  É leilão.
+r31 [100.26 -> 100.93]  É leilão.
+r32 [101.59 -> 105.44]  E a virada foi uma despedida, no dia que ele assumiu o cap...
+r33 [106.76 -> 116.17]  No dia que ele assumiu, o capitão antigo desceu do navio com a família. E a tripulação comemorou. Mike pensou, daqui a dois anos vai ser eu?
+r34 [116.73 -> 120.81]  Dois anos depois, ele bateu continência para a tripulação e desceu.
+r35 [121.36 -> 123.79]  não tinha um olho seco no navio
+r36 [124.20 -> 124.52]  Ele...
+r37 [125.58 -> 130.16]  Se você saísse hoje, meu amigo, seu time chorava ou soltava um rojão?
+r38 [130.67 -> 132.22]  Se você acha que ninguém...
+r39 [133.01 -> 136.81]  Se você acha que ninguém mais quer trabalhar, me segue, porque você
+r40 [137.21 -> 137.88]  É demais!
+
+41 regioes transcritas

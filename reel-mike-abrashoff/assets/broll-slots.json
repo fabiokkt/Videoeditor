@@ -1,0 +1,192 @@
+{
+ "total": 96.654,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 2,
+   "span": [
+    0.0,
+    0.56367
+   ],
+   "t0": 0.0,
+   "t1": 7.22,
+   "dur": 7.22,
+   "fala": "Esse cara é um dos capitães mais rebeldes… e ele criou um protocolo polêmico",
+   "tema": "CAPA gerada a pedido (de costas, cais à noite) → canhão de destróier à noite (só fotos)",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 2,
+   "span": [
+    0.00036,
+    0.62279
+   ],
+   "t0": 7.22,
+   "t1": 10.7,
+   "dur": 3.48,
+   "fala": "pra provar que o seu funcionário não vai embora por salário.",
+   "tema": "foto: proa de destróier furando onda (USS Barry, sem nome legível)",
+   "cobre": "olhada 8,05–8,32"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 5,
+   "span": [
+    0.39573,
+    0.99979
+   ],
+   "t0": 12.78,
+   "t1": 21.27,
+   "dur": 8.49,
+   "fala": "Mike pegou um dos piores navios… sete meses depois, o mais preparado… com a mesma tripulação.",
+   "tema": "REVELAÇÃO: USS Benfold + nome → MOTION ranking PIOR → 1º (7 MESES) sobre o míssil → tripulação na amurada",
+   "cobre": "—"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 6,
+   "toSeg": 11,
+   "span": [
+    0.21609,
+    0.81519
+   ],
+   "t0": 25.19,
+   "t1": 36.05,
+   "dur": 10.86,
+   "fala": "Primeiro, olha na cara de quem fala… salário era o quinto motivo. O primeiro… respeito.",
+   "tema": "MOTION chip PASSO 1 → foto: oficial conversando com marinheiro no Benfold → MOTION ranking dos motivos (5º salário, 1º respeito)",
+   "cobre": "—"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 12,
+   "toSeg": 14,
+   "span": [
+    0.0,
+    1.0
+   ],
+   "t0": 39.4,
+   "t1": 45.3,
+   "dur": 5.9,
+   "fala": "Segundo, pergunta: o que você mudaria? Perguntou pros trezentos e dez marinheiros, um por um.",
+   "tema": "MOTION chip PASSO 2 + pergunta → contador 0 → 310 UM POR UM",
+   "cobre": "—"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 16,
+   "toSeg": 20,
+   "span": [
+    0.11357,
+    0.90876
+   ],
+   "t0": 49.35,
+   "t1": 57.15,
+   "dur": 7.8,
+   "fala": "A gente pinta esse navio a cada dois meses… Trocaram o parafuso. A Marinha inteira copiou.",
+   "tema": "foto: marinheiros pintando o casco → ferrugem → silhuetas no Benfold + carimbo PADRÃO DA MARINHA",
+   "cobre": "olhada 54,15–54,30"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "full",
+   "fromSeg": 20,
+   "toSeg": 22,
+   "span": [
+    0.0009,
+    0.99982
+   ],
+   "t0": 57.15,
+   "t1": 62.68,
+   "dur": 5.53,
+   "fala": "E terceiro, pede pra ficar. Meses antes do contrato acabar, ele chamava o marinheiro:",
+   "tema": "MOTION chip PASSO 3 → foto: reengajamento (mão levantada)",
+   "cobre": "—"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 23,
+   "toSeg": 24,
+   "span": [
+    0.23216,
+    0.61839
+   ],
+   "t0": 64.34,
+   "t1": 67.1,
+   "dur": 2.76,
+   "fala": "Você só pergunta isso quando o cara já pediu demissão.",
+   "tema": "MOTION: carta PEDIDO DE DEMISSÃO + carimbo TARDE DEMAIS",
+   "cobre": "—"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "split",
+   "fromSeg": 26,
+   "toSeg": 28,
+   "span": [
+    0.00064,
+    0.99949
+   ],
+   "t0": 70.75,
+   "t1": 78.55,
+   "dur": 7.8,
+   "fala": "E a virada foi uma despedida. O capitão antigo desceu do navio com a família. E a tripulação comemorou.",
+   "tema": "fotos: troca de comando → comandante saindo do navio → marinheiros comemorando",
+   "cobre": "—"
+  },
+  {
+   "id": "s10",
+   "file": "assets/broll/s10.mp4",
+   "mode": "full",
+   "fromSeg": 30,
+   "toSeg": 31,
+   "span": [
+    0.00061,
+    0.99985
+   ],
+   "t0": 81.44,
+   "t1": 87.98,
+   "dur": 6.54,
+   "fala": "Dois anos depois, ele bateu continência pra tripulação e desceu. Não tinha um olho seco no navio.",
+   "tema": "CLÍMAX: comandante batendo continência ao sair (1999) → abraço no cais",
+   "cobre": "—"
+  },
+  {
+   "id": "s11",
+   "file": "assets/broll/s11.mp4",
+   "mode": "full",
+   "fromSeg": 33,
+   "toSeg": 33,
+   "span": [
+    0.0,
+    0.60038
+   ],
+   "t0": 92.39,
+   "t1": 94.95,
+   "dur": 2.56,
+   "fala": "Se você acha que ninguém mais quer trabalhar, me segue,",
+   "tema": "foto: a mesma tripulação na amurada (volta da revelação)",
+   "cobre": "olhada 94,49–94,88"
+  }
+ ]
+}

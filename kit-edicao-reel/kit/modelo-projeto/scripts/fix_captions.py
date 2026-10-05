@@ -16,6 +16,8 @@ for ci in range(len(json.load(open('assets/chunks/meta.json')))):
     d=json.load(open(b)); n=0
     words=[e for e in d['transcription'] if e['text'].strip() and not e['text'].strip().startswith('[')]
     for k,new in FIX.get(ci,{}).items():
+        if k>=len(words):  # tabela de outro reel (o modelo vem com a do Kazuo) ou indice errado: avisa e segue
+            print(f"  AVISO ch{ci:02d}: indice {k} fora do chunk ({len(words)} palavras) — reescrever scripts/captions_fix_table.py"); continue
         e=words[k]
         e['text']='' if new is None else ' '+new; n+=1
     for k,src in FIXT.get(ci,{}).items():

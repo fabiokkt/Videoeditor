@@ -476,3 +476,24 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
 - Adaptadores que o container Linux precisou (sem mexer no motor): `md5`→`md5sum`, `sed -i ''`, `/opt/homebrew/bin/ffmpeg`,
   fontes em `/System/Library/Fonts`, `/System/Volumes/Data` (checagem de disco do `render-par.sh`), `BAKE_X264=1`,
   `libegl1`/`libgles2` para o mediapipe, whisper.cpp compilado. Render: 12 partes, 2 em paralelo, 23 min em 4 núcleos.
+
+## 26. Comando único na nuvem sem esperar a capa (reel Mike Abrashoff, 2026-10-04)
+
+- **O código do `codex login --device-auth` expira em 15 min** e o usuário pode demorar a digitar. Não travar a edição esperando:
+  rodar o login num laço (`cxlogin.sh`: até 6 códigos seguidos, sai quando `codex login status` não diz "Not logged") como tarefa de
+  fundo, avisar cada código novo no chat e seguir. A capa entra num **placeholder** (`assets/mg/capa-<slug>.jpg` = uma foto da
+  pré-revelação); quando o Codex gera a capa: `gen.py` → `montar.sh` → apagar só `renders/chunks/chunk-00.mp4` e o MP4 →
+  `render-par.sh` (retoma: refez só a parte 0 em 3 min). `codex logout` logo depois de gerar.
+- **`pkill -f "codex login"` dentro de um comando que também contém "codex login" mata o próprio shell** (exit 144). Matar por PID
+  ou rodar o laço a partir de um arquivo de script.
+- **Sem retrato livre da pessoa-tema** (Abrashoff: zero no Commons, sem Wikipedia): a revelação é o objeto-símbolo real (o navio,
+  USS Benfold) + a etiqueta de nome. Não usar foto de palestra com direitos reservados.
+- Take refeito que **tropeça na frase-chave** ("ninguém mais quer **parar de** trabalhar") não é o "último válido": fica o take
+  anterior limpo, mesmo sem uma palavra do roteiro ("E o protocolo…" sem "esse é"). Conferir com whisper em recorte antes de decidir.
+- **`fix_captions.py` não quebra mais com a tabela do modelo** (a do Kazuo, índices de outro reel): avisa e segue. Mesmo assim,
+  reescrever `captions_fix_table.py` antes da fase 2.
+- **`montar.sh`**: `mg_sfx.py | head -1` dava `BrokenPipeError` no print final (o bed já estava gravado); trocado por `sed -n 1p`.
+- **Render no container de 4 núcleos**: 13 partes de 447 quadros, 2 em paralelo, **24 min** (≈ 4 min por par). Entregas pedidas pelo
+  usuário a partir do master (260–285 MB): cópia para o chat em x264 dois passes ~2 Mbps (< 30 MB) e versão final HEVC
+  (`libx265` dois passes, `-tag:v hvc1`, AAC 256k, `+faststart`) a 8 Mbps — **acima de ~95 s, baixar o vídeo para caber em
+  < 100 MB** (96,7 s → 7,5 Mbps).
