@@ -1,0 +1,37 @@
+c00 (r00)    0.67-   5.94      Esse cara é um dos generais mais brutos e mais paisões dos Estados Unidos.
+c01 (r00)    5.94-  12.12      E ele criou um protocolo polêmico para provar que o seu time não está desmotivado, está abandonado.
+c02 (r01)   12.56-  16.95 DROP Matthew andava com uma granada no peito e pregou na parede.
+c03 (r02)   19.24-  19.50 DROP O primeiro é...
+c04 (r03)   19.87-  28.94      Matthew andava com uma granada no peito e pregou na parede de presente para o general inimigo uma calça de pijama rasgada na bunda.
+c05 (r04)   29.49-  34.70      E esse é o protocolo para você parar de pagar palestra motivacional para o seu time.
+c06 (r05)   35.15-  37.11      Resolve a luva.
+c07 (r06)   37.77-  40.29      O soldado nem reclamava mais,
+c08 (r06)   40.29-  42.03      ele disse que teve que arrancar,
+c09 (r06)   42.03-  46.73      faltava luva, comida quente e envelope para escrever para casa.
+c10 (r07)   48.79-  50.79 DROP resolveu antes de falar
+c11 (r08)   52.38-  54.97      resolveu, antes de falar em atacar,
+c12 (r09)   55.45-  58.89 DROP Seu vendedor está sem computador que presta e você manda
+c13 (r10)   61.09-  66.53      Seu vendedor tá sem computador que presta e você manda a porra do vídeo motivacional, meu querido?
+c14 (r11)   67.60-  69.48      Segundo, aparece no frio.
+c15 (r12)   69.93-  74.45      ele rodou 3 dias na linha de frente num jipe aberto na neve
+c16 (r13)   74.85-  78.45      Ele diz que o soldado precisa ver o chefe passando mesmo o frio.
+c17 (r14)   78.95-  81.03 DROP chefe que só aparece na festa
+c18 (r15)   82.08-  86.33      Chefe que só aparece na festa de fim de ano não é chefe, é convidado.
+c19 (r16)   86.81-  88.75      E terceiro, chama pelo nome.
+c20 (r17)   89.17-  92.48      Ele reconhecia uns 5 mil soldados de cara
+c21 (r17)   92.48-  96.20      e parava na estrada só pra dizer: "Bom trabalho!"
+c22 (r17)   96.20-  99.41      Ele dizia que isso levantava um batalhão inteiro.
+c23 (r18)   99.89- 103.37 DROP Você não sabe nem o nome do filho do seu vendedor, pequeno gafanhoto?
+c24 (r19)  104.56- 106.43 DROP E você não sabe nem o...
+c25 (r20)  107.03- 111.15      E você não sabe nem o nome do filho do seu melhor vendedor, pequeno gafanhoto.
+c26 (r20)  111.15- 112.74      E a virada foi uma pergunta:
+c27 (r21)  113.16- 116.03      Um oficial mostrou para ele um plano de recuar.
+c28 (r22)  116.45- 118.64      Ele perguntou: "O plano de ataque?"
+c29 (r22)  118.64- 120.13 DROP O cara gaguejou sem...
+c30 (r23)  120.69- 123.58      O cara gaguejou. Senhor, a gente tá recuando.
+c31 (r24)  124.11- 126.07      Dias depois, o cara tava fora.
+c32 (r25)  126.60- 128.82 DROP Em menos de três meses, o exército que...
+c33 (r26)  129.75- 133.89      Em menos de três meses, o exército que fugia retomou a capital.
+c34 (r26)  133.89- 136.53      Sua empresa tem plano para cortar custo, meu amigo?
+c35 (r27)  136.98- 138.30      Cadê o plano de ataque?
+c36 (r28)  138.87- 144.53      Se você já pagou palestra motivacional para o seu time, me segue, porque você é demais.

@@ -1,0 +1,318 @@
+{
+ "_nota": "Reel Matthew Ridgway — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/matthew-ridgway-2560-sdr.mp4",
+ "voiceSrc": "assets/matthew-ridgway-voz.m4a",
+ "segments": [
+  {
+   "in": 0.48,
+   "out": 6.23,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.9
+  },
+  {
+   "in": 5.91,
+   "out": 12.57,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 12.24
+  },
+  {
+   "in": 19.67,
+   "out": 29.41,
+   "label": "GRANADA-PIJAMA",
+   "chunk": 2,
+   "aout": 29.08
+  },
+  {
+   "in": 29.29,
+   "out": 35.05,
+   "label": "PROTOCOLO-PALESTRA",
+   "chunk": 3,
+   "aout": 34.72
+  },
+  {
+   "in": 34.91,
+   "out": 37.81,
+   "label": "P1-LUVA",
+   "chunk": 4,
+   "aout": 37.48
+  },
+  {
+   "in": 37.77,
+   "out": 40.598,
+   "label": "P1-NEM-RECLAMAVA",
+   "chunk": 5,
+   "aout": 40.268
+  },
+  {
+   "in": 40.268,
+   "out": 42.327,
+   "label": "P1-ARRANCAR",
+   "chunk": 6,
+   "aout": 41.997
+  },
+  {
+   "in": 41.997,
+   "out": 47.19,
+   "label": "P1-FALTAVA",
+   "chunk": 7,
+   "aout": 46.86
+  },
+  {
+   "in": 52.41,
+   "out": 55.43,
+   "label": "P1-RESOLVEU",
+   "chunk": 8,
+   "aout": 55.1
+  },
+  {
+   "in": 61.03,
+   "out": 66.99,
+   "label": "P1-PORRA-BIPE",
+   "chunk": 9,
+   "aout": 66.66
+  },
+  {
+   "in": 67.43,
+   "out": 69.95,
+   "label": "P2-FRIO",
+   "chunk": 10,
+   "aout": 69.62
+  },
+  {
+   "in": 69.71,
+   "out": 74.91,
+   "label": "P2-JIPE",
+   "chunk": 11,
+   "aout": 74.58
+  },
+  {
+   "in": 74.65,
+   "out": 78.93,
+   "label": "P2-MESMO-FRIO",
+   "chunk": 12,
+   "aout": 78.6
+  },
+  {
+   "in": 81.93,
+   "out": 86.81,
+   "label": "P2-CONVIDADO",
+   "chunk": 13,
+   "aout": 86.48
+  },
+  {
+   "in": 86.65,
+   "out": 89.21,
+   "label": "P3-NOME",
+   "chunk": 14,
+   "aout": 88.88
+  },
+  {
+   "in": 88.95,
+   "out": 92.787,
+   "label": "P3-CINCO-MIL",
+   "chunk": 15,
+   "aout": 92.457
+  },
+  {
+   "in": 92.457,
+   "out": 96.49,
+   "label": "P3-BOM-TRABALHO",
+   "chunk": 16,
+   "aout": 96.16
+  },
+  {
+   "in": 96.17,
+   "out": 99.89,
+   "label": "P3-BATALHAO",
+   "chunk": 17,
+   "aout": 99.56
+  },
+  {
+   "in": 106.81,
+   "out": 111.37,
+   "label": "P3-GAFANHOTO",
+   "chunk": 18,
+   "aout": 111.04
+  },
+  {
+   "in": 111.29,
+   "out": 113.19,
+   "label": "VIRADA-PERGUNTA",
+   "chunk": 19,
+   "aout": 112.86
+  },
+  {
+   "in": 112.95,
+   "out": 116.35,
+   "label": "VIRADA-RECUAR",
+   "chunk": 20,
+   "aout": 116.02
+  },
+  {
+   "in": 116.25,
+   "out": 118.89,
+   "label": "VIRADA-ATAQUE",
+   "chunk": 21,
+   "aout": 118.56
+  },
+  {
+   "in": 120.53,
+   "out": 124.01,
+   "label": "VIRADA-GAGUEJOU",
+   "chunk": 22,
+   "aout": 123.68
+  },
+  {
+   "in": 123.93,
+   "out": 126.49,
+   "label": "VIRADA-FORA",
+   "chunk": 23,
+   "aout": 126.16
+  },
+  {
+   "in": 129.53,
+   "out": 134.09,
+   "label": "CLIMAX-CAPITAL",
+   "chunk": 24,
+   "aout": 133.76
+  },
+  {
+   "in": 133.95,
+   "out": 136.95,
+   "label": "FECHO-CORTAR-CUSTO",
+   "chunk": 25,
+   "aout": 136.62
+  },
+  {
+   "in": 136.77,
+   "out": 138.71,
+   "label": "FECHO-CADE",
+   "chunk": 26,
+   "aout": 138.38
+  },
+  {
+   "in": 138.71,
+   "out": 144.49,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 27,
+   "aout": 144.49
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 18,
+   "name": "PASSO 3 -> VIRADA (a pergunta)"
+  },
+  {
+   "afterSegment": 23,
+   "name": "VIRADA -> CLIMAX (a capital)"
+  },
+  {
+   "afterSegment": 26,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.52611
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 19,
+   "toSeg": 21,
+   "span": [
+    0.00016,
+    0.66809
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "ta abandonado",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "TÁ",
+    "ABANDONADO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "palestra motivacional",
+   "seg": 3,
+   "lines": [
+    "PALESTRA",
+    "MOTIVACIONAL."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "sem computador que presta",
+   "seg": 9,
+   "lines": [
+    "SEM COMPUTADOR",
+    "QUE PRESTA."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "e convidado",
+   "seg": 13,
+   "lines": [
+    "É CONVIDADO."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "nem o nome do filho",
+   "seg": 18,
+   "lines": [
+    "NEM O NOME",
+    "DO FILHO."
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 370,
+ "ctaSeg": 27,
+ "_splitShiftY": "370 medido: olhos (FaceMesh 33/133/362/263) a y~1007 no mezanino em 13 pontos das janelas de split (0-2,7 e 72,4-76,0) -> zoom 1,06/1,14: 1007/1006 -> 1377-1007 = 370 (work/olhos_y.py).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}
