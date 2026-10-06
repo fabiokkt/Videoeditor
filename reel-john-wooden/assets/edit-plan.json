@@ -1,0 +1,341 @@
+{
+ "_nota": "Reel John Wooden — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/john-wooden-2560-sdr.mp4",
+ "voiceSrc": "assets/john-wooden-voz.m4a",
+ "segments": [
+  {
+   "in": 0.5,
+   "out": 6.21,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.88
+  },
+  {
+   "in": 18.57,
+   "out": 25.79,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 25.46
+  },
+  {
+   "in": 25.61,
+   "out": 29.287,
+   "label": "JOHN-DEZ",
+   "chunk": 2,
+   "aout": 28.957
+  },
+  {
+   "in": 28.957,
+   "out": 34.29,
+   "label": "MEIA",
+   "chunk": 3,
+   "aout": 33.96
+  },
+  {
+   "in": 41.37,
+   "out": 47.35,
+   "label": "PROTOCOLO-VENDEDOR",
+   "chunk": 4,
+   "aout": 47.02
+  },
+  {
+   "in": 47.05,
+   "out": 50.91,
+   "label": "P1-ATRASADO",
+   "chunk": 5,
+   "aout": 50.58
+  },
+  {
+   "in": 50.71,
+   "out": 54.47,
+   "label": "P1-DESRESPEITO",
+   "chunk": 6,
+   "aout": 54.14
+  },
+  {
+   "in": 57.27,
+   "out": 60.33,
+   "label": "P1-AS-DEZ",
+   "chunk": 7,
+   "aout": 60.0
+  },
+  {
+   "in": 60.15,
+   "out": 62.73,
+   "label": "P1-DEIXOU",
+   "chunk": 8,
+   "aout": 62.4
+  },
+  {
+   "in": 65.33,
+   "out": 69.13,
+   "label": "P2-PASSE",
+   "chunk": 9,
+   "aout": 68.8
+  },
+  {
+   "in": 70.85,
+   "out": 75.79,
+   "label": "P2-CESTA",
+   "chunk": 10,
+   "aout": 75.46
+  },
+  {
+   "in": 80.47,
+   "out": 83.45,
+   "label": "P2-COMISSAO",
+   "chunk": 11,
+   "aout": 83.12
+  },
+  {
+   "in": 83.17,
+   "out": 85.09,
+   "label": "P2-PROPOSTA",
+   "chunk": 12,
+   "aout": 84.76
+  },
+  {
+   "in": 84.79,
+   "out": 87.27,
+   "label": "P2-GAFANHOTO",
+   "chunk": 13,
+   "aout": 86.94
+  },
+  {
+   "in": 88.17,
+   "out": 91.587,
+   "label": "P3-COLEGA",
+   "chunk": 14,
+   "aout": 91.257
+  },
+  {
+   "in": 91.257,
+   "out": 94.45,
+   "label": "P3-EXPULSAVA",
+   "chunk": 15,
+   "aout": 94.12
+  },
+  {
+   "in": 96.97,
+   "out": 101.27,
+   "label": "P3-ESTRELA",
+   "chunk": 16,
+   "aout": 100.94
+  },
+  {
+   "in": 102.73,
+   "out": 106.43,
+   "label": "P3-AMIGUINHO",
+   "chunk": 17,
+   "aout": 106.1
+  },
+  {
+   "in": 108.01,
+   "out": 110.61,
+   "label": "P3-PORRA-BIPE",
+   "chunk": 18,
+   "aout": 110.28
+  },
+  {
+   "in": 111.25,
+   "out": 113.558,
+   "label": "VIRADA-BARBA",
+   "chunk": 19,
+   "aout": 113.228
+  },
+  {
+   "in": 113.228,
+   "out": 117.05,
+   "label": "VIRADA-FERIAS",
+   "chunk": 20,
+   "aout": 116.72
+  },
+  {
+   "in": 116.91,
+   "out": 118.99,
+   "label": "VIRADA-PROIBIDA",
+   "chunk": 21,
+   "aout": 118.66
+  },
+  {
+   "in": 118.67,
+   "out": 121.047,
+   "label": "VIRADA-DIREITO",
+   "chunk": 22,
+   "aout": 120.717
+  },
+  {
+   "in": 120.717,
+   "out": 122.27,
+   "label": "VIRADA-JOHN-PERGUNTOU",
+   "chunk": 23,
+   "aout": 121.94
+  },
+  {
+   "in": 121.99,
+   "out": 124.23,
+   "label": "VIRADA-ACREDITA",
+   "chunk": 24,
+   "aout": 123.9
+  },
+  {
+   "in": 124.09,
+   "out": 128.01,
+   "label": "VIRADA-BILL",
+   "chunk": 25,
+   "aout": 127.68
+  },
+  {
+   "in": 127.85,
+   "out": 130.65,
+   "label": "CLIMAX-FALTA",
+   "chunk": 26,
+   "aout": 130.32
+  },
+  {
+   "in": 130.57,
+   "out": 133.39,
+   "label": "CLIMAX-SEM-BARBA",
+   "chunk": 27,
+   "aout": 133.06
+  },
+  {
+   "in": 133.81,
+   "out": 136.37,
+   "label": "FECHO-BILL-EMPRESA",
+   "chunk": 28,
+   "aout": 136.04
+  },
+  {
+   "in": 136.81,
+   "out": 139.01,
+   "label": "FECHO-AINDA-BARBA",
+   "chunk": 29,
+   "aout": 138.68
+  },
+  {
+   "in": 139.11,
+   "out": 144.15,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 30,
+   "aout": 144.15
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 18,
+   "name": "PASSO 3 -> VIRADA (a barba)"
+  },
+  {
+   "afterSegment": 25,
+   "name": "VIRADA -> CLIMAX (o time vai sentir sua falta)"
+  },
+  {
+   "afterSegment": 29,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.99981
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 19,
+   "toSeg": 22,
+   "span": [
+    0.00036,
+    0.87395
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "nao vale pra ninguem",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "NÃO VALE",
+    "PRA NINGUÉM."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "na hora que voce deixou",
+   "seg": 8,
+   "lines": [
+    "NA HORA QUE",
+    "VOCÊ DEIXOU."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "do resto do time",
+   "seg": 18,
+   "lines": [
+    "DO RESTO",
+    "DO TIME."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "e o time vai sentir sua falta",
+   "seg": 26,
+   "lines": [
+    "E O TIME VAI",
+    "SENTIR SUA FALTA."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "e porque ele ainda ta de barba",
+   "seg": 29,
+   "lines": [
+    "E POR QUE ELE AINDA",
+    "TÁ DE BARBA?"
+   ],
+   "hold": 0.6,
+   "top": 62
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 344,
+ "ctaSeg": 30,
+ "_splitShiftY": "344 medido: olhos (FaceMesh 33/133/362/263) a y~1033 no aroll em 13 pontos das janelas de split (0-5,2 e 62,6-69,3) -> zoom 1,06: 1033 / 1,14: 1034 -> 1377-1033 = 344.",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

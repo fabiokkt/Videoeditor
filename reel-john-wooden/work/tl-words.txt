@@ -1,0 +1,32 @@
+ 0 GANCHO                 0.00-  5.19 (5.19)  Esse@0.22 cara@0.24 é@0.53 um@0.60 dos@0.73 treinadores@0.95 mais@1.73 caretas@2.02 e@2.60 mais@2.65 vencedores@2.93 dos@3.61 Estados@3.83 Unidos.@4.32
+ 1 PROTOCOLO-POLEMICO     5.19- 11.46 (6.26)  E@5.11 ele@5.37 criou@5.39 um@5.78 protocolo@5.88 polêmico@6.52 pra@7.13 provar@7.36 que@7.67 regra@7.74 que@8.04 não@8.20 vale@8.35 pro@8.58 seu@8.79 melhor@8.93 funcionário@9.31 não@10.01 vale@10.27 pra@10.36 ninguém.@10.56
+ 2 JOHN-DEZ              11.46- 14.50 (3.04)  John@11.28 ganhou@11.35 dez@11.89 campeonatos@12.31 em@13.19 doze@13.35 anos@13.83
+ 3 MEIA                  14.50- 19.05 (4.55)  e, no@14.34 primeiro@14.57 treino,@14.94 ensinava@15.32 os@15.86 melhores@16.00 jogadores@16.57 do@16.99 país@17.19 a@17.44 calçar@17.69 a@18.14 meia.@18.23
+ 4 PROTOCOLO-VENDEDOR    19.05- 24.18 (5.14)  E@18.95 esse@19.19 é@19.25 o@19.31 protocolo@19.36 pra@19.92 você@20.16 parar@20.45 de@20.66 deixar@20.77 o@21.10 seu@21.17 melhor@21.37 vendedor@21.79 mandar@22.42 na@22.70 sua@22.87 empresa.@23.14
+ 5 P1-ATRASADO           24.18- 27.39 (3.21)  Primeiro,@24.06 ninguém@24.70 chega@25.06 atrasado.@25.46 Nem@26.33 o@26.46 melhor.@26.54
+ 6 P1-DESRESPEITO        27.39- 30.51 (3.12)  Ele@27.25 diz@27.25 que@27.51 o@27.59 atraso@27.66 é@28.13 desrespeito@28.20 com@29.05 todo@29.28 o@29.60 time.@29.68
+ 7 P1-AS-DEZ             30.51- 32.99 (2.48)  Seu@30.35 melhor@30.61 vendedor@30.77 chega@31.13 às@31.36 dez@31.46 porque@31.87 vende@32.03 muito?@32.24
+ 8 P1-DEIXOU             32.99- 35.04 (2.05)  Ele@32.89 chega@32.97 na@33.21 hora@33.33 que@33.58 você@33.77 deixou.@34.02
+ 9 P2-PASSE              35.04- 38.19 (3.16)  Segundo,@34.88 quem@35.60 faz@35.88 o@36.15 ponto@36.18 agradece@36.59 o@37.31 passe.@37.32
+10 P2-CESTA              38.19- 42.38 (4.19)  Ele@38.07 obrigava@38.13 quem@38.60 fazia@38.92 a@39.22 cesta@39.29 a@39.64 acenar@39.80 pro@40.23 colega@40.45 que@40.79 passou@40.99 a@41.53 bola.@41.61
+11 P2-COMISSAO           42.38- 44.79 (2.41)  Seu@42.23 vendedor@42.43 leva@42.84 a@43.04 comissão@43.09 e@43.58 o@43.67 parabéns@43.68 no@44.08 grupo.@44.18
+12 P2-PROPOSTA           44.79- 46.24 (1.45)  E@44.64 quem@44.64 fez@44.93 a@44.95 proposta?@45.02
+13 P2-GAFANHOTO          46.24- 48.19 (1.96)  Ninguém@46.12 lembra,@46.16 pequeno@46.62 gafanhoto.@47.03
+14 P3-COLEGA             48.19- 51.00 (2.81)  E@48.04 terceiro,@48.27 ninguém@48.92 fala@49.42 mal@49.61 de@49.83 colega.@49.97
+15 P3-EXPULSAVA          51.00- 53.60 (2.60)  Ele@50.84 expulsava@50.91 do@51.46 treino@51.59 quem@51.98 criticava@52.20 colega.@52.76
+16 P3-ESTRELA            53.60- 57.21 (3.61)  Seu@53.45 vendedor@53.65 estrela@54.21 esculacha@54.72 o@55.30 financeiro@55.30 no@55.91 grupo@56.02 e@56.36 você@56.41 ri?@56.60
+17 P3-AMIGUINHO          57.21- 60.27 (3.06)  Você@57.09 não@57.12 tá@57.28 protegendo@57.47 o@58.03 seu@58.12 melhor@58.27 vendedor,@58.63 meu@59.08 amiguinho.@59.20
+18 P3-PORRA-BIPE         60.27- 62.34 (2.06)  Tá@60.17 perdendo@60.43 a@60.59 P****@60.75 do@61.14 resto@61.26 do@61.56 time.@61.69
+19 VIRADA-BARBA          62.34- 64.14 (1.80)  E@62.20 a@62.27 virada@62.42 foi@62.80 uma@63.02 barba.@63.21
+20 VIRADA-FERIAS         64.14- 67.31 (3.17)  O@63.98 melhor@64.23 jogador@64.41 do@64.90 país@64.96 voltou@65.23 de@65.56 férias@65.77 barbudo.@66.11
+21 VIRADA-PROIBIDA       67.31- 68.90 (1.59)  Barba@67.14 era@67.32 proibida.@67.61
+22 VIRADA-DIREITO        68.90- 70.76 (1.86)  Ele@68.78 disse@68.95 que@69.24 era@69.47 direito@69.58 dele.@69.99
+23 VIRADA-JOHN-PERGUNTOU  70.76- 71.87 (1.11)  John@70.59 perguntou:@70.83
+24 VIRADA-ACREDITA       71.87- 73.61 (1.74)  Você@71.74 acredita@71.78 mesmo@72.36 nisso?@72.66
+25 VIRADA-BILL           73.61- 76.87 (3.26)  Acredito.@73.44 Bill,@73.90 eu@74.55 respeito@74.62 quem@75.08 defende@75.23 o@75.62 que@75.72 acredita.@75.90
+26 CLIMAX-FALTA          76.87- 79.12 (2.25)  E@76.76 o@76.85 time@76.97 vai@77.25 sentir@77.56 sua@78.00 falta.@78.25
+27 CLIMAX-SEM-BARBA      79.12- 81.38 (2.26)  Antes@79.02 do@79.04 treino,@79.15 ele@79.58 tava@79.86 sem@80.22 barba.@80.49
+28 FECHO-BILL-EMPRESA    81.38- 83.41 (2.03)  Quem@81.25 é@81.31 o@81.33 Bill@81.36 da@81.60 sua@81.71 empresa,@81.89 meu@82.42 amigo?@82.59
+29 FECHO-AINDA-BARBA     83.41- 85.11 (1.70)  E@83.25 por que@83.45 ele@83.67 ainda@83.85 tá@84.15 de@84.26 barba?@84.37
+30 CTA-ME-SEGUE          85.11- 89.39 (4.28)  Se@84.95 o@85.11 seu@85.18 melhor@85.49 vendedor@85.85 manda@86.46 na@86.76 sua@86.88 empresa,@87.08 me@87.53 segue,@87.67 porque@88.33 você@88.50 é@88.76 demais.@88.81
+TOTAL 89.392

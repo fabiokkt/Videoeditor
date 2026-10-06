@@ -516,3 +516,20 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
 - Capa gerada reaproveitada no corpo como callback: a cadeira vazia em "a virada foi uma entrevista" e o velho de costas em "virou a cadeira" — a cena da capa
   vira a cena da virada, sem foto de banco.
 - Container de 4 núcleos: 12 partes de 456 quadros, 2 em paralelo, ~4 min por par.
+
+## 28. Commons sem 429, pgrep que se acha e frase de callout com palavra dupla (reel John Wooden, 2026-10-06)
+
+- **Commons: baixar a miniatura de tamanho padrão montando a URL, sem pedir à API arquivo por arquivo** (`work/pesq/wmstd.py <largura> <slug>:<idx,…>`).
+  Depois de ~20 buscas a API passa a responder 429 em tudo e o `wmthumb.py` (uma chamada por arquivo + espera crescente) ficou 30 min sem baixar nada. Duas
+  armadilhas: o `thumb` que o `wm.py` grava vira o ORIGINAL quando a largura pedida passa a do arquivo (429), e a URL vem com `?utm_…` (cortar antes de
+  montar `/thumb/…/<w>px-<nome>`). Tamanhos padrão: 960 / 1280 / 1920.
+- **Arquivo do Los Angeles Times na UCLA Library (CC BY 4.0) está no Commons** com autor e data (`extmetadata` Artist/DateTimeOriginal): fonte rica para
+  esporte/LA dos anos 60–70. Crédito obrigatório no `LICENCAS-FOTOS.txt`.
+- **`until ! pgrep -f "mezanino.sh"`** nunca termina se o próprio comando contém o padrão (o shell do laço se acha). Esperar por arquivo de saída / tarefa de
+  fundo do harness, nunca por `pgrep -f` com texto do próprio comando (irmão do `pkill -f` do §26).
+- **Legenda corrigida com duas palavras numa entrada** (`FIX` "por que") vira UM token para o `impacts[].phrase` (o `norm` tira o espaço): escrever a frase
+  do callout como `"e porque ele ainda ta de barba"`, senão o callout some sem erro (o build só conta "4 callouts").
+- **Retrato com fundo branco ou camisa de outro time** (Wooden de anuário; Walton dos Trail Blazers com "Blazers" no peito): card de retrato (`.pcard`) num
+  mundo escuro, com a foto ampliada no rosto, em vez de tela cheia — a legenda branca a 76% sumia no fundo branco/na camisa.
+- **CTA do meio não gravado pela 2ª vez seguida** (Rickover e Wooden): vale o áudio; avisar na entrega.
+- Container de 4 núcleos: 12 partes de 447 quadros, 2 em paralelo, ~4 min por par (igual ao Rickover).
