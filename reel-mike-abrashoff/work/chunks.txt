@@ -1,0 +1,35 @@
+ch00 GANCHO               Esse cara é um dos capitães mais rebeldes e mais premiados da marinha americana
+ch01 PROTOCOLO-POLEMICO   e ele criou um protocolo polêmico
+ch02 PROVAR-SALARIO       para provar que o seu funcionário não vai embora por salário, vai embora por sua causa.
+ch03 MIKE-PIOR-NAVIO      Mike pegou um dos piores navios da Marinha.
+ch04 SETE-MESES           Sete meses depois, era o mais preparado para a Guerra do Pacífico.
+ch05 MESMA-TRIPULACAO     com a mesma tripulação.
+ch06 PROTOCOLO-TRABALHAR  e o protocolo para você parar de dizer que ninguém mais quer trabalhar.
+ch07 P1-OLHA              Primeiro, olha na cara de quem fala.
+ch08 P1-ACHAVA            Ele achava que marinheiro ia embora por salário.
+ch09 P1-PESQUISA          Foi ver a pesquisa. Salário era o quinto motivo.
+ch10 P1-RESPEITO          O primeiro não era ser tratado com respeito.
+ch11 P1-CELULAR-BIPE      E você responde funcionário olhando a porra do celular, meu querido?
+ch12 P2-SEGUNDO           Segundo, pergunta:
+ch13 P2-MUDARIA           O que você mudaria?
+ch14 P2-310               Perguntou para os 310 marinheiros um por um.
+ch15 P2-PINTOU            Um respondeu, capitão, já pintou sua casa?
+ch16 P2-CHATO             É chato, né?
+ch17 P2-PARAFUSO          A gente pinta nesse navio a cada dois meses por causa de parafuso enferrujado.
+ch18 P2-TROCARAM          trocaram o parafuso.
+ch19 P2-COPIOU            A marinha inteira copiou!
+ch20 P3-TERCEIRO          E terceiro,
+ch21 P3-FICAR             Pede pra ficar.
+ch22 P3-CONTRATO          Meses antes do contrato acabar, ele chamava o marinheiro
+ch23 P3-O-QUE-FACO        o que eu faço para você ficar
+ch24 P3-DEMISSAO          Você só pergunta isso quando o cara já pediu demissão. Aí, não é conversa, pequeno gafanhoto.
+ch25 P3-LEILAO            É leilão.
+ch26 VIRADA-DESPEDIDA     E a virada foi uma despedida,
+ch27 VIRADA-ASSUMIU       No dia que ele assumiu, o capitão antigo desceu do navio com a família.
+ch28 VIRADA-COMEMOROU     E a tripulação comemorou.
+ch29 VIRADA-PENSOU        Mike pensou, daqui a dois anos vai ser eu?
+ch30 CLIMAX-CONTINENCIA   Dois anos depois, ele bateu continência para a tripulação e desceu.
+ch31 CLIMAX-OLHO-SECO     não tinha um olho seco no navio
+ch32 CTA-ROJAO            Se você saísse hoje, meu amigo, seu time chorava ou soltava um rojão?
+ch33 CTA-ME-SEGUE         Se você acha que ninguém mais quer trabalhar, me segue, porque você É demais!
+34 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

@@ -1,0 +1,318 @@
+{
+ "_nota": "Reel James Stockdale — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/stockdale-2560-sdr.mp4",
+ "voiceSrc": "assets/stockdale-voz.m4a",
+ "segments": [
+  {
+   "in": 0.4,
+   "out": 5.91,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.58
+  },
+  {
+   "in": 5.59,
+   "out": 8.09,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 7.76
+  },
+  {
+   "in": 10.67,
+   "out": 15.23,
+   "label": "PROVAR-OTIMISTA",
+   "chunk": 2,
+   "aout": 14.9
+  },
+  {
+   "in": 15.03,
+   "out": 17.47,
+   "label": "JIM-VIETNA",
+   "chunk": 3,
+   "aout": 17.14
+  },
+  {
+   "in": 19.07,
+   "out": 23.87,
+   "label": "PARAQUEDAS",
+   "chunk": 4,
+   "aout": 23.54
+  },
+  {
+   "in": 23.61,
+   "out": 26.33,
+   "label": "SETE-E-MEIO",
+   "chunk": 5,
+   "aout": 26.0
+  },
+  {
+   "in": 26.13,
+   "out": 31.33,
+   "label": "PROTOCOLO-PROMETER",
+   "chunk": 6,
+   "aout": 31.0
+  },
+  {
+   "in": 31.23,
+   "out": 33.97,
+   "label": "P1-SEPARA",
+   "chunk": 7,
+   "aout": 33.64
+  },
+  {
+   "in": 37.29,
+   "out": 43.49,
+   "label": "P1-FILOSOFO",
+   "chunk": 8,
+   "aout": 43.16
+  },
+  {
+   "in": 43.87,
+   "out": 46.75,
+   "label": "P1-JUROS",
+   "chunk": 9,
+   "aout": 46.42
+  },
+  {
+   "in": 46.63,
+   "out": 48.99,
+   "label": "P1-PRECO",
+   "chunk": 10,
+   "aout": 48.66
+  },
+  {
+   "in": 48.73,
+   "out": 53.91,
+   "label": "P1-REUNIAO-BIPE",
+   "chunk": 11,
+   "aout": 53.58
+  },
+  {
+   "in": 57.95,
+   "out": 61.05,
+   "label": "P2-ENCARA",
+   "chunk": 12,
+   "aout": 60.72
+  },
+  {
+   "in": 60.75,
+   "out": 66.35,
+   "label": "P2-REALIDADE",
+   "chunk": 13,
+   "aout": 66.02
+  },
+  {
+   "in": 68.77,
+   "out": 72.13,
+   "label": "P2-EXTRATO",
+   "chunk": 14,
+   "aout": 71.8
+  },
+  {
+   "in": 71.97,
+   "out": 75.19,
+   "label": "P2-GAFANHOTO",
+   "chunk": 15,
+   "aout": 74.86
+  },
+  {
+   "in": 74.97,
+   "out": 76.21,
+   "label": "P2-MEDO",
+   "chunk": 16,
+   "aout": 75.88
+  },
+  {
+   "in": 80.85,
+   "out": 82.207,
+   "label": "P3-TERCEIRO",
+   "chunk": 17,
+   "aout": 81.877
+  },
+  {
+   "in": 81.877,
+   "out": 84.07,
+   "label": "P3-FE",
+   "chunk": 18,
+   "aout": 83.74
+  },
+  {
+   "in": 89.39,
+   "out": 94.43,
+   "label": "P3-DUVIDOU",
+   "chunk": 19,
+   "aout": 94.1
+  },
+  {
+   "in": 94.19,
+   "out": 99.89,
+   "label": "P3-TIME",
+   "chunk": 20,
+   "aout": 99.56
+  },
+  {
+   "in": 101.17,
+   "out": 103.27,
+   "label": "VIRADA-NATAL",
+   "chunk": 21,
+   "aout": 102.94
+  },
+  {
+   "in": 103.09,
+   "out": 108.21,
+   "label": "VIRADA-OTIMISTAS",
+   "chunk": 22,
+   "aout": 107.88
+  },
+  {
+   "in": 108.85,
+   "out": 111.63,
+   "label": "VIRADA-DIZIAM",
+   "chunk": 23,
+   "aout": 111.3
+  },
+  {
+   "in": 116.95,
+   "out": 124.43,
+   "label": "CLIMAX-PASCOA",
+   "chunk": 24,
+   "aout": 124.1
+  },
+  {
+   "in": 124.19,
+   "out": 126.95,
+   "label": "CLIMAX-CORACAO",
+   "chunk": 25,
+   "aout": 126.62
+  },
+  {
+   "in": 126.95,
+   "out": 130.75,
+   "label": "CTA-PROMETEU",
+   "chunk": 26,
+   "aout": 130.42
+  },
+  {
+   "in": 130.57,
+   "out": 133.21,
+   "label": "CTA-SEU-NATAL",
+   "chunk": 27,
+   "aout": 132.88
+  },
+  {
+   "in": 133.09,
+   "out": 137.95,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 28,
+   "aout": 137.95
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 20,
+   "name": "PASSO 3 -> VIRADA (o Natal)"
+  },
+  {
+   "afterSegment": 22,
+   "name": "VIRADA -> CLIMAX (o Natal passava)"
+  },
+  {
+   "afterSegment": 25,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 2,
+   "span": [
+    0.0,
+    0.99196
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 21,
+   "toSeg": 22,
+   "span": [
+    0.00034,
+    0.99966
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "o dono otimista e o primeiro a quebrar",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "O DONO OTIMISTA",
+    "É O PRIMEIRO",
+    "A QUEBRAR."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "e medo",
+   "seg": 16,
+   "lines": [
+    "É MEDO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "os otimistas",
+   "seg": 22,
+   "lines": [
+    "OS",
+    "OTIMISTAS."
+   ],
+   "hold": 0.9,
+   "top": 40
+  },
+  {
+   "phrase": "mes que vem e o seu natal",
+   "seg": 27,
+   "lines": [
+    "MÊS QUE VEM",
+    "É O SEU NATAL."
+   ],
+   "hold": 0.7
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 363,
+ "ctaSeg": 26,
+ "_splitShiftY": "363 medido: olhos (FaceMesh 33/133/362/263) a y~1014 no aroll em 11 pontos das janelas de split (0-10,7 e 64,8-70,8) -> 1377-1014.",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

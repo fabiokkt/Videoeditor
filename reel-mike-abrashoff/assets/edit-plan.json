@@ -1,0 +1,351 @@
+{
+ "_nota": "Reel Mike Abrashoff — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/mike-abrashoff-2560-sdr.mp4",
+ "voiceSrc": "assets/mike-abrashoff-voz.m4a",
+ "segments": [
+  {
+   "in": 0.74,
+   "out": 6.55,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 6.22
+  },
+  {
+   "in": 6.35,
+   "out": 8.81,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 8.48
+  },
+  {
+   "in": 8.49,
+   "out": 14.97,
+   "label": "PROVAR-SALARIO",
+   "chunk": 2,
+   "aout": 14.64
+  },
+  {
+   "in": 14.71,
+   "out": 18.01,
+   "label": "MIKE-PIOR-NAVIO",
+   "chunk": 3,
+   "aout": 17.68
+  },
+  {
+   "in": 17.89,
+   "out": 22.79,
+   "label": "SETE-MESES",
+   "chunk": 4,
+   "aout": 22.46
+  },
+  {
+   "in": 24.63,
+   "out": 26.73,
+   "label": "MESMA-TRIPULACAO",
+   "chunk": 5,
+   "aout": 26.4
+  },
+  {
+   "in": 26.43,
+   "out": 31.07,
+   "label": "PROTOCOLO-TRABALHAR",
+   "chunk": 6,
+   "aout": 30.74
+  },
+  {
+   "in": 36.65,
+   "out": 39.63,
+   "label": "P1-OLHA",
+   "chunk": 7,
+   "aout": 39.3
+  },
+  {
+   "in": 39.47,
+   "out": 42.81,
+   "label": "P1-ACHAVA",
+   "chunk": 8,
+   "aout": 42.48
+  },
+  {
+   "in": 42.65,
+   "out": 46.29,
+   "label": "P1-PESQUISA",
+   "chunk": 9,
+   "aout": 45.96
+  },
+  {
+   "in": 46.21,
+   "out": 49.51,
+   "label": "P1-RESPEITO",
+   "chunk": 10,
+   "aout": 49.18
+  },
+  {
+   "in": 49.25,
+   "out": 53.27,
+   "label": "P1-CELULAR-BIPE",
+   "chunk": 11,
+   "aout": 52.94
+  },
+  {
+   "in": 57.81,
+   "out": 59.63,
+   "label": "P2-SEGUNDO",
+   "chunk": 12,
+   "aout": 59.3
+  },
+  {
+   "in": 59.39,
+   "out": 61.09,
+   "label": "P2-MUDARIA",
+   "chunk": 13,
+   "aout": 60.76
+  },
+  {
+   "in": 64.11,
+   "out": 68.07,
+   "label": "P2-310",
+   "chunk": 14,
+   "aout": 67.74
+  },
+  {
+   "in": 68.07,
+   "out": 71.63,
+   "label": "P2-PINTOU",
+   "chunk": 15,
+   "aout": 71.3
+  },
+  {
+   "in": 71.39,
+   "out": 72.95,
+   "label": "P2-CHATO",
+   "chunk": 16,
+   "aout": 72.62
+  },
+  {
+   "in": 72.71,
+   "out": 78.13,
+   "label": "P2-PARAFUSO",
+   "chunk": 17,
+   "aout": 77.8
+  },
+  {
+   "in": 78.05,
+   "out": 80.01,
+   "label": "P2-TROCARAM",
+   "chunk": 18,
+   "aout": 79.68
+  },
+  {
+   "in": 79.91,
+   "out": 82.09,
+   "label": "P2-COPIOU",
+   "chunk": 19,
+   "aout": 81.76
+  },
+  {
+   "in": 81.81,
+   "out": 83.13,
+   "label": "P3-TERCEIRO",
+   "chunk": 20,
+   "aout": 82.8
+  },
+  {
+   "in": 82.89,
+   "out": 84.69,
+   "label": "P3-FICAR",
+   "chunk": 21,
+   "aout": 84.36
+  },
+  {
+   "in": 84.49,
+   "out": 88.45,
+   "label": "P3-CONTRATO",
+   "chunk": 22,
+   "aout": 88.12
+  },
+  {
+   "in": 88.21,
+   "out": 90.37,
+   "label": "P3-O-QUE-FACO",
+   "chunk": 23,
+   "aout": 90.04
+  },
+  {
+   "in": 90.93,
+   "out": 97.29,
+   "label": "P3-DEMISSAO",
+   "chunk": 24,
+   "aout": 96.96
+  },
+  {
+   "in": 100.03,
+   "out": 101.37,
+   "label": "P3-LEILAO",
+   "chunk": 25,
+   "aout": 101.04
+  },
+  {
+   "in": 101.39,
+   "out": 104.01,
+   "label": "VIRADA-DESPEDIDA",
+   "chunk": 26,
+   "aout": 103.68
+  },
+  {
+   "in": 106.53,
+   "out": 111.35,
+   "label": "VIRADA-ASSUMIU",
+   "chunk": 27,
+   "aout": 111.02
+  },
+  {
+   "in": 111.21,
+   "out": 113.35,
+   "label": "VIRADA-COMEMOROU",
+   "chunk": 28,
+   "aout": 113.02
+  },
+  {
+   "in": 113.05,
+   "out": 116.55,
+   "label": "VIRADA-PENSOU",
+   "chunk": 29,
+   "aout": 116.22
+  },
+  {
+   "in": 116.51,
+   "out": 121.25,
+   "label": "CLIMAX-CONTINENCIA",
+   "chunk": 30,
+   "aout": 120.92
+  },
+  {
+   "in": 121.13,
+   "out": 124.25,
+   "label": "CLIMAX-OLHO-SECO",
+   "chunk": 31,
+   "aout": 123.92
+  },
+  {
+   "in": 125.43,
+   "out": 130.61,
+   "label": "CTA-ROJAO",
+   "chunk": 32,
+   "aout": 130.28
+  },
+  {
+   "in": 132.83,
+   "out": 137.85,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 33,
+   "aout": 137.85
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 25,
+   "name": "PASSO 3 -> VIRADA (a despedida)"
+  },
+  {
+   "afterSegment": 29,
+   "name": "VIRADA -> CLIMAX (a continencia)"
+  },
+  {
+   "afterSegment": 31,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 2,
+   "span": [
+    0.0,
+    0.56367
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 26,
+   "toSeg": 28,
+   "span": [
+    0.00064,
+    0.99949
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "vai embora por sua causa",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "VAI EMBORA",
+    "POR SUA CAUSA."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "ninguem mais quer trabalhar",
+   "seg": 6,
+   "lines": [
+    "NINGUÉM MAIS",
+    "QUER TRABALHAR."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "e leilao",
+   "seg": 25,
+   "lines": [
+    "É LEILÃO."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "seu time chorava ou soltava um rojao",
+   "seg": 32,
+   "lines": [
+    "CHORAVA OU",
+    "SOLTAVA ROJÃO?"
+   ],
+   "hold": 0.7
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 420,
+ "ctaSeg": 32,
+ "_splitShiftY": "420 medido: olhos (FaceMesh 33/133/362/263) a y~957 no aroll em 12 pontos das janelas de split (0-7,2 e 70,8-78,5) -> 1377-957.",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

@@ -1,0 +1,319 @@
+{
+ "_nota": "Reel Hyman Rickover — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/hyman-rickover-2560-sdr.mp4",
+ "voiceSrc": "assets/hyman-rickover-voz.m4a",
+ "segments": [
+  {
+   "in": 0.5,
+   "out": 6.57,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 6.24
+  },
+  {
+   "in": 6.27,
+   "out": 13.87,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 13.54
+  },
+  {
+   "in": 16.99,
+   "out": 21.37,
+   "label": "SERRAVA-CADEIRA",
+   "chunk": 2,
+   "aout": 21.04
+  },
+  {
+   "in": 21.07,
+   "out": 25.65,
+   "label": "DEMITIDO-82",
+   "chunk": 3,
+   "aout": 25.32
+  },
+  {
+   "in": 25.45,
+   "out": 30.21,
+   "label": "PROTOCOLO-ACEITAR",
+   "chunk": 4,
+   "aout": 29.88
+  },
+  {
+   "in": 29.97,
+   "out": 33.45,
+   "label": "P1-NOME",
+   "chunk": 5,
+   "aout": 33.12
+  },
+  {
+   "in": 33.17,
+   "out": 37.27,
+   "label": "P1-JOAO",
+   "chunk": 6,
+   "aout": 36.94
+  },
+  {
+   "in": 36.99,
+   "out": 42.09,
+   "label": "P1-NINGUEM",
+   "chunk": 7,
+   "aout": 41.76
+  },
+  {
+   "in": 42.11,
+   "out": 45.13,
+   "label": "P1-PESSOAL",
+   "chunk": 8,
+   "aout": 44.8
+  },
+  {
+   "in": 45.13,
+   "out": 46.39,
+   "label": "P2-SEGUNDO",
+   "chunk": 9,
+   "aout": 46.06
+  },
+  {
+   "in": 46.09,
+   "out": 52.15,
+   "label": "P2-DETALHE",
+   "chunk": 10,
+   "aout": 51.82
+  },
+  {
+   "in": 52.93,
+   "out": 58.73,
+   "label": "P2-99",
+   "chunk": 11,
+   "aout": 58.4
+  },
+  {
+   "in": 59.99,
+   "out": 65.17,
+   "label": "P2-PADRAO",
+   "chunk": 12,
+   "aout": 64.84
+  },
+  {
+   "in": 66.27,
+   "out": 67.69,
+   "label": "P3-TERCEIRO",
+   "chunk": 13,
+   "aout": 67.36
+  },
+  {
+   "in": 67.43,
+   "out": 69.13,
+   "label": "P3-TORCER",
+   "chunk": 14,
+   "aout": 68.8
+  },
+  {
+   "in": 68.81,
+   "out": 73.87,
+   "label": "P3-TODO-CHEFE",
+   "chunk": 15,
+   "aout": 73.54
+  },
+  {
+   "in": 73.57,
+   "out": 76.79,
+   "label": "P3-VENDEDOR",
+   "chunk": 16,
+   "aout": 76.46
+  },
+  {
+   "in": 76.67,
+   "out": 81.25,
+   "label": "P3-PORRA-BIPE",
+   "chunk": 17,
+   "aout": 80.92
+  },
+  {
+   "in": 88.01,
+   "out": 90.538,
+   "label": "VIRADA-ENTREVISTA",
+   "chunk": 18,
+   "aout": 90.208
+  },
+  {
+   "in": 90.208,
+   "out": 95.13,
+   "label": "VIRADA-OFICIAL",
+   "chunk": 19,
+   "aout": 94.8
+  },
+  {
+   "in": 94.81,
+   "out": 97.61,
+   "label": "VIRADA-MELHOR",
+   "chunk": 20,
+   "aout": 97.28
+  },
+  {
+   "in": 97.47,
+   "out": 100.447,
+   "label": "VIRADA-NEM-SEMPRE",
+   "chunk": 21,
+   "aout": 100.117
+  },
+  {
+   "in": 100.117,
+   "out": 103.39,
+   "label": "VIRADA-POR-QUE-NAO",
+   "chunk": 22,
+   "aout": 103.06
+  },
+  {
+   "in": 103.15,
+   "out": 104.81,
+   "label": "VIRADA-CADEIRA",
+   "chunk": 23,
+   "aout": 104.48
+  },
+  {
+   "in": 104.59,
+   "out": 108.15,
+   "label": "CLIMAX-PRESIDENTE",
+   "chunk": 24,
+   "aout": 107.82
+  },
+  {
+   "in": 111.67,
+   "out": 114.53,
+   "label": "FECHO-SEU-TIME",
+   "chunk": 25,
+   "aout": 114.2
+  },
+  {
+   "in": 114.31,
+   "out": 116.39,
+   "label": "FECHO-E-VOCE",
+   "chunk": 26,
+   "aout": 116.06
+  },
+  {
+   "in": 118.17,
+   "out": 123.25,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 27,
+   "aout": 123.25
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 17,
+   "name": "PASSO 3 -> VIRADA (a entrevista)"
+  },
+  {
+   "afterSegment": 23,
+   "name": "VIRADA -> CLIMAX (o presidente)"
+  },
+  {
+   "afterSegment": 26,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.45518
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 17,
+   "toSeg": 20,
+   "span": [
+    0.3142,
+    0.81738
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "voce aceita mais ou menos",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "VOCÊ ACEITA",
+    "MAIS OU MENOS."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "tarefa de ninguem",
+   "seg": 8,
+   "lines": [
+    "TAREFA DE",
+    "NINGUÉM."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "voce ta torcendo",
+   "seg": 17,
+   "lines": [
+    "VOCÊ TÁ",
+    "TORCENDO."
+   ],
+   "hold": 0.4
+  },
+  {
+   "phrase": "por que nao",
+   "seg": 22,
+   "lines": [
+    "POR QUE NÃO?"
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "e voce por que nao",
+   "seg": 26,
+   "lines": [
+    "E VOCÊ?",
+    "POR QUE NÃO?"
+   ],
+   "hold": 0.6,
+   "top": 57
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 400,
+ "ctaSeg": 27,
+ "_splitShiftY": "400 medido: olhos (FaceMesh 33/133/362/263) a y~982 no aroll em 13 pontos das janelas de split (0-5,5 e 65,5-70,9) -> zoom 1,06: 979 / 1,14: 976 -> 1377-979 = 398 (1,14: 401).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}
