@@ -21,7 +21,7 @@ zsh scripts/fase1.sh "<bruto>" <slug>     # FUNDO: mezanino + whisper por regiã
    escrever scripts/mkcut.py (SPLIT/DROP) · scripts/cuts.py (TAKES) · scripts/bipe.py (JANELAS)
 zsh scripts/fase2.sh                      # FUNDO: cortes, J-cut, chunks, legendas, faixas, olhar
    scripts/captions_fix_table.py -> zsh scripts/legendas.sh · ler gaze/me/g*.jpg · work/tl-words.txt
-   plano: sections, impacts (<=5, 1º typing), ctaSeg, splitShiftY (MEDIR) · scripts/slots.py · camada mg
+   plano: sections, impacts (<=5, 1º typing), ctaSeg, splitShiftY (MEDIR: work/olhos_y.py) · scripts/slots.py · camada mg
 zsh scripts/montar.sh t1,t2,...           # build + bake + SFX + check + snapshots -> LER as imagens
 zsh scripts/render-par.sh <SIZE> renders/<Nome>-reel-final.mp4   # FUNDO, SIZE de size_sweep.py
    conferir quadros do MP4 + bipe + MD5 do bruto -> SendUserFile

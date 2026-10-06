@@ -33,7 +33,7 @@ zsh scripts/fase1.sh "<bruto>" <slug>          # FUNDO · ~5 min: mezanino + whi
 zsh scripts/fase2.sh                           # FUNDO · ~5 min: cortes, J-cut, chunks, legendas, faixas, olhar
 #   ler work/chunks.txt -> scripts/captions_fix_table.py -> zsh scripts/legendas.sh
 #   ler gaze/me/g*.jpg -> janelas NÍTIDAS · ler work/tl-words.txt -> tempos de cada palavra
-#   plano: sections (virada, CLIMAX, CTA), impacts (≤5; o 1º typing), ctaSeg, splitShiftY (medir)
+#   plano: sections (virada, CLIMAX, CTA), impacts (≤5; o 1º typing), ctaSeg, splitShiftY (medir: work/olhos_y.py)
 #   scripts/slots.py (S, cobrindo as nítidas) · compositions/mg.html (CENAS com a biblioteca)
 zsh scripts/montar.sh 13.4,16.8,...            # ~1 min: build + leaks + bed + SFX automáticos + check + snapshots
 #   ler os snapshots, corrigir, repetir montar.sh

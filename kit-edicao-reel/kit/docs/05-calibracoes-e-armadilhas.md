@@ -516,3 +516,27 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
 - Capa gerada reaproveitada no corpo como callback: a cadeira vazia em "a virada foi uma entrevista" e o velho de costas em "virou a cadeira" — a cena da capa
   vira a cena da virada, sem foto de banco.
 - Container de 4 núcleos: 12 partes de 456 quadros, 2 em paralelo, ~4 min por par.
+
+## 28. Capa que abre em tela cheia + pesquisa no Commons sem travar (reel Matthew Ridgway, 2026-10-06)
+
+- **Olhada de leitura dentro do gancho: split curto + a MESMA capa abrindo em tela cheia.** O apresentador leu o roteiro em 2,9–3,3 s
+  (gancho de 5,2 s). Split da capa só de 0 a 2,75 s; em 2,75 a capa entra em tela cheia (`sceneIn` + Ken Burns) com a caixa do gancho por
+  cima até o fim da frase. Leitura exposta: 0. Funciona porque a capa já põe o assunto acima da caixa também no recorte 9:16 (general de
+  costas entre 6% e 30% da altura). Mesmo princípio para o fim da pré-revelação: estender a cena até depois da olhada sutil (9,45 → 9,70).
+- **`work/olhos_y.py t1 t2 …`** (novo no modelo): mede a altura dos olhos (FaceMesh 33/133/362/263) nos instantes de timeline das janelas de
+  split e imprime o `splitShiftY` para cada zoom (1377 − y_zoom). Ridgway: y≈1007 em 13 pontos → 370.
+- **Commons no container: listar CATEGORIA, não buscar texto.** A busca por texto devolveu 0 resultados para quase todo tema ("Korean War
+  soldiers hot meal winter"); `generator=categorymembers` em `Category:<pessoa>` / `Category:Battle of …` trouxe 50–80 arquivos com licença e
+  descrição numa chamada. A miniatura só baixa em **largura padrão (960/1280/1920)**: largura quebrada (ex. 1262) dá 429 com a mensagem
+  "use thumbnail images in sizes listed on w.wiki/GHai". Subagente de pesquisa com 7 tópicos levou ~40 min sem baixar nada até receber escopo
+  fechado (3–4 tópicos, 1–2 fotos cada): dar o escopo fechado desde o início e baixar os títulos já conhecidos no processo principal.
+- **Foto que não existe: etiqueta honesta.** Não há no Commons foto da retomada de Seul (mar/1951). O clímax usa a tropa do mesmo exército
+  avançando em fev/1951 (tanque no rio Han) com a etiqueta "1951 · A CONTRAOFENSIVA" — nunca uma etiqueta que diga que a foto é o lugar
+  ("SEUL · MARÇO DE 1951" foi descartada). A foto da revelação também tem que PROVAR a fala: a granada só é nítida no 330-PS-1065
+  (trem-hospital), não no retrato de jornal — anel amarelo (`.mark`) sobre o detalhe, com o Ken Burns no CONTAINER `.full` (escala o anel junto).
+- **CTA de palavra-chave não gravado pelo 2º reel seguido** ("E comenta GENERAL que eu te mando o PDF" — o bruto termina em "porque você é
+  demais"): vale o áudio, sem callout; avisar na entrega.
+- **`legendas.sh` roda dentro do `fase2.sh`**: se a `captions_fix_table.py` for escrita enquanto a fase 2 roda, rodar `zsh scripts/legendas.sh`
+  e `tl.py --words > work/tl-words.txt` de novo depois (senão o `tl-words.txt` sai com o texto cru do whisper).
+- Login de dispositivo do Codex: 3 códigos até o usuário entrar (~35 min); o `cxlogin.sh` em laço + aviso por push de cada código novo resolveu
+  sem travar a edição. Container de 4 núcleos: 13 partes de 444 quadros, 2 em paralelo.
