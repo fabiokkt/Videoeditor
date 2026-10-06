@@ -26,7 +26,7 @@ trocadas no QC. O método que deu o melhor resultado (vídeos Vê.la e Joyce, se
    para animar. Logo só sofre corte, fade, deslocamento e escala uniforme.
 7. **Folha de contato** (`work/pesq/sheet.py`) → escolher → recortar tirando texto sobreposto.
 
-Fallback: Wikimedia Commons (`work/pesq/wm.py` / `wmpick.py`, licença registrada). Busca por API só se não houver
+Fallback: Wikimedia Commons (`work/pesq/wm.py` / `wmpick.py`, licença registrada; no container, `wmstd.py` — docs/05 §28). Busca por API só se não houver
 fonte primária, e passando pelo `filt.py`. (`scripts/bimg.py` do projeto alan-mulally foi um remendo para
 máquina sem chave Serper: **aposentado**, não usar.)
 
@@ -61,6 +61,7 @@ marcada "gerada a pedido" no arquivo de pesquisas. O flux errou mãos; o nano-ba
 | `pick.sh <qid> <idx…>` | baixa os escolhidos em `raw/<qid>_<idx>.jpg` e registra em `g_index.json` |
 | `wm.py "consulta" [n]` | busca no Commons → `q/wm_<slug>.json` (título, tamanho, licença) |
 | `wmpick.py <slug> <idx…>` | baixa do Commons e grava a licença em `wm_lic.json` |
+| `wmstd.py <largura> <slug>:<idx,…>` | idem, pela miniatura de tamanho padrão montada da URL (sem API por arquivo: não toma 429 no container) |
 | `crawl.py <base> <prefixo> <limite> <saida.json>` | varre um site oficial e lista as imagens |
 | `dl.py <tag> <img> <page> <dom>` | download com UA genérico de Chrome e Referer; converte para JPG |
 | `sheet.py <saida.jpg> <glob…>` | folha de miniaturas rotuladas para escolher |

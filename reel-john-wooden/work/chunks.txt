@@ -1,0 +1,32 @@
+ch00 GANCHO               Esse cara é um dos treinadores mais caretas e mais vencedores dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que regra que não vale para o seu melhor funcionário não vale para ninguém.
+ch02 JOHN-DEZ             John ganhou 10 campeonatos em 12 anos e
+ch03 MEIA                 no primeiro treino ensinava os melhores jogadores do país a calçar a meia.
+ch04 PROTOCOLO-VENDEDOR   E esse é o protocolo para você parar de deixar o seu melhor vendedor mandar na sua empresa.
+ch05 P1-ATRASADO          Primeiro, ninguém chega atrasado, nem o melhor.
+ch06 P1-DESRESPEITO       Ele diz que o atraso é desrespeito com todo o time.
+ch07 P1-AS-DEZ            Seu melhor vendedor chega às 10 porque vende muito.
+ch08 P1-DEIXOU            Ele chega na hora que você deixou.
+ch09 P2-PASSE             Segundo, quem faz o ponto agradece o passe.
+ch10 P2-CESTA             Ele obrigava quem fazia a cesta a acenar para o colega que passou a bola
+ch11 P2-COMISSAO          Seu vendedor leva a comissão e o parabéns no grupo.
+ch12 P2-PROPOSTA          E quem fez a proposta?
+ch13 P2-GAFANHOTO         Ninguém lembra, pequeno gafanhoto?
+ch14 P3-COLEGA            E terceiro, ninguém fala mal de colega,
+ch15 P3-EXPULSAVA         ele expulsava do treino quem criticava colega.
+ch16 P3-ESTRELA           Seu vendedor estrela esculacha o financeiro no grupo e você ri?
+ch17 P3-AMIGUINHO         Você não está protegendo o seu melhor vendedor, meu amiguinho,
+ch18 P3-PORRA-BIPE        Tá perdendo a porra do resto do time.
+ch19 VIRADA-BARBA         E a virada foi uma barba.
+ch20 VIRADA-FERIAS        O melhor jogador do país voltou de férias barbudo.
+ch21 VIRADA-PROIBIDA      Barba era proibida,
+ch22 VIRADA-DIREITO       ele disse que era direito dele,
+ch23 VIRADA-JOHN-PERGUNTOU John perguntou:
+ch24 VIRADA-ACREDITA      Você acredita mesmo nisso?
+ch25 VIRADA-BILL          acredito Bill, eu respeito quem defende o que acredita
+ch26 CLIMAX-FALTA         e o time vai sentir sua falta.
+ch27 CLIMAX-SEM-BARBA     Antes do treino, ele tava sem barba.
+ch28 FECHO-BILL-EMPRESA   Quem é o Bill da sua empresa, meu amigo?
+ch29 FECHO-AINDA-BARBA    E porque ele ainda tá de barba?
+ch30 CTA-ME-SEGUE         Se o seu melhor vendedor manda na sua empresa, me segue, porque você é demais!
+31 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

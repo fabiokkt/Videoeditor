@@ -1,0 +1,29 @@
+ch00 GANCHO               Esse cara é um dos generais mais brutos e mais paisões dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que o seu time não está desmotivado, está abandonado.
+ch02 GRANADA-PIJAMA       Matthew andava com uma granada no peito e pregou na parede de presente para o general inimigo uma calça de pijama rasgada na bunda.
+ch03 PROTOCOLO-PALESTRA   E esse é o protocolo para você parar de pagar palestra motivacional para o seu time.
+ch04 P1-LUVA              Resolve a luva.
+ch05 P1-NEM-RECLAMAVA     O soldado nem reclamava mais,
+ch06 P1-ARRANCAR          ele disse que teve que arrancar,
+ch07 P1-FALTAVA           faltava luva, comida quente e envelope para escrever para casa.
+ch08 P1-RESOLVEU          resolveu, antes de falar em atacar,
+ch09 P1-PORRA-BIPE        Seu vendedor tá sem computador que presta e você manda a porra do vídeo motivacional, meu querido?
+ch10 P2-FRIO              Segundo, aparece no frio.
+ch11 P2-JIPE              ele rodou 3 dias na linha de frente num jipe aberto na neve
+ch12 P2-MESMO-FRIO        Ele diz que o soldado precisa ver o chefe passando mesmo o frio.
+ch13 P2-CONVIDADO         Chefe que só aparece na festa de fim de ano não é chefe, é convidado.
+ch14 P3-NOME              E terceiro, chama pelo nome.
+ch15 P3-CINCO-MIL         Ele reconhecia uns 5 mil soldados de cara
+ch16 P3-BOM-TRABALHO      e parava na estrada só pra dizer: "Bom trabalho!"
+ch17 P3-BATALHAO          Ele dizia que isso levantava um batalhão inteiro.
+ch18 P3-GAFANHOTO         E você não sabe nem o nome do filho do seu melhor vendedor, pequeno gafanhoto.
+ch19 VIRADA-PERGUNTA      E a virada foi uma pergunta:
+ch20 VIRADA-RECUAR        Um oficial mostrou para ele um plano de recuar.
+ch21 VIRADA-ATAQUE        Ele perguntou: "O plano de ataque?"
+ch22 VIRADA-GAGUEJOU      O cara gaguejou. Senhor, a gente tá recuando.
+ch23 VIRADA-FORA          Dias depois, o cara tava fora.
+ch24 CLIMAX-CAPITAL       Em menos de três meses, o exército que fugia retomou a capital.
+ch25 FECHO-CORTAR-CUSTO   Sua empresa tem plano para cortar custo, meu amigo?
+ch26 FECHO-CADE           Cadê o plano de ataque?
+ch27 CTA-ME-SEGUE         Se você já pagou palestra motivacional para o seu time, me segue, porque você é demais.
+28 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)
