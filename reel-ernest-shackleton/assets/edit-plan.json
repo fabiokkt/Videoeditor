@@ -1,0 +1,321 @@
+{
+ "_nota": "Reel Ernest Shackleton — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/ernest-shackleton-2560-sdr.mp4",
+ "voiceSrc": "assets/ernest-shackleton-voz.m4a",
+ "segments": [
+  {
+   "in": 0.76,
+   "out": 6.83,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 6.5
+  },
+  {
+   "in": 6.59,
+   "out": 14.23,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 13.9
+  },
+  {
+   "in": 13.99,
+   "out": 18.63,
+   "label": "ERNEST-GELO",
+   "chunk": 2,
+   "aout": 18.3
+  },
+  {
+   "in": 18.45,
+   "out": 22.19,
+   "label": "SEM-RADIO-PINGUIM",
+   "chunk": 3,
+   "aout": 21.86
+  },
+  {
+   "in": 23.93,
+   "out": 26.09,
+   "label": "NAO-PERDEU",
+   "chunk": 4,
+   "aout": 25.76
+  },
+  {
+   "in": 30.83,
+   "out": 35.47,
+   "label": "PROTOCOLO-RECLAMAO",
+   "chunk": 5,
+   "aout": 35.14
+  },
+  {
+   "in": 35.27,
+   "out": 38.39,
+   "label": "P1-PRIMEIRO",
+   "chunk": 6,
+   "aout": 38.06
+  },
+  {
+   "in": 38.17,
+   "out": 43.11,
+   "label": "P1-BARRACA",
+   "chunk": 7,
+   "aout": 42.78
+  },
+  {
+   "in": 44.63,
+   "out": 48.89,
+   "label": "P1-TORCIDA",
+   "chunk": 8,
+   "aout": 48.56
+  },
+  {
+   "in": 48.75,
+   "out": 52.83,
+   "label": "P1-SENTA",
+   "chunk": 9,
+   "aout": 52.5
+  },
+  {
+   "in": 55.43,
+   "out": 58.35,
+   "label": "P2-LARGA",
+   "chunk": 10,
+   "aout": 58.02
+  },
+  {
+   "in": 58.03,
+   "out": 61.57,
+   "label": "P2-QUASE-TUDO",
+   "chunk": 11,
+   "aout": 61.24
+  },
+  {
+   "in": 61.25,
+   "out": 65.29,
+   "label": "P2-MOEDAS",
+   "chunk": 12,
+   "aout": 64.96
+  },
+  {
+   "in": 65.91,
+   "out": 69.83,
+   "label": "P2-CAFE-CARRO",
+   "chunk": 13,
+   "aout": 69.5
+  },
+  {
+   "in": 71.73,
+   "out": 74.71,
+   "label": "P3-PARADO",
+   "chunk": 14,
+   "aout": 74.38
+  },
+  {
+   "in": 74.43,
+   "out": 78.09,
+   "label": "P3-RECLAMAR",
+   "chunk": 15,
+   "aout": 77.76
+  },
+  {
+   "in": 81.45,
+   "out": 85.97,
+   "label": "P3-FUTEBOL",
+   "chunk": 16,
+   "aout": 85.64
+  },
+  {
+   "in": 85.89,
+   "out": 90.39,
+   "label": "P3-MERDA-BIPE",
+   "chunk": 17,
+   "aout": 90.06
+  },
+  {
+   "in": 91.41,
+   "out": 93.61,
+   "label": "VIRADA-MOTIM",
+   "chunk": 18,
+   "aout": 93.28
+  },
+  {
+   "in": 93.39,
+   "out": 99.41,
+   "label": "VIRADA-CARPINTEIRO",
+   "chunk": 19,
+   "aout": 99.08
+  },
+  {
+   "in": 99.31,
+   "out": 101.99,
+   "label": "VIRADA-SEM-NAVIO",
+   "chunk": 20,
+   "aout": 101.66
+  },
+  {
+   "in": 104.29,
+   "out": 110.747,
+   "label": "VIRADA-CONTRATO",
+   "chunk": 21,
+   "aout": 110.417
+  },
+  {
+   "in": 110.417,
+   "out": 111.99,
+   "label": "VIRADA-ACABOU",
+   "chunk": 22,
+   "aout": 111.66
+  },
+  {
+   "in": 111.69,
+   "out": 114.41,
+   "label": "VIRADA-MEDO",
+   "chunk": 23,
+   "aout": 114.08
+  },
+  {
+   "in": 114.21,
+   "out": 118.97,
+   "label": "CLIMAX-BOTE",
+   "chunk": 24,
+   "aout": 118.64
+  },
+  {
+   "in": 123.43,
+   "out": 127.51,
+   "label": "FECHO-MEDO-DE-QUE",
+   "chunk": 25,
+   "aout": 127.18
+  },
+  {
+   "in": 127.51,
+   "out": 132.83,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 26,
+   "aout": 132.83
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 17,
+   "name": "PASSO 3 -> VIRADA (o motim)"
+  },
+  {
+   "afterSegment": 23,
+   "name": "VIRADA -> CLIMAX (o bote do socorro)"
+  },
+  {
+   "afterSegment": 25,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.45384
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 19,
+   "span": [
+    0.00029,
+    0.41932
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "voce traz pra perto",
+   "seg": 1,
+   "style": "typing",
+   "lines": [
+    "VOCÊ TRAZ",
+    "PRA PERTO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "nao perdeu um homem",
+   "seg": 4,
+   "lines": [
+    "NÃO PERDEU",
+    "UM HOMEM."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "contaminar o seu time",
+   "seg": 5,
+   "lines": [
+    "CONTAMINAR",
+    "O SEU TIME."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "senta do seu lado",
+   "seg": 9,
+   "lines": [
+    "SENTA DO",
+    "SEU LADO."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "manter o seu carro",
+   "seg": 13,
+   "lines": [
+    "E MANTER O",
+    "SEU CARRO?"
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "ta com medo de que",
+   "seg": 25,
+   "lines": [
+    "TÁ COM MEDO",
+    "DE QUÊ?"
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 346,
+ "ctaSeg": 26,
+ "_splitShiftY": "346 medido: olhos (FaceMesh 33/133/362/263) a y~1030 no mezanino em 13 pontos das janelas de split (0-5,0 e 63,6-66,6) -> zoom 1,06/1,14: 1031/1032 -> 1377-1031 = 346 (work/olhos_y.py).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

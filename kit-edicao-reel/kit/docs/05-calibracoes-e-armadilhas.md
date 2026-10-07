@@ -555,3 +555,60 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
 - CTA de palavra-chave não gravado pela 3ª vez seguida (Rickover, Wooden, Ridgway: "E comenta GENERAL…"). Login de dispositivo do Codex: 3 códigos
   até o usuário entrar (~35 min); o `cxlogin.sh` em laço + push de cada código novo não travou a edição. Container de 4 núcleos: 13 partes de 444
   quadros, 2 em paralelo, ~3,7 min por par.
+
+## 30. Commons a conta-gotas, whisper com prompt não é juiz e foto que corta a dupla (reel Stanley McChrystal, 2026-10-07)
+
+- **Download do Commons no container: ~1 foto por minuto.** O `upload.wikimedia.org` responde 429 "robot policy" na 1ª tentativa de quase todo arquivo
+  (com UA genérico ou descritivo, sem dado do usuário); o retry do `wmstd.py` passa. Planejar: listar por categoria primeiro (`work/pesq/wmcat.py`, novo no
+  modelo: pagina de 50 em 50 — com `gcmlimit` > 50 parte das páginas volta sem `imageinfo` — e imprime data e descrição), escolher ~12 títulos e baixar numa
+  **fila por prioridade escrita em arquivo** (`bash work/pesq/dlq.sh` em tarefa de fundo), enquanto a fase 1 roda. Nunca `pkill -f` com texto do próprio
+  comando para parar a fila (mata o shell, exit 144 — irmão do §26/§28).
+- **Whisper com o roteiro no `--prompt` alucinou em 3 de 6 chunks** ("Primeiro,", "Segundo,", "A venda foi de trânsito…"): para decidir áudio × roteiro,
+  vale o passe por região + o passe por chunk SEM prompt. Concordam → vale o áudio ("seu comercial e sua operação", "ser juiz", "sem operação"); discordam
+  ou é homófono ("Se o"/"Seu", "Não encostado"/"Não um encostado") → vale o roteiro.
+- **Bipe: o silêncio depois do artigo é a oclusão do /p/.** Em "prometer a porra do prazo" o whisper pôs "porra" 0,25 s antes do real; o vão de 0,1 s
+  (−42 a −56 dB) depois do "a" era o /p/ fechado. Recortes cumulativos fecharam: até 118,50 "…prometer a"; de 118,78 só "do prazo". Bipe da oclusão ao fim
+  do "a" (0,33 s).
+- **Olho baixo no meio de um gesto não é leitura**: no "juiz da briga" o apresentador fez o apito (lábios em bico, olhar baixo 0,45 s). Conferir o quadro
+  inteiro do `aroll` antes de cobrir: gesto pedido no roteiro fica no apresentador, com o callout.
+- **Foto de dupla em mesa (soldado + analista) vai em CARD paisagem**, não em tela cheia: o recorte 9:16 deixava só o Stanley (o Flynn saía do quadro) e a
+  legenda branca caía sobre os papéis claros da mesa. Card 1020×678 num mundo escuro + etiqueta embaixo.
+- **Foto clara no fim da tela = legenda some**: `.floor` (gradiente escuro a partir de 56%) por cima da foto (areia, mesa). Foto de visão noturna já é
+  escura: sem `dim` (fica lama); visão noturna com granulação: no máximo `brightness(.88)` e Ken Burns curto (1 → 1,06).
+- **Cena de fotos sem `<div class="world dark">` mostra o apresentador no chicote** (2–3 quadros entre a foto que sai e a que entra, 7,86 s): toda `.scene`
+  de tela cheia leva o mundo escuro por baixo, inclusive a da pré-revelação.
+- **Peça que nasce com `autoAlpha: 0` sobre o mundo escuro = quadro quase preto**: a grade de 99 telas entrava vazia por 0,4 s e o `finalizar.py` acusou
+  "trechos pretos 30,45–30,68" (QC COM PROBLEMA). A grade passou a entrar já apagada (`autoAlpha .22`, `scale .86`) e acender em onda; refeitas só as
+  partes 1 e 4 (`render-par.sh` retoma).
+- **Classe `.cap` na camada colide com as legendas do host** (o card "TIME 1" virou "E 1" cortado): nomes próprios na camada (`.ccap`).
+- **Marca sem foto livre (Burger King nas bases): lista de UI** (BURGER KING / PIZZA HUT / SUBWAY: ABERTO → PROIBIDO no tempo das palavras), sem logotipo.
+- **`sync-check.mjs` em take curto mede o take vizinho**: a janela é de 1,2 s; no take de 1,34 s ela começa no meio e invade o seguinte (outro trecho do
+  bruto) → "−140 ms" falso. Medido com a janela dentro do segmento: 10 ms (r 0,97). Antes de mexer no corte por causa de um ponto fora da curva, remedir assim.
+- **CTA de palavra-chave não gravado pela 4ª vez seguida** (Rickover, Wooden, Ridgway, Stanley — desta vez nem o do meio nem o do fim): avisar na entrega.
+- Codex: 1 código de dispositivo, login em ~2 min; a capa saiu na 1ª tentativa (~60 s). Container de 4 núcleos: 13 partes de 432 quadros, 2 em paralelo,
+  ~3,6 min por par (1398 s); entregas x264 + HEVC de dois passes: 18 min.
+
+## 31. Commons em 429, selo de biblioteca e foto horizontal que não aguenta o 9:16 (reel Ernest Shackleton, 2026-10-07)
+
+- **Commons devolveu 429 em quase tudo por horas** (API, `en.wikipedia.org` e as miniaturas de `upload.wikimedia.org`; o IP de saída é compartilhado). O que
+  funcionou: `work/pesq/wmcatlote.py` (novo no modelo; o `wmcat.py` do §30 lista uma categoria por vez) lista as categorias honrando o `retry-after` — 1 chamada por categoria + 1 por lote de 50 arquivos, 569 fotos
+  com licença em ~15 min — e `work/pesq/wmfila.py` (novo) baixa só a **fila priorizada** (o que falta no layout primeiro), na largura padrão 1920/1280/960, com
+  espera crescente. ~1 foto a cada 2 min: montar o layout com SUBSTITUTAS marcadas (`work/mg/fotos.py`: papel → candidatos + recorte + substituta) e trocar
+  conforme chegam. Matar o laço por PID. **Flickr Commons** (State Library of NSW, `license=7`) responde sem chave pela página de busca (`modelExport`, tamanho
+  `l` = 1024 px); o original `_o` às vezes dá 429.
+- **Pranchas digitalizadas de livro (South, 1919 — Cornell University Library) trazem o selo da biblioteca num canto.** Recortar em fração (`fotos.py`) e conferir
+  os 4 cantos de cada foto numa folha antes do render: o recorte em 0,90 deixou o selo à vista no clímax; o selo começava em 0,86.
+- **Foto horizontal pequena (≈1000–1100 px de altura) que não aguenta o recorte 9:16** (fica borrada ou corta a ação): (a) card de foto inteira sobre o mundo escuro
+  (`.card` 960x610) ou (b) a foto inteira na largura da tela sobre ela mesma desfocada (`.bgblur` + `.fitimg`) — usado no clímax (o lançamento do James Caird).
+- **Palavra que o whisper põe dentro do silêncio real cai no pedaço errado da divisão** ("Ele" em 57,80 com o vale em 57,90–58,22): `WFIX` no `mkcut.py`
+  corrige o tempo dessas palavras antes de atribuir aos pedaços (o `align.py` reancora depois).
+- **Etiqueta sobre retrato não cobre olho** (vale para `.tag` como para callout): "O ENCRENQUEIRO" foi para cima da cabeça do Hurley. Etiqueta de pessoa
+  numa foto de grupo só quando a fonte identifica a pessoa (Hurley e Shackleton na barraca: legenda do arquivo).
+- **Foto que não existe no acervo aberto** (o futebol no gelo do Hurley está no RMG, fora do Commons): foto real do trabalho no gelo (TAREFA TODO DIA) + o
+  objeto como motion (a bola de couro de 1915) com a etiqueta ATÉ FUTEBOL NO GELO — nunca outra foto fingindo ser o jogo.
+- **Toda cena da camada (tela cheia e split) precisa de fundo `.world`**: sem ele, no `whip` (expo.out) a foto que entra deixa por 1–2 quadros uma faixa na
+  borda por onde aparece o apresentador. Achado num quadro da parte renderizada (8,0 s); corrigido com `<div class="world dark">` nas cenas A, P e L e re-render
+  só das partes afetadas (apagar `chunk-NN.mp4` + o MP4; o `render-par.sh` retoma).
+- Apresentador que olha para a câmera o tempo todo (sem leitura): o gancho inteiro fica no split da capa; troca de foto dentro do split em "e mais admirados"
+  (3,1 s) para o ritmo (`ritmo.py` acusava 5,2 s sem evento). CTA de palavra-chave não gravado pela 4ª vez seguida. Codex: 1º código aceito.
+  Container de 4 núcleos: 13 partes de 431 quadros, 2 em paralelo.

@@ -1,0 +1,36 @@
+c00 (r00)    0.72-   6.37      Esse cara é um dos exploradores mais fracassados e mais admirados do planeta Terra.
+c01 (r01)    6.81-  14.00      E ele criou um protocolo polêmico pra provar que o funcionário que reclama você não afasta, você traz pra perto.
+c02 (r01)   14.00-  18.20      Ernest ficou quase dois anos preso no gelo na Antártida.
+c03 (r02)   18.62-  21.72      Sem rádio para pedir socorro, comendo pinguim.
+c04 (r03)   22.19-  23.45 DROP E não perdeu um...
+c05 (r04)   24.17-  25.69      E não perdeu um homem.
+c06 (r05)   26.21-  30.43 DROP E esse é o protocolo pra você parar de deixar um reclamão contamin...
+c07 (r06)   31.04-  35.05      E esse é o protocolo para você parar de deixar um reclamão contaminar o seu time.
+c08 (r07)   35.50-  35.94      Primeiro...
+c09 (r08)   36.32-  37.92      Põe o reclamão do seu lado.
+c10 (r09)   38.41-  42.66      No gelo, ele botou um dos mais encrenqueiros para dormir na barraca dele.
+c11 (r10)   43.02-  43.61 DROP Ele sai...
+c12 (r11)   44.86-  48.46      Ele sabia que reclamam longe do chefe junto à torcida.
+c13 (r12)   48.96-  52.43      Quem mais reclama na sua empresa, senta do seu lado.
+c14 (r13)   52.97-  53.39 DROP Segundo
+c15 (r14)   55.22-  58.06      Segundo, você larga primeiro
+c16 (r14)   58.06-  61.29      Ele mandou cada homem largar quase tudo no gelo
+c17 (r14)   61.29-  64.83      E o primeiro a jogar fora foi ele As moedas de ouro
+c18 (r15)   66.09-  69.37      Vai cortar o café do time e manter o seu carro, meu amiguinho?
+c19 (r16)   71.88-  74.45      E terceiro, ninguém fica parado.
+c20 (r16)   74.45-  77.62      Ele sabia que homem parado no gelo começa a reclamar.
+c21 (r17)   78.06-  80.38 DROP Então tinha tarefa todo dia, até o...
+c22 (r18)   81.67-  85.52      Então tinha tarefa todo dia e até o futebol no gelo.
+c23 (r19)   86.09-  89.92      Time sem meta da semana, fala merda no corredor, pequeno gafanhoto.
+c24 (r20)   91.46-  93.14      E a virada foi um motim.
+c25 (r21)   93.60-  98.99      O navio afundou e o carpinteiro, o mais reclamão de todos, parou de puxar o bote.
+c26 (r22)   99.47- 101.52      Sem navio, ninguém manda em mim
+c27 (r23)  102.19- 103.57 DROP Ernest leu conta...
+c28 (r24)  104.51- 110.21      Ernest leu o contrato para todo mundo e avisou, o salário continua até o porto.
+c29 (r25)  110.64- 111.52      acabou o motim
+c30 (r26)  111.90- 113.93      Era medo, não rebeldia
+c31 (r27)  114.44- 118.58      Meses depois, no bote que foi buscar socorro, o carpinteiro foi junto.
+c32 (r28)  119.19- 120.71 DROP Quem mais reclama na sua empresa
+c33 (r29)  121.62- 122.74 DROP Quem mais reclama nas...
+c34 (r30)  123.62- 127.10      Quem mais reclama na sua empresa tá com medo de quê, meu amigo?
+c35 (r31)  127.69- 132.77      Se tem um reclamão contaminando o seu time, me segue, porque você é demais!

@@ -1,0 +1,158 @@
+{
+ "total": 93.272,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.45384
+   ],
+   "t0": 0.0,
+   "t1": 5.52,
+   "dur": 5.52,
+   "fala": "Esse cara é um dos exploradores mais fracassados e mais admirados do planeta Terra.",
+   "tema": "CAPA gerada a pedido (Shackleton de costas diante do Endurance esmagado, à noite)",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 1,
+   "toSeg": 1,
+   "span": [
+    0.0003,
+    0.73469
+   ],
+   "t0": 5.52,
+   "t1": 10.4,
+   "dur": 4.88,
+   "fala": "E ele criou um protocolo polêmico pra provar que o funcionário que reclama você não afasta.",
+   "tema": "fotos: o Endurance à noite no gelo (Hurley, 1915) → o navio preso no gelo do mar de Weddell",
+   "cobre": "6,01–6,56 · 9,47–9,84"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 1,
+   "toSeg": 3,
+   "span": [
+    0.48393,
+    0.99407
+   ],
+   "t0": 12.13,
+   "t1": 19.1,
+   "dur": 6.97,
+   "fala": "Ernest ficou quase dois anos preso no gelo na Antártida. Sem rádio pra pedir socorro, comendo pinguim.",
+   "tema": "REVELAÇÃO: retrato do Shackleton na expedição + nome → o navio preso (QUASE 2 ANOS · SEM RÁDIO) → pinguins",
+   "cobre": "16,19–16,50"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 5,
+   "toSeg": 8,
+   "span": [
+    0.27536,
+    0.99979
+   ],
+   "t0": 24.76,
+   "t1": 35.06,
+   "dur": 10.3,
+   "fala": "Primeiro, põe o reclamão do seu lado. No gelo, ele botou um dos mais encrenqueiros pra dormir na barraca dele. Ele sabia que reclamão longe do chefe junta torcida.",
+   "tema": "MOTION chip PASSO 1 + título → foto: Hurley e Shackleton no acampamento → MOTION a torcida (o reclamão longe do chefe junta gente)",
+   "cobre": "24,79–25,28"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 9,
+   "toSeg": 13,
+   "span": [
+    0.2224,
+    0.78706
+   ],
+   "t0": 38.47,
+   "t1": 47.12,
+   "dur": 8.65,
+   "fala": "Segundo, você larga primeiro. Ele mandou cada homem largar quase tudo no gelo. E o primeiro a jogar fora foi ele: as moedas de ouro.",
+   "tema": "MOTION chip PASSO 2 + título → foto: o acampamento no gelo (MENOS DE 1 KG POR HOMEM) → MOTION as moedas de ouro caindo na neve",
+   "cobre": "42,47–42,80"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 13,
+   "toSeg": 17,
+   "span": [
+    0.20012,
+    0.76761
+   ],
+   "t0": 50.38,
+   "t1": 59.63,
+   "dur": 9.25,
+   "fala": "E terceiro, ninguém fica parado. Ele sabia que homem parado no gelo começa a reclamar. Então tinha tarefa todo dia e até o futebol no gelo.",
+   "tema": "MOTION chip PASSO 3 + título → foto: a noite longa no gelo → foto: abrindo caminho no gelo (TAREFA TODO DIA) + a bola (FUTEBOL NO GELO)",
+   "cobre": "50,26–50,94 · 51,69–51,94 · 53,07–53,34 · 54,13–54,41"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 19,
+   "span": [
+    0.00029,
+    0.41932
+   ],
+   "t0": 63.42,
+   "t1": 66.3,
+   "dur": 2.88,
+   "fala": "E a virada foi um motim. O navio afundou,",
+   "tema": "fotos: o Endurance adernado pelo gelo → o naufrágio (nov/1915)",
+   "cobre": "65,13–65,41"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 19,
+   "toSeg": 23,
+   "span": [
+    0.07304,
+    1.0
+   ],
+   "t0": 66.3,
+   "t1": 81.3,
+   "dur": 15.0,
+   "fala": "e o carpinteiro, o mais reclamão de todos, parou de puxar o bote: sem navio, ninguém manda em mim. Ernest leu o contrato pra todo mundo e avisou: o salário continua até o porto. Acabou o motim. Era medo, não rebeldia.",
+   "tema": "foto: os homens puxando o bote → MOTION a fala do carpinteiro, o contrato (SALÁRIO ATÉ O PORTO), FIM DO MOTIM, MEDO × REBELDIA",
+   "cobre": "67,46–68,01 · 69,52–69,74 · 71,16–71,35 · 80,11–80,35"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 24,
+   "toSeg": 25,
+   "span": [
+    0.0,
+    0.54196
+   ],
+   "t0": 81.3,
+   "t1": 85.33,
+   "dur": 4.03,
+   "fala": "Meses depois, no bote que foi buscar socorro, o carpinteiro foi junto.",
+   "tema": "CLÍMAX: o lançamento do James Caird em Elephant Island, abril de 1916",
+   "cobre": "81,36–82,02 · 82,48–82,78 · 83,05–83,36 · 84,17–84,72"
+  }
+ ]
+}
