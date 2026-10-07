@@ -67,7 +67,7 @@ o kit.
 |---|---|---|
 | `gimg.mjs "consulta" [n]` | MOTOR | Google Imagens via Serper (chave no `.env`) |
 | `fal_img.mjs modelo saida aspect "prompt"` | MOTOR | imagem-conceito no fal.ai — **só a pedido** |
-| `work/pesq/*` | MOTOR | pesquisa e download (docs/11) |
+| `work/pesq/*` | MOTOR | pesquisa e download (docs/11); `wmcat.py` lista categoria do Commons, `wmstd.py` baixa a miniatura padrão |
 | `pesquisa_md.py` | POR VÍDEO (textos) + motor | gera o `PESQUISAS-BROLL-<TEMA>.md` |
 | `entrega.py` | POR VÍDEO (`PK`) + motor | foto escolhida por slot → recorte no aspecto do slot + folha |
 | `make_broll.py [--only id,…]` | POR VÍDEO (`S`) + motor | anima a foto só com câmera → `assets/broll/` |
@@ -81,6 +81,8 @@ o kit.
 | `render-chunks.mjs` | MOTOR | render de uma parte (`--fps --size --only K --split N`); `--join` une |
 | `work/render-all.sh <SIZE> [FPS] [SPLIT]` | MOTOR · generalizado no kit v2 | todas as partes, uma por vez, com `TMPDIR` no projeto |
 | `finalizar.py <saida.mp4>` | MOTOR · **novo no kit v2** | áudio final + mux + QC. Conferido contra o Kazuo: mesmos 5897 quadros, 98,283 s, 369 MB, pico −1,0 / média −19,1 dB, áudio idêntico byte a byte |
+| `work/entregas.sh <Nome>` | MOTOR · **novo no kit v3.1** | do master: cópia do chat x264 dois passes < 30 MB **em paralelo** com o HEVC final dois passes < 100 MB (`hvc1`, AAC 256k, `+faststart`; bitrates pela duração) + comparação master × final com SSIM |
+| `work/olhos_y.py t1 t2 …` | MOTOR · **novo no kit v3.1** | altura dos olhos nas janelas de split → `splitShiftY` para cada zoom |
 | `sync-check.mjs final16k.wav bruto16k.wav` | MOTOR | lag boca/voz por take |
 
 ## Mudanças em relação às cópias dos projetos

@@ -1,0 +1,298 @@
+{
+ "_nota": "Reel Stanley McChrystal — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/stanley-mcchrystal-2560-sdr.mp4",
+ "voiceSrc": "assets/stanley-mcchrystal-voz.m4a",
+ "segments": [
+  {
+   "in": 0.46,
+   "out": 6.17,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.84
+  },
+  {
+   "in": 6.05,
+   "out": 12.29,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 11.96
+  },
+  {
+   "in": 12.07,
+   "out": 13.87,
+   "label": "NAO-SE-CONHECEM",
+   "chunk": 2,
+   "aout": 13.54
+  },
+  {
+   "in": 15.45,
+   "out": 19.95,
+   "label": "STANLEY-IRAQUE",
+   "chunk": 3,
+   "aout": 19.62
+  },
+  {
+   "in": 19.69,
+   "out": 26.87,
+   "label": "DORMIA-BURGER",
+   "chunk": 4,
+   "aout": 26.54
+  },
+  {
+   "in": 26.65,
+   "out": 33.29,
+   "label": "PROTOCOLO-JUIZ",
+   "chunk": 5,
+   "aout": 32.96
+  },
+  {
+   "in": 33.17,
+   "out": 36.41,
+   "label": "P1-MESMA-REUNIAO",
+   "chunk": 6,
+   "aout": 36.08
+  },
+  {
+   "in": 36.17,
+   "out": 40.61,
+   "label": "P1-SETE-MIL",
+   "chunk": 7,
+   "aout": 40.28
+  },
+  {
+   "in": 47.77,
+   "out": 52.05,
+   "label": "P1-SEPARADO-PERDE",
+   "chunk": 8,
+   "aout": 51.72
+  },
+  {
+   "in": 51.83,
+   "out": 56.45,
+   "label": "P1-PROMETENDO-PRAZO",
+   "chunk": 9,
+   "aout": 56.12
+  },
+  {
+   "in": 56.33,
+   "out": 59.47,
+   "label": "P2-EMPRESTA",
+   "chunk": 10,
+   "aout": 59.14
+  },
+  {
+   "in": 59.19,
+   "out": 63.53,
+   "label": "P2-SEIS-MESES",
+   "chunk": 11,
+   "aout": 63.2
+  },
+  {
+   "in": 67.35,
+   "out": 71.89,
+   "label": "P2-RIVAL",
+   "chunk": 12,
+   "aout": 71.56
+  },
+  {
+   "in": 75.47,
+   "out": 79.01,
+   "label": "P2-SEMANA",
+   "chunk": 13,
+   "aout": 78.68
+  },
+  {
+   "in": 78.85,
+   "out": 81.75,
+   "label": "P2-GAFANHOTO",
+   "chunk": 14,
+   "aout": 81.42
+  },
+  {
+   "in": 82.79,
+   "out": 85.25,
+   "label": "P3-ABRE-TUDO",
+   "chunk": 15,
+   "aout": 84.92
+  },
+  {
+   "in": 84.95,
+   "out": 89.97,
+   "label": "P3-SABER-TUDO",
+   "chunk": 16,
+   "aout": 89.64
+  },
+  {
+   "in": 114.97,
+   "out": 120.39,
+   "label": "P3-PORRA-BIPE",
+   "chunk": 17,
+   "aout": 120.06
+  },
+  {
+   "in": 120.31,
+   "out": 122.91,
+   "label": "VIRADA-QUARTINHO",
+   "chunk": 18,
+   "aout": 122.58
+  },
+  {
+   "in": 125.97,
+   "out": 131.87,
+   "label": "VIRADA-MADRUGADA",
+   "chunk": 19,
+   "aout": 131.54
+  },
+  {
+   "in": 137.43,
+   "out": 141.47,
+   "label": "VIRADA-NINGUEM-LIA",
+   "chunk": 20,
+   "aout": 141.14
+  },
+  {
+   "in": 155.23,
+   "out": 162.45,
+   "label": "CLIMAX-300",
+   "chunk": 21,
+   "aout": 162.12
+  },
+  {
+   "in": 165.97,
+   "out": 169.61,
+   "label": "FECHO-VENDA-ONTEM",
+   "chunk": 22,
+   "aout": 169.28
+  },
+  {
+   "in": 169.35,
+   "out": 171.33,
+   "label": "FECHO-SACO",
+   "chunk": 23,
+   "aout": 171.0
+  },
+  {
+   "in": 172.35,
+   "out": 177.61,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 24,
+   "aout": 177.61
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 17,
+   "name": "PASSO 3 -> VIRADA (o quartinho)"
+  },
+  {
+   "afterSegment": 20,
+   "name": "VIRADA -> CLIMAX (soldado + analista: 18 -> 300)"
+  },
+  {
+   "afterSegment": 23,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    1.0
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 18,
+   "span": [
+    0.0,
+    1.0
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "eles so nao se conhecem",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "ELES SÓ NÃO",
+    "SE CONHECEM."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "juiz da briga",
+   "seg": 5,
+   "lines": [
+    "JUIZ DA",
+    "BRIGA."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "so gente prometendo prazo",
+   "seg": 9,
+   "lines": [
+    "SÓ GENTE",
+    "PROMETENDO PRAZO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "naoo encostado",
+   "seg": 14,
+   "lines": [
+    "NÃO O",
+    "ENCOSTADO."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "ou ta no saco",
+   "seg": 23,
+   "lines": [
+    "OU TÁ",
+    "NO SACO?"
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 375,
+ "ctaSeg": 24,
+ "_splitShiftY": "375 medido: olhos (FaceMesh 33/133/362/263) a y~1003 no mezanino em 12 pontos das janelas de split (0-5,2 e 67,8-69,5) -> zoom 1,06/1,14: 1002/1001 -> 1377-1002 = 375 (work/olhos_y.py).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill. 'naoo encostado': a legenda 'Nao o' e UM token (docs/05 §28).",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

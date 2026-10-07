@@ -56,3 +56,18 @@ Montagem da camada + SFX + QC: ~30–40 min. Render a 60 fps em 18 partes: ~18 m
 Quando a cena tem peças repetidas (100 pontos, 112 bolinhas, furos da pá), escrever a camada como gerador Python
 (`exemplos/deming/gen.py`): lê o modelo (`compositions/mg.html` copiado para `work/mg/template.html`), injeta CSS, markup e CENAS e grava
 `compositions/mg.html`. Aleatório com semente fixa (determinístico). Editar o gerador, nunca o `mg.html` gerado.
+
+## Peças prontas do reel Matthew Ridgway (`exemplos/matthew-ridgway/`, kit v3.1) — copiar em vez de redesenhar
+`gen.py` (cenas) + `parts.py` (CSS e SVG). Para reusar: copiar o bloco de CSS/markup da peça para o `work/mg/gen.py` do reel novo e
+trocar só texto, tempos e fotos (`F` = foto por papel, `OP` = enquadramento medido no snapshot).
+- **Anel no detalhe da foto** (`.mark` + Ken Burns no CONTAINER `.full`, o anel escala junto): "andava com uma granada no peito".
+- **Parede de madeira sob a lanterna + bilhete pregado com tachinha** (`.wall`, `.note`, `.tack`): objeto que a fala nomeia e não
+  existe em foto; o texto do bilhete sobe no tempo das palavras.
+- **Objeto em SVG que cai, é pregado e rasga** (calça de pijama listrada, `PANTS`, `#PJ-rasgo` com `scale` 0→1 e `svgOrigin`): molde
+  para qualquer "coisa" curta da história (bilhete, placa, uniforme).
+- **Lista do que falta → RESOLVIDO** (`.req` + `.it` + pílula com dois `span` sobrepostos, `flip()` troca FALTA → RESOLVIDO; última linha
+  `.later` cinza "DEPOIS"): "resolveu antes de falar em atacar".
+- **Contador por rolo com separador de milhar** (`.ctr` com 4 colunas + `.pt`, cada coluna termina no dígito certo): "5.000 soldados".
+- **Conversa da virada** (`.doc` com o PLANO, `.who` + `.bubble.big` + `.bubble.me`, `.dots` digitando, `.divd` "DIAS DEPOIS",
+  carimbo `slam` FORA): diálogo do roteiro sem foto de pessoa real carimbada.
+- **Capa que abre em tela cheia sobre a olhada do gancho** (cena `A` em split 0–2,75 + cena `P` com a mesma capa, docs/05 §29).

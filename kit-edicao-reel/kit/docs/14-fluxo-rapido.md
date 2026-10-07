@@ -28,9 +28,13 @@ Sem parada no meio: o vídeo pronto vai para o chat no fim.
 ```bash
 zsh ~/Claude/KIT-EDICAO-REEL/novo-projeto.sh <slug> "Título"            # 1 s
 zsh scripts/fase1.sh "<bruto>" <slug>          # FUNDO · ~5 min: mezanino + whisper turbo -> work/regioes.txt
-#   em paralelo: pesquisa no navegador (fonte primária) + imagem a pedido no Codex (docs/11, docs/05 §23)
+#   (kit v3.1: com >= 8 núcleos e >= 12 GB — Mac — a transcrição roda ENQUANTO o mezanino codifica; container de 4 núcleos e Air de
+#    8 GB = série, medido no docs/05 §32. PARALELO=0/1 força)
+#   em paralelo, NO PROCESSO PRINCIPAL: FOTOS PRIMEIRO (ver "Imagens") + imagem a pedido no Codex (docs/11, docs/05 §23)
 #   escrever: scripts/mkcut.py (SPLIT/DROP) · scripts/cuts.py (TAKES) · scripts/bipe.py (JANELAS, se houver palavrão)
 zsh scripts/fase2.sh                           # FUNDO · ~5 min: cortes, J-cut, chunks, legendas, faixas, olhar
+#   (kit v3.1: os medidores de olhar rodam ENQUANTO o bake codifica o aroll; a tabela de legendas escrita DURANTE a fase 2
+#    pede `zsh scripts/legendas.sh` + `tl.py --words > work/tl-words.txt` de novo no fim — docs/05 §29)
 #   ler work/chunks.txt -> scripts/captions_fix_table.py -> zsh scripts/legendas.sh
 #   ler gaze/me/g*.jpg -> janelas NÍTIDAS · ler work/tl-words.txt -> tempos de cada palavra
 #   plano: sections (virada, CLIMAX, CTA), impacts (≤5; o 1º typing), ctaSeg, splitShiftY (medir: work/olhos_y.py)
@@ -40,6 +44,8 @@ zsh scripts/montar.sh 13.4,16.8,...            # ~1 min: build + leaks + bed + S
 python3 scripts/size_sweep.py | head -3        # escolher o SIZE
 zsh scripts/render-par.sh <SIZE> renders/<Nome>-reel-final.mp4    # FUNDO · ~13 min: 3 partes em paralelo + finalizar
 #   conferir: quadros-chave, bipe no MP4, MD5 do bruto · mandar o MP4 no chat (SendUserFile)
+bash work/entregas.sh <Nome>                   # FUNDO · entregas a partir do master (cópia do chat < 30 MB e HEVC final < 100 MB,
+#   bitrates pela duração; a cópia do chat codifica em paralelo com o HEVC) + comparação master × final com SSIM
 ```
 
 ## Escrevendo a camada (`compositions/mg.html`)
@@ -54,6 +60,14 @@ O modelo já traz o CSS de todos os componentes e a **biblioteca** (não mexer):
 - Faixa das legendas livre (y≈1380–1540). Callout só onde o motion não diz a mesma coisa.
 
 ## Imagens: dosagem e capa
+- **Fotos primeiro (kit v3.1).** Enquanto a fase 1 roda, no PROCESSO PRINCIPAL (subagente só com lista fechada), de dentro de
+  `work/pesq/`: listar por CATEGORIA (`wmcat.py "Category:<pessoa>"`, ou várias de uma vez com `wmcatlote.py`, que honra o
+  `retry-after` do 429; a busca por texto do `wm.py` volta vazia) → escolher 1–2 por slot → baixar em **fila priorizada** em tarefa de
+  fundo (`wmfila.py <slug> <idx,…>`: no container o Commons libera ~1 foto por minuto, docs/05 §30–§31). Escrever o `gen.py` com as
+  fotos de TODOS os slots já baixadas (ou substitutas marcadas, §31): foto provisória custa uma rodada inteira de montar + snapshots
+  (reel Ridgway: −10 min). Foto que não existe: etiqueta honesta (docs/05 §29).
+- **Peças prontas:** antes de desenhar uma cena, ver `docs/13` (fim) e `exemplos/matthew-ridgway/` (parede + bilhete, objeto SVG que
+  rasga, lista FALTA → RESOLVIDO, contador 5.000, conversa com carimbo, anel no detalhe da foto).
 - **Abertura só com fotos, motion no meio** (docs/05 §24). Fotos de arquivo: NARA/LOC/Commons (`work/pesq/`), licença registrada.
 - Capa a pedido no Codex: `codex exec -m gpt-5.6-sol --skip-git-repo-check --sandbox workspace-write "<cena>" < /dev/null` (~70 s, 1536×1024).
   Assunto na metade de cima (a caixa do gancho cobre 35–56%); pessoa-tema **de costas** se o nome ainda não foi dito.

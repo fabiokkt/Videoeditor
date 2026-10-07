@@ -1,6 +1,8 @@
 #!/bin/zsh
 # Fase 1 — mezanino + voz. NOVO no kit v2 (2026-10-01): junta os comandos que eram digitados a cada reel.
-# uso: zsh scripts/mezanino.sh "<bruto.MP4>" <slug>
+# uso: zsh scripts/mezanino.sh "<bruto.MP4>" <slug> [audio|video]
+#   (kit v3.1: sem o 3o argumento faz tudo, AUDIO PRIMEIRO; "audio" so a voz/wav/MD5 e "video" so o mezanino + cor —
+#    o fase1.sh usa os dois para transcrever enquanto o video codifica, em maquina com >= 12 GB)
 #   -> assets/<slug>-2560-sdr.mp4   mezanino na resolucao e no fps do bruto, BT.709 limited, GOP 30, sem audio
 #   -> work/<slug>-voz-limpa.m4a    audio do bruto, sem reencode (SEM bipe)
 #   -> assets/<slug>-voz.m4a        voz do projeto (igual a limpa ate o scripts/bipe.py gravar o bipe)
@@ -9,10 +11,18 @@
 #   -> work/md5-bruto.txt           MD5 do bruto (conferir de novo no fim: o bruto nunca e alterado)
 # RODAR SOZINHO: nunca junto com whisper nem com outro encode (o Air de 8 GB derruba o opendirectoryd).
 set -e
-BRUTO="$1"; SLUG="$2"
+BRUTO="$1"; SLUG="$2"; PARTE="${3:-tudo}"
 [ -f "$BRUTO" ] && [ -n "$SLUG" ] || { echo 'uso: zsh scripts/mezanino.sh "<bruto>" <slug>'; exit 1; }
 cd "${0:A:h}/.."; mkdir -p assets work
-md5 -q "$BRUTO" | tee work/md5-bruto.txt
+if [[ "$PARTE" != video ]]; then
+  md5 -q "$BRUTO" | tee work/md5-bruto.txt
+  ffmpeg -v error -y -i "$BRUTO" -vn -c:a copy "work/$SLUG-voz-limpa.m4a"
+  cp "work/$SLUG-voz-limpa.m4a" "assets/$SLUG-voz.m4a"
+  ffmpeg -v error -y -i "work/$SLUG-voz-limpa.m4a" -ac 1 -ar 44100 -c:a pcm_s16le work/full-clean.wav
+  cp work/full-clean.wav work/full.wav
+  echo "voz: work/$SLUG-voz-limpa.m4a · work/full-clean.wav · work/full.wav"
+fi
+[[ "$PARTE" == audio ]] && exit 0
 P() { ffprobe -v error -select_streams v:0 -show_entries stream=$1 -of csv=p=0 "$BRUTO"; }
 TRC=$(P color_transfer); RNG=$(P color_range); PIX=$(P pix_fmt)
 echo "bruto: $(P codec_name) $(P width)x$(P height) @$(P r_frame_rate) · pix_fmt $PIX · range $RNG · transfer $TRC"
@@ -31,10 +41,6 @@ else
   echo "-> SDR limited: so reencode com GOP 30"
   ffmpeg -v error -stats -y -i "$BRUTO" -vf "format=yuv420p" "${COMUM[@]}" "$OUT"
 fi
-ffmpeg -v error -y -i "$BRUTO" -vn -c:a copy "work/$SLUG-voz-limpa.m4a"
-cp "work/$SLUG-voz-limpa.m4a" "assets/$SLUG-voz.m4a"
-ffmpeg -v error -y -i "work/$SLUG-voz-limpa.m4a" -ac 1 -ar 44100 -c:a pcm_s16le work/full-clean.wav
-cp work/full-clean.wav work/full.wav
 # Conferencia de cor: media e desvio-padrao de luminancia, bruto x mezanino, em 3 pontos.
 # A media bate em ~1/255 e o desvio-padrao fica igual; se o desvio cair, a cor lavou.
 DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT")

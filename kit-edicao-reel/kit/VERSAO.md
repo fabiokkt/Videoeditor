@@ -1,5 +1,19 @@
 # Versões do kit
 
+## v3.1 — 2026-10-07 · otimização de tempo medida (reel Matthew Ridgway)
+
+Pedido: "teria como otimizar esse tempo sem perder qualidade?" (Ridgway: ~2h05 na nuvem). Tudo testado no bruto do Ridgway com
+saídas **idênticas byte a byte** ao fluxo v3 (docs/05 §32).
+- `fase1.sh` / `mezanino.sh`: voz primeiro (`mezanino.sh … audio|video`) e transcrição ENQUANTO o mezanino codifica — liga só com
+  ≥ 8 núcleos e ≥ 12 GB (Mac). No container de 4 núcleos ficou mais lento (953 × ~850 s): série.
+- `fase2.sh`: medidores de olhar em paralelo com o bake do aroll (≥ 12 GB): 578 → 539 s no container.
+- `work/entregas.sh <Nome>` novo no modelo: cópia do chat < 30 MB e HEVC final < 100 MB com bitrates pela duração, em paralelo com
+  ≥ 8 núcleos, + comparação master × final com SSIM.
+- Fotos primeiro, no processo principal durante a fase 1 (`wmcat.py` / `wmcatlote.py` → `wmfila.py` em fila priorizada; docs/14).
+- Peças prontas: `exemplos/matthew-ridgway/` (parede + bilhete, objeto SVG que rasga, lista FALTA → RESOLVIDO, contador 5.000, conversa
+  com carimbo, anel no detalhe da foto) listadas no fim do docs/13.
+- `work/olhos_y.py` (splitShiftY medido) e docs/05 §29 e §32.
+
 ## v3 — 2026-10-02 · fluxo rápido (o padrão)
 
 Pedido: "o mais rápido que puder, entregando o mesmo resultado ou melhor". Medido no bruto do Alan Mulally.

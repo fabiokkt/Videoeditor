@@ -1,0 +1,24 @@
+Fotos de arquivo do reel Ernest Shackleton (Wikimedia Commons; todas DOMINIO PUBLICO — fotografias de Frank Hurley da Expedicao Imperial Transantartica, 1914-1917; nenhuma de banco).
+Fontes primarias por tras do Commons: State Library of New South Wales (laminas e placas do Hurley), Royal Museums Greenwich, e as pranchas do livro "South" (Shackleton, 1919/1920; digitalizacao Cornell University Library).
+As pranchas do "South" trazem o selo "Cornell University Library" num canto: recortadas sem o selo (work/mg/fotos.py; conferido canto a canto).
+A capa (capa-shackleton.jpg) e GERADA A PEDIDO no Codex (conta ChatGPT do Fabio, login de dispositivo; logout logo depois): work/capa/prompt.txt.
+Baixadas como miniatura padrao do Commons (1920 / 1280 px; o servidor de originais devolve HTTP 429 no container).
+
+endurance-noite-1915.jpg — o Endurance iluminado a noite com 20 flashes, mar de Weddell, 1915 (Frank Hurley, SLNSW) — Public domain — https://commons.wikimedia.org/wiki/File:Endurance_night_1915_SLNSW.jpg
+endurance-vela-gelo-1915.jpg — o Endurance de velas abertas tentando romper o gelo, mar de Weddell, 1915 (placa Paget colorida, Frank Hurley, SLNSW) — Public domain — https://commons.wikimedia.org/wiki/File:Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg
+shackleton-expedicao-1915.jpg — Ernest Shackleton durante a Expedicao Imperial Transantartica, c. 1915 (Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_during_the_Imperial_Trans-Antarctic_Expedition,_1914_to_1917.jpg
+endurance-preso-1915.jpg — o Endurance preso no gelo, fev/1915 (Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:Endurance_trapped_in_pack_ice.jpg
+acampamento-gelo-1915.jpg — "Ocean Camp" (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_Ocean_Camp.jpg
+pinguins-1915.jpg — filhotes de pinguim-imperador (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:Young_Emperor_Penguins.jpg
+hurley-shackleton-acampamento.jpg — Frank Hurley (o fotografo; a esquerda) e Ernest Shackleton diante da barraca, acampamento no gelo, c. 1915-16 — Public domain — https://commons.wikimedia.org/wiki/File:Hurley_shackleton_at_camp.jpg
+trenos-prontos-1915.jpg — "The sledges packed and ready" (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_The_sledges_packed_and_ready.jpg
+solidao-gelo-1915.jpg — "Loneliness" (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_Loneliness.jpg
+abrindo-caminho-gelo-1915.jpg — "Trying to cut a way for the Ship through the Ice" (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_Trying_to_cut_a_way_for_the_Ship.jpg
+endurance-adernado-1915.jpg — "The Beginning of the End" (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_The_Beginning_of_the_End.jpg
+endurance-afundando-1915.jpg — o naufragio do Endurance, nov/1915, com os caes olhando (lamina de lanterna; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:Endurance_Final_Sinking.jpg
+puxando-bote-1915.jpg — "Relaying the James Caird": os homens puxando o bote pelo gelo (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_Relaying_the_James_Caird.jpg
+james-caird-partida-1916.jpg — "Launching the James Caird": o bote sai de Elephant Island para buscar socorro, 24 abr 1916 (prancha do South; Frank Hurley) — Public domain — https://commons.wikimedia.org/wiki/File:South_-_the_story_of_Shackleton%27s_last_expedition,_1914-1917_-_Launching_the_James_Caird.jpg
+
+Foto que nao existe (etiqueta honesta): o futebol no gelo (Hurley, 1915) esta no Royal Museums Greenwich, fora do Commons. "Tinha tarefa todo dia e ate o futebol
+no gelo" usa a foto real da tripulacao abrindo caminho no gelo (TAREFA TODO DIA) e a bola de couro entra como motion (ATE FUTEBOL NO GELO), sem fingir ser foto do jogo.
+Nao ha foto utilizavel do carpinteiro Harry McNish no Commons (so um recorte de 82x85 px): o carpinteiro e etiqueta sobre a foto dos homens puxando o bote.
