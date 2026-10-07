@@ -1,0 +1,28 @@
+ 0 GANCHO                 0.00-  5.52 (5.52)  Esse@0.22 cara@0.67 é@0.69 um@0.74 dos@0.86 exploradores@1.04 mais@1.78 fracassados@2.30 e@3.10 mais@3.15 admirados@3.50 do@4.11 planeta@4.17 Terra.@4.42
+ 1 PROTOCOLO-POLEMICO     5.52- 12.16 (6.65)  E@5.42 ele@5.68 criou@5.70 um@6.05 protocolo@6.19 polêmico@6.83 pra@7.44 provar@7.60 que@7.99 o@8.02 funcionário@8.06 que@8.60 reclama@8.79 você@9.25 não@9.58 afasta.@9.82 Você@10.50 traz@10.82 pra@11.14 perto.@11.39
+ 2 ERNEST-GELO           12.16- 16.08 (3.92)  Ernest@12.06 ficou@12.34 quase@12.63 dois@12.95 anos@13.27 preso@13.59 no@13.98 gelo@14.15 na@14.46 Antártida.@14.62
+ 3 SEM-RADIO-PINGUIM     16.08- 19.18 (3.10)  Sem@15.93 rádio@15.97 pra@16.27 pedir@16.58 socorro,@16.90 comendo@17.75 pinguim.@18.15
+ 4 NAO-PERDEU            19.18- 20.84 (1.66)  E@19.10 não@19.34 perdeu@19.37 um@19.78 homem.@19.91
+ 5 PROTOCOLO-RECLAMAO    20.84- 24.76 (3.92)  E@20.73 esse@20.98 é@21.00 o@21.04 protocolo@21.09 pra@21.61 você@21.77 parar@21.98 de@22.24 deixar@22.35 um@22.70 reclamão@22.81 contaminar@23.24 o@23.88 seu@23.92 time.@24.12
+ 6 P1-PRIMEIRO           24.76- 27.30 (2.54)  Primeiro,@24.68 põe@25.10 o@25.34 reclamão@25.42 do@26.10 seu@26.25 lado.@26.48
+ 7 P1-BARRACA            27.30- 31.49 (4.19)  No@27.20 gelo,@27.43 ele@27.70 botou@27.94 um@28.20 dos@28.33 mais@28.52 encrenqueiros@28.78 pra@29.71 dormir@29.88 na@30.26 barraca@30.38 dele.@30.79
+ 8 P1-TORCIDA            31.49- 35.06 (3.57)  Ele@31.39 sabia@31.43 que@31.79 reclamão@32.10 longe@32.66 do@33.05 chefe@33.21 junta@33.65 torcida.@34.04
+ 9 P1-SENTA              35.06- 38.47 (3.41)  Quem@34.95 mais@34.96 reclama@35.22 na@35.73 sua@35.86 empresa@36.05 senta@36.86 do@37.11 seu@37.28 lado.@37.53
+10 P2-LARGA              38.47- 40.83 (2.35)  Segundo,@38.19 você@39.41 larga@39.65 primeiro.@40.01
+11 P2-QUASE-TUDO         40.83- 43.74 (2.92)  Ele@40.69 mandou@40.57 cada@41.08 homem@41.42 largar@41.90 quase@42.25 tudo@42.60 no@42.90 gelo.@43.26
+12 P2-MOEDAS             43.74- 47.12 (3.37)  E@43.63 o@43.41 primeiro@43.61 a@44.05 jogar@44.11 fora@44.47 foi@44.78 ele:@44.98 as@45.23 moedas@45.48 de@46.07 ouro.@46.28
+13 P2-CAFE-CARRO         47.12- 50.38 (3.26)  Vai@46.98 cortar@47.07 o@47.40 café@47.47 do@47.74 time@47.88 e@48.19 manter@48.29 o@48.63 seu@48.68 carro,@48.83 meu@49.19 amiguinho?@49.34
+14 P3-PARADO             50.38- 52.79 (2.41)  E@50.21 terceiro,@50.46 ninguém@51.23 fica@51.67 parado.@51.96
+15 P3-RECLAMAR           52.79- 55.82 (3.03)  Ele@52.66 sabia@52.82 que@52.91 homem@53.02 parado@53.33 no@53.73 gelo@53.86 começa@54.13 a@54.55 reclamar.@54.61
+16 P3-FUTEBOL            55.82- 59.63 (3.81)  Então@55.72 tinha@55.86 tarefa@56.19 todo@56.64 dia@56.94 e@57.20 até@57.38 o@57.66 futebol@57.66 no@58.36 gelo.@58.51
+17 P3-MERDA-BIPE         59.63- 63.42 (3.79)  Time@59.51 sem@59.53 meta@59.75 da@60.03 semana@60.18 fala@60.80 M****@61.11 no@61.37 corredor,@61.48 pequeno@62.03 gafanhoto.@62.45
+18 VIRADA-MOTIM          63.42- 65.12 (1.70)  E@63.32 a@63.39 virada@63.62 foi@63.93 um@64.16 motim.@64.31
+19 VIRADA-CARPINTEIRO    65.12- 70.29 (5.17)  O@65.00 navio@65.26 afundou,@65.57 e@66.33 o@66.39 carpinteiro,@66.50 o@67.27 mais@67.40 reclamão@67.55 de@67.98 todos,@68.09 parou@68.52 de@68.86 puxar@69.00 o@69.33 bote:@69.39
+20 VIRADA-SEM-NAVIO      70.29- 72.43 (2.14)  Sem@70.14 navio,@70.16 ninguém@70.84 manda@71.26 em@71.62 mim.@71.75
+21 VIRADA-CONTRATO       72.43- 78.00 (5.57)  Ernest@72.33 leu@72.60 o@72.92 contrato@72.95 pra@73.70 todo@73.93 mundo@74.12 e@74.40 avisou:@74.53 o@75.14 salário@75.42 continua@75.91 até@76.69 o@77.02 porto.@77.08
+22 VIRADA-ACABOU         78.00- 79.13 (1.13)  Acabou@77.90 o@78.19 motim.@78.27
+23 VIRADA-MEDO           79.13- 81.30 (2.17)  Era@79.01 medo,@79.08 não@79.80 rebeldia.@80.04
+24 CLIMAX-BOTE           81.30- 85.33 (4.03)  Meses@81.20 depois,@81.33 no@81.86 bote@82.04 que@82.25 foi@82.45 buscar@82.65 socorro,@83.06 o@83.72 carpinteiro@83.73 foi@84.39 junto.@84.56
+25 FECHO-MEDO-DE-QUE     85.33- 88.74 (3.41)  Quem@85.19 mais@85.24 reclama@85.46 na@85.93 sua@86.07 empresa@86.34 tá@86.75 com@86.99 medo@87.04 de@87.27 quê,@87.38 meu@87.75 amigo?@87.85
+26 CTA-ME-SEGUE          88.74- 93.27 (4.54)  Se@88.60 tem@88.85 um@88.95 reclamão@89.11 contaminando@89.80 o@90.45 seu@90.50 time,@90.69 me@91.19 segue,@91.22 porque@91.91 você@92.19 é@92.48 demais.@92.76
+TOTAL 93.272

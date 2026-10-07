@@ -1,0 +1,28 @@
+ch00 GANCHO               Esse cara é um dos exploradores mais fracassados e mais admirados do planeta Terra.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico pra provar que o funcionário que reclama você não afasta, você traz pra perto.
+ch02 ERNEST-GELO          Ernest ficou quase dois anos preso no gelo na Antártida.
+ch03 SEM-RADIO-PINGUIM    Sem rádio para pedir socorro, comendo pinguim.
+ch04 NAO-PERDEU           E não perdeu um homem.
+ch05 PROTOCOLO-RECLAMAO   E esse é o protocolo para você parar de deixar um reclamão contaminar o seu time.
+ch06 P1-PRIMEIRO          Primeiro... Põe o reclamão do seu lado.
+ch07 P1-BARRACA           No gelo, ele botou um dos mais encrenqueiros para dormir na barraca dele.
+ch08 P1-TORCIDA           Ele sabia que reclamam longe do chefe junto à torcida.
+ch09 P1-SENTA             Quem mais reclama na sua empresa, senta do seu lado.
+ch10 P2-LARGA             Segundo, você larga primeiro
+ch11 P2-QUASE-TUDO        Ele mandou cada homem largar quase tudo no gelo
+ch12 P2-MOEDAS            E o primeiro a jogar fora foi ele As moedas de ouro
+ch13 P2-CAFE-CARRO        Vai cortar o café do time e manter o seu carro, meu amiguinho?
+ch14 P3-PARADO            E terceiro, ninguém fica parado.
+ch15 P3-RECLAMAR          Ele sabia que homem parado no gelo começa a reclamar.
+ch16 P3-FUTEBOL           Então tinha tarefa todo dia e até o futebol no gelo.
+ch17 P3-MERDA-BIPE        Time sem meta da semana, fala merda no corredor, pequeno gafanhoto.
+ch18 VIRADA-MOTIM         E a virada foi um motim.
+ch19 VIRADA-CARPINTEIRO   O navio afundou e o carpinteiro, o mais reclamão de todos, parou de puxar o bote.
+ch20 VIRADA-SEM-NAVIO     Sem navio, ninguém manda em mim
+ch21 VIRADA-CONTRATO      Ernest leu o contrato para todo mundo e avisou, o salário continua até o porto.
+ch22 VIRADA-ACABOU        acabou o motim
+ch23 VIRADA-MEDO          Era medo, não rebeldia
+ch24 CLIMAX-BOTE          Meses depois, no bote que foi buscar socorro, o carpinteiro foi junto.
+ch25 FECHO-MEDO-DE-QUE    Quem mais reclama na sua empresa tá com medo de quê, meu amigo?
+ch26 CTA-ME-SEGUE         Se tem um reclamão contaminando o seu time, me segue, porque você é demais!
+27 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)
