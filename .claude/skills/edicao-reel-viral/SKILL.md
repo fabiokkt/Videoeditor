@@ -36,6 +36,8 @@ bash work/entregas.sh <Nome>             # FUNDO: copia do chat < 30 MB + HEVC f
 
 ## Preferências do usuário (não re-perguntar)
 - Comando único sem parada; o MP4 vai no chat no fim.
+- **Tudo roda na nuvem do Claude (Claude Code na web/app), nunca no Mac do usuário** (pedido de 2026-10-07): não sugerir rodar
+  local nem instalar o kit no Mac. Volume = várias sessões em paralelo na nuvem.
 - **Abertura só com fotos; motion só no meio, onde carrega a história; foto real é o padrão** (docs/05 §24).
 - O apresentador lê o roteiro olhando para o lado: varredura de olhar é obrigatória; leitura exposta reportada em segundos.
 - Último take válido; palavra inteira; palavrão bipado inteiro e medido; nada da marca antes de o áudio dizer o nome.
