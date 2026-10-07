@@ -1,0 +1,175 @@
+{
+ "total": 91.088,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.45518
+   ],
+   "t0": 0.0,
+   "t1": 5.52,
+   "dur": 5.52,
+   "fala": "Esse cara é um dos militares mais insuportáveis e mais respeitados dos Estados Unidos.",
+   "tema": "CAPA gerada a pedido (velho de costas, cadeira de pés serrados sob a lâmpada)",
+   "cobre": "olhada sutil 1,97–3,19 (dentro da capa)"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 1,
+   "toSeg": 1,
+   "span": [
+    0.0003,
+    0.74626
+   ],
+   "t0": 5.52,
+   "t1": 10.45,
+   "dur": 4.93,
+   "fala": "E ele criou um protocolo polêmico pra provar que seu time entrega mais ou menos…",
+   "tema": "fotos: operário no casco (Electric Boat) → Nautilus em construção (1953)",
+   "cobre": "9,82–10,40"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 3,
+   "span": [
+    0.0004,
+    0.9996
+   ],
+   "t0": 12.13,
+   "t1": 19.67,
+   "dur": 7.54,
+   "fala": "Hyman serrava a cadeira pro candidato escorregar na entrevista. E só saiu da Marinha porque foi demitido. Aos oitenta e dois anos.",
+   "tema": "REVELAÇÃO: retrato 1965 + nome → MOTION a cadeira serrada (corta, cai, inclina) → Rickover a bordo do USS Ohio (1981) + carimbo DEMITIDO + AOS 82 ANOS",
+   "cobre": "13,20–13,54 · 16,66–16,81 · 17,35–17,51"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 5,
+   "toSeg": 8,
+   "span": [
+    0.0,
+    0.81319
+   ],
+   "t0": 23.7,
+   "t1": 34.33,
+   "dur": 10.63,
+   "fala": "Primeiro, toda tarefa tem um nome. Não é o comercial, não é o pessoal. É o João. Ele diz que se deu errado e ninguém sabe de quem era…",
+   "tema": "MOTION chip PASSO 1 + título → tarefa com responsável (riscados O COMERCIAL e O PESSOAL, JOÃO) → foto: retrato oficial de 1955",
+   "cobre": "27,93–28,17 · 29,26–29,51 · 31,73–32,28 · 33,49–34,34"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 8,
+   "toSeg": 12,
+   "span": [
+    0.13663,
+    0.90168
+   ],
+   "t0": 36.77,
+   "t1": 50.45,
+   "dur": 13.68,
+   "fala": "Segundo, cuida do detalhe… noventa e nove por cento do tempo… besteira. O erro que você deixa passar hoje vira o padrão amanhã,",
+   "tema": "MOTION chip PASSO 2 + título → foto: Rickover com o modelo do reator → MOTION 99% DO TEMPO + carimbo BESTEIRA → foto: Rickover no estaleiro",
+   "cobre": "41,42–42,03 · 46,07–46,62 · 48,87–50,33"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 13,
+   "toSeg": 16,
+   "span": [
+    0.00022,
+    0.99989
+   ],
+   "t0": 52.21,
+   "t1": 61.37,
+   "dur": 9.16,
+   "fala": "E terceiro, para de torcer. Ele diz que todo chefe torce pra dar certo… Aquele vendedor que não vende nada há seis meses?",
+   "tema": "MOTION chip PASSO 3 + título → foto: o Nautilus navegando (1955) → MOTION vendas zeradas, 6 MESES",
+   "cobre": "52,33–52,91 · 53,48–53,72 · 60,53–60,72"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "split",
+   "fromSeg": 17,
+   "toSeg": 20,
+   "span": [
+    0.3142,
+    0.81738
+   ],
+   "t0": 65.23,
+   "t1": 71.41,
+   "dur": 6.18,
+   "fala": "E a virada foi uma entrevista. Um oficial jovem contou, todo orgulhoso, que foi um dos melhores da turma.",
+   "tema": "capa (a cadeira vazia da entrevista) → formatura de um guarda-marinha em 1946 (Carter, sem nome)",
+   "cobre": "—"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 20,
+   "toSeg": 20,
+   "span": [
+    0.00089,
+    0.99866
+   ],
+   "t0": 71.41,
+   "t1": 73.65,
+   "dur": 2.24,
+   "fala": "Hyman perguntou: você deu o seu melhor?",
+   "tema": "foto: Rickover encarando (lançamento do USS Virginia, 1974)",
+   "cobre": "72,31–72,74"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 22,
+   "toSeg": 25,
+   "span": [
+    0.29287,
+    0.74792
+   ],
+   "t0": 78.73,
+   "t1": 82.88,
+   "dur": 4.15,
+   "fala": "E virou a cadeira. Esse oficial virou o presidente dos Estados Unidos.",
+   "tema": "capa (o velho de costas) → CLÍMAX: retrato oficial do presidente + nome JIMMY CARTER → Carter e Rickover no USS Los Angeles (1977)",
+   "cobre": "80,80–80,96"
+  },
+  {
+   "id": "s10",
+   "file": "assets/broll/s10.mp4",
+   "mode": "full",
+   "fromSeg": 25,
+   "toSeg": 27,
+   "span": [
+    0.2401,
+    0.73955
+   ],
+   "t0": 84.85,
+   "t1": 88.95,
+   "dur": 4.1,
+   "fala": "E você? Por que não? Se você ainda aceita trabalho mais ou menos,",
+   "tema": "foto: Rickover encarando (Nautilus) com o callout → operário no casco (volta da abertura)",
+   "cobre": "85,81–86,51 · 87,98–88,23"
+  }
+ ]
+}

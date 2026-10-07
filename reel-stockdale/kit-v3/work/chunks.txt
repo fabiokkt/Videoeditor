@@ -1,0 +1,30 @@
+ch00 GANCHO               Esse cara é um dos militares mais torturados e mais estudados dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico
+ch02 PROVAR-OTIMISTA      Para provar que na crise, o dono otimista é o primeiro a quebrar.
+ch03 JIM-VIETNA           Jin foi derrubado no Vietnã.
+ch04 PARAQUEDAS           Ainda no paraquedas pensou, são 5 anos preso, no mínimo.
+ch05 SETE-E-MEIO          Errou, foram 7,5.
+ch06 PROTOCOLO-PROMETER   E esse é o protocolo para você parar de prometer para o seu time que mês que vem melhora.
+ch07 P1-SEPARA            Primeiro, separa o que é seu.
+ch08 P1-FILOSOFO          Ele aprendeu com o filósofo grego que você só manda no que você pensa e no que você faz.
+ch09 P1-JUROS             Juros e governo não dependem de você.
+ch10 P1-PRECO             Preço e cobrança dependem.
+ch11 P1-REUNIAO-BIPE      E você passa a reunião inteira xingando a porra dos juros, meu querido!
+ch12 P2-ENCARA            Segundo, encara o fato mais feio,
+ch13 P2-REALIDADE         ele diz que tudo começa por encarar a realidade mais brutal, seja ela qual for.
+ch14 P2-EXTRATO           Faz quanto tempo que você não abre o extrato com calma?
+ch15 P2-GAFANHOTO         Não é falta de tempo, pequeno gafanhoto
+ch16 P2-MEDO              é medo
+ch17 P3-TERCEIRO          E terceiro,
+ch18 P3-FE                Nunca perde a fé no final
+ch19 P3-DUVIDOU           Ele diz que nunca duvidou que ia sair de lá, e sair mais forte.
+ch20 P3-TIME              Seu time pode ouvir que a coisa tá feia, o que ele não pode é ver você desistindo.
+ch21 VIRADA-NATAL         E a virada foi o Natal.
+ch22 VIRADA-OTIMISTAS     perguntaram quem não aguentou, ele respondeu os otimistas,
+ch23 VIRADA-DIZIAM        Os que diziam, no Natal a gente sai.
+ch24 CLIMAX-PASCOA        "O Natal chegava e passava. Aí, na Páscoa, a gente sai. A Páscoa passava."
+ch25 CLIMAX-CORACAO       e eles morriam de coração partido.
+ch26 CTA-PROMETEU         Você prometeu para o seu time que mês que vem melhora, meu amigo?
+ch27 CTA-SEU-NATAL        Mês que vem é o seu Natal.
+ch28 CTA-ME-SEGUE         Se você promete que mês que vem melhora, me segue, porque você é demais.
+29 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

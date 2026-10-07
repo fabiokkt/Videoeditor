@@ -1,0 +1,243 @@
+{
+ "total": 91.091,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 2,
+   "span": [
+    0.0,
+    0.99196
+   ],
+   "t0": 0.0,
+   "t1": 10.74,
+   "dur": 10.74,
+   "fala": "Esse cara é um dos militares mais torturados… o dono otimista é o primeiro a quebrar.",
+   "tema": "CAPA: Hanoi Hilton visto do alto (NARA) → cela/cama de Hoa Lo → muro de Hoa Lo (só fotos)",
+   "cobre": "olhada sutil 2,9–3,4 (no split)"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 4,
+   "span": [
+    0.38242,
+    0.98993
+   ],
+   "t0": 10.74,
+   "t1": 16.71,
+   "dur": 5.97,
+   "fala": "Jim foi derrubado no Vietnã. Ainda no paraquedas pensou: são cinco anos preso, no mínimo.",
+   "tema": "REVELAÇÃO: retrato do Stockdale + nome → A-4 Skyhawk → portão da Maison Centrale",
+   "cobre": "—"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 4,
+   "toSeg": 5,
+   "span": [
+    0.63572,
+    0.99968
+   ],
+   "t0": 16.71,
+   "t1": 18.98,
+   "dur": 2.27,
+   "fala": "Errou, foram sete e meio.",
+   "tema": "MOTION: contador 5 → 7,5 ANOS",
+   "cobre": "—"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 6,
+   "toSeg": 8,
+   "span": [
+    0.36205,
+    0.98862
+   ],
+   "t0": 23.31,
+   "t1": 30.8,
+   "dur": 7.49,
+   "fala": "Primeiro, separa o que é seu. Ele aprendeu com o filósofo grego…",
+   "tema": "MOTION chip PASSO 1 → foto: Epicteto (gravura)",
+   "cobre": "—"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 8,
+   "toSeg": 10,
+   "span": [
+    0.54743,
+    0.98958
+   ],
+   "t0": 30.8,
+   "t1": 35.0,
+   "dur": 4.2,
+   "fala": "Juros e governo não dependem de você. Preço e cobrança dependem.",
+   "tema": "MOTION: duas colunas NÃO DEPENDE / DEPENDE",
+   "cobre": "—"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 11,
+   "toSeg": 12,
+   "span": [
+    0.39714,
+    0.98037
+   ],
+   "t0": 37.85,
+   "t1": 41.89,
+   "dur": 4.04,
+   "fala": "…meu querido! Segundo, encara o fato mais feio,",
+   "tema": "MOTION chip PASSO 2",
+   "cobre": "olhada 37,9–38,5"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "full",
+   "fromSeg": 12,
+   "toSeg": 13,
+   "span": [
+    0.3259,
+    0.97031
+   ],
+   "t0": 41.89,
+   "t1": 46.6,
+   "dur": 4.71,
+   "fala": "ele diz que tudo começa por encarar a realidade mais brutal, seja ela qual for.",
+   "tema": "foto: prisioneiro na cela (NARA) → cama de Hoa Lo",
+   "cobre": "—"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 13,
+   "toSeg": 14,
+   "span": [
+    0.60615,
+    0.98383
+   ],
+   "t0": 46.6,
+   "t1": 49.45,
+   "dur": 2.85,
+   "fala": "Faz quanto tempo que você não abre o extrato com calma?",
+   "tema": "MOTION: extrato bancário",
+   "cobre": "—"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 16,
+   "toSeg": 19,
+   "span": [
+    0.09577,
+    0.97725
+   ],
+   "t0": 52.94,
+   "t1": 59.76,
+   "dur": 6.82,
+   "fala": "E terceiro, nunca perde a fé no final. Ele diz que nunca duvidou que ia sair de lá…",
+   "tema": "MOTION chip PASSO 3 → foto: Stockdale na volta (1973) → POWs comemorando no C-141",
+   "cobre": "—"
+  },
+  {
+   "id": "s10",
+   "file": "assets/broll/s10.mp4",
+   "mode": "full",
+   "fromSeg": 20,
+   "toSeg": 21,
+   "span": [
+    0.32106,
+    0.75243
+   ],
+   "t0": 62.02,
+   "t1": 64.82,
+   "dur": 2.8,
+   "fala": "o que ele não pode é ver você desistindo.",
+   "tema": "foto: esposas esperando a volta dos prisioneiros (1973)",
+   "cobre": "olhada 63,7–64,7"
+  },
+  {
+   "id": "s11",
+   "file": "assets/broll/s11.mp4",
+   "mode": "split",
+   "fromSeg": 21,
+   "toSeg": 22,
+   "span": [
+    0.00034,
+    0.99966
+   ],
+   "t0": 64.82,
+   "t1": 70.78,
+   "dur": 5.96,
+   "fala": "E a virada foi o Natal. Perguntaram quem não aguentou, ele respondeu: os otimistas.",
+   "tema": "foto: árvore de Natal (anos 60) → retrato do Stockdale",
+   "cobre": "—"
+  },
+  {
+   "id": "s12",
+   "file": "assets/broll/s12.mp4",
+   "mode": "full",
+   "fromSeg": 22,
+   "toSeg": 24,
+   "span": [
+    0.33275,
+    0.9909
+   ],
+   "t0": 70.78,
+   "t1": 79.39,
+   "dur": 8.61,
+   "fala": "Os que diziam: no Natal a gente sai. O Natal chegava e passava… a Páscoa passava.",
+   "tema": "MOTION CLÍMAX: calendário Natal → Páscoa → passa",
+   "cobre": "olhada 77,0–77,5"
+  },
+  {
+   "id": "s13",
+   "file": "assets/broll/s13.mp4",
+   "mode": "full",
+   "fromSeg": 24,
+   "toSeg": 26,
+   "span": [
+    0.53785,
+    0.77048
+   ],
+   "t0": 79.39,
+   "t1": 82.15,
+   "dur": 2.76,
+   "fala": "E eles morriam de coração partido.",
+   "tema": "foto: cama da cela de Hoa Lo",
+   "cobre": "olhada 81,6–82,0"
+  },
+  {
+   "id": "s14",
+   "file": "assets/broll/s14.mp4",
+   "mode": "full",
+   "fromSeg": 26,
+   "toSeg": 27,
+   "span": [
+    0.57697,
+    0.99943
+   ],
+   "t0": 84.75,
+   "t1": 86.97,
+   "dur": 2.22,
+   "fala": "Mês que vem é o seu Natal.",
+   "tema": "foto: árvore de Natal (volta da capa, sentido trocado)",
+   "cobre": "olhada 86,3–86,8"
+  }
+ ]
+}

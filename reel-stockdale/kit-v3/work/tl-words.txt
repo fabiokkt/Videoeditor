@@ -1,0 +1,30 @@
+ 0 GANCHO                 0.00-  5.01 (5.01)  Esse@0.24 cara@0.24 é@0.53 um@0.54 dos@0.66 militares@0.89 mais@1.42 torturados@1.81 e@2.35 mais@2.41 estudados@2.71 dos@3.40 Estados@3.61 Unidos.@4.13
+ 1 PROTOCOLO-POLEMICO     5.01-  6.98 (1.97)  E@4.91 ele@5.15 criou@5.16 um@5.45 protocolo@5.61 polêmico@6.22
+ 2 PROVAR-OTIMISTA        6.98- 10.83 (3.84)  Para@6.86 provar@6.89 que@7.23 na@7.50 crise,@7.53 o@8.01 dono@8.30 otimista@8.48 é@9.27 o@9.40 primeiro@9.51 a@9.91 quebrar.@9.98
+ 3 JIM-VIETNA            10.83- 12.74 (1.92)  Jim@10.67 foi@10.72 derrubado@10.95 no@11.64 Vietnã.@11.88
+ 4 PARAQUEDAS            12.74- 16.81 (4.06)  Ainda@12.64 no@13.18 paraquedas@13.21 pensou,@13.94 são@14.73 cinco@14.80 anos@15.03 preso,@15.31 no@15.82 mínimo.@15.96
+ 5 SETE-E-MEIO           16.81- 18.98 (2.17)  Errou,@16.71 foram@17.48 sete e meio.@17.64
+ 6 PROTOCOLO-PROMETER    18.98- 23.41 (4.43)  E@18.83 esse@19.10 é@19.15 o@19.16 protocolo@19.21 para@19.70 você@19.91 parar@20.13 de@20.47 prometer@20.51 para@20.94 o@21.15 seu@21.24 time@21.37 que@21.69 mês@22.02 que@22.06 vem@22.23 melhora.@22.46
+ 7 P1-SEPARA             23.41- 25.60 (2.19)  Primeiro,@23.31 separa@23.97 o@24.48 que@24.52 é@24.79 seu.@24.89
+ 8 P1-FILOSOFO           25.60- 30.94 (5.34)  Ele@25.52 aprendeu@25.57 com@26.08 o@26.27 filósofo@26.36 grego@26.88 que@27.41 você@27.42 só@27.67 manda@27.83 no@28.17 que@28.39 você@28.53 pensa@28.82 e@29.29 no@29.30 que@29.52 você@29.60 faz.@29.79
+ 9 P1-JUROS              30.94- 33.25 (2.32)  Juros@30.80 e@31.10 governo@31.16 não@31.59 dependem@31.78 de@32.27 você.@32.40
+10 P1-PRECO              33.25- 35.10 (1.84)  Preço@33.15 e@33.29 cobrança@33.34 dependem.@33.86
+11 P1-REUNIAO-BIPE       35.10- 39.51 (4.41)  E@34.98 você@35.21 passa@35.30 a@35.62 reunião@35.74 inteira@36.12 xingando@36.59 a@37.12 P****@37.52 dos@37.51 juros,@37.71 meu@38.20 querido!@38.48
+12 P2-ENCARA             39.51- 42.03 (2.52)  Segundo,@39.37 encara@39.83 o@40.30 fato@40.46 mais@40.69 feio,@41.00
+13 P2-REALIDADE          42.03- 46.82 (4.79)  ele@41.89 diz@41.90 que@42.08 tudo@42.27 começa@42.50 por@42.91 encarar@43.04 a@43.35 realidade@43.40 mais@43.83 brutal,@44.37 seja@45.10 ela@45.34 qual@45.68 for.@46.07
+14 P2-EXTRATO            46.82- 49.57 (2.76)  Faz@46.70 quanto@46.95 tempo@47.17 que@47.45 você@47.60 não@47.80 abre@47.95 o@48.17 extrato@48.22 com@48.59 calma?@48.74
+15 P2-GAFANHOTO          49.57- 52.20 (2.63)  Não@49.45 é@49.77 falta@49.80 de@50.28 tempo,@50.44 pequeno@50.95 gafanhoto,@51.31
+16 P2-MEDO               52.20- 53.03 (0.83)  É@52.03 medo.@52.07
+17 P3-TERCEIRO           53.03- 53.96 (0.93)  E@52.94 terceiro,@53.09
+18 P3-FE                 53.96- 55.65 (1.69)  nunca@53.84 perde@54.02 a@54.45 fé@54.72 no@54.73 final.@54.89
+19 P3-DUVIDOU            55.65- 59.94 (4.28)  Ele@55.55 diz@55.60 que@55.76 nunca@55.94 duvidou@56.27 que@56.80 ia@56.90 sair@57.06 de@57.29 lá,@57.41 e@57.87 sair@57.96 mais@58.49 forte.@58.98
+20 P3-TIME               59.94- 64.82 (4.88)  Seu@59.76 time@60.04 pode@60.22 ouvir@60.48 que@60.89 a@61.06 coisa@61.07 tá@61.40 feia,@61.57 o@62.02 que@62.03 ele@62.25 não@62.48 pode@62.71 é@63.01 ver@63.09 você@63.31 desistindo.@63.63
+21 VIRADA-NATAL          64.82- 66.43 (1.61)  E@64.72 a@64.86 virada@64.95 foi@65.33 o@65.64 Natal.@65.64
+22 VIRADA-OTIMISTAS      66.43- 70.78 (4.35)  Perguntaram@66.33 quem@66.80 não@67.11 aguentou,@67.37 ele@67.97 respondeu:@68.14 os@68.71 otimistas.@68.95
+23 VIRADA-DIZIAM         70.78- 73.01 (2.23)  Os@70.63 que@70.96 diziam,@71.03 no@71.71 Natal@71.76 a@72.05 gente@72.11 sai.@72.42
+24 CLIMAX-PASCOA         73.01- 79.51 (6.50)  O@72.91 Natal@73.16 chegava@73.79 e@74.48 passava.@74.52 Aí,@75.49 na@75.94 Páscoa,@75.96 a@76.55 gente@76.75 sai.@77.03 A@77.63 Páscoa@77.65 passava.@78.39
+25 CLIMAX-CORACAO        79.51- 81.72 (2.21)  E@79.39 eles@79.65 morriam@79.71 de@80.16 coração@80.29 partido.@80.83
+26 CTA-PROMETEU          81.72- 84.87 (3.16)  Você@81.60 prometeu@81.60 para@81.90 o@82.16 seu@82.21 time@82.43 que@82.77 mês@82.93 que@83.20 vem@83.25 melhora,@83.42 meu@83.88 amigo?@84.10
+27 CTA-SEU-NATAL         84.87- 86.97 (2.10)  Mês@84.75 que@85.03 vem@85.31 é@85.68 o@85.74 seu@85.77 Natal.@86.06
+28 CTA-ME-SEGUE          86.97- 91.09 (4.12)  Se@86.82 você@87.08 promete@87.17 que@87.59 mês@87.83 que@87.94 vem@88.15 melhora,@88.29 me@89.05 segue,@89.06 porque@89.79 você@90.14 é@90.47 demais.@90.67
+TOTAL 91.091

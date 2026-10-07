@@ -1,0 +1,29 @@
+ 0 GANCHO                 0.00-  5.52 (5.52)  Esse@0.26 cara@0.30 é@0.61 um@0.69 dos@0.84 militares@1.08 mais@1.83 insuportáveis@2.07 e@2.86 mais@2.97 respeitados@3.45 dos@3.67 Estados@4.41 Unidos.@4.72
+ 1 PROTOCOLO-POLEMICO     5.52- 12.13 (6.61)  E@5.40 ele@5.40 criou@5.40 um@5.67 protocolo@5.84 polêmico@6.43 pra@7.01 provar@7.27 que@7.66 seu@7.85 time@8.04 entrega@8.31 mais@8.85 ou@9.06 menos@9.13 porque@9.46 você@9.98 aceita@10.22 mais@10.88 ou@10.97 menos.@11.14
+ 2 SERRAVA-CADEIRA       12.13- 15.81 (3.68)  Hyman@12.03 serrava@12.31 a@12.79 cadeira@12.86 pro@13.38 candidato@13.61 escorregar@14.04 na@14.66 entrevista.@14.78
+ 3 DEMITIDO-82           15.81- 19.67 (3.86)  E@15.64 só@15.96 saiu@16.08 da@16.32 Marinha@16.45 porque@16.81 foi@17.19 demitido.@17.36 Aos@18.10 oitenta e dois@18.21 anos.@18.73
+ 4 PROTOCOLO-ACEITAR     19.67- 23.70 (4.03)  E@19.55 esse@19.81 é@19.88 o@19.94 protocolo@20.35 pra@20.61 você@20.88 parar@21.20 de@21.50 aceitar@21.62 trabalho@22.21 mais@22.65 ou@22.90 menos.@23.02
+ 5 P1-NOME               23.70- 26.56 (2.86)  Primeiro,@23.58 toda tarefa@24.25 tem@24.86 um@25.08 nome.@25.24 Não@25.64 é@25.87
+ 6 P1-JOAO               26.56- 29.99 (3.43)  o@26.45 comercial,@26.72 não@27.74 é@27.98 o@28.11 pessoal.@28.37 É@29.24 o@29.31 João.@29.32
+ 7 P1-NINGUEM            29.99- 34.33 (4.34)  Ele@29.87 diz@29.87 que@29.92 se@30.16 deu@30.21 errado@30.42 e@30.86 ninguém@30.90 sabe@31.37 de@31.65 quem@31.96 era,@32.05 ele@32.44 nunca@32.64 foi@32.99 de@33.17 ninguém.@33.30
+ 8 P1-PESSOAL            34.33- 36.77 (2.45)  Tarefa@34.23 do@34.63 pessoal@34.78 é@35.25 tarefa@35.32 de@35.72 ninguém.@35.86
+ 9 P2-SEGUNDO            36.77- 37.62 (0.84)  Segundo,@36.62
+10 P2-DETALHE            37.62- 42.83 (5.21)  cuida@37.50 do@37.99 detalhe.@38.21 Ele@39.05 diz@39.13 que@39.28 o@39.48 chefe@39.50 que@39.80 não@39.94 liga@40.08 pro@40.29 detalhe,@40.59 o@41.00 time@41.07 também@41.38 não@41.85 liga.@42.13
+11 P2-99                 42.83- 47.80 (4.97)  Ele@42.74 passava@42.82 noventa e nove por cento@43.62 do@44.43 tempo@44.66 no@45.27 que@45.55 os@45.70 outros@45.79 chamam@46.22 de@46.66 besteira.@46.81
+12 P2-PADRAO             47.80- 52.21 (4.41)  O@47.70 erro@47.94 que@48.01 você@48.22 deixa@48.45 passar@48.76 hoje@49.14 vira@49.42 o@49.71 padrão@49.78 amanhã,@50.22 pequeno@50.73 gafanhoto.@51.18
+13 P3-TERCEIRO           52.21- 53.20 (0.99)  E@52.11 terceiro,@52.30
+14 P3-TORCER             53.20- 54.44 (1.25)  para@53.10 de@53.23 torcer.@53.47
+15 P3-TODO-CHEFE         54.44- 58.74 (4.30)  Ele@54.09 diz@54.09 que@54.38 todo@54.41 chefe@54.69 torce@55.18 pra@55.68 dar@55.73 certo,@55.95 mesmo@56.49 vendo@56.82 que@57.25 vai@57.35 dar@57.54 errado.@57.73
+16 P3-VENDEDOR           58.74- 61.37 (2.63)  Aquele@58.61 vendedor@58.61 que@59.12 não@59.30 vende@59.49 nada@59.81 há@60.10 seis@60.23 meses?@60.47
+17 P3-PORRA-BIPE         61.37- 65.23 (3.86)  Você@61.27 não@61.32 tá@61.47 dando@61.56 chance,@61.84 meu@62.30 amiguinho.@62.48 Você@63.45 tá@63.45 torcendo,@63.74 P****!@64.37
+18 VIRADA-ENTREVISTA     65.23- 67.23 (2.00)  E@65.14 a@65.20 virada@65.36 foi@65.69 uma@65.92 entrevista.@66.11
+19 VIRADA-OFICIAL        67.23- 71.41 (4.17)  Um@66.88 oficial@66.92 jovem@67.36 contou,@67.78 todo@68.30 orgulhoso,@68.65 que@69.55 foi@69.60 um@69.80 dos@69.88 melhores@70.04 da@70.65 turma.@70.78
+20 VIRADA-MELHOR         71.41- 73.65 (2.25)  Hyman@71.05 perguntou:@71.39 você@71.75 deu@72.05 o@72.27 seu@72.33 melhor?@72.56
+21 VIRADA-NEM-SEMPRE     73.65- 76.06 (2.41)  O@73.48 cara@73.75 engoliu@73.94 seco:@74.64 nem@75.10 sempre.@75.33
+22 VIRADA-POR-QUE-NAO    76.06- 78.73 (2.67)  Ele@75.70 olhou@75.70 um@76.05 tempão@76.22 e@76.74 perguntou:@76.83 por@77.74 que@77.93 não?@78.25
+23 VIRADA-CADEIRA        78.73- 79.94 (1.21)  E@78.38 virou@78.38 a@78.48 cadeira.@78.77
+24 CLIMAX-PRESIDENTE     79.94- 82.88 (2.94)  Esse@79.59 oficial@79.90 virou@80.05 o@80.37 presidente@80.44 dos@81.18 Estados@81.47 Unidos.@82.02
+25 FECHO-SEU-TIME        82.88- 85.18 (2.30)  Seu@82.52 time@83.10 deu o@83.15 melhor@83.43 essa@83.99 semana,@84.25 meu@84.60 amigo?@84.69
+26 FECHO-E-VOCE          85.18- 86.77 (1.59)  E@84.82 você?@85.13 Por@85.50 que@85.93 não?@86.00
+27 CTA-ME-SEGUE          86.77- 91.09 (4.32)  Se@86.42 você@86.74 ainda@86.78 aceita@87.08 trabalho@87.46 mais@87.98 ou@88.26 menos,@88.40 me@88.95 segue,@89.06 porque@89.79 você@90.05 é@90.34 demais.@90.67
+TOTAL 91.088

@@ -1,0 +1,34 @@
+r00 [  0.66 ->   5.46]  Esse cara é um dos militares mais torturados e mais estudados dos Estados Unidos.
+r01 [  5.81 ->   9.93]  E ele criou um protocolo polêmico para provar que na crise do dono
+r02 [ 10.88 ->  14.80]  Para provar que na crise, o dono otimista é o primeiro a quebrar.
+r03 [ 15.18 ->  17.01]  Jin foi derrubado no Vietnã.
+r04 [ 18.89 ->  23.44]  Ainda no paraquedas pensou, são 5 anos preso, no mínimo.
+r05 [ 23.84 ->  30.92]  Errou, foram 7,5. E esse é o protocolo para você parar de prometer para o seu time que mês que vem melhora.
+r06 [ 31.46 ->  33.51]  Primeiro, separa o que é seu.
+r07 [ 33.86 ->  35.64]  Ele aprendeu com um filósofo grego
+r08 [ 36.07 ->  36.83]  que você...
+r09 [ 37.53 ->  43.05]  Ele aprendeu com o filósofo grego que você só manda no que você pensa e no que você faz.
+r10 [ 44.07 ->  46.31]  Juros e governo não dependem de você.
+r11 [ 46.86 ->  48.55]  Preço e cobrança dependem.
+r12 [ 48.93 ->  53.43]  E você passa a reunião inteira xingando a porra dos juros, meu querido!
+r13 [ 55.39 ->  57.16]  Segundo, encara o fato...
+r14 [ 58.13 ->  65.89]  Segundo, encara o fato mais feio, ele diz que tudo começa por encarar a realidade mais brutal, seja ela qual for.
+r15 [ 66.37 ->  68.08]  Faz quanto tempo que você não abre...
+r16 [ 68.97 ->  71.67]  Faz quanto tempo que você não abre o extrato com calma?
+r17 [ 72.03 ->  74.73]  Não é falta de tempo, pequeno gafanhoto
+r18 [ 75.13 ->  78.17]  é medo e terceiro nunca perda
+r19 [ 81.09 ->  81.73]  E terceiro,
+r20 [ 82.08 ->  88.08]  Nunca perde a fé no final Ele diz que nunca duvidou que ia sair de lá E sair mais forte
+r21 [ 89.61 ->  93.97]  Ele diz que nunca duvidou que ia sair de lá, e sair mais forte.
+r22 [ 94.34 ->  99.42]  Seu time pode ouvir que a coisa tá feia, o que ele não pode é ver você desistindo.
+r23 [ 99.98 -> 100.74]  E na virada...
+r24 [101.40 -> 102.85]  E a virada foi o Natal.
+r25 [103.31 -> 108.27]  perguntaram quem não aguentou, ele respondeu os otimistas, o que
+r26 [108.87 -> 111.20]  Os que diziam, no Natal a gente sai.
+r27 [111.66 -> 113.94]  O Natal a gente chegava e passava.
+r28 [117.19 -> 123.95]  "O Natal chegava e passava. Aí, na Páscoa, a gente sai. A Páscoa passava."
+r29 [124.39 -> 130.33]  e eles morriam de coração partido. Você prometeu para o seu time que mês que vem melhora, meu amigo?
+r30 [130.79 -> 132.77]  Mês que vem é o seu Natal.
+r31 [133.25 -> 137.98]  Se você promete que mês que vem melhora, me segue, porque você é demais.
+
+32 regioes transcritas

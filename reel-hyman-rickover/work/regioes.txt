@@ -1,0 +1,20 @@
+r00 [  0.79 ->  16.18]  Esse cara é um dos militares mais insuportáveis e mais respeitados dos Estados Unidos. E ele criou um protocolo polêmico para provar que seu time entrega mais ou menos porque você aceita mais ou menos. Iman serrava a cadeira do candidato Iman.
+r01 [ 17.21 ->  25.27]  Iman cerrava a cadeira para o candidato escorregar na entrevista e só saiu da Marinha porque foi demitido aos 82 anos.
+r02 [ 25.65 ->  29.83]  E esse é o protocolo para você parar de aceitar trabalho mais ou menos.
+r03 [ 30.18 ->  33.00]  Toda tarefa tem um nome, não é?
+r04 [ 33.38 ->  41.93]  O comercial, não é o pessoal, é o João. Ele diz que se deu errado e ninguém sabe de quem era, ele nunca foi de ninguém.
+r05 [ 42.34 ->  44.67]  Tarefa do pessoal é tarefa de ninguém.
+r06 [ 45.28 ->  45.94]  Segundo,
+r07 [ 46.29 ->  51.72]  Cuida do detalhe, ele diz que o chefe que não liga para o detalhe, o time também não liga.
+r08 [ 53.17 ->  58.30]  Ele passava 99% do tempo no que os outros chamam de besteira.
+r09 [ 60.22 ->  64.67]  O erro que você deixa passar hoje vira o padrão amanhã pequeno gafanhoto
+r10 [ 66.41 ->  67.23]  E terceiro.
+r11 [ 67.65 ->  76.44]  Para de torcer. Ele diz que todo chefe torce para dar certo, mesmo vendo que vai dar errado. Aquele vendedor que não vende nada há seis meses?
+r12 [ 76.89 ->  80.78]  Você não tá dando chance, meu amiguinho. Você tá torcendo, porra!
+r13 [ 88.24 ->  97.22]  E a virada foi uma entrevista, um oficial jovem contou todo orgulhoso que foi um dos melhores da turma. Iman perguntou, você deu o seu melhor?
+r14 [ 97.62 -> 111.08]  O cara engoliu seco, nem sempre. Ele olhou um tempão e perguntou, por que não? E virou a cadeira. Esse oficial virou o presidente dos Estados Unidos. Seu time deu o melhor essa semana, meu amiguinho.
+r15 [111.60 -> 114.11]  Seu time deu melhor essa semana, meu amigo?
+r16 [114.54 -> 117.35]  E você? Por que não? Se você...
+r17 [118.34 -> 123.28]  Se você ainda aceita trabalho mais ou menos, me segue, porque você é demais!
+
+18 regioes transcritas

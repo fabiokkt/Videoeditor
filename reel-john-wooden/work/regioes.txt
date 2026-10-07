@@ -1,0 +1,36 @@
+r00 [  0.75 ->   5.75]  Esse cara é um dos treinadores mais caretas e mais vencedores dos Estados Unidos.
+r01 [  6.11 ->   9.88]  E ele criou um protocolo polêmico para provar que regra não vale
+r02 [ 11.06 ->  15.89]  e ele criou um protocolo polêmico para provar que regra que não vale para o seu melhor funcionário
+r03 [ 16.52 ->  16.97]  Boa droga.
+r04 [ 18.81 ->  25.36]  E ele criou um protocolo polêmico para provar que regra que não vale para o seu melhor funcionário não vale para ninguém.
+r05 [ 25.76 ->  33.83]  John ganhou 10 campeonatos em 12 anos e no primeiro treino ensinava os melhores jogadores do país a calçar a meia.
+r06 [ 34.23 ->  38.20]  E o protocolo para você parar de deixar o seu melhor vendedor mandar
+r07 [ 39.32 ->  40.75]  E esse é o protocolo para...
+r08 [ 41.59 ->  45.18]  E esse é o protocolo para você parar de deixar o seu melhor vendedor
+r09 [ 45.55 ->  46.88]  mandar na sua empresa.
+r10 [ 47.25 ->  54.01]  Primeiro, ninguém chega atrasado, nem o melhor. Ele diz que o atraso é desrespeito com todo o time.
+r11 [ 54.49 ->  56.50]  Se o melhor vendedor chega às 10h,
+r12 [ 57.44 ->  59.89]  Seu melhor vendedor chega às 10 porque vende muito.
+r13 [ 60.38 ->  62.26]  Ele chega na hora que você deixou.
+r14 [ 65.49 ->  68.68]  Segundo, quem faz o ponto agradece o passe.
+r15 [ 69.08 ->  70.13]  Ele obrigava a quem...
+r16 [ 71.06 ->  75.33]  Ele obrigava quem fazia a cesta a acenar para o colega que passou a bola
+r17 [ 75.82 ->  78.66]  Seu vendedor leva a comissão e o parabéns do grupo?
+r18 [ 79.41 ->  79.93]  Siocomi
+r19 [ 80.63 ->  86.81]  Seu vendedor leva a comissão e o parabéns no grupo. E quem fez a proposta? Ninguém lembra, pequeno gafanhoto?
+r20 [ 88.33 ->  93.97]  E terceiro, ninguém fala mal de colega, ele expulsava do treino quem criticava colega.
+r21 [ 94.43 ->  95.32]  Seu treinador...
+r22 [ 96.99 -> 100.93]  Seu vendedor estrela esculacha o financeiro no grupo e você ri?
+r23 [102.95 -> 106.95]  Você não está protegendo o seu melhor vendedor, meu amiguinho, está vendendo a...
+r24 [108.23 -> 110.21]  Tá perdendo a porra do resto do time.
+r25 [111.44 -> 116.59]  E a virada foi uma barba. O melhor jogador do país voltou de férias barbudo.
+r26 [117.06 -> 121.79]  Barba era proibida, ele disse que era direito dele, John perguntou:
+r27 [122.17 -> 123.77]  Você acredita mesmo nisso?
+r28 [124.24 -> 127.54]  acredito Bill, eu respeito quem defende o que acredita
+r29 [128.05 -> 130.16]  e o time vai sentir sua falta.
+r30 [130.80 -> 132.93]  Antes do treino, ele tava sem barba.
+r31 [134.00 -> 135.99]  Quem é o Bill da sua empresa, meu amigo?
+r32 [136.97 -> 138.53]  E porque ele ainda tá de barba?
+r33 [138.99 -> 144.46]  Se o seu melhor vendedor manda na sua empresa, me segue, porque você é demais!
+
+34 regioes transcritas

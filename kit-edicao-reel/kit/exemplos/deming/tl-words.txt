@@ -1,0 +1,31 @@
+ 0 GANCHO                 0.00-  5.90 (5.90)  Esse@0.26 cara@0.27 é@0.55 um@0.61 dos@0.74 americanos@0.94 mais@1.65 ignorados@1.94 nos@2.58 Estados@2.75 Unidos@3.12 e@3.47 mais@3.56 idolatrados@4.07 no@4.78 Japão.@4.92
+ 1 PROTOCOLO-POLEMICO     5.90- 11.47 (5.57)  E@5.78 ele@6.01 criou@6.04 um@6.36 protocolo@6.49 polêmico@7.11 pra@7.65 provar@7.77 que@8.09 demitir@8.25 funcionário@8.62 que@9.23 erra@9.39 não@9.65 resolve@9.90 nada.@10.53
+ 2 DEMING-AULA           11.47- 15.55 (4.08)  Deming@11.30 foi@11.91 dar@12.12 aulas@12.54 pras@12.85 fábricas@13.25 do@13.78 Japão@13.90 depois@14.30 da@14.63 guerra,@14.73
+ 3 MEDALHA               15.55- 17.27 (1.72)  ganhou@15.38 medalha@15.77 do@16.25 imperador,@16.41
+ 4 PREMIO                17.27- 21.68 (4.41)  e até@17.10 hoje@17.29 as@17.73 empresas@17.83 japonesas@18.30 disputam@18.96 um@19.54 prêmio@19.68 com@20.14 o@20.32 nome@20.39 dele.@20.68
+ 5 ESSE-PROTOCOLO        21.68- 27.69 (6.01)  E@21.55 esse@21.84 é@21.96 o@22.04 protocolo@22.13 pra@22.92 você@23.08 parar@23.27 de@23.57 trocar@23.86 de@24.28 funcionário@24.38 e@25.05 continuar@25.32 com@26.01 o@26.47 mesmo@26.64 problema.@26.89
+ 6 P1-TROCA-CULPADO      27.69- 30.19 (2.50)  Primeiro,@27.48 troca@28.21 o@28.86 culpado.@29.02
+ 7 P1-TRES-VENDEDORES    30.19- 34.26 (4.06)  Já@30.07 trocou@30.34 três@30.73 vendedores@31.07 e@31.87 a@31.96 venda@32.02 continua@32.49 não@33.05 saindo?@33.25
+ 8 P1-NAO-E-VENDEDOR     34.26- 36.72 (2.46)  O@34.10 problema@34.33 não@34.77 é@34.98 o@35.06 vendedor,@35.13 P****.@35.83
+ 9 P1-NOVENTA-E-QUATRO   36.72- 42.33 (5.61)  Ele@36.58 diz@36.63 que@36.92 cada@37.30 cem@37.48 problemas,@37.91 noventa e quatro@38.45 são@39.03 do@39.38 jeito@39.53 que@40.02 a@40.32 empresa@40.41 funciona.@41.10
+10 P1-MEU-QUERIDO        42.33- 45.10 (2.77)  E@42.01 quem@42.25 montou@42.47 esse@42.87 jeito@43.10 foi@43.51 você,@43.72 meu@43.99 querido.@44.16
+11 P2-RANKING            45.10- 47.16 (2.06)  Segundo,@44.97 acaba@45.29 com@45.58 o@45.83 ranking.@45.94
+12 P2-UM-CONTRA-OUTRO    47.16- 51.12 (3.95)  Ele@47.03 diz@47.06 que@47.30 ranking@47.60 de@48.02 funcionário@48.17 bota@48.81 um@49.22 contra@49.43 o@50.07 outro.@50.17
+13 P2-ESCONDE-CLIENTE    51.12- 55.37 (4.25)  Seu@51.00 melhor@51.21 vendedor@51.27 esconde@51.70 o@52.14 cliente@52.17 do@52.60 colega@52.72 pra@53.19 ficar@53.35 no@53.66 topo@53.79 da@54.04 lista,@54.19
+14 P2-RANKING-ENSINOU    55.37- 57.23 (1.86)  Foi@55.23 o@55.48 ranking@55.55 que@55.92 ensinou.@56.24
+15 P3-CARTAZ             57.23- 60.04 (2.81)  E@57.07 terceiro,@57.32 arranca@58.09 o@58.53 cartaz@58.60 da@59.03 parede.@59.17
+16 P3-FAZ-CERTO          60.04- 63.50 (3.46)  Aquele@59.90 “Aqui@60.49 a@60.93 gente@60.97 faz@61.48 certo@61.62 da@62.01 primeira@62.21 vez.”@62.73
+17 P3-COBRA              63.50- 68.04 (4.54)  Ele@63.37 diz@63.44 que@63.59 cartaz@63.86 cobra@64.24 do@64.75 funcionário@64.76 um@65.59 problema@65.69 que@66.12 é@66.60 da@66.65 empresa.@66.93
+18 P3-GAFANHOTO          68.04- 71.34 (3.30)  Seu@67.88 time@67.98 ri@68.39 do@68.58 cartaz@68.78 no@69.44 almoço,@69.57 pequeno@70.06 gafanhoto.@70.44
+19 VIRADA-CAIXA          71.34- 73.89 (2.56)  E@71.22 a@71.22 virada@71.22 foi@71.53 uma@71.71 caixa@71.97 de@72.38 bolinhas.@72.55
+20 VIRADA-FABRICA        73.89- 75.99 (2.10)  Ele@73.76 montava@73.76 uma@74.07 fábrica@74.27 de@74.74 mentira.@74.87
+21 BOLA-PA               75.99- 78.82 (2.83)  Seis@75.88 voluntários@76.21 tiravam@76.86 bolinha@77.21 com@77.65 uma@77.93 pá.@78.40
+22 BOLA-VERMELHA         78.82- 80.65 (1.83)  Vermelho@78.65 era@79.57 o@79.65 defeito.@79.73
+23 BOLA-CHEFE            80.65- 85.69 (5.04)  Ele@80.53 fazia@80.57 o@80.94 chefe:@81.02 elogiava@81.73 quem@82.34 tirava@82.63 pouca@83.11 e@83.42 xingava@83.58 quem@84.09 tirava@84.48 muita.@84.90
+24 BOLA-DEMITIA          85.69- 87.94 (2.25)  Depois,@85.56 demitia@86.24 os@86.77 piores.@86.95
+25 BOLA-NAO-DIMINUIA     87.94- 90.00 (2.06)  E@87.84 a@87.95 vermelha@88.05 não@88.68 diminuía.@88.81
+26 CLIMAX-UMA-EM-CINCO   90.00- 92.81 (2.81)  Uma@89.92 em@89.94 cada@90.09 cinco@90.43 bolinhas@90.85 era@91.54 vermelha.@91.78
+27 CLIMAX-SO-ERRA        92.81- 94.67 (1.86)  Seu@92.69 funcionário@92.69 só@93.01 erra,@93.14 meu@93.52 amigo?@93.72
+28 CLIMAX-OLHA-A-CAIXA   94.67- 95.86 (1.19)  Olha@94.57 a@94.79 caixa.@94.93
+29 CTA-ME-SEGUE          95.86-101.31 (5.45)  Se@95.73 você@96.00 troca@96.16 de@96.55 funcionário@96.61 e@97.41 o@97.56 problema@97.57 continua,@98.26 me@98.95 segue,@99.03 porque@99.91 você@100.18 é@100.54 demais!@100.78
+TOTAL 101.31

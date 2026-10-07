@@ -1,0 +1,43 @@
+c00 (r00)    0.75-   5.75      Esse cara é um dos treinadores mais caretas e mais vencedores dos Estados Unidos.
+c01 (r01)    6.11-   9.88 DROP E ele criou um protocolo polêmico para provar que regra não vale
+c02 (r02)   11.06-  15.89 DROP e ele criou um protocolo polêmico para provar que regra que não vale para o seu melhor funcionário
+c03 (r03)   16.52-  16.97 DROP Boa droga.
+c04 (r04)   18.81-  25.36      E ele criou um protocolo polêmico para provar que regra que não vale para o seu melhor funcionário não vale para ninguém.
+c05 (r05)   25.76-  28.98      John ganhou 10 campeonatos em 12 anos e
+c06 (r05)   28.98-  33.83      no primeiro treino ensinava os melhores jogadores do país a calçar a meia.
+c07 (r06)   34.23-  38.20 DROP E o protocolo para você parar de deixar o seu melhor vendedor mandar
+c08 (r07)   39.32-  40.75 DROP E esse é o protocolo para...
+c09 (r08)   41.59-  45.18      E esse é o protocolo para você parar de deixar o seu melhor vendedor
+c10 (r09)   45.55-  46.88      mandar na sua empresa.
+c11 (r10)   47.25-  50.67      Primeiro, ninguém chega atrasado, nem o melhor.
+c12 (r10)   50.67-  54.01      Ele diz que o atraso é desrespeito com todo o time.
+c13 (r11)   54.49-  56.50 DROP Se o melhor vendedor chega às 10h,
+c14 (r12)   57.44-  59.89      Seu melhor vendedor chega às 10 porque vende muito.
+c15 (r13)   60.38-  62.26      Ele chega na hora que você deixou.
+c16 (r14)   65.49-  68.68      Segundo, quem faz o ponto agradece o passe.
+c17 (r15)   69.08-  70.13 DROP Ele obrigava a quem...
+c18 (r16)   71.06-  75.33      Ele obrigava quem fazia a cesta a acenar para o colega que passou a bola
+c19 (r17)   75.82-  78.66 DROP Seu vendedor leva a comissão e o parabéns do grupo?
+c20 (r18)   79.41-  79.93 DROP Siocomi
+c21 (r19)   80.63-  83.15      Seu vendedor leva a comissão e o parabéns no grupo.
+c22 (r19)   83.15-  84.83      E quem fez a proposta?
+c23 (r19)   84.83-  86.81      Ninguém lembra, pequeno gafanhoto?
+c24 (r20)   88.33-  91.28      E terceiro, ninguém fala mal de colega,
+c25 (r20)   91.28-  93.97      ele expulsava do treino quem criticava colega.
+c26 (r21)   94.43-  95.32 DROP Seu treinador...
+c27 (r22)   96.99- 100.93      Seu vendedor estrela esculacha o financeiro no grupo e você ri?
+c28 (r23)  102.95- 106.13      Você não está protegendo o seu melhor vendedor, meu amiguinho,
+c29 (r23)  106.13- 106.95 DROP está vendendo a...
+c30 (r24)  108.23- 110.21      Tá perdendo a porra do resto do time.
+c31 (r25)  111.44- 113.25      E a virada foi uma barba.
+c32 (r25)  113.25- 116.59      O melhor jogador do país voltou de férias barbudo.
+c33 (r26)  117.06- 118.70      Barba era proibida,
+c34 (r26)  118.70- 120.74      ele disse que era direito dele,
+c35 (r26)  120.74- 121.79      John perguntou:
+c36 (r27)  122.17- 123.77      Você acredita mesmo nisso?
+c37 (r28)  124.24- 127.54      acredito Bill, eu respeito quem defende o que acredita
+c38 (r29)  128.05- 130.16      e o time vai sentir sua falta.
+c39 (r30)  130.80- 132.93      Antes do treino, ele tava sem barba.
+c40 (r31)  134.00- 135.99      Quem é o Bill da sua empresa, meu amigo?
+c41 (r32)  136.97- 138.53      E porque ele ainda tá de barba?
+c42 (r33)  138.99- 144.46      Se o seu melhor vendedor manda na sua empresa, me segue, porque você é demais!

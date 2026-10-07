@@ -1,0 +1,8 @@
+Generate one photorealistic cinematic image, landscape 3:2 (1536x1024), and save it as capa.png in the current directory.
+
+Scene: a bare, dark 1950s government office used for job interviews, late at night, that feels like an interrogation room. A single bare light bulb hangs on a cord near the top center of the frame and throws a hard cone of warm amber light straight down. Directly under the bulb, in the center of the frame, stands an EMPTY plain wooden chair whose two FRONT legs have been visibly sawn off shorter than the back legs, so the seat tilts forward at an uncomfortable angle (you can see the fresh pale cut ends of the front legs). On this side of a heavy wooden desk piled high with stacks of paper and file folders sits a small, thin, very old man in a dark civilian suit, seen strictly FROM BEHIND: we only see the back of his head (thin white hair), his narrow shoulders and the back of his suit in near-black silhouette in the left third of the frame, looking across the desk at the empty tilted chair, waiting for the next candidate.
+
+Composition: all the important subject matter in the UPPER HALF of the frame (the bulb at the top, the tilted chair and the old man's head and shoulders between 15% and 50% from the top); the lower 40% is the dark desk surface with stacks of paper in deep shadow and very little detail.
+Look: film still, dramatic chiaroscuro, high contrast, deep black and warm amber only, light haze in the beam of the bulb, dust in the air, tense and silent.
+
+Strictly forbidden: any face seen from the front or in profile, any text, letters, numbers, writing on the papers, logos, insignia, flags, uniforms, submarines, red light, watermarks, captions.

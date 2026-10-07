@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        /* Camada de motion graphics do reel Alan Mulally (skill showreel-interface).
+           Geometria 1080x1920 (dentro do #stage do host). Transparente fora das cenas.
+           Faixa das legendas (76% = y~1460) fica livre: o conteúdo mora entre y 140 e 1340. */
+        #mg { position: absolute; inset: 0; overflow: hidden; pointer-events: none; font-family: "Montserrat", sans-serif; }
+        #mg .scene { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; visibility: hidden; opacity: 0; overflow: hidden; }
+        #mg .world { position: absolute; inset: 0; }
+        #mg .dark { background: radial-gradient(130% 80% at 50% 28%, #1B2130 0%, #0C0F15 68%); }
+        #mg .light { background: radial-gradient(130% 80% at 50% 28%, #FFFFFF 0%, #E8E6E1 78%); }
+        #mg .band { position: absolute; left: -400px; top: 520px; width: 1900px; height: 520px; border-radius: 260px; transform: rotate(-14deg); }
+        #mg .dark .band { background: rgba(255,255,255,.035); }
+        #mg .light .band { background: rgba(0,0,0,.03); }
+        #mg .card { position: absolute; border-radius: 44px; overflow: hidden; box-shadow: 0 34px 90px rgba(0,0,0,.45), 0 6px 18px rgba(0,0,0,.25); background: #222; }
+        #mg .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        #mg .full { position: absolute; inset: 0; overflow: hidden; }
+        #mg .full img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        /* chip de capítulo (status do BPR) */
+        #mg .chip { position: absolute; left: 270px; width: 540px; height: 104px; border-radius: 999px; background: #11141A; color: #fff;
+                    display: flex; align-items: center; justify-content: center; gap: 24px; box-shadow: 0 18px 44px rgba(0,0,0,.28); }
+        #mg .light .chip, #mg .chip.on-light { background: #11141A; }
+        #mg .chip .dot { width: 34px; height: 34px; border-radius: 50%; flex: none; }
+        #mg .chip .win { height: 104px; overflow: hidden; }
+        #mg .chip .roll span { display: block; height: 104px; line-height: 104px; font-weight: 800; font-size: 44px; letter-spacing: .06em; }
+        #mg .chip .plus { position: absolute; left: 50%; top: 50%; width: 104px; height: 104px; margin: -52px 0 0 -52px; border-radius: 50%;
+                          background: #11141A; color: #fff; font-weight: 600; font-size: 78px; line-height: 98px; text-align: center; }
+        /* etiqueta de nome */
+        #mg .name { position: absolute; left: 90px; width: 900px; padding: 26px 40px; border-radius: 34px; background: rgba(255,255,255,.96);
+                    color: #11141A; box-shadow: 0 20px 50px rgba(0,0,0,.3); }
+        #mg .name b { display: block; font-weight: 800; font-size: 58px; letter-spacing: .01em; }
+        #mg .name i { display: block; font-style: normal; font-weight: 600; font-size: 30px; letter-spacing: .08em; color: #5A606B; margin-top: 6px; }
+        #mg .tag { position: absolute; padding: 18px 34px; border-radius: 999px; font-weight: 800; font-size: 38px; letter-spacing: .06em; color: #fff; }
+        /* carimbo */
+        #mg .stamp { position: absolute; padding: 8px 40px; border: 12px solid #E5322D; border-radius: 26px; color: #E5322D; background: rgba(255,255,255,.9);
+                     font-weight: 800; font-size: 112px; letter-spacing: .04em; }
+        /* título palavra a palavra */
+        #mg .title { position: absolute; left: 0; width: 1080px; text-align: center; font-weight: 800; font-size: 112px; line-height: 1.04; color: #11141A; }
+        #mg .title span { display: inline-block; }
+        #mg .sel { position: relative; display: inline-block; padding: 6px 30px 14px; border: 6px solid #F2B705; background: rgba(242,183,5,.16); }
+        #mg .sel .h { position: absolute; width: 26px; height: 26px; background: #fff; border: 4px solid #F2B705; border-radius: 5px; }
+        #mg .sel .tl { left: -17px; top: -17px; } #mg .sel .tr { right: -17px; top: -17px; } #mg .sel .bl { left: -17px; bottom: -17px; } #mg .sel .br { right: -17px; bottom: -17px; }
+        /* toast */
+        #mg .toast { position: absolute; left: 90px; width: 900px; padding: 30px 36px; border-radius: 38px; background: #fff; color: #11141A;
+                     box-shadow: 0 26px 70px rgba(0,0,0,.35); display: flex; gap: 28px; align-items: center; }
+        #mg .toast .ic { width: 92px; height: 92px; border-radius: 26px; background: #F2B705; color: #11141A; font-weight: 800; font-size: 64px; line-height: 92px; text-align: center; flex: none; }
+        #mg .toast b { display: block; font-weight: 800; font-size: 34px; letter-spacing: .06em; color: #5A606B; }
+        #mg .toast p { margin: 6px 0 0; font-weight: 600; font-size: 46px; }
+        /* semáforo */
+        #mg .tlight { position: absolute; left: 400px; width: 280px; height: 760px; border-radius: 64px; background: #050608; border: 6px solid #2A303C;
+                      box-shadow: 0 40px 90px rgba(0,0,0,.6); }
+        #mg .tlight .lamp { position: absolute; left: 40px; width: 188px; height: 188px; border-radius: 50%; background: #1C2029; }
+        #mg .tlight .glow { position: absolute; inset: 0; border-radius: 50%; opacity: 0; }
+        #mg .week { position: absolute; left: 60px; width: 960px; display: flex; justify-content: space-between; }
+        #mg .week span { width: 120px; height: 120px; border-radius: 30px; background: #1C2029; color: #8C93A1; font-weight: 800; font-size: 46px; line-height: 120px; text-align: center; }
+        /* quadro de status (BPR) */
+        #mg .board { position: absolute; left: 60px; width: 960px; border-radius: 44px; padding: 40px 44px 30px; box-shadow: 0 34px 90px rgba(0,0,0,.28); }
+        #mg .board.b-light { background: #fff; }
+        #mg .board.b-dark { background: #151A23; border: 2px solid #252C39; }
+        #mg .board .hd { display: flex; justify-content: space-between; font-weight: 800; font-size: 34px; letter-spacing: .08em; margin-bottom: 18px; }
+        #mg .b-light .hd { color: #11141A; } #mg .b-dark .hd { color: #E9ECF2; }
+        #mg .board .hd i { font-style: normal; font-weight: 600; color: #8C93A1; }
+        #mg .row { position: relative; height: 112px; display: flex; align-items: center; justify-content: space-between; border-top: 2px solid rgba(128,136,150,.18); }
+        #mg .row .g { display: flex; gap: 14px; }
+        #mg .row .g i { display: block; height: 22px; border-radius: 11px; }
+        #mg .b-light .row .g i { background: #D9DCE2; } #mg .b-dark .row .g i { background: #303746; }
+        #mg .pill { position: relative; width: 330px; height: 74px; border-radius: 999px; }
+        #mg .pill span { position: absolute; inset: 0; border-radius: 999px; color: #fff; font-weight: 800; font-size: 30px; letter-spacing: .05em;
+                         display: flex; align-items: center; justify-content: center; gap: 14px; }
+        #mg .pill span::before { content: ""; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,.9); }
+        #mg .p0 { background: #C9CCD2; } #mg .b-dark .p0 { background: #343B49; }
+        #mg .pg { background: #1FB45A; } #mg .py { background: #F2B705; color: #11141A !important; } #mg .pr { background: #E5322D; }
+        #mg .bars { position: absolute; left: 60px; width: 960px; height: 300px; display: flex; align-items: flex-end; gap: 22px; padding: 0 30px; }
+        #mg .bars i { flex: 1; border-radius: 18px 18px 6px 6px; transform-origin: 50% 100%; }
+        #mg .rainbow { position: absolute; left: 60px; width: 960px; height: 14px; border-radius: 7px;
+                       background: linear-gradient(90deg, #E5322D, #F28C05, #F2B705, #1FB45A, #1E8BE5, #7B3FE4); }
+        /* balões */
+        #mg .bubble { position: absolute; padding: 22px 38px; border-radius: 40px; background: #fff; color: #11141A; font-weight: 800; font-size: 58px;
+                      box-shadow: 0 18px 44px rgba(0,0,0,.3); }
+        #mg .bubble.me { background: #1FB45A; color: #fff; }
+        #mg .strike { position: absolute; height: 14px; border-radius: 7px; background: #E5322D; transform-origin: 0 50%; }
+        #mg .ring { position: absolute; width: 300px; height: 300px; margin: -150px 0 0 -150px; border-radius: 50%; border: 10px solid #fff; opacity: 0; }
+        /* split: prejuízo */
+        #mg .panel { position: absolute; left: 0; top: 0; width: 1080px; height: 845px; background: radial-gradient(120% 90% at 50% 20%, #2A1416 0%, #0E0B0D 70%); overflow: hidden; }
+        #mg .lbl { position: absolute; left: 0; width: 1080px; text-align: center; font-weight: 800; font-size: 36px; letter-spacing: .1em; color: #F3B4B0; }
+        #mg .money { position: absolute; left: 0; width: 1080px; display: flex; justify-content: center; align-items: center; gap: 10px; color: #FF4A3D; font-weight: 800; }
+        #mg .money .cur { font-size: 96px; margin-right: 16px; }
+        #mg .money .col { height: 210px; overflow: hidden; }
+        #mg .money .col div span { display: block; height: 210px; line-height: 210px; font-size: 220px; text-align: center; width: 140px; }
+        #mg .money .suf { font-size: 96px; margin-left: 18px; }
+        #mg .dots { position: absolute; display: flex; gap: 18px; padding: 30px 40px; border-radius: 40px; background: #fff; box-shadow: 0 18px 44px rgba(0,0,0,.3); }
+        #mg .dots i { width: 26px; height: 26px; border-radius: 50%; background: #8C93A1; display: block; }
+      </style>
+
+      <div id="mg" data-composition-id="mg" data-width="1080" data-height="1920">
+
+        <!-- S1 · REVELAÇÃO (13,23–20,75): Alan → logotipo penhorado → GM quebrou -->
+        <div class="scene" id="S1"><div class="world dark"><div class="band" id="S1-band"></div></div>
+          <div class="card" id="S1-alan" style="left:70px;top:150px;width:940px;height:1060px"><img src="assets/mg/alan.jpg" style="object-position:30% 40%" /></div>
+          <div class="name" id="S1-name" style="top:1110px"><b>ALAN MULALLY</b><i>CEO DA FORD · 2006–2014</i></div>
+          <div class="card" id="S1-oval" style="left:70px;top:330px;width:940px;height:590px;background:#fff"><img src="assets/mg/oval.jpg" /></div>
+          <div class="stamp" id="S1-stamp" style="left:150px;top:520px">PENHORADO</div>
+          <div class="tag" id="S1-loan" style="left:150px;top:1010px;background:#1C3F94">2006 · GARANTIA DE US$ 23,6 BI</div>
+          <div class="card" id="S1-gm" style="left:70px;top:330px;width:940px;height:705px"><img id="S1-gmimg" src="assets/mg/gm.jpg" /></div>
+          <div class="tag" id="S1-crise" style="left:330px;top:200px;background:#E5322D">CRISE DE 2008</div>
+          <div class="stamp" id="S1-faliu" style="left:300px;top:560px">FALIU</div>
+        </div>
+
+        <!-- S2 · PASSO 1 (24,87–31,62): chip → ACEITA PROBLEMA SEM SOLUÇÃO → sede da Ford + toast -->
+        <div class="scene" id="S2"><div class="world light"><div class="band" id="S2-band"></div></div>
+          <div class="chip" id="S2-chip" style="top:330px"><span class="dot" style="background:#F2B705"></span><div class="win"><div class="roll" id="S2-roll"><span>PASSO 3</span><span>PASSO 2</span><span>PASSO 1</span></div></div><div class="plus" id="S2-plus">+</div></div>
+          <div class="title" id="S2-title" style="top:560px"><span id="S2-w1">ACEITA</span><br /><span id="S2-w2">PROBLEMA</span><br /><span class="sel" id="S2-sel"><span id="S2-w3">SEM</span> <span id="S2-w4">SOLUÇÃO.</span><i class="h tl"></i><i class="h tr"></i><i class="h bl"></i><i class="h br"></i></span></div>
+          <div class="card" id="S2-hq" style="left:70px;top:250px;width:940px;height:646px"><img src="assets/mg/fordhq.jpg" /></div>
+          <div class="toast" id="S2-toast" style="top:960px"><div class="ic">!</div><div><b>PARA: CHEFE</b><p id="S2-msg">“Temos um problema…”</p></div></div>
+          <div class="tag" id="S2-nao" style="left:250px;top:1180px;background:#E5322D">✕ SEM SOLUÇÃO? NÃO TRAZ.</div>
+        </div>
+
+        <!-- S3 · PASSO 2 (36,20–40,61): + → chip → semáforo → toda semana -->
+        <div class="scene" id="S3"><div class="world dark"><div class="band" id="S3-band"></div></div>
+          <div class="chip" id="S3-chip" style="top:170px;background:#fff;color:#11141A"><span class="dot" style="background:#1FB45A"></span><div class="win"><div class="roll" id="S3-roll"><span>PASSO 1</span><span>PASSO 3</span><span>PASSO 2</span></div></div><div class="plus" id="S3-plus" style="background:#fff;color:#11141A">+</div></div>
+          <div class="tlight" id="S3-tl" style="top:330px">
+            <div class="lamp" style="top:44px"><div class="glow" id="S3-r" style="background:radial-gradient(circle,#FF6B5E 0%,#E5322D 60%);box-shadow:0 0 70px 18px rgba(229,50,45,.7)"></div></div>
+            <div class="lamp" style="top:280px"><div class="glow" id="S3-y" style="background:radial-gradient(circle,#FFE07A 0%,#F2B705 60%);box-shadow:0 0 70px 18px rgba(242,183,5,.7)"></div></div>
+            <div class="lamp" style="top:516px"><div class="glow" id="S3-g" style="background:radial-gradient(circle,#7DF0A6 0%,#1FB45A 60%);box-shadow:0 0 70px 18px rgba(31,180,90,.7)"></div></div>
+          </div>
+          <div class="week" id="S3-week" style="top:1150px"><span>S</span><span>T</span><span id="S3-day">Q</span><span>Q</span><span>S</span><span>S</span><span>D</span></div>
+        </div>
+
+        <!-- S4 · O QUADRO (45,13–52,11): verde / amarelo / vermelho -->
+        <div class="scene" id="S4"><div class="world light"><div class="band" id="S4-band"></div></div>
+          <div class="board b-light" id="S4-board" style="top:300px">
+            <div class="hd"><span>REVISÃO SEMANAL</span><i>QUINTA · 8H</i></div>
+            <div class="row" id="S4-r1"><div class="g"><i style="width:210px"></i><i style="width:120px"></i></div><div class="pill p0"><span class="pg" id="S4-p1" style="opacity:0">NO PLANO</span></div></div>
+            <div class="row" id="S4-r2"><div class="g"><i style="width:170px"></i><i style="width:160px"></i></div><div class="pill p0"><span class="py" id="S4-p2" style="opacity:0">TEM SAÍDA</span></div></div>
+            <div class="row" id="S4-r3"><div class="g"><i style="width:240px"></i><i style="width:90px"></i></div><div class="pill p0"><span class="pr" id="S4-p3" style="opacity:0">NINGUÉM SABE</span></div></div>
+            <div class="row" id="S4-r4"><div class="g"><i style="width:150px"></i><i style="width:190px"></i></div><div class="pill p0"></div></div>
+            <div class="row" id="S4-r5"><div class="g"><i style="width:200px"></i><i style="width:110px"></i></div><div class="pill p0"></div></div>
+          </div>
+        </div>
+
+        <!-- S5 · PASSO 3 (56,03–59,34): chip → PROÍBE PIADA → balão riscado -->
+        <div class="scene" id="S5"><div class="world light"><div class="band" id="S5-band"></div></div>
+          <div class="chip" id="S5-chip" style="top:300px"><span class="dot" style="background:#E5322D"></span><div class="win"><div class="roll" id="S5-roll"><span>PASSO 2</span><span>PASSO 1</span><span>PASSO 3</span></div></div><div class="plus" id="S5-plus">+</div></div>
+          <div class="title" id="S5-title" style="top:540px"><span id="S5-w1">PROÍBE</span><br /><span id="S5-w2">PIADA.</span></div>
+          <div class="bubble" id="S5-bub" style="left:300px;top:930px">kkkkkkkkk</div>
+          <div class="strike" id="S5-strike" style="left:270px;top:990px;width:540px"></div>
+        </div>
+
+        <!-- S6 · ZOOU NA FRENTE DO TIME → PEQUENO GAFANHOTO (63,22–69,78) -->
+        <div class="scene" id="S6"><div class="world dark"><div class="band" id="S6-band"></div></div>
+          <div class="card" id="S6-zoou" style="left:70px;top:220px;width:940px;height:627px"><img src="assets/mg/zoou.jpg" /></div>
+          <div class="bubble" id="S6-b1" style="left:520px;top:900px">kkkkkk</div>
+          <div class="bubble" id="S6-b2" style="left:110px;top:1010px">KKKKKKKK</div>
+          <div class="bubble" id="S6-b3" style="left:600px;top:1120px">kkk</div>
+          <div class="tag" id="S6-visto" style="left:300px;top:150px;background:#11141A;border:3px solid #3A404C">VISTO POR 12</div>
+          <div class="card" id="S6-po" style="left:70px;top:260px;width:940px;height:900px"><img src="assets/mg/gafanhoto.jpg" style="object-position:40% 50%" /></div>
+          <div class="tag" id="S6-gaf" style="left:190px;top:1190px;background:#F2B705;color:#11141A">PEQUENO GAFANHOTO</div>
+        </div>
+
+        <!-- S7 · SPLIT DA VIRADA (72,56–75,95), só a faixa de cima: prejuízo de 17 bi -->
+        <div class="scene" id="S7" style="height:845px"><div class="panel" id="S7-panel">
+          <div class="lbl" style="top:120px">PREJUÍZO PROJETADO · FORD 2006</div>
+          <div class="money" style="top:220px"><span class="cur">US$</span>
+            <div class="col"><div id="S7-d1"><span>0</span><span>1</span></div></div>
+            <div class="col"><div id="S7-d2"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span></div></div>
+            <span class="suf">BI</span></div>
+          <div class="bars" id="S7-bars" style="top:470px;height:300px"><i style="background:#5A2A2C;height:70%"></i><i style="background:#6E2F31;height:55%"></i><i style="background:#8A3434;height:42%"></i><i style="background:#B33A36;height:28%"></i><i style="background:#E5322D;height:12%"></i></div>
+        </div></div>
+
+        <!-- S8 · MARK → PRODUÇÃO PARADA (75,95–81,44) -->
+        <div class="scene" id="S8"><div class="world dark"><div class="band" id="S8-band"></div></div>
+          <div class="card" id="S8-mark" style="left:70px;top:150px;width:940px;height:1060px"><img src="assets/mg/mark.jpg" style="object-position:78% 35%" /></div>
+          <div class="name" id="S8-name" style="top:1110px"><b>MARK FIELDS</b><i>DIRETOR · FORD AMÉRICAS</i></div>
+          <div class="card" id="S8-edge" style="left:70px;top:260px;width:940px;height:655px"><img src="assets/mg/edge.jpg" /></div>
+          <div class="board b-dark" id="S8-row" style="top:960px;padding:10px 34px"><div class="row" style="border-top:0"><div class="g" style="color:#E9ECF2;font-weight:800;font-size:36px;letter-spacing:.06em">CARRO NOVO</div><div class="pill p0" style="width:470px"><span class="pr" id="S8-p" style="opacity:0">PRODUÇÃO PARADA</span></div></div></div>
+          <div class="dots" id="S8-dots" style="left:640px;top:1150px"><i id="S8-d1"></i><i id="S8-d2"></i><i id="S8-d3"></i></div>
+        </div>
+
+        <!-- S9 · O PRIMEIRO VERMELHO → A PALMA (CLÍMAX) → ARCO-ÍRIS (84,66–94,65) -->
+        <div class="scene" id="S9"><div class="world dark"><div class="band" id="S9-band"></div></div>
+          <div class="board b-dark" id="S9-board" style="top:250px">
+            <div class="hd"><span>REVISÃO SEMANAL</span><i>QUINTA · 8H</i></div>
+            <div class="row"><div class="g"><i style="width:210px"></i><i style="width:120px"></i></div><div class="pill pg"><span class="pg">NO PLANO</span><span class="py" id="S9-y1" style="opacity:0">TEM SAÍDA</span></div></div>
+            <div class="row"><div class="g"><i style="width:170px"></i><i style="width:160px"></i></div><div class="pill pg"><span class="pg">NO PLANO</span><span class="pr" id="S9-r2" style="opacity:0">VERMELHO</span></div></div>
+            <div class="row" id="S9-row3"><div class="g"><i style="width:240px"></i><i style="width:90px"></i></div><div class="pill pg"><span class="pg">NO PLANO</span><span class="pr" id="S9-red" style="opacity:0">VERMELHO</span></div></div>
+            <div class="row"><div class="g"><i style="width:150px"></i><i style="width:190px"></i></div><div class="pill pg"><span class="pg">NO PLANO</span><span class="py" id="S9-y4" style="opacity:0">TEM SAÍDA</span></div></div>
+            <div class="row"><div class="g"><i style="width:200px"></i><i style="width:110px"></i></div><div class="pill pg"><span class="pg">NO PLANO</span><span class="pr" id="S9-r5" style="opacity:0">VERMELHO</span></div></div>
+            <div class="row"><div class="g"><i style="width:120px"></i><i style="width:220px"></i></div><div class="pill pg"><span class="pg">NO PLANO</span><span class="py" id="S9-y6" style="opacity:0">TEM SAÍDA</span></div></div>
+          </div>
+          <div class="rainbow" id="S9-rainbow" style="top:1078px"></div>
+          <div class="bars" id="S9-bars" style="top:1110px;height:230px"><i style="background:#E5322D;height:55%"></i><i style="background:#F28C05;height:80%"></i><i style="background:#F2B705;height:62%"></i><i style="background:#1FB45A;height:95%"></i><i style="background:#1E8BE5;height:72%"></i><i style="background:#7B3FE4;height:86%"></i></div>
+          <div class="full" id="S9-palma"><img id="S9-palmaimg" src="assets/mg/alanpalma.jpg" style="object-position:45% 30%" /></div>
+          <div class="ring" id="S9-ring1" style="left:540px;top:820px"></div>
+          <div class="ring" id="S9-ring2" style="left:540px;top:820px"></div>
+        </div>
+
+      </div>
+
+      <script>
+        (function () {
+          var tl = gsap.timeline({ paused: true });
+          var q = 1 / 30;
+          function Q(t) { return Math.round(t * 30) / 30; }
+          function sceneIn(id, t, from) {
+            tl.set(id, { autoAlpha: 1 }, Q(t));
+            tl.fromTo(id, { clipPath: from || "inset(14% 9% 14% 9% round 72px)", scale: 0.92 },
+              { clipPath: "inset(0% 0% 0% 0% round 0px)", scale: 1, duration: 13 * q, ease: "expo.out" }, Q(t));
+          }
+          function sceneOut(id, t) {
+            tl.to(id, { clipPath: "inset(9% 7% 9% 7% round 72px)", scale: 0.9, duration: 8 * q, ease: "power3.in" }, Q(t) - 12 * q);
+            tl.to(id, { y: -2300, duration: 4 * q, ease: "power4.in" }, Q(t) - 4 * q);
+            tl.set(id, { autoAlpha: 0 }, Q(t));
+          }
+          function drift(id, t0, t1) { tl.fromTo(id, { x: -60 }, { x: 60, duration: t1 - t0, ease: "none" }, t0); }
+          function pop(id, t, from) { tl.fromTo(id, from || { scale: 0.6, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, x: 0, y: 0, duration: 9 * q, ease: "back.out(2.2)" }, Q(t)); }
+          function rise(id, t) { tl.fromTo(id, { y: 70, autoAlpha: 0, filter: "blur(10px)" }, { y: 0, autoAlpha: 1, filter: "blur(0px)", duration: 9 * q, ease: "expo.out" }, Q(t)); }
+          function slam(id, t, rot) {
+            tl.fromTo(id, { scale: 2.4, autoAlpha: 0, rotation: rot }, { scale: 1, autoAlpha: 1, rotation: rot, duration: 4 * q, ease: "power4.in" }, Q(t) - 4 * q);
+            tl.fromTo(id, { scale: 1 }, { scale: 1.04, duration: 3 * q, ease: "power2.out", yoyo: true, repeat: 1 }, Q(t));
+          }
+          // chip de capítulo: + → pílula → caça-níquel (T2)
+          function chip(base, t, tAp) {
+            var R = (540 - 104) / 2;
+            tl.set("#" + base + "-chip", { clipPath: "inset(0px " + R + "px 0px " + R + "px round 999px)" }, 0);
+            tl.fromTo("#" + base + "-chip", { scale: 0.4, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: 7 * q, ease: "back.out(2)" }, tAp != null ? Q(tAp) : Q(t) - 14 * q);
+            tl.to("#" + base + "-chip", { clipPath: "inset(0px 0px 0px 0px round 999px)", duration: 8 * q, ease: "power3.out" }, Q(t) - 6 * q);
+            tl.to("#" + base + "-plus", { rotation: 45, autoAlpha: 0, duration: 6 * q, ease: "power2.in" }, Q(t) - 6 * q);
+            tl.fromTo("#" + base + "-roll", { y: 0, filter: "blur(6px)" }, { y: -208, filter: "blur(0px)", duration: 14 * q, ease: "power4.out" }, Q(t) - 6 * q);
+          }
+          // estado inicial de tudo que entra (fora da timeline)
+          gsap.set(["#S1-name", "#S1-oval", "#S1-stamp", "#S1-loan", "#S1-gm", "#S1-crise", "#S1-faliu",
+                    "#S2-w1", "#S2-w2", "#S2-w3", "#S2-w4", "#S2-hq", "#S2-toast", "#S2-nao",
+                    "#S3-tl", "#S5-w1", "#S5-w2", "#S5-bub", "#S6-b1", "#S6-b2", "#S6-b3", "#S6-visto", "#S6-po", "#S6-gaf",
+                    "#S8-name", "#S8-edge", "#S8-row", "#S8-dots", "#S9-palma", "#S9-rainbow"], { autoAlpha: 0 });
+          gsap.set("#S2-sel", { borderColor: "rgba(242,183,5,0)", backgroundColor: "rgba(242,183,5,0)" });
+          gsap.set("#S2-sel .h", { scale: 0 });
+          gsap.set("#S3-week span", { autoAlpha: 0, y: -80 });
+          gsap.set("#S5-strike", { scaleX: 0 });
+          gsap.set(["#S7-bars i", "#S9-bars i"], { scaleY: 0 });
+          gsap.set(["#S4-r1", "#S4-r2", "#S4-r3", "#S4-r4", "#S4-r5"], { autoAlpha: 0, x: 80 });
+          gsap.set("#S9-board .row", { autoAlpha: 0, x: 80 });
+
+          // ===== S1 · REVELAÇÃO =====
+          sceneIn("#S1", 13.23); drift("#S1-band", 13.23, 20.75);
+          tl.fromTo("#S1-alan", { scale: 1.12 }, { scale: 1, duration: 2.3, ease: "power2.out" }, 13.23);
+          rise("#S1-name", 13.6);
+          // logotipo penhorado: chicote para a esquerda, o oval entra no mesmo vetor
+          tl.to(["#S1-alan", "#S1-name"], { x: -1400, filter: "blur(18px)", duration: 5 * q, ease: "power4.in" }, Q(15.67) - 5 * q);
+          tl.fromTo("#S1-oval", { x: 1300, autoAlpha: 1, filter: "blur(18px)" }, { immediateRender: false, autoAlpha: 1, x: 0, filter: "blur(0px)", duration: 13 * q, ease: "expo.out" }, Q(15.67) - q);
+          slam("#S1-stamp", 16.51, -9);
+          rise("#S1-loan", 16.85);
+          // crise: o oval cai, a GM entra de cima (mesmo vetor)
+          tl.to(["#S1-oval", "#S1-stamp", "#S1-loan"], { y: 1900, duration: 5 * q, ease: "power4.in" }, Q(17.98) - 5 * q);
+          tl.fromTo("#S1-gm", { y: -1500, autoAlpha: 1 }, { immediateRender: false, autoAlpha: 1, y: 0, duration: 13 * q, ease: "expo.out" }, Q(17.98) - q);
+          pop("#S1-crise", 18.33);
+          tl.to("#S1-gmimg", { filter: "grayscale(1) brightness(.62)", duration: 8 * q, ease: "power2.out" }, Q(19.33));
+          tl.to("#S1-gm", { rotation: 4, y: 50, duration: 6 * q, ease: "power3.out" }, Q(19.33));
+          slam("#S1-faliu", 19.38, 8);
+          sceneOut("#S1", 20.75);
+
+          // ===== S2 · PASSO 1 =====
+          sceneIn("#S2", 24.87); drift("#S2-band", 24.87, 31.62);
+          chip("S2", 25.07);
+          rise("#S2-w1", 25.07); rise("#S2-w2", 25.44); rise("#S2-w3", 25.94); rise("#S2-w4", 26.37);
+          tl.to("#S2-sel", { borderColor: "rgba(242,183,5,1)", backgroundColor: "rgba(242,183,5,.16)", duration: 4 * q, ease: "none" }, Q(26.75));
+          tl.to("#S2-sel .h", { scale: 1, duration: 6 * q, ease: "back.out(3)", stagger: q }, Q(26.8));
+          // chip estica e vira risco → corte para a sede (T7)
+          tl.to("#S2-chip", { scaleX: 1.3, duration: q, ease: "power2.in" }, Q(27.79) - 5 * q);
+          tl.to("#S2-chip", { scaleX: 9, scaleY: 0.5, filter: "blur(14px)", autoAlpha: 0, duration: 4 * q, ease: "power4.in" }, Q(27.79) - 4 * q);
+          tl.to("#S2-title", { scale: 0.3, autoAlpha: 0, filter: "blur(12px)", duration: 5 * q, ease: "power4.in" }, Q(27.79) - 5 * q);
+          tl.fromTo("#S2-hq", { scale: 0.55, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: 13 * q, ease: "expo.out" }, Q(27.79) - q);
+          tl.fromTo("#S2-hq", { y: 0 }, { y: -30, duration: 3.5, ease: "none" }, Q(28.2));
+          tl.fromTo("#S2-toast", { y: -900, autoAlpha: 1 }, { immediateRender: false, autoAlpha: 1, y: 0, duration: 12 * q, ease: "expo.out" }, Q(28.94));
+          tl.to("#S2-toast", { x: -24, duration: 2 * q, ease: "power2.out", yoyo: true, repeat: 3 }, Q(30.67));
+          tl.to("#S2-msg", { opacity: 0.35, duration: 6 * q }, Q(30.67));
+          pop("#S2-nao", 30.67);
+          sceneOut("#S2", 31.62);
+
+          // ===== S3 · PASSO 2 =====
+          sceneIn("#S3", 36.2); drift("#S3-band", 36.2, 40.61);
+          chip("S3", 37.57, 36.4);
+          tl.fromTo("#S3-tl", { y: 900, autoAlpha: 1 }, { immediateRender: false, autoAlpha: 1, y: 0, duration: 12 * q, ease: "expo.out" }, Q(38.25));
+          tl.to("#S3-r", { opacity: 1, duration: 2 * q }, Q(38.59));
+          tl.to("#S3-y", { opacity: 1, duration: 2 * q }, Q(38.75));
+          tl.to("#S3-g", { opacity: 1, duration: 2 * q }, Q(38.91));
+          tl.to("#S3-week span", { autoAlpha: 1, y: 0, duration: 8 * q, ease: "back.out(2)", stagger: 2 * q }, Q(39.13));
+          tl.to("#S3-day", { backgroundColor: "#1FB45A", color: "#FFFFFF", scale: 1.12, duration: 4 * q, ease: "power2.out" }, Q(39.6));
+          sceneOut("#S3", 40.61);
+
+          // ===== S4 · O QUADRO =====
+          sceneIn("#S4", 45.13); drift("#S4-band", 45.13, 52.11);
+          tl.to(["#S4-r1", "#S4-r2", "#S4-r3", "#S4-r4", "#S4-r5"], { autoAlpha: 1, x: 0, duration: 9 * q, ease: "expo.out", stagger: 2 * q }, Q(45.2));
+          pop("#S4-p1", 45.61, { scale: 0.5, autoAlpha: 0 });
+          pop("#S4-p2", 46.59, { scale: 0.5, autoAlpha: 0 });
+          pop("#S4-p3", 49.2, { scale: 0.5, autoAlpha: 0 });
+          tl.to(["#S4-r1", "#S4-r2", "#S4-r4", "#S4-r5"], { opacity: 0.3, duration: 8 * q }, Q(50.03));
+          tl.to("#S4-r3", { scale: 1.06, duration: 10 * q, ease: "expo.out" }, Q(50.03));
+          tl.fromTo("#S4-board", { scale: 1 }, { scale: 1.05, duration: 2, ease: "sine.inOut" }, Q(50.03));
+          sceneOut("#S4", 52.11);
+
+          // ===== S5 · PASSO 3 =====
+          sceneIn("#S5", 56.03); drift("#S5-band", 56.03, 59.34);
+          chip("S5", 56.5, 56.1);
+          rise("#S5-w1", 57.14); rise("#S5-w2", 57.54);
+          pop("#S5-bub", 58.1);
+          tl.to("#S5-strike", { scaleX: 1, duration: 5 * q, ease: "power4.out" }, Q(58.7));
+          tl.to("#S5-bub", { opacity: 0.4, rotation: -4, duration: 6 * q }, Q(58.7));
+          sceneOut("#S5", 59.34);
+
+          // ===== S6 · ZOOU → GAFANHOTO =====
+          sceneIn("#S6", 63.22); drift("#S6-band", 63.22, 69.78);
+          tl.fromTo("#S6-zoou", { scale: 1.08 }, { scale: 1, duration: 3, ease: "power2.out" }, 63.22);
+          pop("#S6-b1", 64.91, { scale: 0.4, autoAlpha: 0, y: 40 });
+          pop("#S6-b2", 65.18, { scale: 0.4, autoAlpha: 0, y: 40 });
+          pop("#S6-b3", 65.45, { scale: 0.4, autoAlpha: 0, y: 40 });
+          pop("#S6-visto", 65.63);
+          tl.to(["#S6-zoou", "#S6-b1", "#S6-b2", "#S6-b3", "#S6-visto"], { x: -1400, filter: "blur(18px)", duration: 5 * q, ease: "power4.in" }, Q(66.99) - 5 * q);
+          tl.fromTo("#S6-po", { x: 1300, autoAlpha: 1, filter: "blur(18px)" }, { immediateRender: false, autoAlpha: 1, x: 0, filter: "blur(0px)", duration: 13 * q, ease: "expo.out" }, Q(66.99) - q);
+          tl.fromTo("#S6-po", { scale: 1 }, { scale: 1.04, duration: 2.6, ease: "none" }, Q(67.4));
+          rise("#S6-gaf", 68.82);
+          sceneOut("#S6", 69.78);
+
+          // ===== S7 · SPLIT: 17 BILHÕES (faixa de cima) =====
+          tl.set("#S7", { autoAlpha: 1 }, Q(72.56));
+          tl.fromTo("#S7-panel", { x: 1100, filter: "blur(16px)" }, { immediateRender: false, x: 0, filter: "blur(0px)", duration: 6 * q, ease: "power4.out" }, Q(72.56) - 2 * q);
+          tl.fromTo("#S7-d1", { y: 0 }, { y: -210, duration: 10 * q, ease: "power4.out" }, Q(73.6));
+          tl.fromTo("#S7-d2", { y: 0, filter: "blur(4px)" }, { y: -7 * 210, filter: "blur(0px)", duration: 26 * q, ease: "power4.out" }, Q(73.6));
+          tl.to("#S7-bars i", { scaleY: 1, duration: 9 * q, ease: "expo.out", stagger: 2 * q }, Q(74.5));
+          tl.to("#S7", { y: -845, duration: 0.55, ease: "power3.inOut" }, Q(75.95 - 0.55));
+          tl.set("#S7", { autoAlpha: 0 }, Q(75.95));
+
+          // ===== S8 · MARK → PRODUÇÃO PARADA =====
+          sceneIn("#S8", 75.95); drift("#S8-band", 75.95, 81.44);
+          tl.fromTo("#S8-mark", { scale: 1.1 }, { scale: 1, duration: 2.4, ease: "power2.out" }, 75.95);
+          rise("#S8-name", 76.23);
+          tl.to(["#S8-mark", "#S8-name"], { y: -1700, duration: 5 * q, ease: "power4.in" }, Q(78.4) - 5 * q);
+          tl.fromTo("#S8-edge", { y: 1500, autoAlpha: 1 }, { immediateRender: false, autoAlpha: 1, y: 0, duration: 13 * q, ease: "expo.out" }, Q(78.4) - q);
+          rise("#S8-row", 78.55);
+          pop("#S8-p", 78.85, { scale: 0.5, autoAlpha: 0 });
+          pop("#S8-dots", 80.52);
+          tl.fromTo(["#S8-d1", "#S8-d2", "#S8-d3"], { y: 0 }, { y: -12, duration: 6 * q, ease: "sine.inOut", yoyo: true, repeat: 3, stagger: 3 * q }, Q(80.6));
+          sceneOut("#S8", 81.44);
+
+          // ===== S9 · PRIMEIRO VERMELHO → PALMA → ARCO-ÍRIS =====
+          sceneIn("#S9", 84.66); drift("#S9-band", 84.66, 94.65);
+          tl.to("#S9-board .row", { autoAlpha: 1, x: 0, duration: 9 * q, ease: "expo.out", stagger: 2 * q }, Q(84.72));
+          pop("#S9-red", 86.06, { scale: 0.5, autoAlpha: 0 });
+          tl.to("#S9-row3", { scale: 1.06, duration: 10 * q, ease: "expo.out" }, Q(86.06));
+          // silêncio: todo o resto apaga, a câmera aproxima devagar
+          tl.to("#S9-board .row:not(#S9-row3)", { opacity: 0.22, duration: 12 * q }, Q(86.88));
+          tl.fromTo("#S9-board", { scale: 1 }, { scale: 1.08, duration: 1.24, ease: "sine.inOut" }, Q(86.88));
+          // CLÍMAX: corte seco para o Alan; a palma solta dois anéis
+          tl.set("#S9-palma", { autoAlpha: 1 }, Q(88.12));
+          tl.fromTo("#S9-palmaimg", { scale: 1.16 }, { immediateRender: false, scale: 1, duration: 1.4, ease: "expo.out" }, Q(88.12));
+          tl.fromTo("#S9-ring1", { scale: 0.2, opacity: 0.9 }, { immediateRender: false, scale: 3.2, opacity: 0, duration: 14 * q, ease: "expo.out" }, Q(88.29));
+          tl.fromTo("#S9-ring2", { scale: 0.2, opacity: 0.7 }, { immediateRender: false, scale: 2.4, opacity: 0, duration: 14 * q, ease: "expo.out" }, Q(88.29) + 3 * q);
+          // semanas depois: o Alan vira card e sai pela esquerda; o quadro volta (mesmo vetor) em arco-íris
+          tl.to("#S9-palma", { scale: 0.62, clipPath: "inset(0% 0% 0% 0% round 60px)", duration: 9 * q, ease: "power3.in" }, Q(91.17) - 9 * q);
+          tl.to("#S9-palma", { x: -1300, duration: 4 * q, ease: "power4.in" }, Q(91.17) - 3 * q);
+          tl.set("#S9-board .row", { opacity: 1 }, Q(91.17));
+          tl.set(["#S9-board", "#S9-row3"], { scale: 1 }, Q(91.17));
+          tl.fromTo("#S9-board", { x: 1300 }, { immediateRender: false, x: 0, duration: 12 * q, ease: "expo.out" }, Q(91.17) - q);
+          pop("#S9-y1", 91.62, { scale: 0.5, autoAlpha: 0 }); pop("#S9-r2", 91.7, { scale: 0.5, autoAlpha: 0 });
+          pop("#S9-y4", 91.78, { scale: 0.5, autoAlpha: 0 }); pop("#S9-r5", 91.86, { scale: 0.5, autoAlpha: 0 });
+          pop("#S9-y6", 91.94, { scale: 0.5, autoAlpha: 0 });
+          tl.to("#S9-bars i", { scaleY: 1, duration: 10 * q, ease: "expo.out", stagger: 2 * q }, Q(92.25));
+          tl.fromTo("#S9-rainbow", { autoAlpha: 1, scaleX: 0, transformOrigin: "0% 50%" }, { immediateRender: false, autoAlpha: 1, scaleX: 1, duration: 12 * q, ease: "power3.out" }, Q(93.16));
+          sceneOut("#S9", 94.65);
+
+          window.__timelines["mg"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+c00 (r00)    0.66-   5.46      Esse cara é um dos militares mais torturados e mais estudados dos Estados Unidos.
+c01 (r01)    5.81-   7.83      E ele criou um protocolo polêmico
+c02 (r01)    7.83-   9.93 DROP para provar que na crise do dono
+c03 (r02)   10.88-  14.80      Para provar que na crise, o dono otimista é o primeiro a quebrar.
+c04 (r03)   15.18-  17.01      Jin foi derrubado no Vietnã.
+c05 (r04)   18.89-  23.44      Ainda no paraquedas pensou, são 5 anos preso, no mínimo.
+c06 (r05)   23.84-  26.07      Errou, foram 7,5.
+c07 (r05)   26.07-  30.92      E esse é o protocolo para você parar de prometer para o seu time que mês que vem melhora.
+c08 (r06)   31.46-  33.51      Primeiro, separa o que é seu.
+c09 (r07)   33.86-  35.64 DROP Ele aprendeu com um filósofo grego
+c10 (r08)   36.07-  36.83 DROP que você...
+c11 (r09)   37.53-  43.05      Ele aprendeu com o filósofo grego que você só manda no que você pensa e no que você faz.
+c12 (r10)   44.07-  46.31      Juros e governo não dependem de você.
+c13 (r11)   46.86-  48.55      Preço e cobrança dependem.
+c14 (r12)   48.93-  53.43      E você passa a reunião inteira xingando a porra dos juros, meu querido!
+c15 (r13)   55.39-  57.16 DROP Segundo, encara o fato...
+c16 (r14)   58.13-  60.77      Segundo, encara o fato mais feio,
+c17 (r14)   60.77-  65.89      ele diz que tudo começa por encarar a realidade mais brutal, seja ela qual for.
+c18 (r15)   66.37-  68.08 DROP Faz quanto tempo que você não abre...
+c19 (r16)   68.97-  71.67      Faz quanto tempo que você não abre o extrato com calma?
+c20 (r17)   72.03-  74.73      Não é falta de tempo, pequeno gafanhoto
+c21 (r18)   75.13-  75.90      é medo
+c22 (r18)   75.90-  78.17 DROP e terceiro nunca perda
+c23 (r19)   81.09-  81.73      E terceiro,
+c24 (r20)   82.08-  83.76      Nunca perde a fé no final
+c25 (r20)   83.76-  88.08 DROP Ele diz que nunca duvidou que ia sair de lá E sair mais forte
+c26 (r21)   89.61-  93.97      Ele diz que nunca duvidou que ia sair de lá, e sair mais forte.
+c27 (r22)   94.34-  99.42      Seu time pode ouvir que a coisa tá feia, o que ele não pode é ver você desistindo.
+c28 (r23)   99.98- 100.74 DROP E na virada...
+c29 (r24)  101.40- 102.85      E a virada foi o Natal.
+c30 (r25)  103.31- 107.89      perguntaram quem não aguentou, ele respondeu os otimistas,
+c31 (r25)  107.89- 108.27 DROP o que
+c32 (r26)  108.87- 111.20      Os que diziam, no Natal a gente sai.
+c33 (r27)  111.66- 113.94 DROP O Natal a gente chegava e passava.
+c34 (r28)  117.19- 123.95      "O Natal chegava e passava. Aí, na Páscoa, a gente sai. A Páscoa passava."
+c35 (r29)  124.39- 126.86      e eles morriam de coração partido.
+c36 (r29)  126.86- 130.33      Você prometeu para o seu time que mês que vem melhora, meu amigo?
+c37 (r30)  130.79- 132.77      Mês que vem é o seu Natal.
+c38 (r31)  133.25- 137.98      Se você promete que mês que vem melhora, me segue, porque você é demais.
