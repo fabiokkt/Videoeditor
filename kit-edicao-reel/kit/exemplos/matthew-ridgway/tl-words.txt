@@ -1,0 +1,29 @@
+ 0 GANCHO                 0.00-  5.23 (5.23)  Esse@0.18 cara@0.41 é@0.65 um@0.71 dos@0.87 generais@1.10 mais@1.72 brutos@2.02 e@2.62 mais@2.65 paizões@2.95 dos@3.51 Estados@4.01 Unidos.@4.37
+ 1 PROTOCOLO-POLEMICO     5.23- 10.98 (5.75)  E@5.05 ele@5.05 criou@5.05 um@5.42 protocolo@5.47 polêmico@6.10 pra@6.65 provar@6.93 que@7.40 o@7.53 seu@7.69 time@7.80 não@8.24 tá@8.27 desmotivado.@8.54 Tá@9.49 abandonado.@9.74
+ 2 GRANADA-PIJAMA        10.98- 19.54 (8.55)  Matthew@10.86 andava@11.20 com@11.65 uma@11.96 granada@12.15 no@12.72 peito@12.99 e@13.30 pregou@13.46 na@13.92 parede,@14.10 de@14.66 presente@14.82 pro@15.30 general@15.62 inimigo,@16.06 uma@16.54 calça@16.89 de@17.22 pijama@17.30 rasgada@17.75 na@18.28 bunda.@18.44
+ 3 PROTOCOLO-PALESTRA    19.54- 24.47 (4.94)  E@19.40 esse@19.69 é@19.73 o@19.79 protocolo@19.86 pra@20.49 você@20.73 parar@21.09 de@21.46 pagar@21.68 palestra@22.22 motivacional@22.68 pro@23.59 seu@23.78 time.@23.91
+ 4 P1-LUVA               24.47- 26.81 (2.34)  Primeiro,@24.40 resolve a@25.19 luva.@26.11
+ 5 P1-NEM-RECLAMAVA      26.81- 29.08 (2.27)  O@26.58 soldado@26.88 nem@27.25 reclamava@27.60 mais.@28.24
+ 6 P1-ARRANCAR           29.08- 30.65 (1.57)  Ele@28.73 diz@28.76 que@29.00 teve@29.17 que@29.39 arrancar:@29.56
+ 7 P1-FALTAVA            30.65- 35.07 (4.42)  faltava@30.41 luva,@30.86 comida@31.36 quente@31.98 e@32.41 envelope@32.50 pra@33.11 escrever@33.40 pra@34.08 casa.@34.32
+ 8 P1-RESOLVEU           35.07- 37.52 (2.45)  Resolveu@34.72 antes@35.50 de@35.92 falar@36.05 em@36.51 atacar.@36.66
+ 9 P1-PORRA-BIPE         37.52- 42.64 (5.12)  Seu@37.36 vendedor@37.54 tá@38.02 sem@38.14 computador@38.31 que@38.94 presta,@39.07 e@39.35 você@39.40 manda@39.63 a@39.91 P****@39.95 do@40.25 vídeo@40.36 motivacional,@40.66 meu@41.51 querido.@41.74
+10 P2-FRIO               42.64- 44.63 (1.99)  Segundo,@42.48 aparece@43.11 no@43.67 frio.@43.84
+11 P2-JIPE               44.63- 49.05 (4.43)  Ele@44.51 rodou@44.54 três@45.10 dias@45.34 na@45.88 linha@45.90 de@46.20 frente@46.32 num@46.72 jipe@46.91 aberto,@47.25 na@47.69 neve.@48.01
+12 P2-MESMO-FRIO         49.05- 52.65 (3.59)  Ele@48.94 diz@49.00 que@49.14 o@49.36 soldado@49.40 precisa@49.85 ver@50.31 o@50.54 chefe@50.61 passando@50.94 o@51.51 mesmo@51.86 frio.@51.94
+13 P2-CONVIDADO          52.65- 56.78 (4.14)  Chefe@52.47 que@52.77 só@52.98 aparece@53.07 na@53.48 festa@53.57 de@53.91 fim@53.98 de@54.15 ano@54.27 não@54.49 é@54.73 chefe.@54.81 É@55.39 convidado.@55.57
+14 P3-NOME               56.78- 58.81 (2.03)  E@56.61 terceiro,@56.84 chama@57.49 pelo@57.82 nome.@58.10
+15 P3-CINCO-MIL          58.81- 62.00 (3.19)  Ele@58.71 reconhecia@58.72 uns@59.71 cinco@59.88 mil@60.16 soldados@60.44 de@61.16 cara,@61.35
+16 P3-BOM-TRABALHO       62.00- 65.36 (3.37)  e@61.64 parava@61.77 na@62.20 estrada@62.33 só@62.97 pra@63.08 dizer:@63.34 bom@63.88 trabalho.@64.28
+17 P3-BATALHAO           65.36- 68.44 (3.08)  Ele@65.23 dizia@65.46 que@65.76 isso@65.95 levantava@66.33 um@66.87 batalhão@66.98 inteiro.@67.51
+18 P3-GAFANHOTO          68.44- 72.29 (3.84)  E@68.33 você@68.56 não@68.58 sabe@68.74 nem@69.00 o@69.12 nome@69.15 do@69.36 filho@69.46 do@69.76 seu@69.86 melhor@70.02 vendedor,@70.41 pequeno@70.95 gafanhoto.@71.33
+19 VIRADA-PERGUNTA       72.29- 73.72 (1.43)  E@72.15 a@72.20 virada@72.35 foi@72.57 uma@72.73 pergunta.@72.89
+20 VIRADA-RECUAR         73.72- 76.51 (2.79)  Um@73.60 oficial@73.86 mostrou@74.21 pra@74.69 ele@74.96 um@75.26 plano@75.29 de@75.64 recuar.@75.79
+21 VIRADA-ATAQUE         76.51- 78.61 (2.10)  Ele@76.39 perguntou:@76.44 o@77.22 plano@77.26 de@77.53 ataque?@77.62
+22 VIRADA-GAGUEJOU       78.61- 81.47 (2.86)  O@78.45 cara@78.65 gaguejou:@78.72 senhor,@79.40 a@79.68 gente@79.76 tá@80.09 recuando.@80.23
+23 VIRADA-FORA           81.47- 83.50 (2.03)  Dias@81.30 depois,@81.59 o@82.06 cara@82.12 tava@82.37 fora.@82.63
+24 CLIMAX-CAPITAL        83.50- 87.34 (3.84)  Em@83.40 menos@83.66 de@83.85 três@83.98 meses,@84.25 o@84.79 exército@84.80 que@85.32 fugia@85.51 retomou@86.04 a@86.28 capital.@86.34
+25 FECHO-CORTAR-CUSTO    87.34- 89.77 (2.43)  Sua@87.19 empresa@87.19 tem@87.46 plano@87.47 pra@87.75 cortar@87.98 custo,@88.33 meu@88.72 amigo?@88.89
+26 FECHO-CADE            89.77- 91.23 (1.46)  Cadê@89.65 o@89.74 plano@89.85 de@90.22 ataque?@90.37
+27 CTA-ME-SEGUE          91.23- 96.19 (4.95)  Se@91.08 você@91.35 já@91.51 pagou@91.65 palestra@92.03 motivacional@92.58 pro@93.47 seu@93.70 time,@93.82 me@94.31 segue,@94.32 porque@95.01 você@95.41 é@95.82 demais.@95.87
+TOTAL 96.189

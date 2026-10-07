@@ -612,3 +612,22 @@ imagens; os primeiros segundos e o início, o ideal é manter como era, só com 
 - Apresentador que olha para a câmera o tempo todo (sem leitura): o gancho inteiro fica no split da capa; troca de foto dentro do split em "e mais admirados"
   (3,1 s) para o ritmo (`ritmo.py` acusava 5,2 s sem evento). CTA de palavra-chave não gravado pela 4ª vez seguida. Codex: 1º código aceito.
   Container de 4 núcleos: 13 partes de 431 quadros, 2 em paralelo.
+
+## 32. Otimização de tempo (kit v3.1, medido no reel Matthew Ridgway, 2026-10-07)
+
+Pedido do usuário: o Ridgway levou ~2h05 na nuvem ("teria como otimizar sem perder qualidade?"). Medido pelos horários dos arquivos:
+leitura + setup 6 · fase 1 14 · cortes/bipe 15 · fase 2 12 · camada + 4 rodadas de montar 33 · render 23,5 · entregas 18 · push 4 (min).
+- **Paralelizar trabalho de CPU no container de 4 núcleos quase não ganha.** Fase 1 com o whisper junto com o mezanino: **953 s contra
+  ~850 s em série** (whisper 5,5 → 13,6 min: os dois disputam a CPU). x265 sozinho já usa 330–384% e x264 377–387% dos 4 núcleos.
+  Por isso `fase1.sh` e `work/entregas.sh` só paralelizam com **≥ 8 núcleos e ≥ 12 GB** (Mac Apple Silicon: whisper na GPU, mais
+  núcleos para o x265). A **fase 2** paraleliza com ≥ 12 GB também no container: **578 s em série × 539 s em paralelo** (os medidores
+  de olhar não enchem a CPU enquanto o bake codifica). Air de 8 GB: tudo em série. `PARALELO=0/1` força. **Saídas idênticas byte a
+  byte** ao serial: mezanino (MD5), regiões, palavras, `full-clean.wav`, `segs.json`, `chunks.txt`, `tl-words.txt`, `aroll.mp4`,
+  `voz-mix.m4a`, `gaze/tl.json`, `tl-windows.json`, `pose-windows.json`. Ganho no Mac: **medir no 1º reel** e registrar aqui.
+- **O que ganha na nuvem é tempo de espera e de retrabalho, não de CPU:** fotos primeiro, no processo principal, durante a fase 1, com
+  as ferramentas do §30/§31 (`wmcat.py` / `wmcatlote.py` → `wmfila.py` em fila priorizada) — no Ridgway o subagente de pesquisa levou 40 min
+  e uma rodada de montar foi só para trocar foto provisória (~−10 min); peças prontas de
+  `exemplos/matthew-ridgway/` (~−5 min); fase 2 em paralelo (−40 s); `ambiente-nuvem.sh` no "Script de configuração" do ambiente
+  (−3 min por sessão). Total na nuvem **~19 min** (2h05 → ~1h45); no Mac de ≥ 8 núcleos soma o paralelo da fase 1 e das entregas.
+- **`work/entregas.sh <Nome>` no modelo** (antes cada reel escrevia o seu): bitrates pela duração (final 96 MB com teto de 8 Mbps;
+  chat 28 MB com teto de 3 Mbps), comparação master × final com SSIM. Testado: 12 s → HEVC `hvc1` e H.264 com 720 quadros, SSIM 0,995.

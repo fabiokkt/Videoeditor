@@ -25,6 +25,7 @@ zsh scripts/fase2.sh                      # FUNDO: cortes, J-cut, chunks, legend
 zsh scripts/montar.sh t1,t2,...           # build + bake + SFX + check + snapshots -> LER as imagens
 zsh scripts/render-par.sh <SIZE> renders/<Nome>-reel-final.mp4   # FUNDO, SIZE de size_sweep.py
    conferir quadros do MP4 + bipe + MD5 do bruto -> SendUserFile
+bash work/entregas.sh <Nome>             # FUNDO: copia do chat < 30 MB + HEVC final < 100 MB + comparacao (kit v3.1)
 ```
 
 ## Preferências do usuário (não re-perguntar)
