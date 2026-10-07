@@ -1,0 +1,26 @@
+ 0 GANCHO                 0.00-  5.19 (5.19)  Esse@0.24 cara@0.29 é@0.62 um@0.70 dos@0.87 generais@1.13 mais@1.89 malucos@2.22 e@2.83 mais@2.90 temidos@3.19 dos@3.69 Estados@3.91 Unidos.@4.42
+ 1 PROTOCOLO-POLEMICO     5.19- 10.56 (5.37)  E@5.09 ele@5.09 criou@5.09 um@5.34 protocolo@5.40 polêmico@6.04 pra@6.62 provar@6.85 que@7.16 seu@7.26 comercial@7.40 e@7.86 sua@7.93 operação@8.24 não@8.77 se@9.17 odeiam.@9.44
+ 2 NAO-SE-CONHECEM       10.56- 11.90 (1.34)  Eles@10.45 só@10.47 não@10.61 se@10.80 conhecem.@10.94
+ 3 STANLEY-IRAQUE        11.90- 15.69 (3.79)  Stanley@11.74 comandava@11.96 as@12.55 forças@12.69 especiais@13.09 americanas@13.83 no@14.52 Iraque,@14.69
+ 4 DORMIA-BURGER         15.69- 21.92 (6.23)  dormia@15.57 quatro@16.17 horas,@16.48 comia@17.17 uma@17.62 vez@17.71 por@17.93 dia@18.14 e@18.41 proibiu@18.63 Burger@19.05 King@19.53 pros@19.86 próprios@20.19 soldados.@20.83
+ 5 PROTOCOLO-JUIZ        21.92- 27.65 (5.74)  E@21.80 esse@22.06 é@22.23 o@22.30 protocolo@22.63 pra@23.23 você@23.41 parar@23.63 de@23.93 ser@24.07 juiz@24.24 da@24.68 briga@24.95 entre@25.29 o@25.72 comercial@25.74 e@26.49 a@26.50 operação.@26.57
+ 6 P1-MESMA-REUNIAO      27.65- 30.30 (2.64)  Primeiro,@27.52 todo@28.30 mundo@28.45 na@28.98 mesma@29.14 reunião.@29.53
+ 7 P1-SETE-MIL           30.30- 34.03 (3.74)  Ele@30.16 fazia@30.42 uma@30.67 reunião@30.89 por@31.37 dia@31.60 com@31.83 até@32.17 sete@32.52 mil@32.86 pessoas.@33.22
+ 8 P1-SEPARADO-PERDE     34.03- 37.63 (3.59)  Ele@33.94 diz@33.96 que@34.22 time@34.49 excelente,@34.71 trabalhando@35.30 separado,@35.82 perde.@36.79
+ 9 P1-PROMETENDO-PRAZO   37.63- 41.53 (3.90)  Reunião@37.53 de@38.06 vendas@38.20 sem@38.67 operação@38.95 é@39.55 só@39.73 gente@39.76 prometendo@40.03 prazo.@40.62
+10 P2-EMPRESTA           41.53- 44.08 (2.55)  Segundo,@41.39 empresta@42.05 o@42.72 seu@42.84 melhor.@43.08
+11 P2-SEIS-MESES         44.08- 47.73 (3.64)  Ele@43.96 mandava@44.04 os@44.37 melhores@44.53 passar@44.95 seis@45.45 meses@45.73 em@46.11 outro@46.32 time.@46.86
+12 P2-RIVAL              47.73- 51.55 (3.83)  Ele@47.63 diz@47.70 que@47.83 quem@48.03 trabalha@48.31 do@48.88 lado@49.01 de@49.31 lá@49.41 para@49.97 de@50.03 ver@50.25 rival.@50.60
+13 P2-SEMANA             51.55- 54.47 (2.92)  Seu@51.40 melhor@51.68 vendedor@51.94 passa@52.51 uma@52.77 semana@52.99 na@53.37 operação,@53.50
+14 P2-GAFANHOTO          54.47- 56.81 (2.34)  Não o@54.35 encostado,@54.41 pequeno@55.46 gafanhoto.@55.88
+15 P3-ABRE-TUDO          56.81- 58.74 (1.94)  E@56.65 terceiro,@56.85 abre@57.49 tudo.@57.91
+16 P3-SABER-TUDO         58.74- 63.01 (4.26)  Ele@58.62 diz@58.63 que@58.89 a@59.23 meta@59.24 é@59.59 todo@59.86 mundo@60.06 saber@60.44 tudo,@61.11 o@61.40 tempo@61.64 todo.@62.17
+17 P3-PORRA-BIPE         63.01- 67.63 (4.63)  Seu@62.85 vendedor@63.10 vê@63.62 a@63.76 agenda@63.83 da@64.24 operação@64.39 antes@64.99 de@65.34 prometer@65.44 a@65.82 P****@65.86 do@66.10 prazo,@66.20 meu@66.53 querido.@66.67
+18 VIRADA-QUARTINHO      67.63- 69.70 (2.06)  E@67.50 a@67.57 virada@67.72 foi@68.13 um@68.38 quartinho.@68.54
+19 VIRADA-MADRUGADA      69.70- 74.76 (5.06)  Os@69.60 soldados@69.84 arriscavam@70.17 a@70.74 vida@70.80 de@71.03 madrugada@71.14 pra@71.71 pegar@71.91 papel@72.15 e@72.81 computador@72.85 do@73.63 inimigo.@73.79
+20 VIRADA-NINGUEM-LIA    74.76- 78.14 (3.37)  Ia@74.66 tudo@74.67 ensacado@75.25 pro@75.97 quartinho,@76.15 e@76.85 ninguém@76.86 lia.@77.33
+21 CLIMAX-300            78.14- 84.40 (6.26)  Ele@78.03 juntou@78.08 soldado@78.53 e@79.02 analista,@79.09 e@79.69 as@79.88 operações@79.91 foram@80.58 de@80.95 dezoito@81.09 por@81.58 mês@81.77 pra@82.03 mais@82.43 de@82.84 trezentas.@83.04
+22 FECHO-VENDA-ONTEM     84.40- 87.41 (3.01)  A@84.32 venda@84.38 de@84.72 ontem@84.80 já@85.11 chegou@85.23 na@85.59 sua@85.72 operação,@85.90 meu@86.54 amigo?@86.67
+23 FECHO-SACO            87.41- 88.91 (1.50)  Ou@87.29 tá@87.35 no@87.63 saco?@87.93
+24 CTA-ME-SEGUE          88.91- 93.39 (4.48)  Se@88.75 o@88.93 seu@89.15 comercial@89.28 e@90.07 a@90.13 sua@90.19 operação@90.42 brigam,@90.87 me@91.29 segue,@91.41 porque@91.86 você@92.33 é@92.65 demais.@93.00
+TOTAL 93.39

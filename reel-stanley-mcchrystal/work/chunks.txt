@@ -1,0 +1,26 @@
+ch00 GANCHO               Esse cara é um dos generais mais malucos e mais temidos dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que seu comercial e sua operação não se odeiam.
+ch02 NAO-SE-CONHECEM      Eles só não se conhecem.
+ch03 STANLEY-IRAQUE       Stanley comandava as Forças Especiais Americanas no Iraque,
+ch04 DORMIA-BURGER        Dormia 4 horas, comia uma vez por dia e proibiu Burger King pros próprios soldados.
+ch05 PROTOCOLO-JUIZ       E esse é o protocolo para você parar de ser juiz da briga entre o comercial e a operação.
+ch06 P1-MESMA-REUNIAO     Primeiro... todo mundo na mesma reunião
+ch07 P1-SETE-MIL          ele fazia uma reunião por dia com até 7 mil pessoas
+ch08 P1-SEPARADO-PERDE    Ele diz que time excelente trabalhando separado perde
+ch09 P1-PROMETENDO-PRAZO  Reunião de vendas sem operação é só gente prometendo prazo.
+ch10 P2-EMPRESTA          Segundo, empresta o seu melhor.
+ch11 P2-SEIS-MESES        ele mandava os melhores passar seis meses em outro time.
+ch12 P2-RIVAL             Ele diz que quem trabalha do lado de lá para de ver rival.
+ch13 P2-SEMANA            Se o melhor vendedor passa uma semana na operação,
+ch14 P2-GAFANHOTO         Não encostado, pequeno gafanhoto.
+ch15 P3-ABRE-TUDO         E terceiro, abre tudo.
+ch16 P3-SABER-TUDO        Ele diz que a meta é todo mundo saber tudo o tempo todo.
+ch17 P3-PORRA-BIPE        Seu vendedor vê a agenda da operação antes de prometer a porra do prazo, meu querido.
+ch18 VIRADA-QUARTINHO     e a virada foi um quartinho
+ch19 VIRADA-MADRUGADA     Os soldados arriscavam a vida de madrugada para pegar papel e computador do inimigo.
+ch20 VIRADA-NINGUEM-LIA   ia tudo ensacado pro quartinho, e ninguém lia.
+ch21 CLIMAX-300           Ele juntou o soldado e analista e as operações foram de 18 por mês para mais de 300.
+ch22 FECHO-VENDA-ONTEM    A venda de ontem já chegou na sua operação, meu amigo?
+ch23 FECHO-SACO           ou tá no saco?
+ch24 CTA-ME-SEGUE         Se o seu comercial e a sua operação brigam, me segue, porque você é demais!
+25 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

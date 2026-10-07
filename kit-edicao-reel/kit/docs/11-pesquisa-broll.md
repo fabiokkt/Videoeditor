@@ -61,6 +61,7 @@ marcada "gerada a pedido" no arquivo de pesquisas. O flux errou mãos; o nano-ba
 | `pick.sh <qid> <idx…>` | baixa os escolhidos em `raw/<qid>_<idx>.jpg` e registra em `g_index.json` |
 | `wm.py "consulta" [n]` | busca no Commons → `q/wm_<slug>.json` (título, tamanho, licença) |
 | `wmpick.py <slug> <idx…>` | baixa do Commons e grava a licença em `wm_lic.json` |
+| `wmcat.py "Category:<nome>" [n]` | lista os arquivos de uma CATEGORIA do Commons → `q/wm_<slug>.json` (licença, data, descrição; pagina de 50 em 50) — melhor que a busca por texto (docs/05 §29/§30) |
 | `wmstd.py <largura> <slug>:<idx,…>` | idem, pela miniatura de tamanho padrão montada da URL (sem API por arquivo: não toma 429 no container) |
 | `crawl.py <base> <prefixo> <limite> <saida.json>` | varre um site oficial e lista as imagens |
 | `dl.py <tag> <img> <page> <dom>` | download com UA genérico de Chrome e Referer; converte para JPG |

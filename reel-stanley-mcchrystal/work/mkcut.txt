@@ -1,0 +1,45 @@
+c00 (r00)    0.74-   6.05      Esse cara é um dos generais mais malucos e mais temidos dos Estados Unidos.
+c01 (r00)    6.05-  11.82      E ele criou um protocolo polêmico para provar que seu comercial e sua operação não se odeiam.
+c02 (r01)   12.27-  13.40      Eles só não se conhecem.
+c03 (r02)   13.86-  14.79 DROP Stanley como...
+c04 (r03)   15.61-  19.49      Stanley comandava as Forças Especiais Americanas no Iraque,
+c05 (r04)   19.90-  26.42      Dormia 4 horas, comia uma vez por dia e proibiu Burger King pros próprios soldados.
+c06 (r05)   26.85-  33.11      E esse é o protocolo para você parar de ser juiz da briga entre o comercial e a operação.
+c07 (r05)   33.11-  33.77      Primeiro...
+c08 (r06)   34.15-  36.10      todo mundo na mesma reunião
+c09 (r06)   36.10-  40.30      ele fazia uma reunião por dia com até 7 mil pessoas
+c10 (r06)   40.30-  43.21 DROP ele disse que time excelente trabalhando separado
+c11 (r07)   44.23-  46.71 DROP Ele disse que time excelente trabalhando separado.
+c12 (r08)   47.99-  50.55      Ele diz que time excelente trabalhando separado
+c13 (r09)   51.14-  51.58      perde
+c14 (r10)   52.04-  55.95      Reunião de vendas sem operação é só gente prometendo prazo.
+c15 (r11)   56.51-  59.00      Segundo, empresta o seu melhor.
+c16 (r12)   59.41-  63.06      ele mandava os melhores passar seis meses em outro time.
+c17 (r13)   63.44-  66.54 DROP Ele diz que quem trabalha do lado de lá para de ser...
+c18 (r14)   67.59-  71.48      Ele diz que quem trabalha do lado de lá para de ver rival.
+c19 (r15)   72.58-  74.95 DROP Seu melhor vendedor passa uma semana na...
+c20 (r16)   75.63-  78.55      Se o melhor vendedor passa uma semana na operação,
+c21 (r17)   79.07-  81.32      Não encostado, pequeno gafanhoto.
+c22 (r18)   82.96-  84.78      E terceiro, abre tudo.
+c23 (r19)   85.15-  89.74      Ele diz que a meta é todo mundo saber tudo o tempo todo.
+c24 (r19)   89.74-  92.87 DROP Se o vendedor vê a agenda da operação antiprometer,
+c25 (r20)   95.25- 100.11 DROP Se o vendedor vê a agenda da operação antes de prometer a porra do prazo, meu querido!
+c26 (r21)  101.54- 102.98 DROP Se o vendedor vê a porra...
+c27 (r22)  107.08- 111.39 DROP Seu vendedor vê a agenda da operação antes de prometer prazo.
+c28 (r23)  112.57- 113.80 DROP Se o vendedor vê a...
+c29 (r24)  115.13- 119.94      Seu vendedor vê a agenda da operação antes de prometer a porra do prazo, meu querido.
+c30 (r25)  120.50- 122.45      e a virada foi um quartinho
+c31 (r26)  122.83- 125.12 DROP Os soldados arriscavam a vida de ma...
+c32 (r27)  126.19- 131.41      Os soldados arriscavam a vida de madrugada para pegar papel e computador do inimigo.
+c33 (r28)  131.90- 133.14 DROP Lá, tudo em...
+c34 (r29)  134.79- 135.37 DROP Lá.
+c35 (r30)  136.04- 136.77 DROP E a tudo...
+c36 (r31)  137.66- 141.20      ia tudo ensacado pro quartinho, e ninguém lia.
+c37 (r31)  141.20- 144.11 DROP Ele juntou o soldado e a analista, e a oper...
+c38 (r32)  147.80- 152.88 DROP Ele juntou soldado e analista, e as operações foram de 18 por mês,
+c39 (r33)  153.26- 154.35 DROP pra trezentas
+c40 (r34)  155.47- 161.99      Ele juntou o soldado e analista e as operações foram de 18 por mês para mais de 300.
+c41 (r35)  162.34- 165.41 DROP A venda de ontem já chegou na sua operação...
+c42 (r36)  166.20- 169.17      A venda de ontem já chegou na sua operação, meu amigo?
+c43 (r37)  169.57- 170.87      ou tá no saco?
+c44 (r38)  172.38- 177.70      Se o seu comercial e a sua operação brigam, me segue, porque você é demais!

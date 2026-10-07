@@ -1,0 +1,141 @@
+{
+ "total": 93.39,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    1.0
+   ],
+   "t0": 0.0,
+   "t1": 5.191,
+   "dur": 5.19,
+   "fala": "Esse cara e um dos generais mais malucos e mais temidos dos Estados Unidos.",
+   "tema": "CAPA gerada a pedido (general de costas no corredor, visao noturna, quartinho dos sacos)",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 1,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.97878
+   ],
+   "t0": 5.191,
+   "t1": 10.45,
+   "dur": 5.26,
+   "fala": "E ele criou um protocolo polemico pra provar que seu comercial e sua operacao nao se odeiam.",
+   "tema": "visao noturna no Iraque (soldados, 2004-2006) — nada do Stanley",
+   "cobre": "5,21-5,49 · 7,51-8,33"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 4,
+   "span": [
+    0.10974,
+    1.0
+   ],
+   "t0": 11.81,
+   "t1": 21.918,
+   "dur": 10.11,
+   "fala": "Stanley comandava as forcas especiais americanas no Iraque, dormia quatro horas, comia uma vez por dia e proibiu Burger King pros proprios soldados.",
+   "tema": "REVELACAO: retrato de 2003 + nome → no aviao com o laptop (4 H DE SONO · 1 REFEICAO POR DIA) → MOTION as lanchonetes da base: PROIBIDO",
+   "cobre": "13,34-14,53 · 15,98-16,16 · 18,49-19,22"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 5,
+   "toSeg": 8,
+   "span": [
+    0.35218,
+    1.0
+   ],
+   "t0": 27.45,
+   "t1": 37.626,
+   "dur": 10.18,
+   "fala": "Primeiro, todo mundo na mesma reuniao. Ele fazia uma reuniao por dia com ate sete mil pessoas. Ele diz que time excelente, trabalhando separado, perde.",
+   "tema": "MOTION chip PASSO 1 + titulo → a reuniao diaria: grade de telas + 7.000 → fotos: dois times separados (sala de operacoes × visao noturna) + carimbo PERDE",
+   "cobre": "28,50-29,23 · 30,29-30,61 · 32,48-32,66 · 34,13-34,70"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 9,
+   "toSeg": 12,
+   "span": [
+    0.27098,
+    1.0
+   ],
+   "t0": 41.4,
+   "t1": 51.553,
+   "dur": 10.15,
+   "fala": "Segundo, empresta o seu melhor. Ele mandava os melhores passar seis meses em outro time. Ele diz que quem trabalha do lado de la para de ver rival.",
+   "tema": "MOTION chip PASSO 2 + titulo → foto: um time em roda (6 MESES NO OUTRO TIME) → foto: Stanley agachado com soldados afegaos",
+   "cobre": "42,05-42,87 · 46,00-46,64 · 47,84-48,41 · 50,14-50,44"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 14,
+   "toSeg": 16,
+   "span": [
+    0.26113,
+    1.0
+   ],
+   "t0": 56.7,
+   "t1": 63.007,
+   "dur": 6.31,
+   "fala": "E terceiro, abre tudo. Ele diz que a meta e todo mundo saber tudo, o tempo todo.",
+   "tema": "MOTION chip PASSO 3 + titulo → retrato de 4 estrelas + a frase dele (Stanford GSB)",
+   "cobre": "56,82-58,64"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 18,
+   "span": [
+    0.0,
+    1.0
+   ],
+   "t0": 67.634,
+   "t1": 69.698,
+   "dur": 2.06,
+   "fala": "E a virada foi um quartinho.",
+   "tema": "a capa de volta: a porta do quartinho com os sacos",
+   "cobre": "68,96-69,21"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 19,
+   "toSeg": 21,
+   "span": [
+    0.0,
+    1.0
+   ],
+   "t0": 69.698,
+   "t1": 84.399,
+   "dur": 14.7,
+   "fala": "Os soldados arriscavam a vida de madrugada pra pegar papel e computador do inimigo. Ia tudo ensacado pro quartinho, e ninguem lia. Ele juntou soldado e analista, e as operacoes foram de dezoito por mes pra mais de trezentas.",
+   "tema": "fotos: incursao noturna (visao noturna) → MOTION o quartinho: os sacos caem e empilham, NINGUEM LIA → foto: Stanley e o chefe de inteligencia na mesa (SOLDADO + ANALISTA) → CLIMAX barras 18 → 300+",
+   "cobre": "69,97-70,76 · 72,64-73,25 · 76,80-77,13 · 79,29-79,54 · 80,47-84,14"
+  }
+ ]
+}
