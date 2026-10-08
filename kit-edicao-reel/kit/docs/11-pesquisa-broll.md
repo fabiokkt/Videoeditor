@@ -67,6 +67,8 @@ marcada "gerada a pedido" no arquivo de pesquisas. O flux errou mãos; o nano-ba
 | `wmcatlote.py q/wm_<slug>.json "Category:A" …` | várias categorias de uma vez honrando o `retry-after` do 429 (1 chamada por categoria + 1 por lote de 50) — docs/05 §31 |
 | `nasa.py "consulta" [n]` · `nasadesc.py <id…>` · `nasadl.py <id…>` | **tema da NASA:** busca na NASA Image and Video Library (`images-api.nasa.gov`, fonte primária, domínio público), descrição completa (data, nomes) e download do `~orig.jpg` → `nasa/<id>.jpg` + `licencas.tsv`. Sem 429: 16 fotos em ~2 min (docs/05 §33) |
 | `wmfila.py <slug> <idx,…>` | baixa a fila priorizada na largura padrão 1920/1280/960 com espera crescente (429) — docs/05 §31 |
+| `wmq.py "sub:Category:X" "wp:Titulo" "texto"` | subcategorias, imagem da página da Wikipedia e busca por texto em arquivos, honrando o `retry-after` → `q/wmq.json` (docs/05 §34) |
+| `wmtitles.py q/wm_<slug>.json titulos.txt` | metadados (licença, data, autor) de uma lista de títulos, em lotes de 50 → formato do `wmfila.py` (docs/05 §34) |
 | `crawl.py <base> <prefixo> <limite> <saida.json>` | varre um site oficial e lista as imagens |
 | `dl.py <tag> <img> <page> <dom>` | download com UA genérico de Chrome e Referer; converte para JPG |
 | `sheet.py <saida.jpg> <glob…>` | folha de miniaturas rotuladas para escolher |

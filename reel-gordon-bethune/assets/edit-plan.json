@@ -1,0 +1,368 @@
+{
+ "_nota": "Reel Gordon Bethune — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/gordon-bethune-2560-sdr.mp4",
+ "voiceSrc": "assets/gordon-bethune-voz.m4a",
+ "segments": [
+  {
+   "in": 1.48,
+   "out": 7.59,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 7.26
+  },
+  {
+   "in": 7.51,
+   "out": 12.95,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 12.62
+  },
+  {
+   "in": 12.77,
+   "out": 14.69,
+   "label": "FAZ-O-QUE-PAGA",
+   "chunk": 2,
+   "aout": 14.36
+  },
+  {
+   "in": 14.57,
+   "out": 15.678,
+   "label": "GORDON",
+   "chunk": 3,
+   "aout": 15.348
+  },
+  {
+   "in": 15.348,
+   "out": 22.67,
+   "label": "PIOR-COMPANHIA",
+   "chunk": 4,
+   "aout": 22.34
+  },
+  {
+   "in": 22.59,
+   "out": 27.91,
+   "label": "PROTOCOLO-BESTEIRA",
+   "chunk": 5,
+   "aout": 27.58
+  },
+  {
+   "in": 31.67,
+   "out": 35.25,
+   "label": "P1-PREMIA",
+   "chunk": 6,
+   "aout": 34.92
+  },
+  {
+   "in": 37.93,
+   "out": 41.99,
+   "label": "P1-MEDE-PREMIA",
+   "chunk": 7,
+   "aout": 41.66
+  },
+  {
+   "in": 45.09,
+   "out": 47.81,
+   "label": "P1-COMISSAO",
+   "chunk": 8,
+   "aout": 47.48
+  },
+  {
+   "in": 47.61,
+   "out": 50.89,
+   "label": "P1-VENDEDOR",
+   "chunk": 9,
+   "aout": 50.56
+  },
+  {
+   "in": 53.57,
+   "out": 57.23,
+   "label": "P1-PORRA-BIPE",
+   "chunk": 10,
+   "aout": 56.9
+  },
+  {
+   "in": 57.27,
+   "out": 58.41,
+   "label": "P2-SEGUNDO",
+   "chunk": 11,
+   "aout": 58.08
+  },
+  {
+   "in": 58.13,
+   "out": 60.31,
+   "label": "P2-GANHA-JUNTO",
+   "chunk": 12,
+   "aout": 59.98
+  },
+  {
+   "in": 60.19,
+   "out": 64.51,
+   "label": "P2-MESMO-NUMERO",
+   "chunk": 13,
+   "aout": 64.18
+  },
+  {
+   "in": 68.57,
+   "out": 72.99,
+   "label": "P2-COMERCIAL",
+   "chunk": 14,
+   "aout": 72.66
+  },
+  {
+   "in": 72.91,
+   "out": 75.37,
+   "label": "P2-BRIGANDO",
+   "chunk": 15,
+   "aout": 75.04
+  },
+  {
+   "in": 75.35,
+   "out": 76.59,
+   "label": "P3-TERCEIRO",
+   "chunk": 16,
+   "aout": 76.26
+  },
+  {
+   "in": 76.37,
+   "out": 78.09,
+   "label": "P3-QUEIMA",
+   "chunk": 17,
+   "aout": 77.76
+  },
+  {
+   "in": 77.89,
+   "out": 82.527,
+   "label": "P3-CERTO",
+   "chunk": 18,
+   "aout": 82.197
+  },
+  {
+   "in": 82.197,
+   "out": 83.97,
+   "label": "P3-MANUAL",
+   "chunk": 19,
+   "aout": 83.64
+  },
+  {
+   "in": 83.91,
+   "out": 87.19,
+   "label": "P3-POLITICA",
+   "chunk": 20,
+   "aout": 86.86
+  },
+  {
+   "in": 87.15,
+   "out": 90.01,
+   "label": "P3-GAFANHOTO",
+   "chunk": 21,
+   "aout": 89.68
+  },
+  {
+   "in": 90.67,
+   "out": 93.77,
+   "label": "VIRADA-AR",
+   "chunk": 22,
+   "aout": 93.44
+  },
+  {
+   "in": 93.45,
+   "out": 97.67,
+   "label": "VIRADA-PILOTO",
+   "chunk": 23,
+   "aout": 97.34
+  },
+  {
+   "in": 97.39,
+   "out": 100.27,
+   "label": "VIRADA-DESLIGAVA",
+   "chunk": 24,
+   "aout": 99.94
+  },
+  {
+   "in": 100.09,
+   "out": 102.85,
+   "label": "VIRADA-SUADO",
+   "chunk": 25,
+   "aout": 102.52
+  },
+  {
+   "in": 110.85,
+   "out": 116.13,
+   "label": "VIRADA-TROCOU",
+   "chunk": 26,
+   "aout": 115.8
+  },
+  {
+   "in": 115.83,
+   "out": 119.85,
+   "label": "VIRADA-PONTUAIS",
+   "chunk": 27,
+   "aout": 119.52
+  },
+  {
+   "in": 119.65,
+   "out": 122.79,
+   "label": "CLIMAX-MELHOR",
+   "chunk": 28,
+   "aout": 122.46
+  },
+  {
+   "in": 122.73,
+   "out": 125.37,
+   "label": "FECHO-BESTEIRA",
+   "chunk": 29,
+   "aout": 125.04
+  },
+  {
+   "in": 125.13,
+   "out": 127.67,
+   "label": "FECHO-PAGANDO",
+   "chunk": 30,
+   "aout": 127.34
+  },
+  {
+   "in": 128.77,
+   "out": 129.967,
+   "label": "CTA-SE-VOCE",
+   "chunk": 31,
+   "aout": 129.637
+  },
+  {
+   "in": 129.637,
+   "out": 132.47,
+   "label": "CTA-PAGA",
+   "chunk": 32,
+   "aout": 132.14
+  },
+  {
+   "in": 132.15,
+   "out": 135.17,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 33,
+   "aout": 134.84
+  },
+  {
+   "in": 136.25,
+   "out": 141.25,
+   "label": "CTA-PERGUNTA",
+   "chunk": 34,
+   "aout": 141.25
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 21,
+   "name": "PASSO 3 -> VIRADA (o ar-condicionado)"
+  },
+  {
+   "afterSegment": 27,
+   "name": "VIRADA -> CLIMAX (a pior virou a melhor)"
+  },
+  {
+   "afterSegment": 30,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.9991
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 21,
+   "toSeg": 23,
+   "span": [
+    0.2752,
+    0.57685
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "faz o que voce paga",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "FAZ O QUE",
+    "VOCÊ PAGA."
+   ],
+   "hold": 0.2
+  },
+  {
+   "phrase": "pra fazer besteira",
+   "seg": 5,
+   "lines": [
+    "PRA FAZER",
+    "BESTEIRA."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "calote fica com voce",
+   "seg": 10,
+   "lines": [
+    "O CALOTE FICA",
+    "COM VOCÊ."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "quem escreveu foi voce",
+   "seg": 21,
+   "lines": [
+    "QUEM ESCREVEU",
+    "FOI VOCÊ."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "olha o que voce ta pagando",
+   "seg": 30,
+   "lines": [
+    "OLHA O QUE",
+    "VOCÊ TÁ PAGANDO."
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 385,
+ "ctaSeg": 31,
+ "_splitShiftY": "385 medido: olhos (FaceMesh 33/133/362/263) a y~993 no mezanino em 12 pontos das janelas de split (0-5,55 e 61,5-64,0) -> zoom 1,06/1,14: 992/990 -> 1377-992 = 385 (work/olhos_y.py).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

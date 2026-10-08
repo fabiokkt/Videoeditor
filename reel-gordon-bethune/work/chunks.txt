@@ -1,0 +1,36 @@
+ch00 GANCHO               Esse cara é um dos chefes mais boca suja e mais amado dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que o seu time não faz o que você pede.
+ch02 FAZ-O-QUE-PAGA       Faz o que você paga.
+ch03 GORDON               Gordon...
+ch04 PIOR-COMPANHIA       Pegou a pior companhia aérea do país, que já tinha falido duas vezes, e tacou fogo no manual da empresa.
+ch05 PROTOCOLO-BESTEIRA   E esse é o protocolo para você parar de pagar seu time para fazer besteira.
+ch06 P1-PREMIA            Primeiro, premia o que importa para o cliente,
+ch07 P1-MEDE-PREMIA       Ele diz que o que você mede e premia é o que você recebe.
+ch08 P1-COMISSAO          paga comissão só por venda fechada
+ch09 P1-VENDEDOR          Seu vendedor vende até para quem não paga.
+ch10 P1-PORRA-BIPE        E a porra do calote fica com você, meu querido.
+ch11 P2-SEGUNDO           Segundo,
+ch12 P2-GANHA-JUNTO       Todo mundo ganha junto.
+ch13 P2-MESMO-NUMERO      Ele diz que o time inteiro ganha ou perde pelo mesmo número.
+ch14 P2-COMERCIAL         Seu comercial ganha por venda e seu financeiro ganha por corte de custo,
+ch15 P2-BRIGANDO          vão passar o ano brigando.
+ch16 P3-TERCEIRO          E terceiro
+ch17 P3-QUEIMA            Queimo manual.
+ch18 P3-CERTO             Ele mandou o time fazer o que é certo para o cliente e para a empresa,
+ch19 P3-MANUAL            não o que está no manual.
+ch20 P3-POLITICA          Se o atendente fala "é política da empresa",
+ch21 P3-GAFANHOTO         Quem escreveu foi você, pequeno gafanhoto.
+ch22 VIRADA-AR            E a virada foi o ar condicionado.
+ch23 VIRADA-PILOTO        O piloto ganhava bônus para economizar combustível.
+ch24 VIRADA-DESLIGAVA     Ele desligava o ar e voava devagar.
+ch25 VIRADA-SUADO         o passageiro chegava suado e atrasado
+ch26 VIRADA-TROCOU        Gordon trocou esse bônus por 75 dólares para todo mundo.
+ch27 VIRADA-PONTUAIS      todo mês que a empresa ficasse entre as mais pontuais.
+ch28 CLIMAX-MELHOR        Um ano depois, a pior virou a melhor.
+ch29 FECHO-BESTEIRA       Seu time já fez besteira, meu amigo?
+ch30 FECHO-PAGANDO        Olha o que você está pagando.
+ch31 CTA-SE-VOCE          Se você
+ch32 CTA-PAGA             paga para o seu time fazer besteira.
+ch33 CTA-ME-SEGUE         Me segue, porque você é demais.
+ch34 CTA-PERGUNTA         E comenta aqui embaixo qual a regra de comissão mais absurda que você já viu.
+35 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

@@ -1,0 +1,38 @@
+r00 [  1.68 ->   7.29]  Esse cara é um dos chefes mais boca suja e mais amado dos Estados Unidos.
+r01 [  7.72 ->  12.48]  E ele criou um protocolo polêmico para provar que o seu time não faz o que você pede.
+r02 [ 12.96 ->  14.29]  Faz o que você paga.
+r03 [ 14.74 ->  15.20]  Gordon...
+r04 [ 15.56 ->  22.30]  Pegou a pior companhia aérea do país, que já tinha falido duas vezes, e tacou fogo no manual da empresa.
+r05 [ 22.79 ->  27.45]  E esse é o protocolo para você parar de pagar seu time para fazer besteira.
+r06 [ 29.36 ->  30.68]  Primeiro, premia que...
+r07 [ 31.88 ->  36.97]  Primeiro, premia o que importa para o cliente, ele diz que o que você mede
+r08 [ 38.16 ->  41.53]  Ele diz que o que você mede e premia é o que você recebe.
+r09 [ 42.32 ->  44.14]  Paga comissão só por venda...
+r10 [ 45.31 ->  47.33]  paga comissão só por venda fechada
+r11 [ 47.76 ->  50.48]  Seu vendedor vende até para quem não paga.
+r12 [ 52.42 ->  53.31]  E porra do ca...
+r13 [ 53.79 ->  56.79]  E a porra do calote fica com você, meu querido.
+r14 [ 57.42 ->  57.95]  Segundo,
+r15 [ 58.35 ->  59.92]  Todo mundo ganha junto.
+r16 [ 60.38 ->  64.07]  Ele diz que o time inteiro ganha ou perde pelo mesmo número.
+r17 [ 64.54 ->  67.53]  Seu comercial ganha por venda, seu financeiro ganha por...
+r18 [ 68.73 ->  74.95]  Seu comercial ganha por venda e seu financeiro ganha por corte de custo, vão passar o ano brigando.
+r19 [ 75.50 ->  76.12]  E terceiro
+r20 [ 76.57 ->  77.66]  Queimo manual.
+r21 [ 78.09 ->  83.53]  Ele mandou o time fazer o que é certo para o cliente e para a empresa, não o que está no manual.
+r22 [ 83.88 ->  86.73]  Se o atendente fala "é política da empresa",
+r23 [ 87.37 ->  89.55]  Quem escreveu foi você, pequeno gafanhoto.
+r24 [ 90.85 ->  99.81]  E a virada foi o ar condicionado. O piloto ganhava bônus para economizar combustível. Ele desligava o ar e voava devagar.
+r25 [100.25 -> 104.31]  o passageiro chegava suado e atrasado Gordon trocou
+r26 [105.34 -> 107.33]  Gordon trocou esse bônus
+r27 [107.73 -> 109.80]  por 75 dólares para...
+r28 [111.04 -> 115.69]  Gordon trocou esse bônus por 75 dólares para todo mundo.
+r29 [116.05 -> 119.39]  todo mês que a empresa ficasse entre as mais pontuais.
+r30 [119.85 -> 122.33]  Um ano depois, a pior virou a melhor.
+r31 [122.89 -> 124.92]  Seu time já fez besteira, meu amigo?
+r32 [125.37 -> 127.27]  Olha o que você está pagando.
+r33 [128.92 -> 129.51]  Se você
+r34 [129.86 -> 134.74]  paga para o seu time fazer besteira. Me segue, porque você é demais.
+r35 [136.41 -> 141.16]  E comenta aqui embaixo qual a regra de comissão mais absurda que você já viu.
+
+36 regioes transcritas

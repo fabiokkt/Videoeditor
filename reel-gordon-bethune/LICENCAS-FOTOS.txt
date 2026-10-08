@@ -1,0 +1,17 @@
+Fotos de arquivo do reel Gordon Bethune (Wikimedia Commons; nenhuma de banco de imagem). Credito obrigatorio nas CC BY / CC BY-SA / GFDL.
+Nao existe foto livre do Gordon Bethune no Commons nem na Wikipedia: a revelacao e o Boeing 777 da Continental batizado com o nome dele
+("Gordon M. Bethune" pintado no nariz, N78001) + a etiqueta de nome (docs/05 §26).
+A capa (capa-gordon.jpg) e o detalhe dela (capa-fogo.jpg) sao GERADOS A PEDIDO no Codex (conta ChatGPT do Fabio, login de dispositivo;
+logout no fim): work/capa/prompt.txt. Sem texto, rosto, logotipo ou pintura de companhia.
+Baixadas como miniatura padrao do Commons (1920 / 1280 / 960 px).
+
+gordon-777.jpg — Boeing 777-224ER N78001 da Continental batizado "Gordon M. Bethune", Frankfurt, mai/2008 — CC BY 2.0, Kambui — https://commons.wikimedia.org/wiki/File:Continental_Airlines_Boeing_777-224-ER_N78001_%22Gordon_M._Bethune%22_(30275654123).jpg
+continental-727-1994.jpg — Boeing 727 N511PE da Continental, Miami, mar/1994 — CC BY 2.0, Simon Butler — https://commons.wikimedia.org/wiki/File:MIAMI_MARCH_1994_CONTINENTAL_AIRLINES_BOEING_727_N511PE_(16200764018).jpg
+continental-737-1994.jpg — Boeing 737-300 N14346 da Continental, Cleveland, out/1994 — CC BY-SA 2.0, G B_NZ — https://commons.wikimedia.org/wiki/File:Continental_Airlines_B737-300_N14346_at_CLE_(15950350667).jpg
+hangar-iah.jpg — hangar da Continental no aeroporto Bush Intercontinental, Houston — Public domain, WhisperToMe — https://commons.wikimedia.org/wiki/File:ContientalHangarIAH0.JPG
+tripulacao.jpg — comissarias da Continental com os passageiros do voo fretado (a tripulacao do EP-3 voltando para casa), 12 abr 2001 — Public domain (DoD), SSgt John A. Giles, USMC — https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_010412-M-1589G-018.jpg
+a300-miami-1994.jpg — Airbus A300 N13971 da Continental decolando, Miami, mar/1994 — CC BY 2.0, Simon Butler — https://commons.wikimedia.org/wiki/File:MIAMI_MARCH_1994_CONTINENTAL_AIRLINES_AIRBUS_A300_N13971_(16362422786).jpg
+cabine-767.jpg — os pilotos na cabine de um Boeing 767-400ER da Continental — GFDL 1.2, Ken Iwelumo — https://commons.wikimedia.org/wiki/File:Continental_Airlines_Boeing_767-400ER_flight_deck.jpg
+cabine-767-b.jpg — idem, outro angulo (sem marca visivel; usado antes de "Gordon") — GFDL 1.2, Ken Iwelumo — https://commons.wikimedia.org/wiki/File:Continental_Airlines_Boeing_767-424ER_flight_deck.jpg
+cabine-passageiros.jpg — passageiros na cabine de um Boeing 777 da Continental, Narita, 2007 — Public domain, WhisperToMe — https://commons.wikimedia.org/wiki/File:ContinentalB777InteriorNarita.JPG
+dc10-1996.jpg — DC-10 da Continental, aeroporto de Oita, 1996 — CC BY-SA 4.0, Project Kei — https://commons.wikimedia.org/wiki/File:Continental_Airlines_DC10_at_Oita_Airport_1996.jpg

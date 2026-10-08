@@ -1,0 +1,43 @@
+c00 (r00)    1.68-   7.29      Esse cara é um dos chefes mais boca suja e mais amado dos Estados Unidos.
+c01 (r01)    7.72-  12.48      E ele criou um protocolo polêmico para provar que o seu time não faz o que você pede.
+c02 (r02)   12.96-  14.29      Faz o que você paga.
+c03 (r03)   14.74-  15.20      Gordon...
+c04 (r04)   15.56-  22.30      Pegou a pior companhia aérea do país, que já tinha falido duas vezes, e tacou fogo no manual da empresa.
+c05 (r05)   22.79-  27.45      E esse é o protocolo para você parar de pagar seu time para fazer besteira.
+c06 (r06)   29.36-  30.68 DROP Primeiro, premia que...
+c07 (r07)   31.88-  34.97      Primeiro, premia o que importa para o cliente,
+c08 (r07)   34.97-  36.97 DROP ele diz que o que você mede
+c09 (r08)   38.16-  41.53      Ele diz que o que você mede e premia é o que você recebe.
+c10 (r09)   42.32-  44.14 DROP Paga comissão só por venda...
+c11 (r10)   45.31-  47.33      paga comissão só por venda fechada
+c12 (r11)   47.76-  50.48      Seu vendedor vende até para quem não paga.
+c13 (r12)   52.42-  53.31 DROP E porra do ca...
+c14 (r13)   53.79-  56.79      E a porra do calote fica com você, meu querido.
+c15 (r14)   57.42-  57.95      Segundo,
+c16 (r15)   58.35-  59.92      Todo mundo ganha junto.
+c17 (r16)   60.38-  64.07      Ele diz que o time inteiro ganha ou perde pelo mesmo número.
+c18 (r17)   64.54-  67.53 DROP Seu comercial ganha por venda, seu financeiro ganha por...
+c19 (r18)   68.73-  72.78      Seu comercial ganha por venda e seu financeiro ganha por corte de custo,
+c20 (r18)   72.78-  74.95      vão passar o ano brigando.
+c21 (r19)   75.50-  76.12      E terceiro
+c22 (r20)   76.57-  77.66      Queimo manual.
+c23 (r21)   78.09-  82.22      Ele mandou o time fazer o que é certo para o cliente e para a empresa,
+c24 (r21)   82.22-  83.53      não o que está no manual.
+c25 (r22)   83.88-  86.73      Se o atendente fala "é política da empresa",
+c26 (r23)   87.37-  89.55      Quem escreveu foi você, pequeno gafanhoto.
+c27 (r24)   90.85-  93.45      E a virada foi o ar condicionado.
+c28 (r24)   93.45-  97.38      O piloto ganhava bônus para economizar combustível.
+c29 (r24)   97.38-  99.81      Ele desligava o ar e voava devagar.
+c30 (r25)  100.25- 102.69      o passageiro chegava suado e atrasado
+c31 (r25)  102.69- 104.31 DROP Gordon trocou
+c32 (r26)  105.34- 107.33 DROP Gordon trocou esse bônus
+c33 (r27)  107.73- 109.80 DROP por 75 dólares para...
+c34 (r28)  111.04- 115.69      Gordon trocou esse bônus por 75 dólares para todo mundo.
+c35 (r29)  116.05- 119.39      todo mês que a empresa ficasse entre as mais pontuais.
+c36 (r30)  119.85- 122.33      Um ano depois, a pior virou a melhor.
+c37 (r31)  122.89- 124.92      Seu time já fez besteira, meu amigo?
+c38 (r32)  125.37- 127.27      Olha o que você está pagando.
+c39 (r33)  128.92- 129.51      Se você
+c40 (r34)  129.86- 132.18      paga para o seu time fazer besteira.
+c41 (r34)  132.18- 134.74      Me segue, porque você é demais.
+c42 (r35)  136.41- 141.16      E comenta aqui embaixo qual a regra de comissão mais absurda que você já viu.

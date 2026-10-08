@@ -1,0 +1,36 @@
+ 0 GANCHO                 0.00-  5.55 (5.55)  Esse@0.18 cara@0.19 é@0.56 um@0.65 dos@0.85 chefes@1.13 mais@1.72 boca-suja@2.16 e@3.00 mais@3.15 amados@3.61 dos@4.24 Estados@4.40 Unidos.@4.79
+ 1 PROTOCOLO-POLEMICO     5.55- 10.20 (4.64)  E@5.44 ele@5.67 criou@5.68 um@5.96 protocolo@6.08 polêmico@6.68 pra@7.14 provar@7.31 que@7.63 o@7.77 seu@7.84 time@8.03 não@8.45 faz@8.55 o@8.79 que@8.85 você@9.12 pede.@9.43
+ 2 FAZ-O-QUE-PAGA        10.20- 11.64 (1.45)  Faz@10.08 o@10.09 que@10.18 você@10.48 paga.@10.93
+ 3 GORDON                11.64- 12.35 (0.71)  Gordon@11.49
+ 4 PIOR-COMPANHIA        12.35- 18.71 (6.36)  pegou@12.23 a@12.36 pior@12.46 companhia@12.69 aérea@13.27 do@13.59 país,@13.74 que@14.32 já@14.39 tinha@14.52 falido@14.88 duas@15.38 vezes.@15.58 E@16.32 tacou@16.34 fogo@16.92 no@17.39 manual@17.46 da@17.82 empresa.@17.94
+ 5 PROTOCOLO-BESTEIRA    18.71- 23.24 (4.54)  E@18.57 esse@18.85 é@18.87 o@18.93 protocolo@18.99 pra@19.61 você@19.78 parar@20.05 de@20.36 pagar@20.57 seu@20.98 time@21.23 pra@21.57 fazer@21.87 besteira.@22.23
+ 6 P1-PREMIA             23.24- 26.20 (2.96)  Primeiro,@23.13 premia@23.79 o@24.19 que@24.29 importa@24.45 pro@24.93 cliente,@25.21
+ 7 P1-MEDE-PREMIA        26.20- 29.59 (3.39)  Ele@26.10 diz@26.13 que@26.31 o@26.53 que@26.58 você@26.79 mede@27.06 e@27.33 premia@27.42 é@27.93 o@28.00 que@28.00 você@28.21 recebe.@28.50
+ 8 P1-COMISSAO           29.59- 31.76 (2.17)  Paga@29.49 comissão@29.75 só@30.25 por@30.38 venda@30.57 fechada?@30.89
+ 9 P1-VENDEDOR           31.76- 34.45 (2.68)  Seu@31.59 vendedor@31.83 vende@32.37 até@32.73 pra@33.02 quem@33.23 não@33.52 paga.@33.80
+10 P1-PORRA-BIPE         34.45- 37.47 (3.03)  E@34.34 a@34.52 P****@34.49 do@34.95 calote@35.12 fica@35.67 com@36.00 você,@36.17 meu@36.53 querido.@36.66
+11 P2-SEGUNDO            37.47- 38.21 (0.74)  Segundo,@37.30
+12 P2-GANHA-JUNTO        38.21- 39.89 (1.68)  todo@38.11 mundo@38.13 ganha@38.51 junto.@38.92
+13 P2-MESMO-NUMERO       39.89- 43.52 (3.63)  Ele@39.75 diz@39.97 que@40.07 o@40.27 time@40.29 inteiro@40.52 ganha@40.92 ou@41.31 perde@41.40 pelo@41.94 mesmo@42.19 número.@42.61
+14 P2-COMERCIAL          43.52- 47.23 (3.72)  Seu@43.36 comercial@43.63 ganha@44.04 por@44.33 venda@44.49 e@44.79 seu@44.84 financeiro@45.00 ganha@45.53 por@45.79 corte@45.95 de@46.21 custo?@46.32
+15 P2-BRIGANDO           47.23- 49.17 (1.94)  Vão@47.06 passar@47.35 o@47.96 ano@48.05 brigando.@48.38
+16 P3-TERCEIRO           49.17- 50.00 (0.83)  E@49.00 terceiro,@49.14
+17 P3-QUEIMA             50.00- 51.26 (1.26)  queima o@49.86 manual.@50.19
+18 P3-CERTO              51.26- 55.18 (3.91)  Ele@51.14 mandou@51.22 o@51.53 time@51.58 fazer@51.83 o@52.18 que@52.20 é@52.45 certo@52.46 pro@52.78 cliente@53.09 e@53.65 pra@53.70 empresa,@53.98
+19 P3-MANUAL             55.18- 56.49 (1.31)  não@55.04 o@55.06 que@55.11 tá@55.36 no@55.64 manual.@55.75
+20 P3-POLITICA           56.49- 59.17 (2.68)  Seu@56.33 atendente@56.53 fala@57.09 “é@57.37 política@57.70 da@58.10 empresa”?@58.25
+21 P3-GAFANHOTO          59.17- 61.47 (2.30)  Quem@59.07 escreveu@59.10 foi@59.52 você,@59.69 pequeno@60.05 gafanhoto.@60.48
+22 VIRADA-AR             61.47- 63.99 (2.52)  E@61.34 a@61.49 virada@61.81 foi@62.61 o@63.09 ar-condicionado.@63.25
+23 VIRADA-PILOTO         63.99- 67.53 (3.54)  O@63.82 piloto@64.09 ganhava@64.31 bônus@64.80 pra@65.27 economizar@65.50 combustível.@66.40
+24 VIRADA-DESLIGAVA      67.53- 69.84 (2.32)  Ele@67.35 desligava@67.61 o@68.24 ar@68.31 e@68.45 voava@68.52 devagar.@68.89
+25 VIRADA-SUADO          69.84- 72.05 (2.21)  O@69.67 passageiro@69.86 chegava@70.21 suado@70.58 e@70.81 atrasado.@70.88
+26 VIRADA-TROCOU         72.05- 76.55 (4.50)  Gordon@71.92 trocou@72.16 esse@72.68 bônus@73.05 por@73.49 setenta e cinco@73.86 dólares@74.27 pra@74.84 todo@75.16 mundo,@75.65
+27 VIRADA-PONTUAIS       76.55- 79.91 (3.35)  todo@76.45 mês@76.45 que@76.64 a@76.88 empresa@76.88 ficasse@77.31 entre@77.77 as@78.30 mais@78.40 pontuais.@78.75
+28 CLIMAX-MELHOR         79.91- 82.46 (2.56)  Um@79.79 ano@80.02 depois,@80.16 a@80.81 pior@80.83 virou@81.11 a@81.49 melhor.@81.56
+29 FECHO-BESTEIRA        82.46- 84.56 (2.10)  Seu@82.31 time@82.62 já@82.71 fez@82.83 besteira,@83.00 meu@83.59 amigo?@83.77
+30 FECHO-PAGANDO         84.56- 86.57 (2.01)  Olha@84.21 o@84.23 que@84.33 você@84.60 tá@84.99 pagando.@85.54
+31 CTA-SE-VOCE           86.57- 87.36 (0.79)  Se@86.40 você@86.47
+32 CTA-PAGA              87.36- 89.63 (2.28)  paga@87.26 pro@87.53 seu@87.87 time@88.11 fazer@88.39 besteira,@88.70
+33 CTA-ME-SEGUE          89.63- 92.08 (2.44)  me@89.48 segue,@89.77 porque@89.98 você@90.51 é@90.96 demais.@91.08
+34 CTA-PERGUNTA          92.08- 96.32 (4.25)  E@91.91 comenta@91.97 aqui@92.35 embaixo:@92.63 qual@93.11 a@93.32 regra@93.35 de@93.70 comissão@93.83 mais@94.43 absurda@94.83 que@95.54 você@95.70 já@95.93 viu?@96.04
+TOTAL 96.324

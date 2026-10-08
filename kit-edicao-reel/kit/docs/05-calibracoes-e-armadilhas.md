@@ -648,3 +648,24 @@ leitura + setup 6 · fase 1 14 · cortes/bipe 15 · fase 2 12 · camada + 4 roda
 - Roteiro sem CTA de palavra-chave (controle do teste do usuário: "sem palavra-chave falada e sem pergunta no fim"): nada a procurar no bruto; avisar na entrega.
 - Codex: 1º código aceito em ~2 min; capa em ~70 s. Container de 4 núcleos: 13 partes de 431 quadros, 2 em paralelo.
 
+## 34. Número falado errado, quase-homófono no CTA e pessoa-tema sem retrato (reel Gordon Bethune, 2026-10-07)
+
+- **O apresentador pode falar um NÚMERO diferente do roteiro e do fato** ("setenta e cinco dólares"; o roteiro e a fonte dizem US$ 65). O whisper ouviu 75
+  nos dois takes e o espectro confirmou: entre o "se" e o "enta" há oclusão de /t/ (vale sem agudos, ~0,13 s) e nenhum /s/ (sibilante = energia > 4 kHz). Regra
+  do usuário: vale o áudio na legenda ("setenta e cinco"); **na camada de motion o valor não aparece** (a nota de dólar sem número) para não pôr um fato errado
+  na tela; avisar na entrega e no comentário do ClickUp. Ferramenta: envelope de 10 ms com fração de energia > 4 kHz (sibilante) e < 400 Hz (nasal).
+- **"me conta" × "comenta" é quase-homófono e o roteiro dependia da diferença** (a pergunta do fim foi escrita SEM "comenta" por causa da regra do Instagram).
+  Decidir pela ordem dos sons: "comenta" = /k/ (explosão) → vogal → /m/ (nasal) → vogal → /t/; "me conta" = /m/ → vogal → /k/ → /õ/ → /t/. Aqui deu "comenta":
+  legenda com o áudio, card da pergunta com cabeçalho neutro ("E VOCÊ?"), aviso na entrega.
+- **Pessoa-tema sem retrato livre e sem objeto famoso**: procurar o que leva o NOME dela. O 777 da Continental batizado "Gordon M. Bethune" (nome pintado no nariz)
+  virou a revelação, com o anel (`.mark`) no nome e o Ken Burns no CONTAINER (o anel escala junto, §29).
+- **Foto horizontal de 1280 px ou menos em tela cheia fica mole** (o 9:16 amplia 2,25x): `fit()` no `gen.py` = a foto inteira na largura sobre ela mesma desfocada,
+  com as etiquetas abaixo da foto. Usado na cabine (960 px) e no 727 de 1994 (1280 px).
+- **Commons sem categoria da pessoa**: `work/pesq/wmq.py` (novo no modelo; subcategorias, imagem da Wikipedia e busca por texto em arquivos, honrando o
+  `retry-after`) e `work/pesq/wmtitles.py` (novo; metadados de uma lista de títulos em lotes de 50 → mesmo formato do `wmcatlote.py`, para o `wmfila.py`).
+  Busca por "<empresa> <ano>" (ex.: "Continental Airlines 1994") devolveu a frota da época com data; desta vez o 429 cedeu em minutos (20 fotos em ~10 min).
+- Link do iCloud recém-criado veio vazio de novo (§33): o `ic.py` num laço de 20 s baixou na 11ª tentativa (~4 min, 450 MB).
+- **GSAP 3 não anima `className`**: para "acender" ícones, sobrepor uma camada colorida e animar `autoAlpha` dela.
+- **CTA longo com o apresentador sozinho**: o `ritmo.py` acusou 5,4 s sem evento entre o leak do CTA e a pergunta; entrou o botão "Seguir" em "me segue" e o grifo
+  das palavras na pergunta escrita (sem mexer no corte).
+- Login do Codex: o usuário não digitou os primeiros códigos; o `cxlogin.sh` em laço + push de cada código novo, com a capa em substituta e o render seguindo.

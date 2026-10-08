@@ -1,0 +1,158 @@
+{
+ "total": 96.324,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.9991
+   ],
+   "t0": 0.0,
+   "t1": 5.55,
+   "dur": 5.55,
+   "fala": "Esse cara é um dos chefes mais boca-suja e mais amados dos Estados Unidos.",
+   "tema": "CAPA gerada a pedido (o manual pegando fogo no estacionamento, homem de terno de costas) → detalhe do manual queimando",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.54412,
+    1.0
+   ],
+   "t0": 5.55,
+   "t1": 10.2,
+   "dur": 4.65,
+   "fala": "E ele criou um protocolo polêmico pra provar que o seu time não faz o que você pede.",
+   "tema": "foto: os pilotos de costas na cabine (sem marca) → a capa em tela cheia",
+   "cobre": "7,82–8,19"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 5,
+   "span": [
+    0.10426,
+    0.65241
+   ],
+   "t0": 11.56,
+   "t1": 18.71,
+   "dur": 7.15,
+   "fala": "Gordon pegou a pior companhia aérea do país, que já tinha falido duas vezes. E tacou fogo no manual da empresa.",
+   "tema": "REVELAÇÃO: o 777 batizado “Gordon M. Bethune” + nome → Miami, 1994 (A PIOR DO PAÍS) → FALÊNCIA 1983 / 1990 → o manual pegando fogo (capa)",
+   "cobre": "17,40–17,59"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 5,
+   "toSeg": 10,
+   "span": [
+    0.24153,
+    0.83895
+   ],
+   "t0": 23.24,
+   "t1": 34.45,
+   "dur": 11.21,
+   "fala": "Primeiro, premia o que importa pro cliente. Ele diz que o que você mede e premia é o que você recebe. Paga comissão só por venda fechada? Seu vendedor vende até pra quem não paga.",
+   "tema": "MOTION chip PASSO 1 + título → a frase dele sobre a frota de 1994 → MOTION comissão por venda × o cliente que não paga",
+   "cobre": "30,97–31,76"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 10,
+   "toSeg": 14,
+   "span": [
+    0.23651,
+    0.99961
+   ],
+   "t0": 37.47,
+   "t1": 47.23,
+   "dur": 9.76,
+   "fala": "Segundo, todo mundo ganha junto. Ele diz que o time inteiro ganha ou perde pelo mesmo número. Seu comercial ganha por venda e seu financeiro ganha por corte de custo?",
+   "tema": "MOTION chip PASSO 2 + título → foto: o hangar da Continental em Houston → MOTION COMERCIAL × FINANCEIRO",
+   "cobre": "38,30–39,22 · 44,88–46,67"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 15,
+   "toSeg": 20,
+   "span": [
+    0.16211,
+    0.99992
+   ],
+   "t0": 49.17,
+   "t1": 59.17,
+   "dur": 10.0,
+   "fala": "E terceiro, queima o manual. Ele mandou o time fazer o que é certo pro cliente e pra empresa, não o que tá no manual. Seu atendente fala “é política da empresa”?",
+   "tema": "MOTION chip PASSO 3 + título → foto: a tripulação da Continental → MOTION o manual riscado → “É POLÍTICA DA EMPRESA.”",
+   "cobre": "49,89–50,15 · 52,34–52,52 · 56,76–57,40"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "split",
+   "fromSeg": 21,
+   "toSeg": 23,
+   "span": [
+    0.2752,
+    0.57685
+   ],
+   "t0": 61.47,
+   "t1": 63.99,
+   "dur": 2.52,
+   "fala": "E a virada foi o ar-condicionado.",
+   "tema": "foto: o A300 da Continental no calor de Miami, 1994",
+   "cobre": "—"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 23,
+   "toSeg": 28,
+   "span": [
+    5e-05,
+    0.86185
+   ],
+   "t0": 63.99,
+   "t1": 79.91,
+   "dur": 15.92,
+   "fala": "O piloto ganhava bônus pra economizar combustível. Ele desligava o ar e voava devagar. O passageiro chegava suado e atrasado. Gordon trocou esse bônus por setenta e cinco dólares pra todo mundo, todo mês que a empresa ficasse entre as mais pontuais.",
+   "tema": "foto: os pilotos → MOTION o painel (AR DESLIGADO, DEVAGAR) → foto: os passageiros (SUADO, ATRASADO) → MOTION o bônus antigo × o novo (PRA TODO MUNDO) → MOTION o ranking de pontualidade",
+   "cobre": "68,36–68,60 · 70,46–71,04"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 28,
+   "toSeg": 28,
+   "span": [
+    0.00117,
+    0.99922
+   ],
+   "t0": 79.91,
+   "t1": 82.46,
+   "dur": 2.55,
+   "fala": "Um ano depois, a pior virou a melhor.",
+   "tema": "CLÍMAX: um DC-10 da Continental em 1996 + 1996 · COMPANHIA AÉREA DO ANO",
+   "cobre": "—"
+  }
+ ]
+}
