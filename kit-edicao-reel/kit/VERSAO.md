@@ -1,5 +1,11 @@
 # Versões do kit
 
+## v3.1.1 — 2026-10-07 · NASA como fonte primária (reel Gene Kranz)
+
+- `work/pesq/nasa.py` / `nasadesc.py` / `nasadl.py` novos no modelo: busca, descrição e download direto da NASA Image and Video Library (domínio público,
+  sem 429) — tema da NASA não depende mais da fila do Commons (docs/05 §33, docs/11).
+- docs/05 §33: link do iCloud que ainda está subindo (vazio por minutos), revelação que cobre a olhada antes do nome, janelas das cenas em `work/mg/tempos.py`.
+
 ## v3.1 — 2026-10-07 · otimização de tempo medida (reel Matthew Ridgway)
 
 Pedido: "teria como otimizar esse tempo sem perder qualidade?" (Ridgway: ~2h05 na nuvem). Tudo testado no bruto do Ridgway com

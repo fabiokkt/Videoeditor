@@ -1,0 +1,21 @@
+Fotos de arquivo do reel Gene Kranz — fonte primaria: NASA Image and Video Library (images.nasa.gov / images-api.nasa.gov).
+Todas DOMINIO PUBLICO (material produzido pela NASA; nenhuma de banco, nenhuma marca d'agua). Baixadas na versao ~orig da propria NASA.
+Nada de foto do filme "Apollo 13", do Ed Harris nem do incendio da Apollo 1 (pedido na secao "Capa" da tarefa; vale tambem para o corpo).
+A capa (capa-gene-kranz.jpg) e GERADA A PEDIDO no Codex (conta ChatGPT do Fabio, login de dispositivo; logout logo depois): work/capa/prompt.txt.
+
+capa-gene-kranz.jpg — GERADA A PEDIDO (Codex): homem de costas, colete branco, cabelo raspado, sala de controle no escuro, telas verdes, alarme vermelho. Sem texto, rosto ou logotipo.
+sala-gemini-1965.jpg — S65-30410: a sala de controle de Houston nas primeiras horas da Gemini 4, 3 jun 1965 (recortada embaixo: sem a bolsa com o logo) — NASA, dominio publico — https://images.nasa.gov/details/s65-30410
+time-apollo13-console-1970.jpg — S70-35014: controladores em volta do console do Glynn Lunney, Apollo 13, 15 abr 1970 — NASA, dominio publico — https://images.nasa.gov/details/S70-35014
+time-apollo13-monitor-1970.jpg — S70-34986: astronautas e controladores no console durante a Apollo 13, 14 abr 1970 — NASA, dominio publico — https://images.nasa.gov/details/s70-34986
+kranz-colete-1972.jpg — S72-35188: o diretor de voo Eugene F. Kranz no console (de colete), manha do lancamento da Apollo 16, 16 abr 1972 — NASA, dominio publico — https://images.nasa.gov/details/s72-35188
+sala-apollo11-1969.jpg — S69-40301: a sala de controle no fim da Apollo 11, 24 jul 1969 — NASA, dominio publico — https://images.nasa.gov/details/S69-40301
+aldrin-lua-1969.jpg — AS11-40-5902: Buzz Aldrin na superficie da Lua, 20 jul 1969 — NASA, dominio publico — https://images.nasa.gov/details/as11-40-5902
+nave-012-fabrica-1967.jpg — S67-15704: a nave 012 (Apollo 1) na montagem, 3 jan 1967 — NASA, dominio publico — https://images.nasa.gov/details/S67-15704
+nave-012-pad34-1967.jpg — S67-17042: a nave 012 icada no Pad 34 (missao 204 / Apollo 1), jan 1967 — NASA, dominio publico — https://images.nasa.gov/details/S67-17042
+kranz-console-1965.jpg — S65-22203: Kranz no console de diretor de voo, simulacao da Gemini 4, abr 1965 — NASA, dominio publico — https://images.nasa.gov/details/s65-22203
+crise-apollo13-1970.jpg — S70-35369: discussao na sala no ultimo dia da Apollo 13 (Lunney, Griffin, McDivitt, Slayton), 16 abr 1970 — NASA, dominio publico — https://images.nasa.gov/details/S70-35369
+kranz-imprensa-1966.jpg — S66-32629: Kranz (3o da esquerda) com Berry, Slayton, Mathews e outros, 1966 — NASA, dominio publico — https://images.nasa.gov/details/S66-32629
+tripulacao-apollo1-1966.jpg — S66-30236: White, Grissom e Chaffee, tripulacao da Apollo 1, 1966 — NASA, dominio publico — https://images.nasa.gov/details/S66-30236
+modulo-servico-apollo13-1970.jpg — 7010516: o modulo de servico da Apollo 13 sem o painel (explosao do tanque de oxigenio), 17 abr 1970 — NASA/MSFC, dominio publico — https://images.nasa.gov/details/7010516
+sala-apollo13-kranz-costas-1970.jpg — S70-35139: Kranz (primeiro plano, de costas) olhando o telao na 4a transmissao de TV da Apollo 13, 13 abr 1970 — NASA, dominio publico — https://images.nasa.gov/details/S70-35139
+tripulacao-apollo13-viva-1970.jpg — S70-35614: Haise, Lovell e Swigert descem no USS Iwo Jima depois do resgate, 17 abr 1970 — NASA, dominio publico — https://images.nasa.gov/details/S70-35614

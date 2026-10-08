@@ -1,0 +1,29 @@
+ 0 GANCHO                 0.00-  4.86 (4.86)  Esse@0.26 cara@0.33 é@0.65 um@0.73 dos@0.92 chefes@1.14 mais@1.62 frios@1.95 e@2.38 mais@2.46 temidos@2.85 da@3.31 história@3.43 da@3.90 NASA.@4.01
+ 1 PROMESSA               4.86-  9.38 (4.52)  E@4.75 ele@5.00 criou@5.02 um@5.29 protocolo@5.43 polêmico@6.08 pra@6.55 provar@6.74 que@7.10 o@7.18 seu@7.23 time@7.42 não@7.61 esconde@7.75 problema@8.10 de@8.50 você.@8.60
+ 2 FOI-VOCE               9.38- 11.01 (1.63)  Foi@9.30 você@9.53 que@9.62 ensinou@9.75 ele@10.06 a@10.20 esconder.@10.23
+ 3 GENE-COLETE           11.01- 15.09 (4.08)  Gene@10.85 usava@11.39 um@11.80 colete@11.93 branco@12.39 costurado@12.88 pela@13.37 esposa@13.67 em@13.97 toda@14.00 missão.@14.24
+ 4 COMANDAVA-LUA         15.09- 18.37 (3.28)  E@14.94 comandava@15.16 a@15.67 sala@15.84 no@16.05 dia@16.20 que@16.48 o@16.65 homem@16.71 pousou@17.09 na@17.54 Lua.@17.69
+ 5 PROTOCOLO             18.37- 22.64 (4.26)  E@18.25 esse@18.51 é@18.55 o@18.58 protocolo@18.63 pra@19.15 você@19.39 descobrir@19.58 o@20.09 problema@20.14 antes@20.63 dele@20.95 explodir@21.21 na@21.73 sua@21.85 mão.@22.05
+ 6 P1-PRESSA             22.64- 25.32 (2.68)  Primeiro,@22.50 pressa@23.27 não@23.76 é@23.96 desculpa.@24.06
+ 7 P1-PRAZO              25.32- 30.47 (5.16)  Ele@25.18 diz@25.26 que@25.36 o@25.54 time@25.67 correu@25.83 tanto@26.17 pra@26.46 bater@26.69 o@26.97 prazo@27.11 que@27.39 parou@27.73 de@27.94 ver@28.07 os@28.28 problemas@28.45 de@29.04 todo@29.36 dia.@29.51
+ 8 P1-SEXTA              30.47- 34.01 (3.54)  Você@30.34 promete@30.36 entrega@30.82 pra@31.28 sexta@31.55 sabendo@31.90 que@32.38 não@32.50 dá,@32.68 e@32.83 reza.@33.13
+ 9 P1-ROLETA             34.01- 36.87 (2.86)  Isso@33.91 não@33.92 é@34.14 meta,@34.22 meu@34.69 querido.@34.93 É@35.80 roleta.@35.82
+10 P2-QUIETO             36.87- 39.77 (2.90)  Segundo,@36.65 ficar@37.68 quieto@37.99 também@38.48 é@38.95 erro.@39.03
+11 P2-DURO               39.77- 45.00 (5.23)  Ele@39.66 diz@39.68 que@39.98 ser@40.27 duro@40.56 é@41.04 responder@41.05 pelo@41.68 que@41.96 você@42.17 faz@42.45 e@42.67 pelo@42.86 que@43.07 você@43.30 deixa@43.61 de@44.03 fazer.@44.17
+12 P2-NINGUEM            45.00- 46.85 (1.84)  Ninguém@44.90 no@45.26 seu@45.36 time@45.52 te@45.73 avisa@45.82 de@46.08 nada?@46.18
+13 P2-PERGUNTA           46.85- 49.40 (2.56)  Pergunta@46.75 o@47.05 que@47.11 você@47.29 fez@47.61 com@47.76 o@47.92 último@47.97 que@48.30 avisou.@48.53
+14 P3-CHUTA              49.40- 51.23 (1.83)  E@49.25 terceiro,@49.45 não@50.04 chuta.@50.21
+15 P3-RESOLVER           51.23- 55.73 (4.50)  Deu@51.07 problema,@51.36 ele@51.82 falou:@52.06 vamos@52.77 resolver,@52.91 mas@53.74 sem@53.89 piorar@54.14 chutando.@54.74
+16 P3-DESCOBRE           55.73- 58.32 (2.59)  Primeiro@55.57 descobre@55.75 o@56.18 que@56.23 aconteceu,@56.36 depois@56.93 mexe.@57.46
+17 P3-GAFANHOTO          58.32- 61.64 (3.32)  Quem@58.20 chuta@58.34 desesperado@58.74 é@59.68 você,@59.73 pequeno@60.07 gafanhoto.@60.57
+18 VIRADA-SEGUNDA        61.64- 64.08 (2.44)  E@61.54 a@61.61 virada@61.79 foi@62.15 numa@62.52 segunda-feira.@62.67
+19 VIRADA-1967           64.08- 70.13 (6.05)  Em@63.96 1967,@64.22 três@65.11 astronautas@65.40 morreram@66.23 num@66.81 incêndio@67.03 na@67.67 nave,@67.85 num@68.20 teste@68.46 no@68.89 chão.@69.10
+20 VIRADA-VIA            70.13- 72.72 (2.59)  Todo@70.03 mundo@70.42 via@70.56 problema.@70.74 Ninguém@71.23 parou.@71.85
+21 VIRADA-PORRA-BIPE     72.72- 77.20 (4.48)  Ele@72.62 juntou@72.68 o@73.07 time@73.11 e@73.40 disse,@73.47 nenhum@74.21 de@74.39 nós@74.52 levantou@74.71 e@75.24 gritou:@75.32 P****,@75.51 para!@76.34
+22 CULPA                 77.20- 78.62 (1.42)  A@77.10 culpa@77.34 é@77.94 nossa.@78.03
+23 CLIMAX-APOLLO13       78.62- 82.21 (3.58)  Três@78.27 anos@78.42 depois,@78.58 a@78.96 Apollo@78.99 13@79.51 explodiu@80.01 a@80.64 caminho@80.72 da@81.33 Lua.@81.59
+24 MESMA-SALA            82.21- 84.31 (2.10)  Mesma@82.09 sala,@82.40 mesmo@82.99 chefe.@83.40
+25 VIVOS                 84.31- 86.14 (1.83)  Os@84.17 três@84.22 voltaram@84.55 vivos.@85.26
+26 FECHO-PERGUNTA        86.14- 89.40 (3.26)  Seu@85.96 time@86.25 tá@86.43 vendo@86.56 alguma@86.90 coisa,@87.31 meu@87.78 amigo.@87.92 Pergunta.@88.41
+27 CTA-ME-SEGUE          89.40- 93.25 (3.84)  Se@89.25 o seu@89.56 time@89.60 parou@89.87 de@90.21 te@90.41 avisar,@90.51 me@91.09 segue,@91.25 porque@91.83 você@92.34 é@92.64 demais.@92.82
+TOTAL 93.246

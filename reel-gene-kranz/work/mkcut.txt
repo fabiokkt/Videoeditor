@@ -1,0 +1,42 @@
+c00 (r00)    0.79-   5.40      Esse cara é um dos chefes mais frios e mais temidos da história da NASA.
+c01 (r01)    5.83-  10.48      e ele criou um protocolo polêmico para provar que o seu time não esconde problema de você.
+c02 (r02)   11.09-  12.56      Foi você que ensinou ele a esconder.
+c03 (r03)   13.18-  17.38      Jeannie usava um colete branco costurado pela esposa em toda a missão.
+c04 (r04)   17.80-  20.09 DROP e comandava a sala no dia de o homem...
+c05 (r05)   21.06-  24.38      E comandava a sala no dia que o homem pousou na lua.
+c06 (r06)   27.96-  32.33      E esse é o protocolo para você descobrir o problema antes dele explodir na sua mão.
+c07 (r07)   35.46-  35.95      Primeiro,
+c08 (r08)   36.40-  38.08      pressa não é desculpa
+c09 (r09)   38.44-  43.76      Ele diz que o time correu tanto para bater o prazo que parou de ver os problemas de todo dia.
+c10 (r10)   44.39-  47.97      Você promete e entrega para a cesta sabendo que não dá e reza.
+c11 (r11)   50.29-  53.16      Isso não é meta, meu querido. É roleta.
+c12 (r12)   56.34-  59.32      Segundo, ficar quieto também é erro.
+c13 (r13)   59.68-  65.10      Ele diz que ser duro é responder pelo que você faz e pelo que você deixa de fazer.
+c14 (r14)   65.54-  67.20      Ninguém no seu time te avisa de nada
+c15 (r15)   67.77-  70.22      pergunte o que você fez com o último que avisou
+c16 (r16)   72.02-  73.73      E terceiro, não chuta.
+c17 (r17)   74.12-  78.77      Deu problema? Ele falou, vamos resolver, mas sem piorar chutando.
+c18 (r18)   79.22-  81.85      Primeiro descobre o que aconteceu, depois mexe.
+c19 (r19)   82.29-  84.78 DROP Quem chuta desesperado é você, pequeno agaf...
+c20 (r20)   86.44-  89.88 DROP Quem chuta desesperado é você, pequeno gafanhoto.
+c21 (r21)   91.06-  94.36      Quem juta desesperado é você, pequeno gafanhoto.
+c22 (r22)   94.82-  97.34      E a virada foi numa segunda-feira.
+c23 (r22)   97.34- 103.82      Em 1967, três astronautas morreram num incêndio na nave num teste no chão.
+c24 (r23)  104.19- 106.96      Todo mundo via problema Ninguém parou
+c25 (r24)  107.33- 108.62 DROP Ele juntou o time e disse...
+c26 (r25)  109.02- 111.48 DROP Nenhum de nós levantou e gritou, porra...
+c27 (r26)  112.80- 117.44      Ele juntou o time e disse, nenhum de nós levantou e gritou, porra, para!
+c28 (r27)  118.10- 119.02 DROP A culpa é nossa.
+c29 (r28)  119.38- 123.31 DROP Três anos depois, a Apolo 13 explodiu a caminho da Lua.
+c30 (r29)  123.78- 125.61 DROP Mesma sala, mesmo chefe.
+c31 (r30)  127.23- 128.98 DROP Os três voltaram vivos.
+c32 (r31)  129.44- 131.20 DROP Seu time tá vendo alguma coisa...
+c33 (r32)  133.84- 135.50 DROP A culpa é nossa.
+c34 (r33)  136.05- 137.57 DROP Três anos depois, o ap...
+c35 (r34)  139.30- 140.66      A culpa é nossa!
+c36 (r34)  140.66- 144.45      Três anos depois, a Apolo 13 explodiu a caminho da Lua.
+c37 (r35)  144.90- 146.91      Mesma sala, mesmo chefe.
+c38 (r36)  147.36- 149.04      Os três voltaram vivos.
+c39 (r37)  149.50- 151.64      Seu time tá vendo alguma coisa, meu amigo.
+c40 (r38)  151.99- 152.83      Pergunta.
+c41 (r39)  153.48- 157.86      Se seu time parou de te avisar, me segue, porque você é demais.

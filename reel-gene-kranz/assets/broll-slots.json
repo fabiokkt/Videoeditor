@@ -1,0 +1,158 @@
+{
+ "total": 93.246,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.99918
+   ],
+   "t0": 0.0,
+   "t1": 4.86,
+   "dur": 4.86,
+   "fala": "Esse cara é um dos chefes mais frios e mais temidos da história da NASA.",
+   "tema": "CAPA gerada a pedido (homem de costas, colete branco, sala de controle no escuro, alarme vermelho) → a sala de controle de Houston, 1965",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.51801,
+    0.99979
+   ],
+   "t0": 4.86,
+   "t1": 9.38,
+   "dur": 4.52,
+   "fala": "E ele criou um protocolo polêmico pra provar que o seu time não esconde problema de você.",
+   "tema": "fotos: o time da Apollo 13 em volta do console (abr/1970) → controladores e astronautas no console",
+   "cobre": "—"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 4,
+   "span": [
+    0.10878,
+    0.99967
+   ],
+   "t0": 10.36,
+   "t1": 18.37,
+   "dur": 8.01,
+   "fala": "Gene usava um colete branco costurado pela esposa em toda missão, e comandava a sala no dia que o homem pousou na Lua.",
+   "tema": "REVELAÇÃO: Kranz de colete branco no console (1972) + nome + anel no colete → a sala da Apollo 11 → Aldrin na Lua",
+   "cobre": "—"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 5,
+   "toSeg": 9,
+   "span": [
+    0.22307,
+    0.92573
+   ],
+   "t0": 22.5,
+   "t1": 35.5,
+   "dur": 13.0,
+   "fala": "Primeiro, pressa não é desculpa. Ele diz que o time correu tanto pra bater o prazo que parou de ver os problemas de todo dia. Você promete entrega pra sexta sabendo que não dá, e reza.",
+   "tema": "MOTION chip PASSO 1 + título → foto: a nave da Apollo 1 na montagem (jan/1967) → MOTION a semana com a sexta marcada (NÃO DÁ)",
+   "cobre": "—"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 9,
+   "toSeg": 12,
+   "span": [
+    0.20333,
+    0.99252
+   ],
+   "t0": 36.62,
+   "t1": 46.75,
+   "dur": 10.13,
+   "fala": "Segundo, ficar quieto também é erro. Ele diz que ser duro é responder pelo que você faz e pelo que você deixa de fazer. Ninguém no seu time te avisa de nada?",
+   "tema": "MOTION chip PASSO 2 + título → foto: Kranz no console (1965) + O QUE FAZ / O QUE DEIXA DE FAZER → MOTION avisos do time: 0",
+   "cobre": "—"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 13,
+   "toSeg": 16,
+   "span": [
+    0.20954,
+    0.98963
+   ],
+   "t0": 49.25,
+   "t1": 58.2,
+   "dur": 8.95,
+   "fala": "E terceiro, não chuta. Deu problema, ele falou: vamos resolver, mas sem piorar chutando. Primeiro descobre o que aconteceu, depois mexe.",
+   "tema": "MOTION chip PASSO 3 + título → foto: a sala na crise da Apollo 13 + a fala do Kranz → MOTION lista 1 DESCOBRE / 2 MEXE",
+   "cobre": "—"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 18,
+   "span": [
+    0.00123,
+    0.47566
+   ],
+   "t0": 61.64,
+   "t1": 62.8,
+   "dur": 1.16,
+   "fala": "E a virada foi numa segunda-feira.",
+   "tema": "foto: Kranz na mesa de imprensa (1966)",
+   "cobre": "—"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 18,
+   "toSeg": 21,
+   "span": [
+    0.07473,
+    0.71214
+   ],
+   "t0": 62.8,
+   "t1": 72.72,
+   "dur": 9.92,
+   "fala": "Em 1967, três astronautas morreram num incêndio na nave, num teste no chão. Todo mundo via problema. Ninguém parou.",
+   "tema": "foto: a tripulação da Apollo 1 (Grissom, White, Chaffee) → a nave no Pad 34 (jan/1967) → MOTION problemas: VISTO / VISTO / VISTO · ALGUÉM PAROU? NINGUÉM",
+   "cobre": "—"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 22,
+   "toSeg": 26,
+   "span": [
+    0.11638,
+    0.73273
+   ],
+   "t0": 78.62,
+   "t1": 86.14,
+   "dur": 7.52,
+   "fala": "Três anos depois, a Apollo 13 explodiu a caminho da Lua. Mesma sala, mesmo chefe. Os três voltaram vivos.",
+   "tema": "CLÍMAX: o módulo de serviço da Apollo 13 sem o painel → Kranz de costas na sala (13 abr 1970) → a tripulação viva no USS Iwo Jima",
+   "cobre": "—"
+  }
+ ]
+}

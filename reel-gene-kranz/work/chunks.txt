@@ -1,0 +1,29 @@
+ch00 GANCHO               Esse cara é um dos chefes mais frios e mais temidos da história da NASA.
+ch01 PROMESSA             e ele criou um protocolo polêmico para provar que o seu time não esconde problema de você.
+ch02 FOI-VOCE             Foi você que ensinou ele a esconder.
+ch03 GENE-COLETE          Jeannie usava um colete branco costurado pela esposa em toda a missão.
+ch04 COMANDAVA-LUA        E comandava a sala no dia que o homem pousou na lua.
+ch05 PROTOCOLO            E esse é o protocolo para você descobrir o problema antes dele explodir na sua mão.
+ch06 P1-PRESSA            Primeiro, pressa não é desculpa
+ch07 P1-PRAZO             Ele diz que o time correu tanto para bater o prazo que parou de ver os problemas de todo dia.
+ch08 P1-SEXTA             Você promete e entrega para a cesta sabendo que não dá e reza.
+ch09 P1-ROLETA            Isso não é meta, meu querido. É roleta.
+ch10 P2-QUIETO            Segundo, ficar quieto também é erro.
+ch11 P2-DURO              Ele diz que ser duro é responder pelo que você faz e pelo que você deixa de fazer.
+ch12 P2-NINGUEM           Ninguém no seu time te avisa de nada
+ch13 P2-PERGUNTA          pergunte o que você fez com o último que avisou
+ch14 P3-CHUTA             E terceiro, não chuta.
+ch15 P3-RESOLVER          Deu problema? Ele falou, vamos resolver, mas sem piorar chutando.
+ch16 P3-DESCOBRE          Primeiro descobre o que aconteceu, depois mexe.
+ch17 P3-GAFANHOTO         Quem juta desesperado é você, pequeno gafanhoto.
+ch18 VIRADA-SEGUNDA       E a virada foi numa segunda-feira.
+ch19 VIRADA-1967          Em 1967, três astronautas morreram num incêndio na nave num teste no chão.
+ch20 VIRADA-VIA           Todo mundo via problema Ninguém parou
+ch21 VIRADA-PORRA-BIPE    Ele juntou o time e disse, nenhum de nós levantou e gritou, porra, para!
+ch22 CULPA                A culpa é nossa!
+ch23 CLIMAX-APOLLO13      Três anos depois, a Apolo 13 explodiu a caminho da Lua.
+ch24 MESMA-SALA           Mesma sala, mesmo chefe.
+ch25 VIVOS                Os três voltaram vivos.
+ch26 FECHO-PERGUNTA       Seu time tá vendo alguma coisa, meu amigo. Pergunta.
+ch27 CTA-ME-SEGUE         Se seu time parou de te avisar, me segue, porque você é demais.
+28 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

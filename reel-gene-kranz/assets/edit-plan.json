@@ -1,0 +1,317 @@
+{
+ "_nota": "Reel Gene Kranz — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/gene-kranz-2560-sdr.mp4",
+ "voiceSrc": "assets/gene-kranz-voz.m4a",
+ "segments": [
+  {
+   "in": 0.5,
+   "out": 5.85,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.52
+  },
+  {
+   "in": 5.63,
+   "out": 10.93,
+   "label": "PROMESSA",
+   "chunk": 1,
+   "aout": 10.6
+  },
+  {
+   "in": 10.85,
+   "out": 12.97,
+   "label": "FOI-VOCE",
+   "chunk": 2,
+   "aout": 12.64
+  },
+  {
+   "in": 13.01,
+   "out": 17.83,
+   "label": "GENE-COLETE",
+   "chunk": 3,
+   "aout": 17.5
+  },
+  {
+   "in": 20.89,
+   "out": 24.83,
+   "label": "COMANDAVA-LUA",
+   "chunk": 4,
+   "aout": 24.5
+  },
+  {
+   "in": 27.75,
+   "out": 32.77,
+   "label": "PROTOCOLO",
+   "chunk": 5,
+   "aout": 32.44
+  },
+  {
+   "in": 35.27,
+   "out": 38.55,
+   "label": "P1-PRESSA",
+   "chunk": 6,
+   "aout": 38.22
+  },
+  {
+   "in": 38.25,
+   "out": 44.25,
+   "label": "P1-PRAZO",
+   "chunk": 7,
+   "aout": 43.92
+  },
+  {
+   "in": 44.21,
+   "out": 48.43,
+   "label": "P1-SEXTA",
+   "chunk": 8,
+   "aout": 48.1
+  },
+  {
+   "in": 50.13,
+   "out": 53.61,
+   "label": "P1-ROLETA",
+   "chunk": 9,
+   "aout": 53.28
+  },
+  {
+   "in": 56.25,
+   "out": 59.77,
+   "label": "P2-QUIETO",
+   "chunk": 10,
+   "aout": 59.44
+  },
+  {
+   "in": 59.47,
+   "out": 65.55,
+   "label": "P2-DURO",
+   "chunk": 11,
+   "aout": 65.22
+  },
+  {
+   "in": 65.31,
+   "out": 67.67,
+   "label": "P2-NINGUEM",
+   "chunk": 12,
+   "aout": 67.34
+  },
+  {
+   "in": 67.53,
+   "out": 70.67,
+   "label": "P2-PERGUNTA",
+   "chunk": 13,
+   "aout": 70.34
+  },
+  {
+   "in": 71.85,
+   "out": 74.19,
+   "label": "P3-CHUTA",
+   "chunk": 14,
+   "aout": 73.86
+  },
+  {
+   "in": 73.95,
+   "out": 79.23,
+   "label": "P3-RESOLVER",
+   "chunk": 15,
+   "aout": 78.9
+  },
+  {
+   "in": 79.05,
+   "out": 82.23,
+   "label": "P3-DESCOBRE",
+   "chunk": 16,
+   "aout": 81.9
+  },
+  {
+   "in": 90.85,
+   "out": 94.83,
+   "label": "P3-GAFANHOTO",
+   "chunk": 17,
+   "aout": 94.5
+  },
+  {
+   "in": 94.59,
+   "out": 97.61,
+   "label": "VIRADA-SEGUNDA",
+   "chunk": 18,
+   "aout": 97.28
+  },
+  {
+   "in": 97.31,
+   "out": 104.29,
+   "label": "VIRADA-1967",
+   "chunk": 19,
+   "aout": 103.96
+  },
+  {
+   "in": 104.23,
+   "out": 107.41,
+   "label": "VIRADA-VIA",
+   "chunk": 20,
+   "aout": 107.08
+  },
+  {
+   "in": 112.57,
+   "out": 117.83,
+   "label": "VIRADA-PORRA-BIPE",
+   "chunk": 21,
+   "aout": 117.5
+  },
+  {
+   "in": 139.07,
+   "out": 140.967,
+   "label": "CULPA",
+   "chunk": 22,
+   "aout": 140.637
+  },
+  {
+   "in": 140.637,
+   "out": 144.91,
+   "label": "CLIMAX-APOLLO13",
+   "chunk": 23,
+   "aout": 144.58
+  },
+  {
+   "in": 144.69,
+   "out": 147.33,
+   "label": "MESMA-SALA",
+   "chunk": 24,
+   "aout": 147.0
+  },
+  {
+   "in": 147.17,
+   "out": 149.51,
+   "label": "VIVOS",
+   "chunk": 25,
+   "aout": 149.18
+  },
+  {
+   "in": 149.35,
+   "out": 153.27,
+   "label": "FECHO-PERGUNTA",
+   "chunk": 26,
+   "aout": 152.94
+  },
+  {
+   "in": 153.31,
+   "out": 157.87,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 27,
+   "aout": 157.87
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 17,
+   "name": "PASSO 3 -> VIRADA (a segunda-feira)"
+  },
+  {
+   "afterSegment": 22,
+   "name": "VIRADA -> CLIMAX (Apollo 13)"
+  },
+  {
+   "afterSegment": 26,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.99918
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 18,
+   "span": [
+    0.00123,
+    0.47566
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "foi voce que ensinou",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "FOI VOCÊ QUE",
+    "ENSINOU."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "e roleta",
+   "seg": 9,
+   "lines": [
+    "É ROLETA."
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "com o ultimo que avisou",
+   "seg": 13,
+   "lines": [
+    "COM O ÚLTIMO",
+    "QUE AVISOU?"
+   ],
+   "hold": 0.6
+  },
+  {
+   "phrase": "a culpa e nossa",
+   "seg": 22,
+   "lines": [
+    "A CULPA",
+    "É NOSSA."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "pergunta",
+   "seg": 26,
+   "lines": [
+    "PERGUNTA."
+   ],
+   "hold": 0.8
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 393,
+ "ctaSeg": 27,
+ "_splitShiftY": "393 medido: olhos (FaceMesh 33/133/362/263) a y~985 no mezanino em 11 pontos das janelas de split (0-4,7 e 61,8-62,7) -> zoom 1,06/1,14: 984/981 -> 1377-984 = 393 (work/olhos_y.py).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

@@ -631,3 +631,20 @@ leitura + setup 6 · fase 1 14 · cortes/bipe 15 · fase 2 12 · camada + 4 roda
   (−3 min por sessão). Total na nuvem **~19 min** (2h05 → ~1h45); no Mac de ≥ 8 núcleos soma o paralelo da fase 1 e das entregas.
 - **`work/entregas.sh <Nome>` no modelo** (antes cada reel escrevia o seu): bitrates pela duração (final 96 MB com teto de 8 Mbps;
   chat 28 MB com teto de 3 Mbps), comparação master × final com SSIM. Testado: 12 s → HEVC `hvc1` e H.264 com 720 quadros, SSIM 0,995.
+
+## 33. iCloud que ainda está subindo, NASA como fonte primária e revelação que cobre a olhada (reel Gene Kranz, 2026-10-07)
+
+- **Link do iCloud recém-criado pode vir vazio**: o `resolve` responde `videosCount: 1`, mas a consulta de assets volta `records: []` (o iPhone ainda está subindo o
+  vídeo). Não é erro do `ic.py`: repetir a cada 30 s em tarefa de fundo (aqui ~8 min para 499 MB) e seguir com o login do Codex e a pesquisa de fotos.
+- **Tema da NASA: NASA Image and Video Library (`images-api.nasa.gov`) em vez do Commons.** Busca por texto que funciona ("Kranz Apollo 13", "Apollo 13 service
+  module damage"), descrição completa com data e nomes (achou o S70-35139: Kranz de costas na sala, minutos antes da explosão da Apollo 13), original `~orig.jpg`
+  sem 429 e domínio público — 16 fotos em ~2 min, sem a fila de 1 foto/min do §30/§31. `work/pesq/nasa.py` / `nasadesc.py` / `nasadl.py` (novos no modelo).
+- **Olhada logo antes do nome (revelação)**: a cena da revelação começa na própria olhada com a capa de costas (callback da capa) e troca para o rosto 2 quadros
+  depois do nome — cobre a leitura sem mostrar o rosto antes da hora. Olhada no meio do split da virada: split curto (1,2 s) + a mesma foto em tela cheia (§29).
+- **Os medidores de janela (`gaze_pose`/`gaze_windows`) não pegaram 0,36 s de olhos fechados/baixos na pausa antes de um punch** ("É roleta.", 35,02–35,38):
+  achado num quadro da parte renderizada. Antes do render, varrer o `gaze/tl.json` só nos trechos com o apresentador VISÍVEL (blink > 0,45 ou down − mediana > 0,11
+  por ≥ 0,2 s) e conferir cada ocorrência em recorte grande; aqui a cena anterior foi estendida e só as partes afetadas foram refeitas.
+- **Janelas das cenas num arquivo só** (`work/mg/tempos.py`, lido por `scripts/slots.py` e `work/mg/gen.py`): mudar o tempo de uma cena num lugar só.
+- Roteiro sem CTA de palavra-chave (controle do teste do usuário: "sem palavra-chave falada e sem pergunta no fim"): nada a procurar no bruto; avisar na entrega.
+- Codex: 1º código aceito em ~2 min; capa em ~70 s. Container de 4 núcleos: 13 partes de 431 quadros, 2 em paralelo.
+
