@@ -1,0 +1,32 @@
+ 0 GANCHO                 0.00-  5.74 (5.74)  Esse@0.26 cara@0.36 é@0.74 um@0.83 dos@1.02 donos@1.32 mais@1.79 bobos@2.28 e@2.72 mais@2.84 bem-sucedidos@3.09 dos@4.08 Estados@4.30 Unidos.@4.81
+ 1 PROTOCOLO-POLEMICO     5.74- 10.10 (4.36)  E@5.47 ele@5.47 criou@5.54 um@5.70 protocolo@5.92 polêmico@6.61 pra@7.34 provar@7.62 que@7.93 o@8.16 seu@8.18 funcionário@8.34 não@9.01 é@9.19 custo.@9.26
+ 2 FILHO-DE-ALGUEM       10.10- 11.13 (1.03)  É@9.91 o@10.17 filho@10.32 de@10.42 alguém.@10.47
+ 3 BOB-HERDOU            11.13- 16.48 (5.35)  Bob@11.01 herdou@11.06 uma@11.48 fábrica@11.72 mal@12.29 das@12.50 pernas@12.74 e@13.24 fez@13.35 dela@13.51 uma@13.76 empresa@13.95 de@14.39 três@14.52 bilhões@14.71 e@15.15 meio@15.22 de@15.47 dólares.@15.59
+ 4 PROTOCOLO-DESPESA     16.48- 20.09 (3.61)  E@16.22 esse@16.22 é@16.22 o@16.22 protocolo@16.52 pra@16.93 você@17.12 parar@17.49 de@17.84 tratar@17.89 gente@18.30 como@18.66 despesa.@18.96
+ 5 P1-PRIMEIRO           20.09- 20.83 (0.74)  Primeiro,@19.97
+ 6 P1-CURSO              20.83- 26.09 (5.26)  Escuta@20.67 de@21.16 verdade.@21.33 Ele@21.94 pagava@22.19 um@22.52 curso@22.69 de@22.99 três@23.09 dias@23.42 só@23.56 pra@23.81 ensinar@24.02 o@24.46 time@24.53 a@24.80 escutar.@25.05
+ 7 P1-CHEFE-FALA         26.09- 28.89 (2.80)  Ele@25.91 dizia:@26.20 chefe@26.70 fala,@27.19 líder@27.73 escuta.@28.16
+ 8 P1-RESPONDENDO        28.89- 32.83 (3.94)  Seu@28.79 funcionário@29.06 nem@29.57 terminou@29.73 a@30.17 frase@30.30 e@30.52 você@30.64 já@30.79 tá@30.89 respondendo,@31.10 meu@31.74 querido.@31.89
+ 9 P2-SEGUNDO            32.83- 34.76 (1.94)  Segundo,@32.69 faz@33.48 o@33.53 teste@33.60 do@34.00 pai.@34.09
+10 P2-ALTAR              34.76- 37.59 (2.83)  Ele@34.65 viu@34.91 um@34.97 pai@35.08 entregando@35.24 a@35.80 filha@35.85 no@36.14 altar@36.23 e@36.56 entendeu:@36.58
+11 P2-FILHO-QUERIDO      37.59- 40.15 (2.55)  Todo@37.49 funcionário@37.51 é@38.23 o@38.29 filho@38.35 querido@38.70 de@39.16 alguém.@39.29
+12 P2-GAFANHOTO          40.15- 44.19 (4.04)  Você@40.05 trata@40.10 o@40.28 seu@40.33 time@40.47 como@40.74 trataria@41.00 o@41.53 filho@41.59 do@41.95 seu@42.05 melhor@42.21 amigo,@42.51 pequeno@42.97 gafanhoto?@43.14
+13 P3-TERCEIRO           44.19- 45.07 (0.88)  E@44.03 terceiro,@44.27
+14 P3-VOLTA-PRA-CASA     45.07- 47.24 (2.17)  lembra@44.97 que@45.19 ele@45.41 volta@45.63 pra@46.01 casa.@46.31
+15 P3-JEITO              47.24- 51.69 (4.45)  Ele@47.16 dizia@47.24 que@47.46 o@47.64 jeito@47.69 que@48.00 você@48.17 trata@48.40 alguém@48.70 no@49.06 trabalho@49.17 vai@49.71 pra@50.14 casa@50.39 com@50.73 ele.@51.00
+16 P3-PORRA-BIPE         51.69- 54.75 (3.06)  Você@51.46 deu@51.46 a@51.65 P****@52.03 de@51.99 um@52.13 esporro@52.27 na@52.76 frente@52.89 de@53.31 todo@53.51 mundo?@53.73
+17 P3-DE-NOITE           54.75- 57.29 (2.54)  De@54.64 noite,@54.64 quem@54.91 escuta@55.23 é@55.72 o@55.82 filho@55.90 dele.@56.30
+18 VIRADA-CRISE          57.29- 59.08 (1.79)  E@57.19 a@57.19 virada@57.19 foi@57.46 uma@57.72 crise.@58.05
+19 VIRADA-2009           59.08- 62.55 (3.46)  Em@58.91 2009,@59.18 os@59.98 pedidos@60.23 caíram@60.76 quarenta por cento.@61.27
+20 VIRADA-CONSELHO       62.55- 65.28 (2.74)  O@62.41 conselho@62.36 perguntou:@62.68 não@63.45 vai@63.63 demitir@63.89 ninguém?@64.33
+21 VIRADA-FAMILIA        65.28- 68.02 (2.74)  Ele@65.18 pensou:@65.25 o@65.93 que@66.07 uma@66.27 família@66.48 faria?@67.00
+22 VIRADA-QUATRO-SEMANAS  68.02- 73.75 (5.74)  Todo@67.92 mundo,@67.94 do@68.38 chão@68.63 de@68.90 fábrica@69.07 à@69.70 diretoria,@69.94 tirou@70.92 quatro@71.10 semanas@71.54 de@72.06 folga@72.20 sem@72.60 salário.@72.78
+23 VIRADA-UMA-SEMANA     73.75- 78.98 (5.23)  E@73.67 teve@73.93 funcionário@74.08 que@74.80 tirou@75.09 uma@75.47 semana@75.60 a@76.00 mais@76.07 no@76.35 lugar@76.52 do@76.83 colega@77.01 que@77.39 não@77.60 ia@77.75 aguentar.@77.87
+24 CLIMAX-NINGUEM        78.98- 80.25 (1.27)  Ninguém@78.88 foi@79.25 demitido.@79.40
+25 CLIMAX-ANO-SEGUINTE   80.25- 81.17 (0.92)  No@79.90 ano@79.99 seguinte,@80.20
+26 CLIMAX-RECORDE        81.17- 82.46 (1.29)  recorde@81.02 de@81.39 lucro.@81.58
+27 FECHO-DEMITIU-DIVIDIU  82.46- 85.65 (3.19)  E@82.34 na@82.52 última@82.61 crise,@82.88 você@83.32 demitiu@83.57 ou@84.02 dividiu,@84.30 meu@84.64 amigo?@84.81
+28 CTA-SE-VOCE           85.65- 87.94 (2.28)  Se@85.50 você@85.50 trata@85.79 gente@86.09 como@86.53 despesa,@86.89
+29 CTA-ME-SEGUE          87.94- 89.65 (1.72)  me@87.83 segue,@87.85 porque@88.54 você@88.97
+30 CTA-DEMAIS            89.65- 90.11 (0.46)  é@89.55 demais.@89.79
+TOTAL 90.107

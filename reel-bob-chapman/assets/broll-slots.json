@@ -1,0 +1,175 @@
+{
+ "total": 90.107,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.56843
+   ],
+   "t0": 0.0,
+   "t1": 5.74,
+   "dur": 5.74,
+   "fala": "Esse cara é um dos donos mais bobos e mais bem-sucedidos dos Estados Unidos.",
+   "tema": "CAPA gerada a pedido (galpão à noite, crachás todos no lugar, homem de terno de costas) → detalhe dos crachás",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 1,
+   "toSeg": 1,
+   "span": [
+    0.00092,
+    0.94315
+   ],
+   "t0": 5.74,
+   "t1": 9.85,
+   "dur": 4.11,
+   "fala": "E ele criou um protocolo polêmico pra provar que o seu funcionário não é custo.",
+   "tema": "fotos: operário na furadeira (1942) → Beulah Faith, 20, no torno (1942)",
+   "cobre": "6,81–7,36 · 7,90–8,14"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 3,
+   "span": [
+    0.15382,
+    0.99969
+   ],
+   "t0": 11.08,
+   "t1": 16.48,
+   "dur": 5.4,
+   "fala": "Bob herdou uma fábrica mal das pernas e fez dela uma empresa de três bilhões e meio de dólares.",
+   "tema": "REVELAÇÃO: a capa (ele de costas) + nome → MOTION contador US$ 3,5 BILHÕES",
+   "cobre": "12,69–13,26"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 4,
+   "toSeg": 7,
+   "span": [
+    0.28109,
+    0.99992
+   ],
+   "t0": 19.97,
+   "t1": 28.89,
+   "dur": 8.92,
+   "fala": "Primeiro, escuta de verdade. Ele pagava um curso de três dias só pra ensinar o time a escutar. E dizia: chefe fala, líder escuta.",
+   "tema": "MOTION chip PASSO 1 + título → foto: jovens ouvindo os palestrantes (Detroit, 1942) → a frase dele",
+   "cobre": "22,41–22,90 · 26,72–26,90"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 8,
+   "toSeg": 12,
+   "span": [
+    0.24832,
+    0.73593
+   ],
+   "t0": 32.69,
+   "t1": 40.15,
+   "dur": 7.46,
+   "fala": "Segundo, faz o teste do pai. Ele viu um pai entregando a filha no altar e entendeu: todo funcionário é o filho querido de alguém.",
+   "tema": "MOTION chip PASSO 2 + título → foto: a noiva entra com o pai (1938) → foto: o rapaz do torno (1942)",
+   "cobre": "37,88–38,09"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 12,
+   "toSeg": 15,
+   "span": [
+    0.33651,
+    1.0
+   ],
+   "t0": 44.03,
+   "t1": 51.69,
+   "dur": 7.66,
+   "fala": "E terceiro, lembra que ele volta pra casa. Ele dizia que o jeito que você trata alguém no trabalho vai pra casa com ele.",
+   "tema": "MOTION chip PASSO 3 + título → foto: indo pra casa depois da usina (1940) → foto: o jantar em casa (1938)",
+   "cobre": "48,09–49,43 · 50,76–50,95"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "full",
+   "fromSeg": 16,
+   "toSeg": 17,
+   "span": [
+    0.52679,
+    1.0
+   ],
+   "t0": 54.64,
+   "t1": 57.29,
+   "dur": 2.65,
+   "fala": "De noite, quem escuta é o filho dele.",
+   "tema": "foto: os filhos no jantar (1939), luz da noite",
+   "cobre": "55,72–55,90"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 19,
+   "span": [
+    0.0,
+    0.9648
+   ],
+   "t0": 57.29,
+   "t1": 62.36,
+   "dur": 5.07,
+   "fala": "E a virada foi uma crise. Em 2009, os pedidos caíram quarenta por cento.",
+   "tema": "MOTION o gráfico de pedidos: 2008 × 2009, −40%",
+   "cobre": "—"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 20,
+   "toSeg": 23,
+   "span": [
+    0.16033,
+    0.99392
+   ],
+   "t0": 65.18,
+   "t1": 78.88,
+   "dur": 13.7,
+   "fala": "Ele pensou: o que uma família faria? Todo mundo, do chão de fábrica à diretoria, tirou quatro semanas de folga sem salário. E teve funcionário que tirou uma semana a mais no lugar do colega que não ia aguentar.",
+   "tema": "foto: uma família (1937) → foto: a operária do torno (DO CHÃO DE FÁBRICA) → foto: executivos (À DIRETORIA, 4 SEMANAS SEM SALÁRIO) → MOTION as semanas: a semana do colega passa pra ele",
+   "cobre": "68,73–71,21 · 74,35–74,60"
+  },
+  {
+   "id": "s10",
+   "file": "assets/broll/s10.mp4",
+   "mode": "full",
+   "fromSeg": 23,
+   "toSeg": 26,
+   "span": [
+    0.58884,
+    0.98622
+   ],
+   "t0": 78.88,
+   "t1": 82.34,
+   "dur": 3.46,
+   "fala": "Ninguém foi demitido. No ano seguinte, recorde de lucro.",
+   "tema": "CLÍMAX: a parede de crachás da capa, todos no lugar + 0 DEMITIDOS + 2010 · RECORDE DE LUCRO",
+   "cobre": "79,18–79,42"
+  }
+ ]
+}

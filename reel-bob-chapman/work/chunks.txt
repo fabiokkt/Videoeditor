@@ -1,0 +1,32 @@
+ch00 GANCHO               Esse cara é um dos donos mais bobos e mais bem-sucedidos dos Estados Unidos.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que o seu funcionário não é custo,
+ch02 FILHO-DE-ALGUEM      é o filho de alguém.
+ch03 BOB-HERDOU           Bob herdou uma fábrica mal das pernas e fez dela uma empresa de 3 bilhões e meio de dólares.
+ch04 PROTOCOLO-DESPESA    E esse é o protocolo para você parar de tratar gente como despesa.
+ch05 P1-PRIMEIRO          Primeiro
+ch06 P1-CURSO             Escuta de verdade Ele pagava um curso de 3 dias Só para ensinar o time a escutar
+ch07 P1-CHEFE-FALA        Ele dizia Chefe fala, líder escuta
+ch08 P1-RESPONDENDO       Seu funcionário nem terminou a frase e você já está respondendo, meu querido.
+ch09 P2-SEGUNDO           Segundo, faz o teste do pai.
+ch10 P2-ALTAR             Ele viu um pai entregando a filha no altar e entendeu.
+ch11 P2-FILHO-QUERIDO     Todo funcionário é o filho querido de alguém.
+ch12 P2-GAFANHOTO         Você trata o seu time como trataria o filho do seu melhor amigo pequeno gafanhoto?
+ch13 P3-TERCEIRO          E terceiro:
+ch14 P3-VOLTA-PRA-CASA    lembra que ele volta para casa.
+ch15 P3-JEITO             Ele dizia que o jeito que você trata alguém no trabalho, vai para casa com ele.
+ch16 P3-PORRA-BIPE        Você deu a porra de um esporro na frente de todo mundo?
+ch17 P3-DE-NOITE          De noite, quem escuta é o filho dele.
+ch18 VIRADA-CRISE         E a virada foi uma crise.
+ch19 VIRADA-2009          Em 2009, os pedidos caíram 40%.
+ch20 VIRADA-CONSELHO      O conselho perguntou, não vai demitir ninguém?
+ch21 VIRADA-FAMILIA       Ele pensou: "O que uma família faria?"
+ch22 VIRADA-QUATRO-SEMANAS Todo mundo, do chão de fábrica à diretoria, tirou quatro semanas de folga sem salário.
+ch23 VIRADA-UMA-SEMANA    E teve funcionário que tirou uma semana a mais no lugar do colega que não ia aguentar.
+ch24 CLIMAX-NINGUEM       Ninguém foi demitido.
+ch25 CLIMAX-ANO-SEGUINTE  No ano seguinte,
+ch26 CLIMAX-RECORDE       recorde de lucro.
+ch27 FECHO-DEMITIU-DIVIDIU E na última crise, você demitiu ou dividiu, meu amigo?
+ch28 CTA-SE-VOCE          Se você trata a gente como despesa,
+ch29 CTA-ME-SEGUE         Me segue, porque você
+ch30 CTA-DEMAIS           É demais!
+31 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

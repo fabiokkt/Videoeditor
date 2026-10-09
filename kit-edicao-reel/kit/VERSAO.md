@@ -1,5 +1,11 @@
 # Versões do kit
 
+## v3.1.2 — 2026-10-08 · Library of Congress como fonte primária (reel Bob Chapman)
+
+- `work/pesq/loc.py` / `locsheet.py` / `locmaster.py` / `locdl.py` novos no modelo: busca nas coleções FSA/OWI do loc.gov (domínio público, sem 429),
+  folha de miniaturas e download do TIF mestre (16 bits escalado) — docs/05 §35, docs/11.
+- `ambiente-nuvem.sh`: `pip install --timeout 60 --retries 2` (o pip travou 12 min num socket no setup).
+
 ## v3.1.1 — 2026-10-07 · NASA como fonte primária (reel Gene Kranz)
 
 - `work/pesq/nasa.py` / `nasadesc.py` / `nasadl.py` novos no modelo: busca, descrição e download direto da NASA Image and Video Library (domínio público,

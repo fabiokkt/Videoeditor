@@ -669,3 +669,28 @@ leitura + setup 6 · fase 1 14 · cortes/bipe 15 · fase 2 12 · camada + 4 roda
 - **CTA longo com o apresentador sozinho**: o `ritmo.py` acusou 5,4 s sem evento entre o leak do CTA e a pergunta; entrou o botão "Seguir" em "me segue" e o grifo
   das palavras na pergunta escrita (sem mexer no corte).
 - Login do Codex: o usuário não digitou os primeiros códigos; o `cxlogin.sh` em laço + push de cada código novo, com a capa em substituta e o render seguindo.
+
+## 35. Library of Congress como fonte primária, iCloud que demora e pip que trava no setup (reel Bob Chapman, 2026-10-08)
+
+- **Tema sem acervo próprio (empresa privada, sem retrato livre da pessoa): Library of Congress, FSA/OWI.** As coleções *FSA/OWI Black-and-White Negatives*
+  e *FSA/OWI Color Photographs* (Kodachromes de 1942 de Alfred Palmer / Howard Hollem: operários no torno, na furadeira) são **domínio público** e a API JSON
+  do loc.gov (`?fo=json`) **não deu 429 nenhuma vez** (o Commons deu 429 já na 2ª chamada). Busca por coleção (`/collections/fsa-owi-black-and-white-negatives/`
+  ou `fsa-owi-color-photographs`) com UMA palavra-conceito ("supper", "lathe", "listening", "change of shift", "executives"); várias palavras na busca
+  geral `/photos/` trazem livros e lixo. `work/pesq/loc.py` (busca → `loc/q_<tag>.json`), `locsheet.py` (folha de miniaturas rotuladas) e `locmaster.py`
+  (novos no modelo). 15 fotos escolhidas em ~25 min, todas com data, fotógrafo e lugar no registro.
+- **O `v.jpg` do loc.gov tem só 1024 px.** O arquivo mestre fica em `tile.loc.gov/storage-services/master/pnp/<col>/<n[:-3]>000/<n[:-2]>00/<n>u.tif`
+  (às vezes `a.tif`), 75–290 MB, 3200–14000 px; o IIIF desses itens devolve 404. `locmaster.py` baixa o TIF, converte e grava JPG ≤ 3200 px. **TIF de 16 bits
+  (`I;16`) convertido direto para `L` satura e sai BRANCO**: escalar `x/256` antes (já no `locmaster.py`). Recortar a borda do negativo (número do negativo,
+  "EASTMAN SAFETY KODAK", entalhes) em fração no `fotos.py` e conferir numa grade de 5%.
+- **Etiqueta honesta com foto de outra época/lugar**: as fotos são ilustrativas (1937–1943), então nenhuma etiqueta diz que é a Barry-Wehmiller; as etiquetas
+  dizem o que a FALA diz ("DO CHÃO DE FÁBRICA", "À DIRETORIA", "4 SEMANAS SEM SALÁRIO") ou reenquadram ("FUNCIONÁRIO" riscado → "O FILHO QUERIDO DE ALGUÉM").
+- **Sem retrato livre da pessoa-tema e sem objeto com o nome dela**: a revelação é a própria capa (ele de costas, gerada a pedido) com a etiqueta de nome, e o
+  clímax é callback da capa (a parede de crachás todos no lugar = "ninguém foi demitido").
+- **Link do iCloud vazio por ~20 min** (o laço de 20 s × 40 tentativas acabou antes; o 2º laço de 30 s baixou na 3ª). Laço de 30 s com até 75 min em tarefa de
+  fundo + push pedindo ao usuário para deixar o Fotos aberto no iPhone; seguir com a capa e a pesquisa de fotos enquanto isso.
+- **`pip install` do `ambiente-nuvem.sh` travou 12 min num socket** (0 % de CPU, PyPI respondendo em 70 ms): matar o PID do pip; o script segue e o
+  `pip install --timeout 60` de novo terminou em segundos. O setup agora passa `--timeout 60 --retries 2`.
+- `.neg`/`.w` só dentro de um pai no CSS (`#mg .chart .neg`) = elemento sem `position:absolute` fora dele, desenhado no canto da cena: o `check` acusou
+  "content_overlap"; seletor sem o pai.
+- CTA de palavra-chave: não existe no roteiro (sem palavra-chave falada). Login do Codex: 1º código aceito em ~3 min; capa em ~60 s. Container de 4 núcleos:
+  12 partes de 451 quadros, 2 em paralelo.

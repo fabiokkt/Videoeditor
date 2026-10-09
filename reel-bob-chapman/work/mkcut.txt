@@ -1,0 +1,39 @@
+c00 (r00)    0.79-   6.60      Esse cara é um dos donos mais bobos e mais bem-sucedidos dos Estados Unidos.
+c01 (r00)    6.60-  11.41      E ele criou um protocolo polêmico para provar que o seu funcionário não é custo,
+c02 (r00)   11.41-  12.40      é o filho de alguém.
+c03 (r01)   12.95-  18.95 DROP Bob herdou uma fábrica mal das pernas e fez dela uma empresa de 3 bilhões e meio...
+c04 (r02)   20.20-  25.99      Bob herdou uma fábrica mal das pernas e fez dela uma empresa de 3 bilhões e meio de dólares.
+c05 (r02)   25.99-  30.06      E esse é o protocolo para você parar de tratar gente como despesa.
+c06 (r02)   30.06-  36.48 DROP Primeiro, escuta de verdade. Ele pagava um curso de 3 dias só para ensinar o time a escutar.
+c07 (r03)   38.05-  38.50      Primeiro
+c08 (r04)   38.86-  44.50      Escuta de verdade Ele pagava um curso de 3 dias Só para ensinar o time a escutar
+c09 (r04)   44.50-  47.46      Ele dizia Chefe fala, líder escuta
+c10 (r05)   47.83-  51.82      Seu funcionário nem terminou a frase e você já está respondendo, meu querido.
+c11 (r06)   52.38-  54.73 DROP Segundo, faz o teste do pai.
+c12 (r07)   55.12-  58.17 DROP Ele viu um pai entregando a filha no alto mar
+c13 (r08)   59.77-  61.69      Segundo, faz o teste do pai.
+c14 (r09)   62.05-  64.85      Ele viu um pai entregando a filha no altar e entendeu.
+c15 (r10)   65.33-  68.00      Todo funcionário é o filho querido de alguém.
+c16 (r10)   68.00-  72.36      Você trata o seu time como trataria o filho do seu melhor amigo pequeno gafanhoto?
+c17 (r11)   72.77-  73.69      E terceiro:
+c18 (r12)   74.12-  76.35      lembra que ele volta para casa.
+c19 (r12)   76.35-  80.98 DROP Ele dizia que o jeito que você trata alguém no trabalho, vai para casa com ele.
+c20 (r13)   82.12-  86.83      Ele dizia que o jeito que você trata alguém no trabalho, vai para casa com ele.
+c21 (r13)   86.83-  90.30      Você deu a porra de um esporro na frente de todo mundo?
+c22 (r13)   90.30-  93.25      De noite, quem escuta é o filho dele.
+c23 (r13)   93.25-  95.30      E a virada foi uma crise.
+c24 (r13)   95.30-  99.13      Em 2009, os pedidos caíram 40%.
+c25 (r13)   99.13- 101.97      O conselho perguntou, não vai demitir ninguém?
+c26 (r14)  102.44- 103.98 DROP Ele pensou, o que eu...
+c27 (r15)  105.29- 107.93      Ele pensou: "O que uma família faria?"
+c28 (r16)  108.35- 108.93 DROP Todo mundo!
+c29 (r17)  110.31- 116.45      Todo mundo, do chão de fábrica à diretoria, tirou quatro semanas de folga sem salário.
+c30 (r17)  116.45- 117.28 DROP E teve o funcion...
+c31 (r18)  118.45- 123.82      E teve funcionário que tirou uma semana a mais no lugar do colega que não ia aguentar.
+c32 (r19)  124.29- 125.47      Ninguém foi demitido.
+c33 (r19)  125.47- 126.33      No ano seguinte,
+c34 (r20)  126.80- 127.89      recorde de lucro.
+c35 (r21)  128.25- 131.69      E na última crise, você demitiu ou dividiu, meu amigo?
+c36 (r21)  131.69- 134.13      Se você trata a gente como despesa,
+c37 (r22)  134.50- 136.00      Me segue, porque você
+c38 (r23)  136.39- 137.03      É demais!

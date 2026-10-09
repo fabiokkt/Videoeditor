@@ -1,0 +1,21 @@
+Fotos de arquivo do reel Bob Chapman — Library of Congress, Prints & Photographs Division (nenhuma de banco de imagem).
+Todas de DOMINIO PUBLICO, sem restricoes conhecidas: colecoes FSA/OWI (Farm Security Administration / Office of War Information,
+fotos do governo dos EUA, 1937–1943) e Matson (G. Eric and Edith Matson Photograph Collection, sem restricoes conhecidas).
+Credito sugerido: "Library of Congress, Prints & Photographs Division". Baixadas do arquivo mestre (TIF) e recortadas para tirar a borda do negativo.
+Nao existe foto livre do Bob Chapman (Commons/Wikipedia sem retrato; as fotos da Barry-Wehmiller tem direitos reservados): a revelacao e a capa
+(ele de costas, gerada a pedido) + a etiqueta de nome. Nada de logotipo da Barry-Wehmiller nem referencia a morte dele (pedido da tarefa).
+A capa (capa.jpg) e o detalhe dela (capa-crachas.jpg) sao GERADOS A PEDIDO no Codex (conta ChatGPT do Fabio, login de dispositivo; logout no fim):
+work/capa/prompt.txt. Sem texto, rosto ou logotipo. As fotos sao ilustrativas da fala (epoca/lugar diferentes do Bob): nenhuma etiqueta diz que
+sao da Barry-Wehmiller.
+
+furadeira.jpg — "An employee in the drill-press section of North American's huge machine shop", Inglewood, Calif., 1942 — Alfred T. Palmer (OWI) — https://www.loc.gov/item/2017878512/ (fsac 1a35306)
+beulah.jpg — "Beulah Faith, 20, used to be sales clerk in department store, reaming tools for transport on lathe", Consolidated Aircraft, Fort Worth, 1942 — Howard R. Hollem (OWI) — https://www.loc.gov/item/2017878300/ (fsac 1a34938)
+torno-moca.jpg — "Lathe operator machining parts for transport planes at the Consolidated Aircraft Corporation plant", Fort Worth, 1942 — Howard R. Hollem (OWI) — https://www.loc.gov/item/2017878313/ (fsac 1a34951)
+torno-rapaz.jpg — "In North American's modern machine shop, another aircraft part is finished on a huge turret lathe", Inglewood, 1942 — Alfred T. Palmer (OWI) — https://www.loc.gov/item/2017878514/ (fsac 1a35308)
+curso.jpg / curso2.jpg — "Detroit, Michigan. Youths listening to speakers at the salvage committee meeting", 1942 — Arthur S. Siegel (OWI) — https://www.loc.gov/item/2017826100/ e https://www.loc.gov/item/2017826089/ (fsa 8c28613, 8c28602)
+altar.jpg — "Wedding of Miss Olwen Wainright. The bride Miss Wainright entering the church compound escorted by her father", 16 nov 1938 — American Colony (Jerusalem), Photo Department (colecao Matson) — https://www.loc.gov/item/2019709655/ (matpc 18885)
+volta-casa.jpg — "Going home from work at the steel mill in Midland, Pennsylvania", 1940 — Jack Delano (FSA) — https://www.loc.gov/item/2017793404/ (fsa 8c04489)
+jantar-casal.jpg — "Shenandoah, Pennsylvania. Joe Gladski and his wife having supper", 1938 — Sheldon Dick (FSA) — https://www.loc.gov/item/2017790738/ (fsa 8c02378)
+filhos.jpg — "Children of unemployed oil worker eating supper. Seminole, Oklahoma", 1939 — Russell Lee (FSA) — https://www.loc.gov/item/2017784118/ (fsa 8b22682)
+familia.jpg — "Family of Walter Meyers [i.e. Myhra], farmer", 1937 — Russell Lee (FSA) — https://www.loc.gov/item/2017780989/ (fsa 8b20145)
+diretoria.jpg — "Detroit, Michigan. Executive at the Crowley-Milner department store", 1941 — Arthur S. Siegel (OWI) — https://www.loc.gov/item/2017844854/ (fsa 8d25355)

@@ -1,0 +1,340 @@
+{
+ "_nota": "Reel Bob Chapman — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/bob-chapman-2560-sdr.mp4",
+ "voiceSrc": "assets/bob-chapman-voz.m4a",
+ "segments": [
+  {
+   "in": 0.54,
+   "out": 6.85,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 6.52
+  },
+  {
+   "in": 6.59,
+   "out": 11.718,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 11.388
+  },
+  {
+   "in": 11.388,
+   "out": 12.85,
+   "label": "FILHO-DE-ALGUEM",
+   "chunk": 2,
+   "aout": 12.52
+  },
+  {
+   "in": 19.99,
+   "out": 26.21,
+   "label": "BOB-HERDOU",
+   "chunk": 3,
+   "aout": 25.88
+  },
+  {
+   "in": 25.95,
+   "out": 30.25,
+   "label": "PROTOCOLO-DESPESA",
+   "chunk": 4,
+   "aout": 29.92
+  },
+  {
+   "in": 37.83,
+   "out": 38.97,
+   "label": "P1-PRIMEIRO",
+   "chunk": 5,
+   "aout": 38.64
+  },
+  {
+   "in": 38.69,
+   "out": 44.807,
+   "label": "P1-CURSO",
+   "chunk": 6,
+   "aout": 44.477
+  },
+  {
+   "in": 44.477,
+   "out": 47.89,
+   "label": "P1-CHEFE-FALA",
+   "chunk": 7,
+   "aout": 47.56
+  },
+  {
+   "in": 47.61,
+   "out": 52.27,
+   "label": "P1-RESPONDENDO",
+   "chunk": 8,
+   "aout": 51.94
+  },
+  {
+   "in": 59.71,
+   "out": 62.17,
+   "label": "P2-SEGUNDO",
+   "chunk": 9,
+   "aout": 61.84
+  },
+  {
+   "in": 61.85,
+   "out": 65.29,
+   "label": "P2-ALTAR",
+   "chunk": 10,
+   "aout": 64.96
+  },
+  {
+   "in": 65.09,
+   "out": 68.23,
+   "label": "P2-FILHO-QUERIDO",
+   "chunk": 11,
+   "aout": 67.9
+  },
+  {
+   "in": 68.03,
+   "out": 72.81,
+   "label": "P2-GAFANHOTO",
+   "chunk": 12,
+   "aout": 72.48
+  },
+  {
+   "in": 72.85,
+   "out": 74.15,
+   "label": "P3-TERCEIRO",
+   "chunk": 13,
+   "aout": 73.82
+  },
+  {
+   "in": 73.89,
+   "out": 76.61,
+   "label": "P3-VOLTA-PRA-CASA",
+   "chunk": 14,
+   "aout": 76.28
+  },
+  {
+   "in": 81.87,
+   "out": 87.09,
+   "label": "P3-JEITO",
+   "chunk": 15,
+   "aout": 86.76
+  },
+  {
+   "in": 86.81,
+   "out": 90.51,
+   "label": "P3-PORRA-BIPE",
+   "chunk": 16,
+   "aout": 90.18
+  },
+  {
+   "in": 90.31,
+   "out": 93.43,
+   "label": "P3-DE-NOITE",
+   "chunk": 17,
+   "aout": 93.1
+  },
+  {
+   "in": 93.29,
+   "out": 95.59,
+   "label": "VIRADA-CRISE",
+   "chunk": 18,
+   "aout": 95.26
+  },
+  {
+   "in": 95.27,
+   "out": 99.41,
+   "label": "VIRADA-2009",
+   "chunk": 19,
+   "aout": 99.08
+  },
+  {
+   "in": 99.09,
+   "out": 102.43,
+   "label": "VIRADA-CONSELHO",
+   "chunk": 20,
+   "aout": 102.1
+  },
+  {
+   "in": 105.05,
+   "out": 108.39,
+   "label": "VIRADA-FAMILIA",
+   "chunk": 21,
+   "aout": 108.06
+  },
+  {
+   "in": 110.09,
+   "out": 116.73,
+   "label": "VIRADA-QUATRO-SEMANAS",
+   "chunk": 22,
+   "aout": 116.4
+  },
+  {
+   "in": 118.21,
+   "out": 124.29,
+   "label": "VIRADA-UMA-SEMANA",
+   "chunk": 23,
+   "aout": 123.96
+  },
+  {
+   "in": 124.05,
+   "out": 125.778,
+   "label": "CLIMAX-NINGUEM",
+   "chunk": 24,
+   "aout": 125.448
+  },
+  {
+   "in": 125.448,
+   "out": 126.79,
+   "label": "CLIMAX-ANO-SEGUINTE",
+   "chunk": 25,
+   "aout": 126.46
+  },
+  {
+   "in": 126.63,
+   "out": 128.378,
+   "label": "CLIMAX-RECORDE",
+   "chunk": 26,
+   "aout": 128.048
+  },
+  {
+   "in": 128.048,
+   "out": 131.89,
+   "label": "FECHO-DEMITIU-DIVIDIU",
+   "chunk": 27,
+   "aout": 131.56
+  },
+  {
+   "in": 131.73,
+   "out": 134.57,
+   "label": "CTA-SE-VOCE",
+   "chunk": 28,
+   "aout": 134.24
+  },
+  {
+   "in": 134.27,
+   "out": 136.487,
+   "label": "CTA-ME-SEGUE",
+   "chunk": 29,
+   "aout": 136.157
+  },
+  {
+   "in": 136.157,
+   "out": 136.99,
+   "label": "CTA-DEMAIS",
+   "chunk": 30,
+   "aout": 136.99
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 17,
+   "name": "PASSO 3 -> VIRADA (a crise de 2009)"
+  },
+  {
+   "afterSegment": 23,
+   "name": "VIRADA -> CLIMAX (ninguem foi demitido)"
+  },
+  {
+   "afterSegment": 27,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.0,
+    0.56843
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 18,
+   "toSeg": 19,
+   "span": [
+    0.0,
+    0.9648
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "e o filho de alguem",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "É O FILHO",
+    "DE ALGUÉM."
+   ],
+   "hold": 0.2
+  },
+  {
+   "phrase": "voce ja ta respondendo",
+   "seg": 8,
+   "lines": [
+    "VOCÊ JÁ TÁ",
+    "RESPONDENDO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "na frente de todo mundo",
+   "seg": 16,
+   "lines": [
+    "NA FRENTE DE",
+    "TODO MUNDO?"
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "nao vai demitir ninguem",
+   "seg": 20,
+   "lines": [
+    "NÃO VAI DEMITIR",
+    "NINGUÉM?"
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "voce demitiu ou dividiu",
+   "seg": 27,
+   "lines": [
+    "VOCÊ DEMITIU",
+    "OU DIVIDIU?"
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 400,
+ "ctaSeg": 28,
+ "_splitShiftY": "400 medido (work/olhos_y.py): olhos y~980 em 12 pontos das janelas de split (0,5-5,3 e 57,6-62,3) -> 1377-978/975 = 399/402.",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

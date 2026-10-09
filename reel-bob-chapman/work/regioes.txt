@@ -1,0 +1,26 @@
+r00 [  0.79 ->  12.40]  Esse cara é um dos donos mais bobos e mais bem-sucedidos dos Estados Unidos. E ele criou um protocolo polêmico para provar que o seu funcionário não é custo, é o filho de alguém.
+r01 [ 12.95 ->  18.95]  Bob herdou uma fábrica mal das pernas e fez dela uma empresa de 3 bilhões e meio...
+r02 [ 20.20 ->  36.48]  Bob herdou uma fábrica mal das pernas e fez dela uma empresa de 3 bilhões e meio de dólares. E esse é o protocolo para você parar de tratar gente como despesa. Primeiro, escuta de verdade. Ele pagava um curso de 3 dias só para ensinar o time a escutar.
+r03 [ 38.05 ->  38.50]  Primeiro
+r04 [ 38.86 ->  47.46]  Escuta de verdade Ele pagava um curso de 3 dias Só para ensinar o time a escutar Ele dizia Chefe fala, líder escuta
+r05 [ 47.83 ->  51.82]  Seu funcionário nem terminou a frase e você já está respondendo, meu querido.
+r06 [ 52.38 ->  54.73]  Segundo, faz o teste do pai.
+r07 [ 55.12 ->  58.17]  Ele viu um pai entregando a filha no alto mar
+r08 [ 59.77 ->  61.69]  Segundo, faz o teste do pai.
+r09 [ 62.05 ->  64.85]  Ele viu um pai entregando a filha no altar e entendeu.
+r10 [ 65.33 ->  72.36]  Todo funcionário é o filho querido de alguém. Você trata o seu time como trataria o filho do seu melhor amigo pequeno gafanhoto?
+r11 [ 72.77 ->  73.69]  E terceiro:
+r12 [ 74.12 ->  80.98]  lembra que ele volta para casa. Ele dizia que o jeito que você trata alguém no trabalho, vai para casa com ele.
+r13 [ 82.12 -> 101.97]  Ele dizia que o jeito que você trata alguém no trabalho, vai para casa com ele. Você deu a porra de um esporro na frente de todo mundo? De noite, quem escuta é o filho dele. E a virada foi uma crise. Em 2009, os pedidos caíram 40%. O conselho perguntou, não vai demitir ninguém?
+r14 [102.44 -> 103.98]  Ele pensou, o que eu...
+r15 [105.29 -> 107.93]  Ele pensou: "O que uma família faria?"
+r16 [108.35 -> 108.93]  Todo mundo!
+r17 [110.31 -> 117.28]  Todo mundo, do chão de fábrica à diretoria, tirou quatro semanas de folga sem salário. E teve o funcion...
+r18 [118.45 -> 123.82]  E teve funcionário que tirou uma semana a mais no lugar do colega que não ia aguentar.
+r19 [124.29 -> 126.33]  Ninguém foi demitido. No ano seguinte,
+r20 [126.80 -> 127.89]  recorde de lucro.
+r21 [128.25 -> 134.13]  E na última crise, você demitiu ou dividiu, meu amigo? Se você trata a gente como despesa,
+r22 [134.50 -> 136.00]  Me segue, porque você
+r23 [136.39 -> 137.03]  É demais!
+
+24 regioes transcritas

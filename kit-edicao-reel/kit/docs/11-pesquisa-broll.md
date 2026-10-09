@@ -26,6 +26,7 @@ trocadas no QC. O método que deu o melhor resultado (vídeos Vê.la e Joyce, se
    para animar. Logo só sofre corte, fade, deslocamento e escala uniforme.
 7. **Folha de contato** (`work/pesq/sheet.py`) → escolher → recortar tirando texto sobreposto.
 
+Tema sem acervo próprio (empresa privada, trabalho, família, escritório): **Library of Congress, FSA/OWI** (`work/pesq/loc.py`, docs/05 §35).
 Tema da NASA (programa espacial, astronautas, controle de missão): **NASA Image and Video Library primeiro** (`work/pesq/nasa.py` → `nasadl.py`, docs/05 §33).
 Fallback: Wikimedia Commons (`work/pesq/wm.py` / `wmpick.py`, licença registrada; no container, `wmstd.py` — docs/05 §28). Busca por API só se não houver
 fonte primária, e passando pelo `filt.py`. (`scripts/bimg.py` do projeto alan-mulally foi um remendo para
@@ -69,6 +70,7 @@ marcada "gerada a pedido" no arquivo de pesquisas. O flux errou mãos; o nano-ba
 | `wmfila.py <slug> <idx,…>` | baixa a fila priorizada na largura padrão 1920/1280/960 com espera crescente (429) — docs/05 §31 |
 | `wmq.py "sub:Category:X" "wp:Titulo" "texto"` | subcategorias, imagem da página da Wikipedia e busca por texto em arquivos, honrando o `retry-after` → `q/wmq.json` (docs/05 §34) |
 | `wmtitles.py q/wm_<slug>.json titulos.txt` | metadados (licença, data, autor) de uma lista de títulos, em lotes de 50 → formato do `wmfila.py` (docs/05 §34) |
+| `loc.py <tag> "conceito" [n] [cor\|pb\|foto]` · `locsheet.py <tag>` · `locmaster.py <saida.jpg> <fsa.8c04489>` · `locdl.py <tag> <url-do-item>` | **Library of Congress** (docs/05 §35): busca nas coleções FSA/OWI (domínio público, sem 429), folha de miniaturas rotuladas, download do TIF mestre (3200–14000 px; 16 bits escalado) → JPG ≤ 3200 px; `locdl.py` grava `loc/licencas.tsv` com fotógrafo e data. Para tema sem acervo próprio (empresa privada, chão de fábrica, família, escritório dos anos 30–40) |
 | `crawl.py <base> <prefixo> <limite> <saida.json>` | varre um site oficial e lista as imagens |
 | `dl.py <tag> <img> <page> <dom>` | download com UA genérico de Chrome e Referer; converte para JPG |
 | `sheet.py <saida.jpg> <glob…>` | folha de miniaturas rotuladas para escolher |

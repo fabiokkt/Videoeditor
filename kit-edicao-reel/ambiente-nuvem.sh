@@ -17,7 +17,7 @@ $APT zsh libegl1 libgles2 libgl1 libnss3-tools git-lfs >/dev/null 2>&1 \
 # 2. venv do kit (~/Claude/.venv-reel): numpy, opencv, Pillow, mediapipe, scipy (o sfx.py da skill importa)
 V=$HOME/Claude/.venv-reel
 [ -x $V/bin/python ] || python3 -m venv $V
-$V/bin/pip install -q --disable-pip-version-check numpy opencv-python-headless Pillow mediapipe scipy fonttools brotli || echo "AVISO: pip falhou"
+$V/bin/pip install -q --disable-pip-version-check --timeout 60 --retries 2 numpy opencv-python-headless Pillow mediapipe scipy fonttools brotli || echo "AVISO: pip falhou"
 
 # 3. whisper.cpp + modelo large-v3-turbo (~1,6 GB)
 if ! command -v whisper-cli >/dev/null; then
