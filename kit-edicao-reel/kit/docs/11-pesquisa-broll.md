@@ -73,6 +73,8 @@ marcada "gerada a pedido" no arquivo de pesquisas. O flux errou mãos; o nano-ba
 | `loc.py <tag> "conceito" [n] [cor\|pb\|foto]` · `locsheet.py <tag>` · `locmaster.py <saida.jpg> <fsa.8c04489>` · `locdl.py <tag> <url-do-item>` | **Library of Congress** (docs/05 §35): busca nas coleções FSA/OWI (domínio público, sem 429), folha de miniaturas rotuladas, download do TIF mestre (3200–14000 px; 16 bits escalado) → JPG ≤ 3200 px; `locdl.py` grava `loc/licencas.tsv` com fotógrafo e data. Para tema sem acervo próprio (empresa privada, chão de fábrica, família, escritório dos anos 30–40) |
 | `crawl.py <base> <prefixo> <limite> <saida.json>` | varre um site oficial e lista as imagens |
 | `dl.py <tag> <img> <page> <dom>` | download com UA genérico de Chrome e Referer; converte para JPG |
+| `flsearch.py "consulta" [7]` | Flickr Commons pela página de busca (sem chave, sem 429): LOC, NARA, British Library… → `q/fl_<consulta>.json`; a descrição das fotos da LOC traz o id para o `locmaster.py` quando o loc.gov cai no Cloudflare (docs/05 §36) |
+| `ovq.py "consulta" ["&source=wikimedia"]` | Openverse (API anônima, ≤ 20 por página): acha CC BY/BY-SA no Flickr e busca no Commons sem a API dele (§36) |
 | `sheet.py <saida.jpg> <glob…>` | folha de miniaturas rotuladas para escolher |
 
 Convenção de nome: o prefixo do arquivo é o trecho do roteiro (`b03a_9`, `c18a_15`…), para montar folha por

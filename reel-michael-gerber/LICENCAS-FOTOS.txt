@@ -1,0 +1,20 @@
+LICENÇAS DAS IMAGENS — reel Michael Gerber (camada de motion, assets/mg/)
+
+capa.jpg / capa-perto.jpg — GERADA A PEDIDO no Codex (conta ChatGPT do usuário), cena da seção "Capa" da tarefa no ClickUp
+  (padaria às 4 h, forno aberto, mulher de avental de costas, cabeça entre as mãos). Prompt: work/capa/prompt.txt.
+gerber.jpg — "Michael Gerber shares words of wisdom to Infusionsoft", Infusionsoft (Flickr), 2009, CC BY-SA 2.0.
+  https://www.flickr.com/photos/30759596@N02/3799939174
+relogio-ponto.jpg — "Factory clocking-in clock, Early 1900s, Time Recorders (Leeds) Ltd.", The British Library (Flickr Commons),
+  sem restrições de direitos conhecidas. https://www.flickr.com/photos/britishlibrary/52816986104
+dona-armazem.jpg — "Woman Owner in Her Grocery Store in Leakey, Texas, with a Friend, near San Antonio", 05/1973, DOCUMERICA (EPA),
+  U.S. National Archives — domínio público. https://www.flickr.com/photos/usnationalarchives/3703576937
+mesa-tortas.jpg — Russell Lee, "Making pies. Rolling crusts and filling them at bakery at San Angelo, Texas", nov/1939, FSA/OWI,
+  Library of Congress (LC-DIG-fsa-8b23573) — sem restrições conhecidas (domínio público).
+mesa-tortas-v.jpg — Russell Lee, "[possibly related to: Making pie crusts. Bakery, San Angelo, Texas]", 1939, FSA/OWI, LOC (fsa 8b23598) — idem.
+forno.jpg — Russell Lee, bakery, San Angelo, Texas, 1939, FSA/OWI, LOC (fsa 8b23597) — idem.
+carrinho.jpg — Russell Lee, bakery, San Angelo, Texas, 1939, FSA/OWI, LOC (fsa 8b23584) — idem (reserva, fora do corte).
+moca-torta.jpg — Harris & Ewing, "Puts finishing touches on 30 pound cherry pie for president", Washington, D.C., LOC (LC-DIG-hec-26939)
+  — sem restrições conhecidas de publicação.
+
+Nenhuma das fotos de arquivo leva etiqueta dizendo que é a Sarah ou a loja dela: ilustram a história (a Sarah é um nome trocado,
+segundo o próprio livro). A única foto do Michael é a do Flickr (CC BY-SA 2.0) — crédito obrigatório: "Infusionsoft / CC BY-SA 2.0".

@@ -1,0 +1,43 @@
+c00 (r00)    0.74-   5.59      Esse cara é um dos donos mais atrapalhados e mais copiados do planeta Terra.
+c01 (r01)    5.97-   9.01 DROP E ele criou um protocolo polêmico para provar para você...
+c02 (r02)   10.09-  14.68      E ele criou um protocolo polêmico para provar que você não tem uma empresa.
+c03 (r03)   15.03-  15.91      tem um emprego
+c04 (r04)   16.37-  18.94      Michael ensinava dono a não quebrar.
+c05 (r05)   19.33-  21.40      Até o sócio avisar, a gente tá quebrando!
+c06 (r06)   21.93-  24.34 DROP E ele estava ocupado demais trabalhando para olhar...
+c07 (r07)   25.34-  27.91      E ele estava ocupado demais trabalhando para olhar o dinheiro.
+c08 (r08)   28.37-  31.38 DROP E esse é o protocolo para você parar de ser o funcionário.
+c09 (r09)   32.49-  37.53      E esse é o protocolo para você parar de ser o funcionário mais explorado da sua empresa.
+c10 (r10)   37.93-  40.07      Primeiro, desenhe o organograma.
+c11 (r11)   40.53-  44.52      Cada cadeira. Vendas, financeiro, compras, entrega.
+c12 (r11)   44.52-  48.23      Ele manda escrever o seu nome em cada cadeira que é sua.
+c13 (r12)   48.67-  50.42      Seu nome está em seis cadeiras,
+c14 (r12)   50.42-  52.53      você não é o dono, meu querido,
+c15 (r12)   52.53-  54.30      você é a porra do organograma.
+c16 (r13)   54.78-  55.37      Segundo,
+c17 (r14)   55.73-  58.86      Montar a empresa como se fosse vender franquia
+c18 (r14)   58.86-  62.10      Tudo o que você faz de cabeça, escreve passo a passo
+c19 (r15)   62.59-  66.91      Ele disse que ela tem que funcionar com gente comum, não com gênio.
+c20 (r16)   67.40-  67.71 DROP Se...
+c21 (r17)   68.62-  72.73      se só funciona com você pequeno gafanhoto ela não funciona
+c22 (r17)   72.73-  76.16      e terceiro assina o contrato de cada cadeira
+c23 (r18)   76.52-  81.57      Escreve numa folha o que aquela cadeira entrega e você assina como se fosse funcionário.
+c24 (r19)   82.08-  82.58      Ele diz:
+c25 (r20)   83.06-  85.64      Primeiro a cadeira, depois a pessoa.
+c26 (r21)   86.10-  86.72 DROP Na sua...
+c27 (r22)   87.72-  89.63      Na sua, primeiro veio o sobrinho,
+c28 (r22)   89.63-  91.50      depois inventaram a cadeira.
+c29 (r23)   92.01-  93.51 DROP Comenta Cadeira.
+c30 (r24)   95.07- 100.24      Comenta cadeira que eu te mando teste para descobrir quantas cadeiras são suas.
+c31 (r25)  101.49- 104.16      E a virada foi uma loja de torta.
+c32 (r25)  104.16- 108.26      Sarah aprendeu a fazer torta com a tia e abriu a própria loja.
+c33 (r26)  108.76- 110.63 DROP Três anos depois, a loja...
+c34 (r27)  111.75- 116.90      Três anos depois, com a loja cheirando a torta, ela falou, odeio fazer torta,
+c35 (r27)  116.90- 118.73      não aguento nem o cheiro,
+c36 (r27)  118.73- 120.41      ela não abriu uma empresa,
+c37 (r27)  120.41- 121.67      abriu um emprego.
+c38 (r28)  122.21- 122.94 DROP Você abriu...
+c39 (r29)  124.41- 128.75      Você abriu pra fazer o que amava e hoje odeia segunda-feira, meu amigo?
+c40 (r30)  129.19- 130.62      Loja de torta.
+c41 (r30)  130.62- 135.58      Se você é o funcionário mais explorado da sua empresa, me segue, porque você...
+c42 (r31)  135.95- 136.65      É demais!

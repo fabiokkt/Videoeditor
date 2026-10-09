@@ -1,0 +1,361 @@
+{
+ "_nota": "Reel Michael Gerber — formato viral do Fabio. NUNCA editar index.html a mao: mexer aqui e rodar `node scripts/build-edit.mjs && python3 scripts/bake.py && npm run check`.",
+ "fps": 30,
+ "rate": 1.1,
+ "jcutLeadFrames": 9,
+ "jcutCrossfadeFrames": 3,
+ "src": "assets/michael-gerber-2560-sdr.mp4",
+ "voiceSrc": "assets/michael-gerber-voz.m4a",
+ "segments": [
+  {
+   "in": 0.48,
+   "out": 6.05,
+   "label": "GANCHO",
+   "chunk": 0,
+   "aout": 5.72
+  },
+  {
+   "in": 9.89,
+   "out": 15.147,
+   "label": "PROTOCOLO-POLEMICO",
+   "chunk": 1,
+   "aout": 14.817
+  },
+  {
+   "in": 14.817,
+   "out": 16.39,
+   "label": "EMPREGO",
+   "chunk": 2,
+   "aout": 16.06
+  },
+  {
+   "in": 16.15,
+   "out": 19.37,
+   "label": "MICHAEL",
+   "chunk": 3,
+   "aout": 19.04
+  },
+  {
+   "in": 19.11,
+   "out": 21.85,
+   "label": "SOCIO-QUEBRADO",
+   "chunk": 4,
+   "aout": 21.52
+  },
+  {
+   "in": 25.13,
+   "out": 28.37,
+   "label": "OCUPADO",
+   "chunk": 5,
+   "aout": 28.04
+  },
+  {
+   "in": 32.29,
+   "out": 37.63,
+   "label": "PROTOCOLO-EXPLORADO",
+   "chunk": 6,
+   "aout": 37.3
+  },
+  {
+   "in": 37.71,
+   "out": 40.53,
+   "label": "P1-PRIMEIRO",
+   "chunk": 7,
+   "aout": 40.2
+  },
+  {
+   "in": 40.31,
+   "out": 44.81,
+   "label": "P1-CADEIRAS",
+   "chunk": 8,
+   "aout": 44.48
+  },
+  {
+   "in": 44.49,
+   "out": 48.67,
+   "label": "P1-NOME",
+   "chunk": 9,
+   "aout": 48.34
+  },
+  {
+   "in": 48.51,
+   "out": 50.71,
+   "label": "P1-SEIS-CADEIRAS",
+   "chunk": 10,
+   "aout": 50.38
+  },
+  {
+   "in": 50.41,
+   "out": 52.838,
+   "label": "P1-DONO",
+   "chunk": 11,
+   "aout": 52.508
+  },
+  {
+   "in": 52.508,
+   "out": 54.75,
+   "label": "P1-BIPE",
+   "chunk": 12,
+   "aout": 54.42
+  },
+  {
+   "in": 54.63,
+   "out": 55.827,
+   "label": "P2-SEGUNDO",
+   "chunk": 13,
+   "aout": 55.497
+  },
+  {
+   "in": 55.497,
+   "out": 59.07,
+   "label": "P2-FRANQUIA",
+   "chunk": 14,
+   "aout": 58.74
+  },
+  {
+   "in": 58.87,
+   "out": 62.55,
+   "label": "P2-PASSO",
+   "chunk": 15,
+   "aout": 62.22
+  },
+  {
+   "in": 62.39,
+   "out": 67.37,
+   "label": "P2-GENTE-COMUM",
+   "chunk": 16,
+   "aout": 67.04
+  },
+  {
+   "in": 68.47,
+   "out": 72.97,
+   "label": "P2-GAFANHOTO",
+   "chunk": 17,
+   "aout": 72.64
+  },
+  {
+   "in": 72.73,
+   "out": 76.61,
+   "label": "P3-CONTRATO",
+   "chunk": 18,
+   "aout": 76.28
+  },
+  {
+   "in": 76.37,
+   "out": 82.03,
+   "label": "P3-FOLHA",
+   "chunk": 19,
+   "aout": 81.7
+  },
+  {
+   "in": 81.87,
+   "out": 83.03,
+   "label": "P3-ELE-DIZ",
+   "chunk": 20,
+   "aout": 82.7
+  },
+  {
+   "in": 82.85,
+   "out": 86.09,
+   "label": "P3-ORDEM",
+   "chunk": 21,
+   "aout": 85.76
+  },
+  {
+   "in": 87.49,
+   "out": 89.927,
+   "label": "P3-SOBRINHO",
+   "chunk": 22,
+   "aout": 89.597
+  },
+  {
+   "in": 89.597,
+   "out": 91.99,
+   "label": "P3-INVENTARAM",
+   "chunk": 23,
+   "aout": 91.66
+  },
+  {
+   "in": 94.85,
+   "out": 100.59,
+   "label": "CTA-COMENTA",
+   "chunk": 24,
+   "aout": 100.26
+  },
+  {
+   "in": 101.43,
+   "out": 104.47,
+   "label": "VIRADA-TORTA",
+   "chunk": 25,
+   "aout": 104.14
+  },
+  {
+   "in": 104.17,
+   "out": 108.73,
+   "label": "VIRADA-SARAH",
+   "chunk": 26,
+   "aout": 108.4
+  },
+  {
+   "in": 111.53,
+   "out": 117.207,
+   "label": "VIRADA-TRES",
+   "chunk": 27,
+   "aout": 116.877
+  },
+  {
+   "in": 116.877,
+   "out": 119.01,
+   "label": "VIRADA-CHEIRO",
+   "chunk": 28,
+   "aout": 118.68
+  },
+  {
+   "in": 118.73,
+   "out": 120.707,
+   "label": "CLIMAX-EMPRESA",
+   "chunk": 29,
+   "aout": 120.377
+  },
+  {
+   "in": 120.377,
+   "out": 122.13,
+   "label": "CLIMAX-EMPREGO",
+   "chunk": 30,
+   "aout": 121.8
+  },
+  {
+   "in": 124.19,
+   "out": 129.19,
+   "label": "FECHO-SEGUNDA",
+   "chunk": 31,
+   "aout": 128.86
+  },
+  {
+   "in": 128.97,
+   "out": 130.83,
+   "label": "FECHO-LOJA",
+   "chunk": 32,
+   "aout": 130.5
+  },
+  {
+   "in": 130.73,
+   "out": 136.79,
+   "label": "CTA-SEGUE",
+   "chunk": 33,
+   "aout": 136.79
+  }
+ ],
+ "sections": [
+  {
+   "afterSegment": 24,
+   "name": "CTA DO MEIO -> VIRADA (a loja de torta)"
+  },
+  {
+   "afterSegment": 28,
+   "name": "VIRADA -> CLIMAX (empresa -> emprego)"
+  },
+  {
+   "afterSegment": 32,
+   "name": "FECHO -> CTA"
+  }
+ ],
+ "broll": [
+  {
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.99921
+   ],
+   "file": ""
+  },
+  {
+   "mode": "split",
+   "fromSeg": 25,
+   "toSeg": 25,
+   "span": [
+    0.0,
+    0.99838
+   ],
+   "file": ""
+  }
+ ],
+ "impacts": [
+  {
+   "phrase": "tem um emprego",
+   "seg": 2,
+   "style": "typing",
+   "lines": [
+    "TEM UM",
+    "EMPREGO."
+   ],
+   "hold": 0.2
+  },
+  {
+   "phrase": "funcionario mais explorado",
+   "seg": 6,
+   "lines": [
+    "O FUNCIONÁRIO",
+    "MAIS EXPLORADO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "voce nao e o dono",
+   "seg": 11,
+   "lines": [
+    "VOCÊ NÃO É",
+    "O DONO."
+   ],
+   "hold": 0.5
+  },
+  {
+   "phrase": "ela nao funciona",
+   "seg": 17,
+   "lines": [
+    "ELA NÃO",
+    "FUNCIONA."
+   ],
+   "hold": 0.2
+  },
+  {
+   "phrase": "loja de torta",
+   "seg": 32,
+   "lines": [
+    "LOJA DE",
+    "TORTA."
+   ],
+   "hold": 0.6
+  }
+ ],
+ "presenterZoom": {
+  "scales": [
+   1.06,
+   1.14
+  ],
+  "maxHold": 3.5,
+  "origin": "50% 53%",
+  "mode": "scene",
+  "sceneMax": 4.5
+ },
+ "leakMinGap": 3.5,
+ "brollKenBurns": false,
+ "bakedAroll": true,
+ "bakedAudio": true,
+ "bakedBroll": true,
+ "bakedLeaks": true,
+ "hookSeg": 0,
+ "capLowSegs": [],
+ "splitShiftY": 397,
+ "ctaSeg": 33,
+ "_splitShiftY": "397 medido: olhos (FaceMesh 33/133/362/263) a y~982 no mezanino em 12 pontos das janelas de split (0-5,06 e 72,6-75,0) -> zoom 1,06: 980 -> 1377-980 = 397 (work/olhos_y.py).",
+ "_ctaSeg": "indice do 1o segmento do encerramento (push-in 1->1.05). Trocar depois do plan_segments.py.",
+ "_impacts": "phrase casa com as palavras da legenda normalizadas (sem acento/pontuacao). O 1o leva style typing + drum-fill.",
+ "mg": {
+  "src": "compositions/mg.html",
+  "id": "mg"
+ },
+ "_mg": "kit v3: camada de motion graphics (docs/13, docs/14). Splits e tela cheia desenhados em compositions/mg.html; sections so nas trocas grandes (virada, CLIMAX, CTA)."
+}

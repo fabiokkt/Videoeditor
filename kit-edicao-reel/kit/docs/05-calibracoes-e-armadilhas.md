@@ -694,3 +694,34 @@ leitura + setup 6 · fase 1 14 · cortes/bipe 15 · fase 2 12 · camada + 4 roda
   "content_overlap"; seletor sem o pai.
 - CTA de palavra-chave: não existe no roteiro (sem palavra-chave falada). Login do Codex: 1º código aceito em ~3 min; capa em ~60 s. Container de 4 núcleos:
   12 partes de 451 quadros, 2 em paralelo.
+## 36. Fotos de arquivo em alta sem Commons, camada pela frase e o CTA que voltou a ser gravado (reel Michael Gerber, 2026-10-08)
+
+- **Library of Congress quando o loc.gov cai no Cloudflare** ("Just a moment...", nesta sessão até o `?fo=json` do §35): o id vem da descrição da foto da
+  LOC no **Flickr** (`fsa.8b23573`, `hec.26939`, `mrg.00126`) e o TIFF mestre sai direto do `tile.loc.gov` com o `locmaster.py` do §35 (o original `_o` do
+  Flickr devolve "Rate limited - CIDR range blocked"; o IIIF do mestre devolveu 500). **Coleções fora da FSA têm UMA pasta** no caminho do mestre
+  (`hec/26900/26939u.tif`, `mrg/00100/00126u.tif`; com duas, 404): o `locmaster.py` agora tenta as duas formas. Harris & Ewing (`hec`, anos 30, moça com
+  torta) e John Margolies (`mrg`, fachadas de beira de estrada) também são sem restrições conhecidas.
+- **Flickr Commons pela página de busca** (`work/pesq/flsearch.py "consulta"`, licença 7 = sem restrições conhecidas: LOC, NARA, British Library), sem chave e
+  sem 429; tamanhos `_k` (2048) pela página `/sizes/k/` funcionam para contas que não são a da LOC. **Openverse** (`work/pesq/ovq.py`, API anônima,
+  `page_size` ≤ 20, um 429 depois de ~12 consultas seguidas) achou a foto CC BY-SA 2.0 da pessoa-tema quando a Wikipedia não tinha imagem; com
+  `&source=wikimedia` busca no Commons sem a API do Commons.
+- **Camada escrita pela FRASE, não pelo número**: no `gen.py`, `T("frase", w, k)` acha no `tl-words.txt` o início da w-ésima palavra da k-ésima ocorrência
+  (texto normalizado, entradas de duas palavras como "o teste" funcionam) e `S0/S1(label)` dão as bordas dos takes; os tempos vão para `work/mg/tempos.json`,
+  lido pelo `slots.py`. Mudou corte ou legenda → só rodar o gerador. Frase que não existe para o gerador com erro (pegou "quebrado" × "quebrando").
+  Armadilha: palavra repetida ("demais" em "ocupado demais" e "você é demais") — usar a frase longa.
+- **Testar a camada antes do bruto**: `work/mg/teste/fake_tl.py` (roteiro a ~2,9 palavras/s) + `harness.html` + `shoot.mjs` (Playwright do container,
+  `/opt/pw-browsers`) fotografam o `mg.html` em qualquer instante. Com o link do iCloud vazio por ~28 min, a camada inteira ficou desenhada e conferida
+  antes de o vídeo chegar; na hora só trocou o texto das frases que o áudio disse diferente.
+- **`WFIX` agora no `mkcut.py` do modelo** (§31): "Tudo" (whisper 58,61–58,92) dentro do vale 58,62–59,10 ia para o pedaço anterior.
+- **"quebrado" × "quebrando"** pelo espectro: murmúrio nasal (energia < 400 Hz, −7 a −13 dB) de 0,08 s entre "quebra" e "do" = "quebrando". Mesmo método
+  do §34 para "estava" × "tava" (nenhuma fração > 4 kHz entre "ele" e "tava" = sem /s/).
+- **CTA de palavra-chave GRAVADO** ("Comenta CADEIRA que eu te mando o teste…", depois de um take que parou): primeira vez desde o Rickover. Na tela, pela nota
+  de gravação: a caixa de comentário por cima do apresentador com CADEIRA digitado letra a letra + "Publicar" durante a frase.
+- **Olhada no fim do take coberta pela cena vizinha**: a cena seguinte entra logo depois da palavra de impacto (o PASSO 3 em 51,38, o callout "ELA NÃO
+  FUNCIONA." termina sobre o mundo escuro da cena, com o chip esperando) ou a cena anterior ganha mais uma foto até o fim do take.
+- Link do iCloud vazio por ~28 min (o `ic.py` em laço de 20 s baixou na ~82ª tentativa): avisar o usuário por push aos ~20 min e seguir com capa, fotos e
+  camada. Codex: 1º código aceito em ~1 min; capa em 59 s. Container de 4 núcleos: 13 partes de 457 quadros, 2 em paralelo.
+- **Callout logo depois de uma cena de tela cheia: a cena sai ANTES da 1ª palavra do callout.** O `sceneOut` encolhe por 12 quadros; com a saída no fim do take
+  (que inclui o lead do J-cut), o "VOCÊ NÃO É O DONO." pulou ~6 quadros em cima do organograma saindo. Achado só no quadro a quadro do MP4; parte refeita.
+- `sync-check.mjs` em take de 1,1–1,9 s acusou −70/−120/−150 ms (janela de 1,2 s invadindo o take vizinho, §30); medido com a janela dentro do take
+  (início em 20% e largura de 60% do take): 0–10 ms em 32/32.

@@ -59,6 +59,10 @@ O modelo já traz o CSS de todos os componentes e a **biblioteca** (não mexer):
   A caixa do gancho cobre 35–56% da tela: na capa, o assunto fica no terço de cima.
 - Faixa das legendas livre (y≈1380–1540). Callout só onde o motion não diz a mesma coisa.
 
+- **Camada pela frase (reel Michael Gerber, 2026-10-08):** no `gen.py`, `T("frase", w, k)` lê o tempo no `work/tl-words.txt` e grava `work/mg/tempos.json`
+  (lido pelo `slots.py`): ajuste de corte não pede reescrever tempos. Dá para desenhar e fotografar a camada ANTES do bruto com `work/mg/teste/`
+  (`fake_tl.py` + `harness.html` + `shoot.mjs`) — útil quando o link do iCloud demora (docs/05 §36).
+
 ## Imagens: dosagem e capa
 - **Fotos primeiro (kit v3.1).** Enquanto a fase 1 roda, no PROCESSO PRINCIPAL (subagente só com lista fechada), de dentro de
   `work/pesq/`: listar por CATEGORIA (`wmcat.py "Category:<pessoa>"`, ou várias de uma vez com `wmcatlote.py`, que honra o

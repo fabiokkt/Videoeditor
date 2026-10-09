@@ -1,0 +1,8 @@
+Generate one photorealistic cinematic image, landscape 3:2 (1536x1024), and save it as capa.png in the current directory.
+
+Scene: the back room of a small family pie bakery at 4 o'clock in the morning. The only light in the room comes from a large commercial bakery oven whose door is wide open in the upper center of the frame: its mouth glows a violent ember orange, with the heat shimmering. Rows of metal trays with dozens of baked pies sit on tall racks in the dark on both sides. In front of the open oven, a young woman baker wearing a long apron over her clothes, hair tied up, sits slumped on the flour-dusted floor, seen STRICTLY FROM BEHIND, in near-black silhouette against the orange glow: her back to the camera, her elbows on her knees and her head held in both hands, shoulders collapsed, exhausted. Fine flour dust hangs and drifts in the air, lit orange by the oven like sparks.
+
+Composition: all the important subject matter in the UPPER HALF of the frame. The glowing oven mouth between 8% and 40% from the top, centered horizontally. The woman's head, hands and shoulders between 22% and 48% from the top, slightly left of center (between 38% and 52% of the width), outlined by the orange rim light. The lower 40% of the frame is the dark floor and the dark lower part of her body in deep shadow, with a little flour on the floor and very little detail.
+Look: film still, dramatic chiaroscuro, very high contrast: only deep black and burning orange, a little warm yellow in the oven core; floating flour dust; heavy, silent, tired mood.
+
+Strictly forbidden: any face seen from the front or in profile, any visible facial features, any text, letters, numbers, words, signs, labels, writing, logos, brand names, watermarks, captions.

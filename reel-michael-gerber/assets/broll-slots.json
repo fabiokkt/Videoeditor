@@ -1,0 +1,158 @@
+{
+ "total": 99.015,
+ "slots": [
+  {
+   "id": "s01",
+   "file": "assets/broll/s01.mp4",
+   "mode": "split",
+   "fromSeg": 0,
+   "toSeg": 0,
+   "span": [
+    0.0,
+    0.99921
+   ],
+   "t0": 0.0,
+   "t1": 5.06,
+   "dur": 5.06,
+   "fala": "Esse cara é um dos donos mais atrapalhados e mais copiados do planeta Terra.",
+   "tema": "CAPA gerada a pedido (padaria às 4 h, a mulher de costas no forno) → a mesma cena mais perto",
+   "cobre": "—"
+  },
+  {
+   "id": "s02",
+   "file": "assets/broll/s02.mp4",
+   "mode": "full",
+   "fromSeg": 0,
+   "toSeg": 1,
+   "span": [
+    0.53023,
+    0.99969
+   ],
+   "t0": 5.06,
+   "t1": 9.54,
+   "dur": 4.48,
+   "fala": "E ele criou um protocolo polêmico pra provar que você não tem uma empresa.",
+   "tema": "foto: relógio de ponto (British Library) → a dona do armazém (NARA, 1973)",
+   "cobre": "—"
+  },
+  {
+   "id": "s03",
+   "file": "assets/broll/s03.mp4",
+   "mode": "full",
+   "fromSeg": 2,
+   "toSeg": 6,
+   "span": [
+    0.08166,
+    0.65386
+   ],
+   "t0": 10.616666666666667,
+   "t1": 18.14,
+   "dur": 7.52,
+   "fala": "Michael ensinava dono a não quebrar. Até o sócio avisar: a gente tá quebrando.",
+   "tema": "REVELAÇÃO: o Michael em 2009 (Flickr, CC BY-SA) + nome → MOTION o sócio: “A gente tá quebrando.” (1985)",
+   "cobre": "—"
+  },
+  {
+   "id": "s04",
+   "file": "assets/broll/s04.mp4",
+   "mode": "full",
+   "fromSeg": 6,
+   "toSeg": 10,
+   "span": [
+    0.28805,
+    0.98191
+   ],
+   "t0": 22.69,
+   "t1": 33.660000000000004,
+   "dur": 10.97,
+   "fala": "Primeiro, desenha o organograma. Cada cadeira: vendas, financeiro, compras, entrega. Ele manda escrever o seu nome em cada cadeira que é sua. Seu nome tá em seis cadeiras?",
+   "tema": "MOTION chip PASSO 1 + título → o organograma (VOCÊ em cada cadeira, SEU NOME EM 6 CADEIRAS)",
+   "cobre": "—"
+  },
+  {
+   "id": "s05",
+   "file": "assets/broll/s05.mp4",
+   "mode": "full",
+   "fromSeg": 12,
+   "toSeg": 17,
+   "span": [
+    0.10504,
+    0.77082
+   ],
+   "t0": 37.59,
+   "t1": 48.6,
+   "dur": 11.01,
+   "fala": "Segundo, monta a empresa como se fosse vender franquia. Tudo que você faz de cabeça, escreve passo a passo. Ele disse que ela tem que funcionar com gente comum, não com gênio.",
+   "tema": "MOTION chip PASSO 2 + título → a mesma loja 9 vezes → o passo a passo → GENTE COMUM × GÊNIO",
+   "cobre": "—"
+  },
+  {
+   "id": "s06",
+   "file": "assets/broll/s06.mp4",
+   "mode": "full",
+   "fromSeg": 17,
+   "toSeg": 23,
+   "span": [
+    0.14596,
+    0.90175
+   ],
+   "t0": 51.38,
+   "t1": 65.78,
+   "dur": 14.4,
+   "fala": "E terceiro, assina o contrato de cada cadeira. Escreve numa folha o que aquela cadeira entrega, e você assina como se fosse funcionário. Ele diz: primeiro a cadeira, depois a pessoa. Na sua, primeiro veio o sobrinho.",
+   "tema": "MOTION chip PASSO 3 + título → o contrato da cadeira assinado → 1º A CADEIRA / 2º A PESSOA → 1º O SOBRINHO / 2º A CADEIRA",
+   "cobre": "—"
+  },
+  {
+   "id": "s07",
+   "file": "assets/broll/s07.mp4",
+   "mode": "split",
+   "fromSeg": 25,
+   "toSeg": 25,
+   "span": [
+    0.0,
+    0.99838
+   ],
+   "t0": 72.57,
+   "t1": 75.03,
+   "dur": 2.46,
+   "fala": "E a virada foi uma loja de torta.",
+   "tema": "foto: a padaria de San Angelo, 1939 (FSA/LOC)",
+   "cobre": "—"
+  },
+  {
+   "id": "s08",
+   "file": "assets/broll/s08.mp4",
+   "mode": "full",
+   "fromSeg": 25,
+   "toSeg": 29,
+   "span": [
+    0.17196,
+    0.89543
+   ],
+   "t0": 75.03,
+   "t1": 85.38,
+   "dur": 10.35,
+   "fala": "Sarah aprendeu a fazer torta com a tia e abriu a própria loja. Três anos depois, com a loja cheirando a torta, ela falou: odeio fazer torta. Não aguento nem o cheiro.",
+   "tema": "fotos: a moça com a torta (Harris & Ewing) → a mesa cheia de formas → 3 ANOS DEPOIS: o forno → a capa (callback)",
+   "cobre": "—"
+  },
+  {
+   "id": "s09",
+   "file": "assets/broll/s09.mp4",
+   "mode": "full",
+   "fromSeg": 29,
+   "toSeg": 30,
+   "span": [
+    0.00036,
+    1.0
+   ],
+   "t0": 85.38,
+   "t1": 88.17,
+   "dur": 2.79,
+   "fala": "Ela não abriu uma empresa. Abriu um emprego.",
+   "tema": "CLÍMAX: MOTION EMPRESA → EMPREGO",
+   "cobre": "—"
+  }
+ ]
+}

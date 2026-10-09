@@ -21,6 +21,9 @@ SPLIT={
 #     "Comenta MONGE, que eu te mando o protocolo completo." (a frase do roteiro)
 #  r34 parte 2 "Seu time gasta..." (falso inicio) e r35 "Se o time gasta como se o dinheiro..." (falso inicio) -> refeito em r36
 DROP={9,22,23,24,35}
+# Palavra que o whisper poe dentro do silencio real cai no pedaco errado da divisao (docs/05 §31, §35): {(regiao, indice da palavra): (ini, fim)}
+WFIX={}
+for (k,i),(a,b) in WFIX.items(): W[k][i]=[W[k][i][0],a,b]+list(W[k][i][3:])
 out=[];ww={}
 for k in sorted(R):
     r=R[k]; pts,dr=SPLIT.get(k,([],set()))

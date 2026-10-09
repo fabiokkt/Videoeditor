@@ -1,5 +1,11 @@
 # Versões do kit
 
+## v3.1.3 — 2026-10-08 · camada pela frase e fotos de arquivo sem Commons (reel Michael Gerber)
+- docs/05 §36: o `gen.py` acha os tempos pela FRASE no `tl-words.txt` (`T()`) e grava `work/mg/tempos.json` (lido pelo `slots.py`); a camada pode ser
+  desenhada e fotografada antes do bruto (`work/mg/teste/`: `fake_tl.py`, `harness.html`, `shoot.mjs`).
+- Pesquisa: `work/pesq/flsearch.py` (Flickr Commons pela página de busca), `ovq.py` (Openverse); `locmaster.py` tenta também o caminho de UMA pasta (`hec`, `mrg`).
+- `WFIX` no `mkcut.py` do modelo. Armadilhas: callout logo depois de cena cheia (a cena sai antes da 1ª palavra), `sync-check` em take curto.
+
 ## v3.1.2 — 2026-10-08 · Library of Congress como fonte primária (reel Bob Chapman)
 
 - `work/pesq/loc.py` / `locsheet.py` / `locmaster.py` / `locdl.py` novos no modelo: busca nas coleções FSA/OWI do loc.gov (domínio público, sem 429),

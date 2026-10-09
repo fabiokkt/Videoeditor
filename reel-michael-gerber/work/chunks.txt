@@ -1,0 +1,35 @@
+ch00 GANCHO               Esse cara é um dos donos mais atrapalhados e mais copiados do planeta Terra.
+ch01 PROTOCOLO-POLEMICO   E ele criou um protocolo polêmico para provar que você não tem uma empresa.
+ch02 EMPREGO              tem um emprego
+ch03 MICHAEL              Michael ensinava dono a não quebrar.
+ch04 SOCIO-QUEBRADO       Até o sócio avisar, a gente tá quebrando!
+ch05 OCUPADO              E ele estava ocupado demais trabalhando para olhar o dinheiro.
+ch06 PROTOCOLO-EXPLORADO  E esse é o protocolo para você parar de ser o funcionário mais explorado da sua empresa.
+ch07 P1-PRIMEIRO          Primeiro, desenhe o organograma.
+ch08 P1-CADEIRAS          Cada cadeira. Vendas, financeiro, compras, entrega.
+ch09 P1-NOME              Ele manda escrever o seu nome em cada cadeira que é sua.
+ch10 P1-SEIS-CADEIRAS     Seu nome está em seis cadeiras,
+ch11 P1-DONO              você não é o dono, meu querido,
+ch12 P1-BIPE              você é a porra do organograma.
+ch13 P2-SEGUNDO           Segundo,
+ch14 P2-FRANQUIA          Montar a empresa como se fosse vender franquia
+ch15 P2-PASSO             Tudo o que você faz de cabeça, escreve passo a passo
+ch16 P2-GENTE-COMUM       Ele disse que ela tem que funcionar com gente comum, não com gênio.
+ch17 P2-GAFANHOTO         se só funciona com você pequeno gafanhoto ela não funciona
+ch18 P3-CONTRATO          e terceiro assina o contrato de cada cadeira
+ch19 P3-FOLHA             Escreve numa folha o que aquela cadeira entrega e você assina como se fosse funcionário.
+ch20 P3-ELE-DIZ           Ele diz:
+ch21 P3-ORDEM             Primeiro a cadeira, depois a pessoa.
+ch22 P3-SOBRINHO          Na sua, primeiro veio o sobrinho,
+ch23 P3-INVENTARAM        depois inventaram a cadeira.
+ch24 CTA-COMENTA          Comenta cadeira que eu te mando teste para descobrir quantas cadeiras são suas.
+ch25 VIRADA-TORTA         E a virada foi uma loja de torta.
+ch26 VIRADA-SARAH         Sarah aprendeu a fazer torta com a tia e abriu a própria loja.
+ch27 VIRADA-TRES          Três anos depois, com a loja cheirando a torta, ela falou, odeio fazer torta,
+ch28 VIRADA-CHEIRO        não aguento nem o cheiro,
+ch29 CLIMAX-EMPRESA       ela não abriu uma empresa,
+ch30 CLIMAX-EMPREGO       abriu um emprego.
+ch31 FECHO-SEGUNDA        Você abriu pra fazer o que amava e hoje odeia segunda-feira, meu amigo?
+ch32 FECHO-LOJA           Loja de torta.
+ch33 CTA-SEGUE            Se você é o funcionário mais explorado da sua empresa, me segue, porque você... É demais!
+34 chunks a partir do passe por regiao (indices de palavra = os desta lista, para a captions_fix_table.py)

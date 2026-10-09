@@ -1,0 +1,28 @@
+<!-- (reel Michael Gerber, 2026-10-08) Harness da camada de motion SEM o video: serve a raiz do projeto (python3 -m http.server 8766 --bind 127.0.0.1)
+     e rode node work/mg/teste/shoot.mjs <saida.jpg> t1,t2,... (folha de contato). Faixa vermelha = zona das legendas (y 1380-1540). -->
+<!doctype html>
+<html><head><meta charset="utf-8"><base href="/">
+<style>
+ @font-face{font-family:"Montserrat";font-weight:600;src:url(assets/fonts/Montserrat-600.woff2) format("woff2")}
+ @font-face{font-family:"Montserrat";font-weight:800;src:url(assets/fonts/Montserrat-800.woff2) format("woff2")}
+ html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#3a3f4a}
+ #stage{position:absolute;inset:0;width:1080px;height:1920px;background:linear-gradient(180deg,#59606e,#2b2f37)}
+ #stage::after{content:"APRESENTADOR";position:absolute;left:0;right:0;top:1100px;text-align:center;font:800 60px Montserrat;color:rgba(255,255,255,.25)}
+ #capband{position:absolute;left:0;right:0;top:1380px;height:160px;background:rgba(255,0,0,.12);border-top:2px dashed rgba(255,0,0,.5);border-bottom:2px dashed rgba(255,0,0,.5);z-index:9999}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+</head><body><div id="stage"></div><div id="capband"></div>
+<script>
+window.__timelines={};
+window.__ready=(async function(){
+  var html=await (await fetch('compositions/mg.html?'+Date.now())).text();
+  var doc=new DOMParser().parseFromString(html,'text/html'); var tpl=doc.querySelector('template');
+  var frag=document.importNode(tpl.content,true);
+  var scripts=[...frag.querySelectorAll('script')].map(s=>{var n=document.createElement('script');n.textContent=s.textContent;s.remove();return n;});
+  document.getElementById('stage').appendChild(frag); await document.fonts.ready;
+  scripts.forEach(n=>document.body.appendChild(n));
+  var imgs=[...document.images]; await Promise.all(imgs.map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r})));
+  return 'ok';
+})();
+window.seek=function(t){var tl=window.__timelines['mg']; tl.pause(0); tl.seek(t,false); return tl.duration();};
+</script></body></html>
